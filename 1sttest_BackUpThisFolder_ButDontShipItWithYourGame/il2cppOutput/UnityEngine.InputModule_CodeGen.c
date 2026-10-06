@@ -1,0 +1,156 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_m21A058F23627F8E6DB17BCE0D170B7F70952FE43 (void);
+extern void RefSafetyRulesAttribute__ctor_mF529A1A065F46DCF6EBE5DEC64C5961D5234FE90 (void);
+extern void NativeUpdateCallback__ctor_m04FDCD50564E7535FADAFF34BBA83500585A84F5 (void);
+extern void NativeUpdateCallback_Invoke_mC4B7018AE8ED52FB9C6805F65C57A81812D21333 (void);
+extern void NativeUpdateCallback_BeginInvoke_mEB0051C8837474F5A5396A96B538887919CBA5E8 (void);
+extern void NativeUpdateCallback_EndInvoke_mA3D9135A061FE4376CF37EE1E66189ECBBDA738C (void);
+extern void NativeInputEvent__ctor_m7E81AD943B4C997691338BA7E74B8676479CA3CC (void);
+extern void NativeInputSystem_get_onDeviceDiscovered_mD55A996A1107331B95C4D9409B8D4C98BADB8FCC (void);
+extern void NativeInputSystem_set_onDeviceDiscovered_m8DEE711BB866D1C923DA537B7DE62BF03094D855 (void);
+extern void NativeInputSystem__cctor_mADBD6616441651B2AFE2AD8AF64D63DF0BA66693 (void);
+extern void NativeInputSystem_NotifyBeforeUpdate_m39AE2F1A42BD47200A263AD0EF9EDA5EF4C0042A (void);
+extern void NativeInputSystem_NotifyUpdate_m482599CC17084B0383809F97671530613EA39AD0 (void);
+extern void NativeInputSystem_NotifyDeviceDiscovered_m861CCAFB4DD314DB3DC58FBD0398800CF9272C03 (void);
+extern void NativeInputSystem_ShouldRunUpdate_m7C9E1201550198D8E1F163787175C86A8B0EE71B (void);
+extern void NativeInputSystem_DoSendMouseEvents_m1D11FB9DBBB4E2CD0C22F18B8A2F439E1F2E40EB (void);
+extern void NativeInputSystem_set_hasDeviceDiscoveredCallback_m0979ABC04DBA52617481EDF743D8B48CC089A1C8 (void);
+extern void NativeInputSystem_get_currentTime_mB10D8CF832AA53952843986F29675B3BC71AAEC9 (void);
+extern void NativeInputSystem_get_currentTimeOffsetToRealtimeSinceStartup_mE5FB513F17BBF2FF45494D1939C44DEBF3040B55 (void);
+extern void NativeInputSystem_AllocateDeviceId_m0F5EA2F96B8C2DB31D86E14B7F3C34105E6D67BA (void);
+extern void NativeInputSystem_QueueInputEvent_m9363FC2953D733EA8A3AE58470A90B4767ED0B7B (void);
+extern void NativeInputSystem_IOCTL_m11AC7B69197C6214E794B563D48FD60E848901E7 (void);
+extern void NativeInputSystem_SetPollingFrequency_mDEF2E1093D0776906BC95CC8E29A143C115910A0 (void);
+extern void NativeInputSystem_GetPollingFrequency_mFFB29B13E084272DF1BC203E5F2A73266270979F (void);
+extern void NativeInputSystem_Update_m898216ECCA26122D827C2FB45FC4A20296031036 (void);
+extern void NativeInputSystem_GetBackgroundEventBufferSize_m046A58069166CA3AF1F940A1A37BF4FAB300A229 (void);
+extern void NativeInputSystem_get_allowInputDeviceCreationFromEvents_m58A8D76FEC53EBF91825F8219B04613EFE448173 (void);
+extern void NativeInputSystem_set_allowInputDeviceCreationFromEvents_m620BF07E919892553C31735AF5258EAFFF708740 (void);
+extern void NativeInputSystem_get_normalizeScrollWheelDelta_mF633DF00F7F5823179F3473BC5E07BE9BF75A04F (void);
+extern void NativeInputSystem_set_normalizeScrollWheelDelta_mA6CCECFB417A30D7AEB05FDB313FEA28963F012D (void);
+extern void NativeInputSystem_GetScrollWheelDeltaPerTick_mD4FBEBF03836656D5DE3D39A8CEB3CB395DB607B (void);
+extern void NativeInputSystem_get_useImplicitMouseEventScriptCallbacks_m61D9B15E56C6FF00A9EEA9F8FABADBE2390C1A43 (void);
+extern void NativeInputSystem__ctor_m3D2CFBA2B725649CADD7955027A5A13C0B8666F5 (void);
+extern void InputFocusEvent_get_hasApplicationFocus_m344427AED1ACE991F16CAAF780C84ED664A73E78 (void);
+extern void InputFocusEvent_Create_m6C2D4E23B23E030064075F0A541069780F8F0606 (void);
+static Il2CppMethodPointer s_methodPointers[35] = 
+{
+	EmbeddedAttribute__ctor_m21A058F23627F8E6DB17BCE0D170B7F70952FE43,
+	RefSafetyRulesAttribute__ctor_mF529A1A065F46DCF6EBE5DEC64C5961D5234FE90,
+	NativeUpdateCallback__ctor_m04FDCD50564E7535FADAFF34BBA83500585A84F5,
+	NativeUpdateCallback_Invoke_mC4B7018AE8ED52FB9C6805F65C57A81812D21333,
+	NativeUpdateCallback_BeginInvoke_mEB0051C8837474F5A5396A96B538887919CBA5E8,
+	NativeUpdateCallback_EndInvoke_mA3D9135A061FE4376CF37EE1E66189ECBBDA738C,
+	NativeInputEvent__ctor_m7E81AD943B4C997691338BA7E74B8676479CA3CC,
+	NativeInputSystem_get_onDeviceDiscovered_mD55A996A1107331B95C4D9409B8D4C98BADB8FCC,
+	NativeInputSystem_set_onDeviceDiscovered_m8DEE711BB866D1C923DA537B7DE62BF03094D855,
+	NativeInputSystem__cctor_mADBD6616441651B2AFE2AD8AF64D63DF0BA66693,
+	NativeInputSystem_NotifyBeforeUpdate_m39AE2F1A42BD47200A263AD0EF9EDA5EF4C0042A,
+	NativeInputSystem_NotifyUpdate_m482599CC17084B0383809F97671530613EA39AD0,
+	NativeInputSystem_NotifyDeviceDiscovered_m861CCAFB4DD314DB3DC58FBD0398800CF9272C03,
+	NativeInputSystem_ShouldRunUpdate_m7C9E1201550198D8E1F163787175C86A8B0EE71B,
+	NativeInputSystem_DoSendMouseEvents_m1D11FB9DBBB4E2CD0C22F18B8A2F439E1F2E40EB,
+	NativeInputSystem_set_hasDeviceDiscoveredCallback_m0979ABC04DBA52617481EDF743D8B48CC089A1C8,
+	NativeInputSystem_get_currentTime_mB10D8CF832AA53952843986F29675B3BC71AAEC9,
+	NativeInputSystem_get_currentTimeOffsetToRealtimeSinceStartup_mE5FB513F17BBF2FF45494D1939C44DEBF3040B55,
+	NativeInputSystem_AllocateDeviceId_m0F5EA2F96B8C2DB31D86E14B7F3C34105E6D67BA,
+	NULL,
+	NativeInputSystem_QueueInputEvent_m9363FC2953D733EA8A3AE58470A90B4767ED0B7B,
+	NativeInputSystem_IOCTL_m11AC7B69197C6214E794B563D48FD60E848901E7,
+	NativeInputSystem_SetPollingFrequency_mDEF2E1093D0776906BC95CC8E29A143C115910A0,
+	NativeInputSystem_GetPollingFrequency_mFFB29B13E084272DF1BC203E5F2A73266270979F,
+	NativeInputSystem_Update_m898216ECCA26122D827C2FB45FC4A20296031036,
+	NativeInputSystem_GetBackgroundEventBufferSize_m046A58069166CA3AF1F940A1A37BF4FAB300A229,
+	NativeInputSystem_get_allowInputDeviceCreationFromEvents_m58A8D76FEC53EBF91825F8219B04613EFE448173,
+	NativeInputSystem_set_allowInputDeviceCreationFromEvents_m620BF07E919892553C31735AF5258EAFFF708740,
+	NativeInputSystem_get_normalizeScrollWheelDelta_mF633DF00F7F5823179F3473BC5E07BE9BF75A04F,
+	NativeInputSystem_set_normalizeScrollWheelDelta_mA6CCECFB417A30D7AEB05FDB313FEA28963F012D,
+	NativeInputSystem_GetScrollWheelDeltaPerTick_mD4FBEBF03836656D5DE3D39A8CEB3CB395DB607B,
+	NativeInputSystem_get_useImplicitMouseEventScriptCallbacks_m61D9B15E56C6FF00A9EEA9F8FABADBE2390C1A43,
+	NativeInputSystem__ctor_m3D2CFBA2B725649CADD7955027A5A13C0B8666F5,
+	InputFocusEvent_get_hasApplicationFocus_m344427AED1ACE991F16CAAF780C84ED664A73E78,
+	InputFocusEvent_Create_m6C2D4E23B23E030064075F0A541069780F8F0606,
+};
+extern void NativeInputEvent__ctor_m7E81AD943B4C997691338BA7E74B8676479CA3CC_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
+{
+	{ 0x06000007, NativeInputEvent__ctor_m7E81AD943B4C997691338BA7E74B8676479CA3CC_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[35] = 
+{
+	23322,
+	17867,
+	8325,
+	9222,
+	2027,
+	17539,
+	3891,
+	36491,
+	35380,
+	36771,
+	35406,
+	32367,
+	32360,
+	32360,
+	28293,
+	35382,
+	36548,
+	36548,
+	36586,
+	-1,
+	35408,
+	27863,
+	35438,
+	36693,
+	35406,
+	36758,
+	36526,
+	35382,
+	36526,
+	35382,
+	36693,
+	36526,
+	23322,
+	22491,
+	34421,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x06000014, { 0, 2 } },
+};
+extern const uint32_t g_rgctx_TInputEventU26_tA7AEEC823CA2F2E09A5650961C2A5003DCF9CE87;
+extern const uint32_t g_rgctx_UnsafeUtility_AddressOf_TisTInputEvent_t70789272BEDC338B385085710893B62B91E14ED6_mFDFFEA6748810C687B74A953E66D93715AF41250;
+static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TInputEventU26_tA7AEEC823CA2F2E09A5650961C2A5003DCF9CE87 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UnsafeUtility_AddressOf_TisTInputEvent_t70789272BEDC338B385085710893B62B91E14ED6_mFDFFEA6748810C687B74A953E66D93715AF41250 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_InputModule_CodeGenModule = 
+{
+	"UnityEngine.InputModule.dll",
+	35,
+	s_methodPointers,
+	1,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	1,
+	s_rgctxIndices,
+	2,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

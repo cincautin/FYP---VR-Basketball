@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5574112993969979407}
   - component: {fileID: 2633774977615331320}
   - component: {fileID: 5984342706692423082}
+  - component: {fileID: -1137921496050749102}
   m_Layer: 0
   m_Name: VRBasketball
   m_TagString: Basketball
@@ -207,7 +208,8 @@ MonoBehaviour:
   _data: {fileID: 0}
   _pointableElement: {fileID: 1712379086503941009}
   _boundsCollider: {fileID: 6458702930821194012}
-  _colliders: []
+  _colliders:
+  - {fileID: 6458702930821194012}
 --- !u!114 &5984342706692423082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,3 +228,43 @@ MonoBehaviour:
   backboardSound: {fileID: 8300000, guid: 4b0901cdf63b15a468aeca2381a7496e, type: 3}
   restTimeBeforeReturn: 5
   restVelocityThreshold: 0.15
+--- !u!114 &-1137921496050749102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650294023106640610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 1712379086503941009}
+  _rigidbody: {fileID: 4274664752612139690}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []

@@ -1,0 +1,111 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_m8A6F5EB659086DC4781CA804721125DF7290D019 (void);
+extern void RefSafetyRulesAttribute__ctor_m50DF643CF6DD4994B8AC198D2C5C3FC8079D060A (void);
+extern void DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71 (void);
+extern void DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098 (void);
+extern void DownloadHandlerAudioClip__ctor_mB8C00870FDA938440C2E89BCAC682E636641B61F (void);
+extern void DownloadHandlerAudioClip__ctor_mFF61AA21FD2F3655A0E5DE811467FD7A2426592F (void);
+extern void DownloadHandlerAudioClip_GetNativeData_mE7E3D8ED446BE6E5ACAC630F1C2E99687E605766 (void);
+extern void DownloadHandlerAudioClip_Dispose_mFE45B0B7E69D9AF774D2FDD484041FA374B112A6 (void);
+extern void DownloadHandlerAudioClip_GetText_m1A79A62E53F03F61A4FB28A3A95AA0267FC52025 (void);
+extern void DownloadHandlerAudioClip_get_audioClip_mBBA8B1C847780D3442649A0E52C822471F87C262 (void);
+extern void DownloadHandlerAudioClip_get_streamAudio_mB344F3E284AA34786BD46D7DDC8E82D2BA8606FC (void);
+extern void DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30 (void);
+extern void DownloadHandlerAudioClip_get_compressed_mAD7D67BFC9343B4398F4968E34AF682D0FE20F56 (void);
+extern void DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5 (void);
+extern void DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9 (void);
+extern void DownloadHandlerAudioClip_Create_Injected_m94923E2B9434EB0A89D94DA65C1AEC17944F7880 (void);
+extern void DownloadHandlerAudioClip_get_audioClip_Injected_m289A0FEF47542AAC49A30D15A8B14690F40062F4 (void);
+extern void DownloadHandlerAudioClip_get_streamAudio_Injected_m3416E662FC5EFF1A0FC2A911DB334CCBCBF4E888 (void);
+extern void DownloadHandlerAudioClip_set_streamAudio_Injected_mB5FCA3C13F88455F4022F2AA374B6CC34BEEBA98 (void);
+extern void DownloadHandlerAudioClip_get_compressed_Injected_mB8D39EE0F362468FC68DC767B510FE28BBD2B19B (void);
+extern void DownloadHandlerAudioClip_set_compressed_Injected_mFF4B4A0B1F2D87D2FDCCADCA0A2C862AA4AC29A2 (void);
+extern void BindingsMarshaller_ConvertToNative_m0B6B633B55007210A0C9A8F2BE35EE1AD1298016 (void);
+extern void DownloadHandlerMovieTexture__ctor_mAE123B13DD01E28ACF1569FC59527D5A9E1CD44B (void);
+extern void UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B (void);
+extern void UnityWebRequestMultimedia_GetAudioClip_mD6D1C733AA205FC721325D1FCBACBD40A788353F (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
+{
+	EmbeddedAttribute__ctor_m8A6F5EB659086DC4781CA804721125DF7290D019,
+	RefSafetyRulesAttribute__ctor_m50DF643CF6DD4994B8AC198D2C5C3FC8079D060A,
+	DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71,
+	DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098,
+	DownloadHandlerAudioClip__ctor_mB8C00870FDA938440C2E89BCAC682E636641B61F,
+	DownloadHandlerAudioClip__ctor_mFF61AA21FD2F3655A0E5DE811467FD7A2426592F,
+	DownloadHandlerAudioClip_GetNativeData_mE7E3D8ED446BE6E5ACAC630F1C2E99687E605766,
+	DownloadHandlerAudioClip_Dispose_mFE45B0B7E69D9AF774D2FDD484041FA374B112A6,
+	DownloadHandlerAudioClip_GetText_m1A79A62E53F03F61A4FB28A3A95AA0267FC52025,
+	DownloadHandlerAudioClip_get_audioClip_mBBA8B1C847780D3442649A0E52C822471F87C262,
+	DownloadHandlerAudioClip_get_streamAudio_mB344F3E284AA34786BD46D7DDC8E82D2BA8606FC,
+	DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30,
+	DownloadHandlerAudioClip_get_compressed_mAD7D67BFC9343B4398F4968E34AF682D0FE20F56,
+	DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5,
+	DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9,
+	DownloadHandlerAudioClip_Create_Injected_m94923E2B9434EB0A89D94DA65C1AEC17944F7880,
+	DownloadHandlerAudioClip_get_audioClip_Injected_m289A0FEF47542AAC49A30D15A8B14690F40062F4,
+	DownloadHandlerAudioClip_get_streamAudio_Injected_m3416E662FC5EFF1A0FC2A911DB334CCBCBF4E888,
+	DownloadHandlerAudioClip_set_streamAudio_Injected_mB5FCA3C13F88455F4022F2AA374B6CC34BEEBA98,
+	DownloadHandlerAudioClip_get_compressed_Injected_mB8D39EE0F362468FC68DC767B510FE28BBD2B19B,
+	DownloadHandlerAudioClip_set_compressed_Injected_mFF4B4A0B1F2D87D2FDCCADCA0A2C862AA4AC29A2,
+	BindingsMarshaller_ConvertToNative_m0B6B633B55007210A0C9A8F2BE35EE1AD1298016,
+	DownloadHandlerMovieTexture__ctor_mAE123B13DD01E28ACF1569FC59527D5A9E1CD44B,
+	UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B,
+	UnityWebRequestMultimedia_GetAudioClip_mD6D1C733AA205FC721325D1FCBACBD40A788353F,
+};
+static const int32_t s_InvokerIndices[25] = 
+{
+	23322,
+	17867,
+	29316,
+	8322,
+	8322,
+	8322,
+	22080,
+	23322,
+	22417,
+	22417,
+	22491,
+	17611,
+	22491,
+	17611,
+	33810,
+	29316,
+	34568,
+	34048,
+	32382,
+	34048,
+	32382,
+	34560,
+	23322,
+	30512,
+	30512,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAudioModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAudioModule_CodeGenModule = 
+{
+	"UnityEngine.UnityWebRequestAudioModule.dll",
+	25,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
