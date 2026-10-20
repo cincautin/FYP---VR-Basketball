@@ -15,6 +15,7 @@ namespace VRBasketball
         [SerializeField] private float scoreCooldown = 1.0f;
 
         public static event Action<int> OnBasketScored;
+        public static event Action<GameObject> OnBallMade;
 
         private bool topTriggerEntered = false;
         private float topTriggerTime = 0f;
@@ -78,6 +79,7 @@ namespace VRBasketball
             }
 
             OnBasketScored?.Invoke(points);
+            OnBallMade?.Invoke(ball);
         }
     }
 }

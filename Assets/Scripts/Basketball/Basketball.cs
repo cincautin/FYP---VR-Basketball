@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Oculus.Interaction;
 
@@ -24,7 +25,16 @@ namespace VRBasketball
         private bool isHeld = false;
         private bool hasBeenShot = false;
 
+        private OVRCameraRig cachedRig;
+        private string currentGrabHand = "right";
+        private bool grabEventRaised = false;
+
         public bool IsThreePointer { get; set; } = false;
+
+        // Static events for logging and game hooks
+        public static event Action<Basketball, string> OnBallGrabbed;
+        public static event Action<Basketball> OnBallReleased;
+        public static event Action<Basketball> OnBallHitFloorOrOutOfBounds;
 
         private void Awake()
         {
@@ -47,6 +57,8 @@ namespace VRBasketball
 
         private void Start()
         {
+            cachedRig = FindAnyObjectByType<OVRCameraRig>();
+
             if (grabbable != null)
             {
                 grabbable.WhenPointerEventRaised += HandlePointerEvent;
@@ -65,12 +77,31 @@ namespace VRBasketball
         {
             if (evt.Type == PointerEventType.Select)
             {
+                currentGrabHand = DetermineHand(evt);
                 OnGrabbed();
             }
             else if (evt.Type == PointerEventType.Unselect)
             {
                 OnReleased();
             }
+        }
+
+        private string DetermineHand(PointerEvent evt)
+        {
+            if (cachedRig == null)
+            {
+                cachedRig = FindAnyObjectByType<OVRCameraRig>();
+            }
+
+            if (cachedRig != null && cachedRig.leftHandAnchor != null && cachedRig.rightHandAnchor != null)
+            {
+                Vector3 checkPos = (evt.Pose.position != Vector3.zero) ? evt.Pose.position : transform.position;
+                float dLeft = Vector3.Distance(checkPos, cachedRig.leftHandAnchor.position);
+                float dRight = Vector3.Distance(checkPos, cachedRig.rightHandAnchor.position);
+                return dLeft < dRight ? "left" : "right";
+            }
+
+            return "right";
         }
 
         public void SetSpawnPoint(Vector3 pos, Quaternion rot)
@@ -84,6 +115,12 @@ namespace VRBasketball
             isHeld = true;
             hasBeenShot = false;
             restTimer = 0f;
+
+            if (!grabEventRaised)
+            {
+                grabEventRaised = true;
+                OnBallGrabbed?.Invoke(this, currentGrabHand);
+            }
         }
 
         public void OnReleased()
@@ -95,6 +132,12 @@ namespace VRBasketball
             // Check if player threw from beyond 3-point line (~6.75m from hoop)
             float distToHoop = Vector2.Distance(new Vector2(transform.position.x, transform.position.z), Vector2.zero);
             IsThreePointer = distToHoop >= 6.75f;
+
+            if (grabEventRaised)
+            {
+                grabEventRaised = false;
+                OnBallReleased?.Invoke(this);
+            }
         }
 
         private void Update()
@@ -104,6 +147,10 @@ namespace VRBasketball
             // If ball falls below floor (e.g. out of bounds)
             if (transform.position.y < -2f)
             {
+                if (hasBeenShot)
+                {
+                    OnBallHitFloorOrOutOfBounds?.Invoke(this);
+                }
                 Respawn();
                 return;
             }
@@ -114,6 +161,7 @@ namespace VRBasketball
                 restTimer += Time.deltaTime;
                 if (restTimer >= restTimeBeforeReturn)
                 {
+                    OnBallHitFloorOrOutOfBounds?.Invoke(this);
                     Respawn();
                 }
             }
@@ -131,10 +179,28 @@ namespace VRBasketball
             transform.rotation = initialSpawnRotation;
             hasBeenShot = false;
             restTimer = 0f;
+            grabEventRaised = false;
+        }
+
+        public void NotifyHitFloorOrOutOfBounds()
+        {
+            OnBallHitFloorOrOutOfBounds?.Invoke(this);
         }
 
         private void OnCollisionEnter(Collision collision)
         {
+            if (hasBeenShot)
+            {
+                // Ball hits floor or ground surface
+                if (collision.gameObject.name.Equals("Floor", StringComparison.OrdinalIgnoreCase) ||
+                    collision.gameObject.CompareTag("Floor") ||
+                    (collision.contacts.Length > 0 && collision.contacts[0].point.y < 0.2f &&
+                     !collision.gameObject.CompareTag("Rim") && !collision.gameObject.CompareTag("Backboard")))
+                {
+                    OnBallHitFloorOrOutOfBounds?.Invoke(this);
+                }
+            }
+
             float impactSpeed = collision.relativeVelocity.magnitude;
             if (impactSpeed < 0.5f) return;
 
