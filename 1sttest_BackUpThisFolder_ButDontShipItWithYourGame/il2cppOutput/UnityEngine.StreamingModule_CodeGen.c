@@ -1,0 +1,75 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_m9626DF8C0D98A473D978AC57B47AC0A2C9309BB0 (void);
+extern void RefSafetyRulesAttribute__ctor_mA43852A6FE5A86313C89F1E00614CACA7DE0B866 (void);
+extern void StreamingController_get_streamingMipmapBias_mF99272AF97EBE7550CD3C433165C75B85AC154F2 (void);
+extern void StreamingController_set_streamingMipmapBias_m5A74189DAAB6A6109154575CB3BDA9A99598A8AA (void);
+extern void StreamingController_SetPreloading_m6CC4C9E5742E497DF24D852A5B3A22ED7AE8E25D (void);
+extern void StreamingController_CancelPreloading_mD5ABD57F18813CE7BF549827CAB2D683B2941B06 (void);
+extern void StreamingController_IsPreloading_m355E060BFA8E75375BD7290AD227370C00E7DDF5 (void);
+extern void StreamingController__ctor_m552E70EAB8C02690F934B9CC1D9F1EAD2CCDE798 (void);
+extern void StreamingController_get_streamingMipmapBias_Injected_m7A63321427D8846574ADF40E530701A9235BD445 (void);
+extern void StreamingController_set_streamingMipmapBias_Injected_mBD590889DDC59253DC117D1702E5DAE0A9F2E7EA (void);
+extern void StreamingController_SetPreloading_Injected_mAF904BB3FAB9DC1BE0E246AF328B90C3DC5ECFDE (void);
+extern void StreamingController_CancelPreloading_Injected_m2D50613F8951FCA141D5ABA4E03C3A9EE3A22352 (void);
+extern void StreamingController_IsPreloading_Injected_mC86569EB982E07EEAF65E9A81E026F57C2823748 (void);
+static Il2CppMethodPointer s_methodPointers[13] = 
+{
+	EmbeddedAttribute__ctor_m9626DF8C0D98A473D978AC57B47AC0A2C9309BB0,
+	RefSafetyRulesAttribute__ctor_mA43852A6FE5A86313C89F1E00614CACA7DE0B866,
+	StreamingController_get_streamingMipmapBias_mF99272AF97EBE7550CD3C433165C75B85AC154F2,
+	StreamingController_set_streamingMipmapBias_m5A74189DAAB6A6109154575CB3BDA9A99598A8AA,
+	StreamingController_SetPreloading_m6CC4C9E5742E497DF24D852A5B3A22ED7AE8E25D,
+	StreamingController_CancelPreloading_mD5ABD57F18813CE7BF549827CAB2D683B2941B06,
+	StreamingController_IsPreloading_m355E060BFA8E75375BD7290AD227370C00E7DDF5,
+	StreamingController__ctor_m552E70EAB8C02690F934B9CC1D9F1EAD2CCDE798,
+	StreamingController_get_streamingMipmapBias_Injected_m7A63321427D8846574ADF40E530701A9235BD445,
+	StreamingController_set_streamingMipmapBias_Injected_mBD590889DDC59253DC117D1702E5DAE0A9F2E7EA,
+	StreamingController_SetPreloading_Injected_mAF904BB3FAB9DC1BE0E246AF328B90C3DC5ECFDE,
+	StreamingController_CancelPreloading_Injected_m2D50613F8951FCA141D5ABA4E03C3A9EE3A22352,
+	StreamingController_IsPreloading_Injected_mC86569EB982E07EEAF65E9A81E026F57C2823748,
+};
+static const int32_t s_InvokerIndices[13] = 
+{
+	23322,
+	17867,
+	23126,
+	18204,
+	5299,
+	23322,
+	22491,
+	23322,
+	34924,
+	32394,
+	28377,
+	35408,
+	34048,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_StreamingModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_StreamingModule_CodeGenModule = 
+{
+	"UnityEngine.StreamingModule.dll",
+	13,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

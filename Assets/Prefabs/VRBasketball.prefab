@@ -17,7 +17,11 @@ GameObject:
   - component: {fileID: 5574112993969979407}
   - component: {fileID: 2633774977615331320}
   - component: {fileID: 5984342706692423082}
+  - component: {fileID: 5574112993969979407}
+  - component: {fileID: 2633774977615331320}
+  - component: {fileID: 5984342706692423082}
   - component: {fileID: 8563016650115528932}
+  - component: {fileID: -1137921496050749102}
   m_Layer: 0
   m_Name: VRBasketball
   m_TagString: Basketball
@@ -229,6 +233,7 @@ MonoBehaviour:
   restTimeBeforeReturn: 5
   restVelocityThreshold: 0.15
 --- !u!114 &8563016650115528932
+--- !u!114 &-1137921496050749102
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
