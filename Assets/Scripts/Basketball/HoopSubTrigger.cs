@@ -30,5 +30,25 @@ namespace VRBasketball
                 parentScoringTrigger.OnBottomTriggerEnter(other);
             }
         }
+
+        private void OnTriggerStay(Collider other)
+        {
+            if (parentScoringTrigger == null) return;
+
+            if (triggerType == TriggerType.Top)
+            {
+                parentScoringTrigger.OnTopTriggerStay(other);
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (parentScoringTrigger == null) return;
+
+            if (triggerType == TriggerType.Top)
+            {
+                parentScoringTrigger.OnTopTriggerExit(other);
+            }
+        }
     }
 }

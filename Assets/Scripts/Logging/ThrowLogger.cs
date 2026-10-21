@@ -20,6 +20,12 @@ namespace FYP.Logging
         [Tooltip("Target rim transform. If null, automatically located in scene.")]
         [SerializeField] private Transform hoopTarget;
 
+        [Header("Throw Thresholds")]
+        [Tooltip("Minimum release speed required to qualify as an intentional throw trial.")]
+        [SerializeField] private float minThrowSpeedThreshold = 1.0f;
+
+        public int ignoredReleaseCount = 0;
+
         // Session & Block state
         private string participantId = "TEST";
         private string sessionId = "S000";
@@ -224,6 +230,15 @@ namespace FYP.Logging
             {
                 Rigidbody rb = ball != null ? ball.GetComponent<Rigidbody>() : null;
                 Vector3 releaseVel = (rb != null) ? rb.linearVelocity : Vector3.zero;
+                float releaseSpeed = releaseVel.magnitude;
+
+                if (releaseSpeed < minThrowSpeedThreshold)
+                {
+                    ignoredReleaseCount++;
+                    Debug.Log(string.Format(CultureInfo.InvariantCulture, "Ignored release: speed {0}", releaseSpeed));
+                    return;
+                }
+
                 activePendingThrow = new PendingThrow
                 {
                     Ball = ball,
@@ -249,6 +264,14 @@ namespace FYP.Logging
 
             Rigidbody rb = ball.GetComponent<Rigidbody>();
             Vector3 releaseVel = (rb != null) ? rb.linearVelocity : Vector3.zero;
+            float releaseSpeed = releaseVel.magnitude;
+
+            if (releaseSpeed < minThrowSpeedThreshold)
+            {
+                ignoredReleaseCount++;
+                Debug.Log(string.Format(CultureInfo.InvariantCulture, "Ignored release: speed {0}", releaseSpeed));
+                yield break;
+            }
 
             // Arm the pending throw
             activePendingThrow = new PendingThrow

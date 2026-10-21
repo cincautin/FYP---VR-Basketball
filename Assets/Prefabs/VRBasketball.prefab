@@ -17,10 +17,6 @@ GameObject:
   - component: {fileID: 5574112993969979407}
   - component: {fileID: 2633774977615331320}
   - component: {fileID: 5984342706692423082}
-  - component: {fileID: 5574112993969979407}
-  - component: {fileID: 2633774977615331320}
-  - component: {fileID: 5984342706692423082}
-  - component: {fileID: 8563016650115528932}
   - component: {fileID: -1137921496050749102}
   m_Layer: 0
   m_Name: VRBasketball
@@ -232,7 +228,6 @@ MonoBehaviour:
   backboardSound: {fileID: 8300000, guid: 4b0901cdf63b15a468aeca2381a7496e, type: 3}
   restTimeBeforeReturn: 5
   restVelocityThreshold: 0.15
---- !u!114 &8563016650115528932
 --- !u!114 &-1137921496050749102
 MonoBehaviour:
   m_ObjectHideFlags: 0

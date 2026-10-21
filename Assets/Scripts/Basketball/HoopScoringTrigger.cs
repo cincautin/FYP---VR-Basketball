@@ -36,12 +36,46 @@ namespace VRBasketball
             }
         }
 
+        private void Update()
+        {
+            if (topTriggerEntered && (Time.time - topTriggerTime) > MaxPassThroughDuration)
+            {
+                topTriggerEntered = false;
+            }
+        }
+
         public void OnTopTriggerEnter(Collider other)
+        {
+            HandleTopTrigger(other);
+        }
+
+        public void OnTopTriggerStay(Collider other)
+        {
+            HandleTopTrigger(other);
+        }
+
+        private void HandleTopTrigger(Collider other)
         {
             if (other.CompareTag("Basketball") || other.GetComponent<Basketball>() != null)
             {
-                topTriggerEntered = true;
-                topTriggerTime = Time.time;
+                Rigidbody rb = other.attachedRigidbody != null ? other.attachedRigidbody : other.GetComponent<Rigidbody>();
+                if (rb != null && rb.linearVelocity.y < 0f)
+                {
+                    topTriggerEntered = true;
+                    topTriggerTime = Time.time;
+                }
+            }
+        }
+
+        public void OnTopTriggerExit(Collider other)
+        {
+            if (other.CompareTag("Basketball") || other.GetComponent<Basketball>() != null)
+            {
+                Rigidbody rb = other.attachedRigidbody != null ? other.attachedRigidbody : other.GetComponent<Rigidbody>();
+                if (rb != null && rb.linearVelocity.y > 0f)
+                {
+                    topTriggerEntered = false;
+                }
             }
         }
 
@@ -49,11 +83,19 @@ namespace VRBasketball
         {
             if (other.CompareTag("Basketball") || other.GetComponent<Basketball>() != null)
             {
-                if (topTriggerEntered && (Time.time - topTriggerTime) <= MaxPassThroughDuration && (Time.time - lastScoreTime) > scoreCooldown)
+                Rigidbody rb = other.attachedRigidbody != null ? other.attachedRigidbody : other.GetComponent<Rigidbody>();
+                float elapsed = Time.time - topTriggerTime;
+                bool withinWindow = elapsed <= MaxPassThroughDuration;
+
+                if (topTriggerEntered && withinWindow && rb != null && rb.linearVelocity.y < 0f && (Time.time - lastScoreTime) > scoreCooldown)
                 {
                     ScoreBasket(other.gameObject);
+                    topTriggerEntered = false;
                 }
-                topTriggerEntered = false;
+                else if (!withinWindow)
+                {
+                    topTriggerEntered = false;
+                }
             }
         }
 
