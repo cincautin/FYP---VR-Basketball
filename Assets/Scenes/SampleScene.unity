@@ -806,6 +806,90 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &132576442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 132576444}
+  - component: {fileID: 132576443}
+  - component: {fileID: 132576445}
+  - component: {fileID: 132576446}
+  m_Layer: 0
+  m_Name: Intensity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &132576443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132576442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6a299425d68b94ab4c5b7f77c951de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.IntensityManager
+  cooldownSeconds: 60
+  enforceDataGuards: 1
+  minThrowsForChange: 5
+  timerHighMinAccuracy: 0.4
+  adaptationWindowSeconds: 30
+  resultTimeoutSeconds: 5
+  providerBehaviour: {fileID: 132576446}
+  windowSourceBehaviour: {fileID: 132576445}
+  debugLevels: 000000000000000000000000000000000000000000000000
+--- !u!4 &132576444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132576442}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14775, y: -0, z: -3.30746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &132576445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132576442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca32dbfaf49e2f74b9f5bb97b827ba9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.SessionStats
+  minBaselineThrows: 5
+  minThrowsForComparison: 5
+  minStreakForNewBest: 2
+--- !u!114 &132576446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132576442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b5e3416fe7d3e4e8cc916ad5348cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.RemoteIntensityProvider
+  baseUrl: http://127.0.0.1:5000
+  timeoutSeconds: 3
 --- !u!1001 &181477301
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4291,6 +4375,121 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056652496}
   m_CullTransparentMesh: 1
+--- !u!1 &1079411259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079411266}
+  - component: {fileID: 1079411265}
+  - component: {fileID: 1079411264}
+  - component: {fileID: 1079411263}
+  - component: {fileID: 1079411262}
+  - component: {fileID: 1079411261}
+  - component: {fileID: 1079411260}
+  m_Layer: 0
+  m_Name: ElementsTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1079411260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079411259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
+  element: 5
+--- !u!114 &1079411261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079411259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
+  element: 4
+--- !u!114 &1079411262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079411259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
+  element: 3
+--- !u!114 &1079411263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079411259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
+  element: 2
+--- !u!114 &1079411264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079411259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
+  element: 1
+--- !u!114 &1079411265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079411259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
+  element: 0
+--- !u!4 &1079411266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079411259}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14775, y: -0, z: -3.30746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1134194050
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,6 +5541,17 @@ MonoBehaviour:
   cameraTransform: {fileID: 181477306}
   throwForce: 8
   upwardArc: 2.5
+--- !u!114 &1427770710 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7464058929621002475, guid: be5230da3e704c545b14f3efd36295e4, type: 3}
+  m_PrefabInstance: {fileID: 480790523}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1433005118
 GameObject:
   m_ObjectHideFlags: 0
@@ -5855,6 +6065,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493721729}
   m_CullTransparentMesh: 1
+--- !u!114 &1501770369 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2869826513098000806, guid: be5230da3e704c545b14f3efd36295e4, type: 3}
+  m_PrefabInstance: {fileID: 480790523}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1502104550
 GameObject:
   m_ObjectHideFlags: 0
@@ -6129,6 +6350,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531691798}
   m_CullTransparentMesh: 1
+--- !u!1 &1540654675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5582207759333401507, guid: be5230da3e704c545b14f3efd36295e4, type: 3}
+  m_PrefabInstance: {fileID: 480790523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1540654676 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9066018321192100227, guid: be5230da3e704c545b14f3efd36295e4, type: 3}
+  m_PrefabInstance: {fileID: 480790523}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540654675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a05b41fa20699b4bae14b514b3a1c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::VRBasketball.ScoreboardManager
 --- !u!1 &1545278632
 GameObject:
   m_ObjectHideFlags: 0
@@ -7055,6 +7292,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825012565}
   m_CullTransparentMesh: 1
+--- !u!114 &1830463325 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7931217567102435114, guid: be5230da3e704c545b14f3efd36295e4, type: 3}
+  m_PrefabInstance: {fileID: 480790523}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1879282546
 GameObject:
   m_ObjectHideFlags: 0
@@ -7142,6 +7390,54 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1919457372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919457374}
+  - component: {fileID: 1919457373}
+  m_Layer: 0
+  m_Name: ElementsHud
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1919457373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919457372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a7f94cd9496a14c861be16075e5878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.ElementsHud
+  previewOnStart: 1
+  widthPx: 1200
+  heightPx: 500
+  metersPerPixel: 0.0015
+--- !u!4 &1919457374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919457372}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.698, y: 1.286, z: -1.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1929241749
 GameObject:
   m_ObjectHideFlags: 0
@@ -7738,6 +8034,88 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048191438}
   m_CullTransparentMesh: 1
+--- !u!1 &2095115279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2095115282}
+  - component: {fileID: 2095115281}
+  - component: {fileID: 2095115280}
+  - component: {fileID: 2095115283}
+  m_Layer: 0
+  m_Name: Elements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2095115280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04916e02318e6d459ab4c96c7ab1527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.UiAnim
+--- !u!114 &2095115281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1193b2fafa15f824da4e9d02dbcc4df9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.SfxPlayer
+  masterVolume: 0.8
+--- !u!4 &2095115282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.197, y: 1.15, z: 0.211}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2095115283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9782dba25f19b194d94103e68411c58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.PointsElement
+  legacyScoreboard: {fileID: 1540654676}
+  displayRoot: {fileID: 1540654675}
+  scoreText: {fileID: 1501770369}
+  streakText: {fileID: 1427770710}
+  lastShotPointsText: {fileID: 1830463325}
+  alwaysHidden: []
+  cheerSound: {fileID: 8300000, guid: c4a28f6e9db0d5a41bd72f963daa31b6, type: 3}
+  buzzerSound: {fileID: 8300000, guid: f15d63e24287bb04e908ca10e0d861cb, type: 3}
+  streakForDouble: 3
+  streakForTriple: 5
+  popupSeconds: 2.5
 --- !u!1001 &1036505491579795906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10319,3 +10697,7 @@ SceneRoots:
   - {fileID: 1387843302}
   - {fileID: 1360915429}
   - {fileID: 1964602100}
+  - {fileID: 132576444}
+  - {fileID: 1079411266}
+  - {fileID: 2095115282}
+  - {fileID: 1919457374}

@@ -74,6 +74,7 @@ namespace FYP.Session
         private float abortPollTimer;
         private bool abortButtonDown;
         private bool subscribed;
+        private bool blockPaused;
 
         private void Awake()
         {
@@ -126,7 +127,7 @@ namespace FYP.Session
                 if (tutorialElapsed >= tutorialMaxSeconds) CompleteTutorial();
             }
 
-            if (!IsBlockRunning) return;
+            if (!IsBlockRunning || blockPaused) return;
 
             BlockElapsed += dt;
 
@@ -253,21 +254,24 @@ namespace FYP.Session
         private void ShowBreak(int nextBlockIndex)
         {
             SessionState nextState = nextBlockIndex == 2 ? SessionState.Block2 : SessionState.Block3;
-            Show("Rest",
-                "Take a short rest. Round " + nextBlockIndex + " is next. Press Start when you are ready.",
-                "Start", () => EnterState(nextState));
+            string summary = BlockSummary.Compose();
+            string body = (summary.Length > 0 ? "Round summary:\n" + summary + "\n\n" : "") +
+                        "Take a short rest. Round " + nextBlockIndex + " is next. Press Start when you are ready.";
+            Show("Rest", body, "Start", () => EnterState(nextState));
         }
 
         private void ShowEnd()
         {
             pendingPrimary = null;
             string id = CurrentProfile != null ? CurrentProfile.participantId : "?";
+            string summary = BlockSummary.Compose();
             if (aborted)
                 Show("Session ended", "The session has ended. Please take off the headset. Participant ID: " + id, null, null);
             else
                 Show("Session complete",
+                    (summary.Length > 0 ? summary + "\n\n" : "") +
                     "Please take off the headset.\nParticipant ID: " + id +
-                    "\nPlease complete the questionnaires for the Blue round and the Orange round.",
+                    "\nPlease complete the questionnaires for Round 2 and Round 3.",
                     null, null);
         }
 
@@ -280,8 +284,26 @@ namespace FYP.Session
             return "none";
         }
 
+        /// <summary>Lets other scripts write a row to the events CSV using the current state, block and condition.</summary>
+        public void LogEvent(string eventName, string detail)
+        {
+            log.Write(eventName, CurrentState.ToString(), CurrentBlockIndex, CurrentCondition, detail);
+        }
+
+        public bool IsBlockPaused => blockPaused;
+
+        public void SetBlockPaused(bool value)
+        {
+            if (!IsBlockRunning || blockPaused == value) return;
+            blockPaused = value;
+            log.Write(value ? "block_pause" : "block_resume", CurrentState.ToString(), CurrentBlockIndex, CurrentCondition,
+                "t=" + BlockElapsed.ToString("F1", CultureInfo.InvariantCulture));
+        }
+
         private void StartBlock(int index)
         {
+            BlockSummary.Clear();
+            blockPaused = false;
             CurrentBlockIndex = index;
             CurrentCondition = CurrentProfile.ConditionForBlock(index);
             BlockElapsed = 0f;
@@ -303,6 +325,7 @@ namespace FYP.Session
         {
             if (!IsBlockRunning) return;
             IsBlockRunning = false;
+            blockPaused = false;
 
             log.Write("block_end", CurrentState.ToString(), CurrentBlockIndex, CurrentCondition,
                 "reason=" + reason + ";throws=" + ThrowsInBlock +
@@ -358,6 +381,7 @@ namespace FYP.Session
             if (aborted || CurrentState == SessionState.End) return;
             aborted = true;
             IsBlockRunning = false;
+            blockPaused = false;
             tutorialActive = false;
             log.Write("session_abort", CurrentState.ToString(), CurrentBlockIndex, CurrentCondition, reason);
             EnterState(SessionState.End);
