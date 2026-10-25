@@ -38,16 +38,15 @@ namespace FYP.Session
             return result;
         }
 
-        /// <summary>Block 0 = tutorial, 1 = baseline, 2 = first condition, 3 = second condition.</summary>
+        /// <summary>Block 0 = tutorial, 1 = first condition, 2 = second condition.</summary>
         public string ConditionForBlock(int blockIndex)
         {
             bool fixedFirst = conditionOrder == "FA";
             switch (blockIndex)
             {
                 case 0: return "tutorial";
-                case 1: return "baseline";
-                case 2: return fixedFirst ? "fixed" : "adaptive";
-                case 3: return fixedFirst ? "adaptive" : "fixed";
+                case 1: return fixedFirst ? "fixed" : "adaptive";
+                case 2: return fixedFirst ? "adaptive" : "fixed";
                 default: return "unknown";
             }
         }

@@ -79,7 +79,8 @@ namespace FYP.Intensity
             sb.Append("\"throwsPerMinute\":").Append(N(w.throwsPerMinute)).Append(',');
             sb.Append("\"secondsSinceLastThrow\":").Append(N(w.secondsSinceLastThrow)).Append(',');
             sb.Append("\"currentStreak\":").Append(w.currentStreak).Append(',');
-            sb.Append("\"baselineAccuracy\":").Append(N(w.baselineAccuracy));
+            sb.Append("\"referenceAccuracy\":").Append(N(w.referenceAccuracy)).Append(',');
+            sb.Append("\"practiceMedianGap\":").Append(N(w.practiceMedianGap));
             sb.Append("},\"levels\":{");
             bool first = true;
             if (r.levels != null)

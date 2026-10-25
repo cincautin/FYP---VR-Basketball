@@ -7,7 +7,7 @@ using FYP.Session;
 
 namespace FYP.Intensity
 {
-    /// <summary>One resolved throw, as the elements and the adaptation window see it.</summary>
+    /// <summary>One resolved throw, as the elements and the adaptation logic see it.</summary>
     public struct ThrowSample
     {
         public int throwIndex;
@@ -25,25 +25,27 @@ namespace FYP.Intensity
     }
 
     /// <summary>
-    /// Live stats for the current block plus the Block 1 baseline. Counts only throws that resolve while
-    /// a block (1-3) is running; tutorial throws and throws that resolve during a break are ignored.
+    /// Live stats for the current block, a within-block reference (the player's first minute), and practice
+    /// stats from the intro. Counts only throws that resolve while a block is running (or the intro is active).
     /// </summary>
     public class SessionStats : MonoBehaviour, IWindowSource
     {
         public static SessionStats Instance { get; private set; }
 
-        [Header("Settings")]
-        [Tooltip("Block 1 needs at least this many throws to count as a baseline.")]
-        [SerializeField] private int minBaselineThrows = 5;
-        [Tooltip("Comparisons with the baseline need at least this many throws in the current block.")]
-        [SerializeField] private int minThrowsForComparison = 5;
-        [Tooltip("A streak must be at least this long to count as a new best.")]
-        [SerializeField] private int minStreakForNewBest = 2;
+        [Header("Reference (first minute of each block)")]
+        [SerializeField] private float referenceSeconds = 60f;
+        [SerializeField] private int referenceMinThrows = 5;
+        [Tooltip("Recent throws compared against the reference.")]
+        [SerializeField] private int recentThrowsForDelta = 10;
 
-        // Events for the elements (Phase 5)
+        [Header("Other")]
+        [SerializeField] private int minStreakForNewBest = 3;
+        [Tooltip("Used when the intro gave too few throws to measure the player's own pace.")]
+        [SerializeField] private float defaultGapSeconds = 8f;
+
         public event Action<ThrowSample> OnThrowRecorded;
-        public event Action<int> OnNewBestStreak;   // streak length, beats Block 1 best and this block's best
-        public event Action OnBaselineReady;
+        public event Action<int> OnNewBestStreak;   // beats this block's previous best streak
+        public event Action OnReferenceReady;
 
         // Current block
         public int BlockThrows => samples.Count;
@@ -53,26 +55,51 @@ namespace FYP.Intensity
         public int BestStreak { get; private set; }
         public IReadOnlyList<ThrowSample> Samples => samples;
 
-        // Baseline (Block 1)
-        public bool HasBaseline { get; private set; }
-        public float BaselineAccuracy { get; private set; }
-        public int BaselineThrows { get; private set; }
-        public int BaselineBestStreak { get; private set; }
-        public float BaselineSpeedSd { get; private set; }
-        public float BaselineElevationSd { get; private set; }
+        // Reference (this block's first minute)
+        public bool HasReference { get; private set; }
+        public float ReferenceAccuracy { get; private set; }
+        public int ReferenceThrows { get; private set; }
 
-        /// <summary>Makes you would expect by now if you shot at your baseline accuracy (pace marker).</summary>
-        public float BaselineExpectedMakes => HasBaseline ? BaselineAccuracy * samples.Count : 0f;
+        /// <summary>Makes you would expect by now if you kept shooting at your first-minute accuracy.</summary>
+        public float ReferenceExpectedMakes => HasReference ? ReferenceAccuracy * samples.Count : 0f;
 
-        /// <summary>True when there is a baseline and enough throws in this block to compare fairly.</summary>
-        public bool HasComparison => HasBaseline && samples.Count >= minThrowsForComparison;
+        /// <summary>True once the reference exists and at least 5 throws have happened since.</summary>
+        public bool HasComparison => HasReference && samples.Count >= ReferenceThrows + 5;
 
-        /// <summary>Current block accuracy minus baseline accuracy (0.10 = 10 percentage points above).</summary>
-        public float AccuracyDelta => HasComparison ? BlockAccuracy - BaselineAccuracy : 0f;
+        /// <summary>Accuracy over the most recent throws minus the reference (0.10 = 10 points above).</summary>
+        public float RecentAccuracyDelta
+        {
+            get
+            {
+                if (!HasComparison) return 0f;
+                int k = Mathf.Min(recentThrowsForDelta, samples.Count - ReferenceThrows);
+                return AccuracyLast(k) - ReferenceAccuracy;
+            }
+        }
+
+        // Practice (intro)
+        public int PracticeThrows => practiceTimes.Count;
+        public int PracticeMakes { get; private set; }
+        public float PracticeAccuracy => practiceTimes.Count == 0 ? 0f : (float)PracticeMakes / practiceTimes.Count;
+        public bool HasPracticePace => practiceTimes.Count >= 5;
+
+        /// <summary>Median seconds between consecutive practice throws, or the default if there were too few.</summary>
+        public float PracticeMedianGapSeconds
+        {
+            get
+            {
+                if (practiceTimes.Count < 5) return defaultGapSeconds;
+                var gaps = new List<float>(practiceTimes.Count - 1);
+                for (int i = 1; i < practiceTimes.Count; i++) gaps.Add(practiceTimes[i] - practiceTimes[i - 1]);
+                gaps.Sort();
+                int mid = gaps.Count / 2;
+                return gaps.Count % 2 == 1 ? gaps[mid] : 0.5f * (gaps[mid - 1] + gaps[mid]);
+            }
+        }
 
         private readonly List<ThrowSample> samples = new List<ThrowSample>(64);
+        private readonly List<float> practiceTimes = new List<float>(32);
         private SessionManager session;
-        private float blockStartTime;
         private bool subscribed;
 
         private void Awake()
@@ -111,57 +138,44 @@ namespace FYP.Intensity
 
         private void HandleBlockStarted(int blockIndex, string condition)
         {
+            if (blockIndex == 1)
+            {
+                session.LogEvent("practice_stats",
+                    "throws=" + PracticeThrows + ";accuracy=" + F(PracticeAccuracy) +
+                    ";median_gap=" + F(PracticeMedianGapSeconds) + ";has_pace=" + HasPracticePace);
+            }
+
             samples.Clear();
             BlockMakes = 0;
             CurrentStreak = 0;
             BestStreak = 0;
-            blockStartTime = Time.time;
-            if (blockIndex == 1) HasBaseline = false; // a new session starts with a fresh baseline
+            HasReference = false;
+            ReferenceAccuracy = 0f;
+            ReferenceThrows = 0;
         }
 
         private void HandleBlockEnded(int blockIndex, string condition, string reason)
-        {
-            if (blockIndex == 1) ComputeBaseline();
-            LogBlockStats();
-        }
-
-        private void ComputeBaseline()
-        {
-            if (samples.Count < minBaselineThrows)
-            {
-                HasBaseline = false;
-                session.LogEvent("baseline_missing", "throws=" + samples.Count + ";needed=" + minBaselineThrows);
-                return;
-            }
-
-            BaselineAccuracy = BlockAccuracy;
-            BaselineThrows = samples.Count;
-            BaselineBestStreak = BestStreak;
-            ComputeSd(0, out float speedSd, out float elevSd);
-            BaselineSpeedSd = speedSd;
-            BaselineElevationSd = elevSd;
-            HasBaseline = true;
-
-            session.LogEvent("baseline_ready",
-                "accuracy=" + F(BaselineAccuracy) + ";throws=" + BaselineThrows + ";best_streak=" + BaselineBestStreak +
-                ";speed_sd=" + F(BaselineSpeedSd) + ";elev_sd=" + F(BaselineElevationSd));
-            OnBaselineReady?.Invoke();
-        }
-
-        private void LogBlockStats()
         {
             ComputeSd(0, out float speedSd, out float elevSd);
             session.LogEvent("block_stats",
                 "throws=" + samples.Count + ";makes=" + BlockMakes + ";accuracy=" + F(BlockAccuracy) +
                 ";best_streak=" + BestStreak + ";speed_sd=" + F(speedSd) + ";elev_sd=" + F(elevSd) +
-                ";baseline_acc=" + (HasBaseline ? F(BaselineAccuracy) : "NA"));
+                ";ref_acc=" + (HasReference ? F(ReferenceAccuracy) : "NA"));
         }
 
         // ------------------------------------------------------------------- Throws
 
         private void HandleThrowLogged(ThrowRecord r)
         {
-            if (session == null || !session.IsBlockRunning) return;
+            if (session == null) return;
+
+            if (session.IsTutorialActive)
+            {
+                practiceTimes.Add(Time.time);
+                if (r.made) PracticeMakes++;
+                return;
+            }
+            if (!session.IsBlockRunning) return;
 
             int previousBest = BestStreak;
             if (r.made) { BlockMakes++; CurrentStreak++; }
@@ -184,12 +198,24 @@ namespace FYP.Intensity
                 throwsAfter = samples.Count + 1
             };
             samples.Add(sample);
+
+            if (!HasReference && session.BlockElapsed >= referenceSeconds && samples.Count >= referenceMinThrows)
+                FreezeReference();
+
             OnThrowRecorded?.Invoke(sample);
 
-            bool beatsBlockBest = CurrentStreak > previousBest;
-            bool beatsBaseline = HasBaseline && CurrentStreak > BaselineBestStreak;
-            if (r.made && beatsBlockBest && beatsBaseline && CurrentStreak >= minStreakForNewBest)
+            if (r.made && CurrentStreak > previousBest && CurrentStreak >= minStreakForNewBest)
                 OnNewBestStreak?.Invoke(CurrentStreak);
+        }
+
+        private void FreezeReference()
+        {
+            HasReference = true;
+            ReferenceAccuracy = BlockAccuracy;
+            ReferenceThrows = samples.Count;
+            session.LogEvent("reference_ready",
+                "accuracy=" + F(ReferenceAccuracy) + ";throws=" + ReferenceThrows);
+            OnReferenceReady?.Invoke();
         }
 
         // ---------------------------------------------------------- Window and helpers
@@ -224,7 +250,8 @@ namespace FYP.Intensity
                 throwsPerMinute = n / span * 60f,
                 secondsSinceLastThrow = samples.Count > 0 ? now - samples[samples.Count - 1].time : elapsed,
                 currentStreak = CurrentStreak,
-                baselineAccuracy = HasBaseline ? BaselineAccuracy : -1f
+                referenceAccuracy = HasReference ? ReferenceAccuracy : -1f,
+                practiceMedianGap = PracticeMedianGapSeconds
             };
         }
 
@@ -238,10 +265,15 @@ namespace FYP.Intensity
             return (float)makes / n;
         }
 
-        /// <summary>
-        /// Range (max minus min) of release speed and elevation over the last k throws.
-        /// Returns false if fewer than k throws exist. Used for the Steady Hands badge.
-        /// </summary>
+        /// <summary>Misses in a row at the end of the block so far.</summary>
+        public int ConsecutiveMisses()
+        {
+            int c = 0;
+            for (int i = samples.Count - 1; i >= 0 && !samples[i].made; i--) c++;
+            return c;
+        }
+
+        /// <summary>Range (max minus min) of release speed and elevation over the last k throws (Steady Hands).</summary>
         public bool RecentReleaseRange(int k, out float speedRange, out float elevationRange)
         {
             speedRange = 0f;
@@ -262,7 +294,6 @@ namespace FYP.Intensity
             return true;
         }
 
-        /// <summary>Sample standard deviation of release speed and elevation from startIndex to the end.</summary>
         private void ComputeSd(int startIndex, out float speedSd, out float elevationSd)
         {
             int count = 0;
@@ -287,10 +318,12 @@ namespace FYP.Intensity
             WindowStats w = GetWindow(30f);
             Debug.Log(
                 "[SessionStats] Block: throws " + BlockThrows + ", makes " + BlockMakes + ", accuracy " + F(BlockAccuracy) +
-                ", streak " + CurrentStreak + " (best " + BestStreak + ")" +
+                ", streak " + CurrentStreak + " (best " + BestStreak + "), misses in a row " + ConsecutiveMisses() +
                 "\n  Last 30 s: throws " + w.throws + ", accuracy " + F(w.accuracy) + ", speed SD " + F(w.releaseSpeedSd) +
-                ", elev SD " + F(w.releaseElevationSd) + ", per min " + F(w.throwsPerMinute) +
-                "\n  Baseline: " + (HasBaseline ? "accuracy " + F(BaselineAccuracy) + ", best streak " + BaselineBestStreak : "none"));
+                ", per min " + F(w.throwsPerMinute) + ", since last throw " + F(w.secondsSinceLastThrow) +
+                "\n  Reference: " + (HasReference ? "accuracy " + F(ReferenceAccuracy) + " over " + ReferenceThrows + " throws" : "not ready") +
+                "\n  Practice: " + PracticeThrows + " throws, accuracy " + F(PracticeAccuracy) +
+                ", median gap " + F(PracticeMedianGapSeconds) + " s" + (HasPracticePace ? "" : " (default)"));
         }
     }
 }

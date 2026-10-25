@@ -873,9 +873,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca32dbfaf49e2f74b9f5bb97b827ba9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VRBasketball::FYP.Intensity.SessionStats
-  minBaselineThrows: 5
-  minThrowsForComparison: 5
+  referenceSeconds: 60
+  referenceMinThrows: 5
+  recentThrowsForDelta: 10
   minStreakForNewBest: 2
+  defaultGapSeconds: 8
 --- !u!114 &132576446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5492,16 +5494,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83693d5a5a196e7469f7b8f29b28a51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VRBasketball::FYP.Session.SessionManager
-  blockSeconds: 180
-  throwsTarget: 20
-  endBlockAtTarget: 1
-  tutorialMaxSeconds: 120
+  blockSeconds: 300
+  throwsTarget: 30
+  endBlockAtTarget: 0
+  tutorialLongSeconds: 180
+  tutorialLongLogged: 0
   adaptationTickSeconds: 30
   panelBehaviour: {fileID: 1360915425}
   ballSpawner: {fileID: 0}
   allowTestProfile: 1
   debugParticipantId: 2
-  tutorialDrivenExternally: 0
+  tutorialDrivenExternally: 1
   abortHoldSeconds: 3
 --- !u!4 &1387843302
 Transform:
@@ -8046,6 +8049,7 @@ GameObject:
   - component: {fileID: 2095115281}
   - component: {fileID: 2095115280}
   - component: {fileID: 2095115283}
+  - component: {fileID: 2095115284}
   m_Layer: 0
   m_Name: Elements
   m_TagString: Untagged
@@ -8116,6 +8120,27 @@ MonoBehaviour:
   streakForDouble: 3
   streakForTriple: 5
   popupSeconds: 2.5
+--- !u!114 &2095115284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5e6976e58a0ea4fa22607bf66f8f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.ProgressElement
+  barColor: {r: 0.2, g: 0.6, b: 1, a: 1}
+  highlightColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  panelColor: {r: 0.08, g: 0.09, b: 0.14, a: 0.75}
+  highlightSeconds: 0.6
+  stageNames:
+  - Warm-up
+  - Rhythm
+  - Push
+  - Finish
 --- !u!1001 &1036505491579795906
 PrefabInstance:
   m_ObjectHideFlags: 0

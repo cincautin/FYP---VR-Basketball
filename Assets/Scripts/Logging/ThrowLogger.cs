@@ -44,6 +44,7 @@ namespace FYP.Logging
 
         // Current in-flight throw state
         private PendingThrow activePendingThrow = null;
+        private bool shotClockExpiredThisHold;
         private Basketball currentlyHeldBall = null;
         private float currentBallGrabStartTime = 0f;
         private string currentBallGrabHand = "right";
@@ -67,6 +68,7 @@ namespace FYP.Logging
             public Vector3 ReleaseVel;
             public string Hand;
             public Coroutine TimeoutCoroutine;
+            public bool ShotClockExpired;
         }
 
         private void Awake()
@@ -194,6 +196,12 @@ namespace FYP.Logging
             if (levels.TryGetValue("lvl_timer", out string timer)) lvlTimer = timer;
         }
 
+        /// <summary>Called by TimerElement when the shot clock runs out while a ball is held.</summary>
+        public void SetShotClockExpiredForCurrentHold(bool expired)
+        {
+            shotClockExpiredThisHold = expired;
+        }
+
         #endregion
 
         #region Interaction Event Handlers
@@ -207,6 +215,7 @@ namespace FYP.Logging
             }
 
             currentlyHeldBall = ball;
+            shotClockExpiredThisHold = false;
             currentBallGrabStartTime = Time.time;
             currentBallGrabHand = string.IsNullOrEmpty(hand) ? "right" : hand;
         }
@@ -246,7 +255,8 @@ namespace FYP.Logging
                     TimeHeld = timeHeld,
                     ReleasePos = releasePos,
                     ReleaseVel = releaseVel,
-                    Hand = hand
+                    Hand = hand,
+                    ShotClockExpired = shotClockExpiredThisHold,
                 };
             }
             else
@@ -282,6 +292,7 @@ namespace FYP.Logging
                 ReleasePos = releasePos,
                 ReleaseVel = releaseVel,
                 Hand = hand,
+                ShotClockExpired = shotClockExpiredThisHold,
                 TimeoutCoroutine = StartCoroutine(ThrowTimeoutCoroutine(releaseTime))
             };
         }
@@ -377,7 +388,7 @@ namespace FYP.Logging
             record.hand = string.IsNullOrEmpty(pending.Hand) ? "right" : pending.Hand;
             record.made = made;
             record.time_to_outcome = timeToOutcome;
-            record.shot_clock_expired = false;
+            record.shot_clock_expired = pending.ShotClockExpired;
 
             record.lvl_points = lvlPoints;
             record.lvl_progress = lvlProgress;

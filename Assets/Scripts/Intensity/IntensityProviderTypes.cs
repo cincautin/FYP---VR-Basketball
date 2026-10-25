@@ -29,7 +29,8 @@ namespace FYP.Intensity
         public float throwsPerMinute;
         public float secondsSinceLastThrow;
         public int currentStreak;
-        public float baselineAccuracy;
+        public float referenceAccuracy;   // first-minute accuracy of this block, -1 until it exists
+        public float practiceMedianGap;   // the player's own median seconds between throws in the intro
     }
 
     public class AdaptationRequest

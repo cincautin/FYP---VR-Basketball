@@ -141,7 +141,7 @@ namespace FYP.Intensity
 
         private void HandleStateChanged(SessionState state)
         {
-            if (state == SessionState.Block1Baseline || state == SessionState.Block2 || state == SessionState.Block3) return;
+            if (state == SessionState.Block1 || state == SessionState.Block2) return;
             SetAll(IntensityLevel.Off, "state_" + state);
         }
 

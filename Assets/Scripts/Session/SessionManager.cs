@@ -7,11 +7,7 @@ using VRBasketball;
 
 namespace FYP.Session
 {
-    public enum SessionState
-    {
-        ParticipantEntry, Intro, Tutorial,
-        Block1Baseline, Break1, Block2, Break2, Block3, End
-    }
+    public enum SessionState { ParticipantEntry, Intro, Tutorial, Block1, Break1, Block2, End }
 
     /// <summary>
     /// Session state machine. Blocks start immediately when their state is entered; the Start button
@@ -26,7 +22,8 @@ namespace FYP.Session
         [SerializeField] private int throwsTarget = 20;
         [Tooltip("If true, a block also ends once throwsTarget throws are logged. If false, blocks always last blockSeconds.")]
         [SerializeField] private bool endBlockAtTarget = true;
-        [SerializeField] private float tutorialMaxSeconds = 120f;
+        [SerializeField] private float tutorialLongSeconds = 180f;
+        [SerializeField] private bool tutorialLongLogged = false;
         [SerializeField] private float adaptationTickSeconds = 30f;
 
         [Header("References")]
@@ -55,6 +52,7 @@ namespace FYP.Session
         public string CurrentCondition { get; private set; } = "none";
         public string SessionId { get; private set; }
         public bool IsBlockRunning { get; private set; }
+        public bool IsTutorialActive => tutorialActive;
         public float BlockElapsed { get; private set; }
         public int ThrowsInBlock { get; private set; }
         public float BlockSeconds => blockSeconds;
@@ -124,9 +122,13 @@ namespace FYP.Session
             if (CurrentState == SessionState.Tutorial && tutorialActive)
             {
                 tutorialElapsed += dt;
-                if (tutorialElapsed >= tutorialMaxSeconds) CompleteTutorial();
+                if (!tutorialLongLogged && tutorialElapsed >= tutorialLongSeconds)
+                {
+                    tutorialLongLogged = true;
+                    log.Write("tutorial_long", CurrentState.ToString(), 0, "tutorial",
+                        "seconds=" + tutorialElapsed.ToString("F0", CultureInfo.InvariantCulture));
+                }
             }
-
             if (!IsBlockRunning || blockPaused) return;
 
             BlockElapsed += dt;
@@ -172,11 +174,9 @@ namespace FYP.Session
                 case SessionState.ParticipantEntry: ShowEntry(); break;
                 case SessionState.Intro: ShowIntro(); break;
                 case SessionState.Tutorial: BeginTutorial(); break;
-                case SessionState.Block1Baseline: StartBlock(1); break;
+                case SessionState.Block1: StartBlock(1); break;
                 case SessionState.Break1: ShowBreak(2); break;
                 case SessionState.Block2: StartBlock(2); break;
-                case SessionState.Break2: ShowBreak(3); break;
-                case SessionState.Block3: StartBlock(3); break;
                 case SessionState.End: ShowEnd(); break;
             }
         }
@@ -230,6 +230,7 @@ namespace FYP.Session
         private void BeginTutorial()
         {
             tutorialActive = true;
+            tutorialLongLogged = false;
             tutorialElapsed = 0f;
             CurrentBlockIndex = 0;
             CurrentCondition = "tutorial";
@@ -246,18 +247,18 @@ namespace FYP.Session
         {
             if (!tutorialActive) return;
             tutorialActive = false;
+            log.Write("tutorial_end", CurrentState.ToString(), 0, "tutorial", "seconds=" + tutorialElapsed.ToString("F0", CultureInfo.InvariantCulture));
             Show("Tutorial done",
                 "When you are ready, press Start. Round 1 will begin.",
-                "Start", () => EnterState(SessionState.Block1Baseline));
+                "Start", () => EnterState(SessionState.Block1));
         }
 
         private void ShowBreak(int nextBlockIndex)
         {
-            SessionState nextState = nextBlockIndex == 2 ? SessionState.Block2 : SessionState.Block3;
             string summary = BlockSummary.Compose();
             string body = (summary.Length > 0 ? "Round summary:\n" + summary + "\n\n" : "") +
-                        "Take a short rest. Round " + nextBlockIndex + " is next. Press Start when you are ready.";
-            Show("Rest", body, "Start", () => EnterState(nextState));
+                        "Take a short rest. Round 2 is next. Press Start when you are ready.";
+            Show("Rest", body, "Start", () => EnterState(SessionState.Block2));
         }
 
         private void ShowEnd()
@@ -271,18 +272,10 @@ namespace FYP.Session
                 Show("Session complete",
                     (summary.Length > 0 ? summary + "\n\n" : "") +
                     "Please take off the headset.\nParticipant ID: " + id +
-                    "\nPlease complete the questionnaires for Round 2 and Round 3.",
+                    "\nPlease complete the questionnaires for Round 1 and Round 2.",
                     null, null);
         }
 
-        // ----------------------------------------------------------------- Blocks
-
-        public static string CueFor(int blockIndex)
-        {
-            if (blockIndex == 2) return "blue";
-            if (blockIndex == 3) return "orange";
-            return "none";
-        }
 
         /// <summary>Lets other scripts write a row to the events CSV using the current state, block and condition.</summary>
         public void LogEvent(string eventName, string detail)
@@ -317,7 +310,7 @@ namespace FYP.Session
             ResetBall();
             if (ThrowLogger.Instance != null) ThrowLogger.Instance.SetBlock(index, CurrentCondition);
 
-            log.Write("block_start", CurrentState.ToString(), index, CurrentCondition, "cue=" + CueFor(index));
+            log.Write("block_start", CurrentState.ToString(), index, CurrentCondition, "");
             OnBlockStarted?.Invoke(index, CurrentCondition);
         }
 
@@ -334,9 +327,8 @@ namespace FYP.Session
 
             switch (CurrentState)
             {
-                case SessionState.Block1Baseline: EnterState(SessionState.Break1); break;
-                case SessionState.Block2: EnterState(SessionState.Break2); break;
-                case SessionState.Block3: EnterState(SessionState.End); break;
+                case SessionState.Block1: EnterState(SessionState.Break1); break;
+                case SessionState.Block2: EnterState(SessionState.End); break;
             }
         }
 
@@ -419,9 +411,8 @@ namespace FYP.Session
                 case SessionState.ParticipantEntry:
                     SubmitParticipantId(debugParticipantId);
                     break;
-                case SessionState.Block1Baseline:
+                case SessionState.Block1:
                 case SessionState.Block2:
-                case SessionState.Block3:
                     if (IsBlockRunning) EndBlock("debug_skip");
                     break;
                 default:
