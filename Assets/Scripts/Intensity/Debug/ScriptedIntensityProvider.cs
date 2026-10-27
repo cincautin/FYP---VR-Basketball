@@ -11,7 +11,7 @@ namespace FYP.Intensity
         [Serializable]
         public class Step
         {
-            public int tickIndex = 1;
+            public int triggerIndex = 1;
             public ElementId element;
             public IntensityLevel level = IntensityLevel.Medium;
             public string reason = "scripted";
@@ -30,7 +30,7 @@ namespace FYP.Intensity
         {
             if (fakeLatencySeconds > 0f) yield return new WaitForSeconds(fakeLatencySeconds);
 
-            Step step = steps.Find(s => s.tickIndex == request.tickIndex);
+            Step step = steps.Find(s => s.triggerIndex == request.triggerIndex);
             onResult(step == null
                 ? IntensityChange.Hold("scripted_none")
                 : IntensityChange.Set(step.element, step.level, step.reason));

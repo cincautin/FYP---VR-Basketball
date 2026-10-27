@@ -22,6 +22,7 @@ namespace FYP.Intensity
         public int streakAfter;
         public int makesAfter;
         public int throwsAfter;
+        public bool shotClockExpired;
     }
 
     /// <summary>
@@ -193,6 +194,7 @@ namespace FYP.Intensity
                 timeHeld = r.time_held,
                 distanceToHoop = r.distance_to_hoop,
                 hand = r.hand,
+                shotClockExpired = r.shot_clock_expired,
                 streakAfter = CurrentStreak,
                 makesAfter = BlockMakes,
                 throwsAfter = samples.Count + 1

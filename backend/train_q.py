@@ -1,43 +1,64 @@
 import random
-from policy import QAgent, LEVELS, apply_action
+
+from policy import (DOMINANT, ELEMENTS, LABELS, WEIGHTS, N_ACTIONS, QAgent, action_name,
+                    apply_action, legal_actions, state_key)
+
 
 class SimUser:
-    """Toy user: engagement is highest at a hidden preferred level; long stretches at High wear off."""
+    """Toy player: a hidden preferred level per element (from their dominant Hexad type, plus individual quirks)."""
     def __init__(self):
-        self.pref = random.randint(0, 2)
-        self.at_high = 0
+        self.dom = random.choice(DOMINANT)
+        self.pref = {}
+        for e in ELEMENTS:
+            w = WEIGHTS[e][self.dom]
+            base = 2 if w > 0 else (0 if w < 0 else 1)
+            self.pref[e] = min(2, max(0, base + random.choice([-1, 0, 0, 1])))
 
-    def step(self, level_idx):
-        engagement = 1.0 - 0.35 * abs(level_idx - self.pref)
-        self.at_high = self.at_high + 1 if level_idx == 2 else 0
-        if self.at_high >= 3:
-            engagement -= 0.15
-        engagement += random.gauss(0, 0.08)
-        if engagement < 0.6:
-            label = "overloaded" if level_idx > self.pref else "disengaged"
-        elif engagement < 0.75:
-            label = "stagnant"
-        else:
-            label = "good"
-        return label, engagement
+    def engagement(self, levels):
+        dist = sum(abs(levels[e] - self.pref[e]) for e in ELEMENTS) / (2.0 * len(ELEMENTS))
+        return min(1.0, max(0.0, 0.95 - 1.1 * dist + random.gauss(0, 0.04)))
+
+    def label(self, levels, eng):
+        if eng >= 0.75:
+            return None  # stable: no trigger
+        if eng < 0.5:
+            diff = sum(levels[e] - self.pref[e] for e in ELEMENTS)
+            return "overloaded" if diff > 0 else "disengaged"
+        return "stagnant"
+
 
 agent = QAgent()
-EPISODES = 20000
+EPISODES = 60000
 for ep in range(EPISODES):
     user = SimUser()
-    level = LEVELS[random.randint(0, 2)]
-    label, _ = user.step(LEVELS.index(level))
-    eps = max(0.05, 0.5 * (1 - ep / (EPISODES * 0.75)))
-    for _ in range(5):  # five decisions per block
-        action = agent.choose(label, level, eps)
-        new_level = apply_action(level, action)
-        next_label, eng = user.step(LEVELS.index(new_level))
-        reward = eng - (0.03 if action != "hold" else 0.0)
-        agent.update(label, level, action, reward, next_label, new_level)
-        level, label = new_level, next_label
+    levels = {e: random.randint(0, 2) for e in ELEMENTS}
+    eng = user.engagement(levels)
+    label = user.label(levels, eng)
+    eps = max(0.05, 0.6 * (1 - ep / (EPISODES * 0.7)))
+    steps = 0
+    while label is not None and steps < 8:
+        key = state_key(label, user.dom, levels)
+        legal = legal_actions(levels)
+        action = agent.choose(key, legal, eps)
+        new_levels = apply_action(levels, action)
+        new_eng = user.engagement(new_levels)
+        new_label = user.label(new_levels, new_eng)
+        reward = (new_eng - eng) - (0.02 if action != 0 else 0.0)
+        if new_label is None:
+            reward += 0.3
+        next_key = state_key(new_label, user.dom, new_levels) if new_label else None
+        agent.update(key, action, reward, next_key, legal_actions(new_levels) if new_label else None)
+        levels, eng, label = new_levels, new_eng, new_label
+        steps += 1
 
 agent.save("qtable.json")
-print("Learned policy (state | level -> action):")
-for lab in ["disengaged", "overloaded", "stagnant", "good"]:
-    for lev in LEVELS:
-        print(f"  {lab:11s} | {lev:6s} -> {agent.best(lab, lev)}")
+print("Top actions per state (label | dominant type | mean-level bucket):")
+for lab in LABELS:
+    for dom in DOMINANT:
+        for bucket in ["lo", "mid", "hi"]:
+            key = f"{lab}|{dom}|{bucket}"
+            if key not in agent.q:
+                continue
+            row = agent.q[key]
+            top = sorted(range(N_ACTIONS), key=lambda a: row[a], reverse=True)[:2]
+            print(f"  {key:38s} -> " + ", ".join(f"{action_name(a)} ({row[a]:.2f})" for a in top))

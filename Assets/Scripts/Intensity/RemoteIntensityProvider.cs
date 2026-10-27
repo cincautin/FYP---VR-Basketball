@@ -64,11 +64,17 @@ namespace FYP.Intensity
         private static string BuildJson(AdaptationRequest r)
         {
             WindowStats w = r.window ?? new WindowStats();
-            var sb = new StringBuilder(512);
+            var sb = new StringBuilder(1024);
             sb.Append("{\"participantId\":\"").Append(r.participantId).Append("\",");
             sb.Append("\"blockIndex\":").Append(r.blockIndex).Append(',');
-            sb.Append("\"tickIndex\":").Append(r.tickIndex).Append(',');
+            sb.Append("\"triggerIndex\":").Append(r.triggerIndex).Append(',');
+            sb.Append("\"stateLabel\":\"").Append(r.stateLabel).Append("\",");
+            sb.Append("\"stateSeconds\":").Append(N(r.stateSeconds)).Append(',');
             sb.Append("\"blockElapsed\":").Append(N(r.blockElapsed)).Append(',');
+            sb.Append("\"changesSoFar\":").Append(r.changesSoFar).Append(',');
+            sb.Append("\"secondsSinceLastChange\":").Append(N(r.secondsSinceLastChange)).Append(',');
+            sb.Append("\"recentAccuracy\":").Append(N(r.recentAccuracy)).Append(',');
+            sb.Append("\"dominantType\":\"").Append(r.dominantType).Append("\",");
             sb.Append("\"window\":{");
             sb.Append("\"windowSeconds\":").Append(N(w.windowSeconds)).Append(',');
             sb.Append("\"throws\":").Append(w.throws).Append(',');
@@ -84,14 +90,21 @@ namespace FYP.Intensity
             sb.Append("},\"levels\":{");
             bool first = true;
             if (r.levels != null)
-            {
                 foreach (var kv in r.levels)
                 {
                     if (!first) sb.Append(',');
                     first = false;
                     sb.Append('"').Append(kv.Key).Append("\":\"").Append(kv.Value).Append('"');
                 }
-            }
+            sb.Append("},\"affinities\":{");
+            first = true;
+            if (r.affinities != null)
+                foreach (var kv in r.affinities)
+                {
+                    if (!first) sb.Append(',');
+                    first = false;
+                    sb.Append('"').Append(kv.Key).Append("\":").Append(N(kv.Value));
+                }
             sb.Append("}}");
             return sb.ToString();
         }

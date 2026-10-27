@@ -10,7 +10,9 @@ struct UnityAction_1_tE32574C71B51DFED36AB235C69E2777243DCB5D2;
 struct UnityAction_1_t980FBD10D55F595EE81A8BC767D6819F54D8A642;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 struct IPlayerEditorConnectionNative_tDFA5BC770DAA5BE37CBA1CF47281702FB064CCF3;
 struct MessageEventArgs_t34F726E6463615C0A460FB5CBCCB92F84D83D4F9;
 struct MethodInfo_t;
@@ -404,7 +406,7 @@ IL2CPP_EXTERN_C void STDCALL EndDataAccess();
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90647
+// Method Definition Index: 180162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t624CE2987FB4FB2CB9331AB8ED8FB697E43A9833 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m2AF942E5223E25C46511E20FB5F0F8DA731B6CA6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -439,7 +441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t624CE2987FB4FB2CB9331AB8ED8FB
 		return L_6;
 	}
 }
-// Method Definition Index: 90648
+// Method Definition Index: 180163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m30D350C93CBFB9E648BD8825C8F0834394FD629D (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tAC8D30BFAA776DF02BB4BEB7E32B85E560D4EA71* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -526,7 +528,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t624CE2987FB4FB2CB9331AB8ED8FB697E43A9833_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90649
+// Method Definition Index: 180164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RuntimeDebuggerOpenXRFeature_HookGetInstanceProcAddr_m07B1D4EC990E11D9C93C633FA0AC92376B89C069 (RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA* __this, intptr_t ___0_func, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -558,7 +560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RuntimeDebuggerOpenXRFeature_HookGet
 		return L_6;
 	}
 }
-// Method Definition Index: 90650
+// Method Definition Index: 180165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_RecvMsg_m537C6529B33C9B9FFE3149ADE159E9F043597461 (RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA* __this, MessageEventArgs_t34F726E6463615C0A460FB5CBCCB92F84D83D4F9* ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -666,7 +668,7 @@ IL_0071:
 		return;
 	}
 }
-// Method Definition Index: 90651
+// Method Definition Index: 180166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RuntimeDebuggerOpenXRFeature_Native_HookGetInstanceProcAddr_m63034518FDB23935595C17400494BF5120A3EDA4 (intptr_t ___0_func, uint32_t ___1_cacheSize, uint32_t ___2_perThreadCacheSize, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -689,7 +691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RuntimeDebuggerOpenXRFeature_Native_
 
 	return returnValue;
 }
-// Method Definition Index: 90652
+// Method Definition Index: 180167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeDebuggerOpenXRFeature_Native_GetDataForRead_m1D950D9D6FA25CFCD6321BB58E1690B42A054B44 (intptr_t* ___0_ptr, uint32_t* ___1_size, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -712,7 +714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeDebuggerOpenXRFeature_Native_GetD
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 90653
+// Method Definition Index: 180168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_GetLUTData_m94F902315D914E2DED4071F1B385558EA0DA5CF7 (intptr_t* ___0_ptr, uint32_t* ___1_size, uint32_t ___2_offset, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -734,7 +736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_GetL
 	#endif
 
 }
-// Method Definition Index: 90654
+// Method Definition Index: 180169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_StartDataAccess_mCD9F234636475B86203DAE251DD3B60268EAB0BA (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -756,7 +758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_Star
 	#endif
 
 }
-// Method Definition Index: 90655
+// Method Definition Index: 180170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_EndDataAccess_m8B9B950ACB83A084E1A149A6391C1BF6DD08704D (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -778,7 +780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_EndD
 	#endif
 
 }
-// Method Definition Index: 90656
+// Method Definition Index: 180171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature__ctor_m2DC84C4F7091238BD265B1B96D5719203C46C393 (RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -789,7 +791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature__ctor_m2DC8
 		return;
 	}
 }
-// Method Definition Index: 90657
+// Method Definition Index: 180172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature__cctor_m9062996D2DCC73AA119173F300D1FE7A74180B42 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

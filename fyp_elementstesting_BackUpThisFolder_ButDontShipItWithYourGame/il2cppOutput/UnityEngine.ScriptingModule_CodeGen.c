@@ -8,25 +8,64 @@
 
 
 extern void EmbeddedAttribute__ctor_m60AA68B2B91FD25CF48D350D56192CC1E04E7820 (void);
+extern void NullableAttribute__ctor_m6CF1A04538618002E908F941305E356D8010CD59 (void);
+extern void NullableAttribute__ctor_m14F8D6201F8E0EA20B87125DB095136D85CB3FD1 (void);
+extern void NullableContextAttribute__ctor_m101C6DC53FEF3CBC2A64EE9555A5EEDD340EE401 (void);
 extern void RefSafetyRulesAttribute__ctor_m7551CAADB2FFE51B571548E1915D8712F7E6AD07 (void);
+extern void UnmanagedCallersOnlyAttribute__ctor_m9D9D9313510E3D7EEC4F8FA3D1B047C30CBC4AFC (void);
+extern void DynamicDependencyAttribute__ctor_m19F6B1618E078FBA834250D858DC868AA9D97ECC (void);
+extern void DynamicDependencyAttribute__ctor_mAA9C77FEAAE669039328E5468128FF4DE89D8F77 (void);
+extern void DynamicDependencyAttribute__ctor_m7FAD88F10E3977FF6D73CB36F8C1B6F1F58E106F (void);
+extern void DynamicDependencyAttribute_get_MemberSignature_mAF58023F7D74EDFEEACB27A1D5E46E2551EC744A (void);
+extern void DynamicDependencyAttribute_get_Type_m31290C0F55D72BAB49889F5FE2B4477A6C59029D (void);
+extern void DynamicDependencyAttribute_get_TypeName_m77BDC7E958AF85785267804AC8134D1996DD3728 (void);
+extern void DynamicDependencyAttribute_get_AssemblyName_mBD0AF0430D8306B09214FF1E40492DBB839EA69E (void);
+extern void DynamicDependencyAttribute_get_Condition_mAE8113FAEA5CF6B206016D2CEFD97A94C0DAA9BA (void);
+extern void DynamicDependencyAttribute_set_Condition_mDFF93D9BD512FF825735E41B5634A776320ED275 (void);
 extern void Il2CppEagerStaticClassConstructionAttribute__ctor_mA7E4EB4327642FEC15C5409B08BDCDFE269F359A (void);
-static Il2CppMethodPointer s_methodPointers[3] = 
+static Il2CppMethodPointer s_methodPointers[16] = 
 {
 	EmbeddedAttribute__ctor_m60AA68B2B91FD25CF48D350D56192CC1E04E7820,
+	NullableAttribute__ctor_m6CF1A04538618002E908F941305E356D8010CD59,
+	NullableAttribute__ctor_m14F8D6201F8E0EA20B87125DB095136D85CB3FD1,
+	NullableContextAttribute__ctor_m101C6DC53FEF3CBC2A64EE9555A5EEDD340EE401,
 	RefSafetyRulesAttribute__ctor_m7551CAADB2FFE51B571548E1915D8712F7E6AD07,
+	UnmanagedCallersOnlyAttribute__ctor_m9D9D9313510E3D7EEC4F8FA3D1B047C30CBC4AFC,
+	DynamicDependencyAttribute__ctor_m19F6B1618E078FBA834250D858DC868AA9D97ECC,
+	DynamicDependencyAttribute__ctor_mAA9C77FEAAE669039328E5468128FF4DE89D8F77,
+	DynamicDependencyAttribute__ctor_m7FAD88F10E3977FF6D73CB36F8C1B6F1F58E106F,
+	DynamicDependencyAttribute_get_MemberSignature_mAF58023F7D74EDFEEACB27A1D5E46E2551EC744A,
+	DynamicDependencyAttribute_get_Type_m31290C0F55D72BAB49889F5FE2B4477A6C59029D,
+	DynamicDependencyAttribute_get_TypeName_m77BDC7E958AF85785267804AC8134D1996DD3728,
+	DynamicDependencyAttribute_get_AssemblyName_mBD0AF0430D8306B09214FF1E40492DBB839EA69E,
+	DynamicDependencyAttribute_get_Condition_mAE8113FAEA5CF6B206016D2CEFD97A94C0DAA9BA,
+	DynamicDependencyAttribute_set_Condition_mDFF93D9BD512FF825735E41B5634A776320ED275,
 	Il2CppEagerStaticClassConstructionAttribute__ctor_mA7E4EB4327642FEC15C5409B08BDCDFE269F359A,
 };
-static const int32_t s_InvokerIndices[3] = 
+static const int32_t s_InvokerIndices[16] = 
 {
-	14721,
-	11049,
-	14721,
+	23367,
+	17644,
+	17572,
+	17644,
+	17900,
+	23367,
+	17572,
+	8289,
+	4878,
+	22461,
+	22461,
+	22461,
+	22461,
+	22461,
+	17572,
+	23367,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_ScriptingModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_ScriptingModule_CodeGenModule = 
 {
 	"UnityEngine.ScriptingModule.dll",
-	3,
+	16,
 	s_methodPointers,
 	0,
 	NULL,

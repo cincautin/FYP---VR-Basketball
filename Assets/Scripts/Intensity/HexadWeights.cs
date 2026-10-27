@@ -14,6 +14,17 @@ namespace FYP.Intensity
     /// </summary>
     public static class HexadWeights
     {
+        public static string DominantType(ParticipantProfile p)
+        {
+            int best = 0;
+            float bestScore = float.MinValue;
+            for (int i = 0; i < 6; i++)
+            {
+                float s = p.GetNormalised((HexadType)i);
+                if (s > bestScore) { bestScore = s; best = i; }
+            }
+            return ((HexadType)best).ToString();
+        }
         private static readonly int[,] W =
         {
             //  Ach  Pl  So  FS  Di  Ph

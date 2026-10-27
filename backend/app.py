@@ -4,12 +4,12 @@ import time
 
 from flask import Flask, jsonify, request
 
-from policy import LEVELS, QAgent, apply_action, classify, rules_action
+from policy import (ELEMENTS, LABELS, LEVELS, QAgent, action_name, decode, legal_actions,
+                    rules_action, state_key)
 
 app = Flask(__name__)
 POLICY = os.environ.get("POLICY", "q" if os.path.exists("qtable.json") else "rules")
 agent = QAgent.load("qtable.json") if POLICY == "q" else None
-prev_accuracy = {}
 os.makedirs("logs", exist_ok=True)
 
 
@@ -22,31 +22,37 @@ def health():
 def window():
     started = time.time()
     data = request.get_json(force=True)
-    pid = str(data.get("participantId", "?"))
-    w = data["window"]
-    levels = data.get("levels", {})
+    label = data.get("stateLabel", "none")
+    dominant = data.get("dominantType", "Achiever")
+    recent_acc = float(data.get("recentAccuracy", 1.0))
+    affinities = data.get("affinities", {})
 
-    if data.get("tickIndex") == 1:
-        prev_accuracy.pop(pid, None)  # new block
-    label = classify(w, prev_accuracy.get(pid))
-    prev_accuracy[pid] = w["accuracy"]
+    levels = {}
+    for e in ELEMENTS:
+        name = data.get("levels", {}).get(e)
+        if name not in LEVELS:
+            levels = None
+            break
+        levels[e] = LEVELS.index(name)
 
-    level = levels.get("Points", "Off")
-    action = "hold"
-    if level in LEVELS and label != "low_data":
-        action = agent.best(label, level) if agent else rules_action(label)
-        if apply_action(level, action) == level:
-            action = "hold"
-
-    resp = {"hasChange": False, "element": "", "newLevel": "", "state": label,
-            "reason": f"policy={POLICY};state={label};action={action}"}
-    if action != "hold":
-        resp.update({"hasChange": True, "element": "Points", "newLevel": apply_action(level, action)})
+    resp = {"hasChange": False, "element": "", "newLevel": "", "state": label, "reason": "no_decision"}
+    if levels is not None and label in LABELS:
+        legal = legal_actions(levels, recent_acc)
+        key = state_key(label, dominant, levels)
+        if agent is not None and agent.trained(key):
+            action, source = agent.best(key, legal), "q"
+        else:
+            action, source = rules_action(label, levels, affinities, legal), "rules"
+        element, direction = decode(action)
+        resp["reason"] = f"policy={source};key={key};action={action_name(action)}"
+        if element is not None:
+            step = 1 if direction == "up" else -1
+            resp.update(hasChange=True, element=element, newLevel=LEVELS[levels[element] + step])
 
     with open("logs/requests.jsonl", "a") as f:
         f.write(json.dumps({"t": time.time(), "request": data, "response": resp,
                             "ms": round((time.time() - started) * 1000, 1)}) + "\n")
-    print(f"tick {data.get('tickIndex')} | {pid} | {label} | Points={level} | {resp['reason']}")
+    print(f"trigger {data.get('triggerIndex')} | {data.get('participantId')} | {label} | {resp['reason']}")
     return jsonify(resp)
 
 

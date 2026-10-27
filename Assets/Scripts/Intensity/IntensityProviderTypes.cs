@@ -17,7 +17,7 @@ namespace FYP.Intensity
             new IntensityChange { hasChange = true, element = element, newLevel = level, reason = reason };
     }
 
-    /// <summary>Summary of the last window of play. SessionStats fills this in the next step.</summary>
+    /// <summary>Summary of the last window of play.</summary>
     public class WindowStats
     {
         public float windowSeconds;
@@ -37,16 +37,19 @@ namespace FYP.Intensity
     {
         public string participantId;
         public int blockIndex;
-        public int tickIndex;
+        public int triggerIndex;
+        public string stateLabel;           // disengaged, overloaded, stagnant
+        public float stateSeconds;
         public float blockElapsed;
+        public int changesSoFar;
+        public float secondsSinceLastChange;
+        public float recentAccuracy;        // last 8 throws
+        public string dominantType;
         public WindowStats window;
-        public Dictionary<string, string> levels; // element name -> level name
+        public Dictionary<string, string> levels;      // element name -> level name
+        public Dictionary<string, float> affinities;   // element name -> Hexad affinity
     }
 
-    /// <summary>
-    /// Anything that proposes level changes: a scripted test provider now, the Flask client in Phase 6.
-    /// Must call onResult exactly once, on the main thread (immediately or later).
-    /// </summary>
     public interface IIntensityProvider
     {
         void RequestChange(AdaptationRequest request, Action<IntensityChange> onResult);

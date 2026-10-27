@@ -196,6 +196,9 @@ namespace FYP.Logging
             if (levels.TryGetValue("lvl_timer", out string timer)) lvlTimer = timer;
         }
 
+        /// <summary>True while a released ball's outcome has not been logged yet.</summary>
+        public bool HasPendingThrow => activePendingThrow != null;
+
         /// <summary>Called by TimerElement when the shot clock runs out while a ball is held.</summary>
         public void SetShotClockExpiredForCurrentHold(bool expired)
         {

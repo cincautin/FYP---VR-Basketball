@@ -8,27 +8,34 @@ using FYP.Session;
 namespace FYP.Intensity
 {
     /// <summary>
-    /// Holds the six element levels. Sets them per block (Off / Medium / Hexad prior), validates every
-    /// adaptive change against the guards, logs everything, and mirrors levels into the throw CSV.
+    /// Holds the six element levels. Sets them per block (Off / Medium / Hexad prior), reacts to
+    /// EngagementMonitor triggers in adaptive blocks, validates every proposed change, logs everything,
+    /// and mirrors levels into the throw CSV.
     /// </summary>
     public class IntensityManager : MonoBehaviour
     {
         public static IntensityManager Instance { get; private set; }
 
         [Header("Adaptation guards (adaptive blocks only)")]
-        [SerializeField] private float cooldownSeconds = 60f;
-        [Tooltip("Untick for scripted tests when SessionStats does not exist yet.")]
+        [SerializeField] private float minSecondsBeforeFirstChange = 20f;
+        [SerializeField] private float minGapBetweenChanges = 20f;
+        [SerializeField] private float elementCooldownSeconds = 45f;
+        [SerializeField] private int maxChangesPerBlock = 8;
+        [Tooltip("Untick for scripted tests.")]
         [SerializeField] private bool enforceDataGuards = true;
-        [SerializeField] private int minThrowsForChange = 5;
+        [SerializeField] private int minBlockThrowsForChange = 5;
         [SerializeField] private float timerHighMinAccuracy = 0.4f;
+        [SerializeField] private int accuracyGuardThrows = 8;
         [SerializeField] private float adaptationWindowSeconds = 30f;
         [SerializeField] private float resultTimeoutSeconds = 5f;
 
         [Header("Optional sources")]
-        [Tooltip("A component implementing IIntensityProvider.")]
+        [Tooltip("A component implementing IIntensityProvider (RemoteIntensityProvider or the scripted test one).")]
         [SerializeField] private MonoBehaviour providerBehaviour;
-        [Tooltip("A component implementing IWindowSource (SessionStats, next step).")]
+        [Tooltip("A component implementing IWindowSource (SessionStats).")]
         [SerializeField] private MonoBehaviour windowSourceBehaviour;
+        [Tooltip("Leave empty to find it automatically.")]
+        [SerializeField] private EngagementMonitor monitor;
 
         [Header("Levels (live view; change during Play to set levels by hand)")]
         [Tooltip("Order: Points, Progress, Badges, Choice, PersonalBest, Timer")]
@@ -44,15 +51,14 @@ namespace FYP.Intensity
         private IIntensityProvider provider;
         private IWindowSource windowSource;
 
-        private int tickIndex;
-        private int choiceAllowedTick = -1;
-        private bool changeAppliedThisTick;
-        private bool noProviderLogged;
+        private int triggerIndex;
+        private int changesThisBlock;
+        private float lastAnyChangeTime = float.NegativeInfinity;
+        private bool choiceAllowed;
 
-        private int pendingTick = -1;
+        private int pendingTrigger = -1;
         private float pendingSentAt;
         private float pendingDeadline;
-        private WindowStats pendingWindow;
 
         private bool initialised;
 
@@ -80,10 +86,14 @@ namespace FYP.Intensity
             session.OnStateChanged += HandleStateChanged;
             session.OnBlockStarted += HandleBlockStarted;
             session.OnBlockMidpoint += HandleMidpoint;
-            session.OnAdaptationTick += HandleTick;
+            session.OnAdaptationTick += HandleHeartbeat;
             session.OnBlockEnded += HandleBlockEnded;
 
-            foreach (GamificationElement el in FindObjectsByType<GamificationElement>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+            if (monitor == null) monitor = FindAnyObjectByType<EngagementMonitor>();
+            if (monitor != null) monitor.OnTrigger += HandleTrigger;
+            else Debug.LogWarning("[IntensityManager] No EngagementMonitor found: adaptive blocks will not change anything.");
+
+            foreach (GamificationElement el in FindObjectsByType<GamificationElement>(FindObjectsInactive.Include))
             {
                 if (elements.ContainsKey(el.Id))
                 {
@@ -109,20 +119,21 @@ namespace FYP.Intensity
 
         private void OnDestroy()
         {
+            if (monitor != null) monitor.OnTrigger -= HandleTrigger;
             if (session == null) return;
             session.OnStateChanged -= HandleStateChanged;
             session.OnBlockStarted -= HandleBlockStarted;
             session.OnBlockMidpoint -= HandleMidpoint;
-            session.OnAdaptationTick -= HandleTick;
+            session.OnAdaptationTick -= HandleHeartbeat;
             session.OnBlockEnded -= HandleBlockEnded;
         }
 
         private void Update()
         {
-            if (pendingTick >= 0 && Time.realtimeSinceStartup > pendingDeadline)
+            if (pendingTrigger >= 0 && Time.realtimeSinceStartup > pendingDeadline)
             {
-                session.LogEvent("intensity_rejected", "reason=api_timeout;tick=" + pendingTick);
-                pendingTick = -1;
+                session.LogEvent("intensity_rejected", "reason=api_timeout;trigger=" + pendingTrigger);
+                pendingTrigger = -1;
             }
         }
 
@@ -147,15 +158,15 @@ namespace FYP.Intensity
 
         private void HandleBlockStarted(int blockIndex, string condition)
         {
-            tickIndex = 0;
-            choiceAllowedTick = -1;
-            changeAppliedThisTick = false;
-            noProviderLogged = false;
-            pendingTick = -1;
+            triggerIndex = 0;
+            changesThisBlock = 0;
+            lastAnyChangeTime = float.NegativeInfinity;
+            choiceAllowed = false;
+            pendingTrigger = -1;
             for (int i = 0; i < 6; i++) lastChangeTime[(ElementId)i] = float.NegativeInfinity;
 
             string source;
-            Dictionary<ElementId, IntensityLevel> start = new Dictionary<ElementId, IntensityLevel>();
+            var start = new Dictionary<ElementId, IntensityLevel>();
             switch (condition)
             {
                 case "fixed":
@@ -181,110 +192,138 @@ namespace FYP.Intensity
 
         private void HandleBlockEnded(int blockIndex, string condition, string reason)
         {
-            pendingTick = -1;
+            pendingTrigger = -1;
+            if (condition == "adaptive")
+                session.LogEvent("adapt_summary", "changes=" + changesThisBlock + ";triggers=" + triggerIndex);
             foreach (GamificationElement el in elements.Values) el.OnBlockEnded(blockIndex, condition);
             SetAll(IntensityLevel.Off, "block_end");
         }
 
         private void HandleMidpoint(int blockIndex)
         {
-            // Choice may change on the next adaptation tick only.
-            choiceAllowedTick = tickIndex + 1;
+            if (session.CurrentCondition == "adaptive") choiceAllowed = true; // Choice may change once, at the midpoint prompt
+        }
+
+        /// <summary>The 30 s tick is now only a heartbeat: it logs the monitor's view and the current levels.</summary>
+        private void HandleHeartbeat(int blockIndex)
+        {
+            string snap = monitor != null ? monitor.Snapshot() : "no_monitor";
+            var sb = new System.Text.StringBuilder();
+            foreach (var kv in levels) sb.Append(kv.Key).Append('=').Append(kv.Value).Append('|');
+            session.LogEvent("adapt_state", snap + ";levels=" + sb);
         }
 
         // --------------------------------------------------------------- Adaptation
 
-        private void HandleTick(int blockIndex)
+        private void HandleTrigger(AdaptState state, float heldSeconds)
         {
-            tickIndex++;
-            changeAppliedThisTick = false;
+            if (session.CurrentCondition != "adaptive" || !session.IsBlockRunning) return;
 
-            if (pendingTick >= 0)
+            triggerIndex++;
+            string label = EngagementMonitor.Label(state);
+            session.LogEvent("adapt_trigger",
+                "n=" + triggerIndex + ";state=" + label + ";held=" + F(heldSeconds) +
+                (monitor != null ? ";" + monitor.Snapshot() : ""));
+
+            if (pendingTrigger >= 0)
             {
-                session.LogEvent("intensity_rejected", "reason=previous_request_pending;tick=" + pendingTick);
-                pendingTick = -1;
+                session.LogEvent("intensity_rejected", "reason=previous_request_pending;trigger=" + pendingTrigger);
+                pendingTrigger = -1;
             }
 
             if (provider == null)
             {
-                if (!noProviderLogged)
-                {
-                    session.LogEvent("intensity_hold", "reason=no_provider");
-                    noProviderLogged = true;
-                }
+                session.LogEvent("intensity_hold", "reason=no_provider;trigger=" + triggerIndex);
                 return;
             }
 
+            SessionStats stats = SessionStats.Instance;
+            float[] aff = HexadWeights.ComputeAffinities(session.CurrentProfile);
+            var affinities = new Dictionary<string, float>(6);
+            for (int i = 0; i < 6; i++) affinities[((ElementId)i).ToString()] = aff[i];
+
             WindowStats window = windowSource != null ? windowSource.GetWindow(adaptationWindowSeconds) : new WindowStats();
+
             var request = new AdaptationRequest
             {
                 participantId = session.CurrentProfile != null ? session.CurrentProfile.participantId : "?",
-                blockIndex = blockIndex,
-                tickIndex = tickIndex,
+                blockIndex = session.CurrentBlockIndex,
+                triggerIndex = triggerIndex,
+                stateLabel = label,
+                stateSeconds = heldSeconds,
                 blockElapsed = session.BlockElapsed,
+                changesSoFar = changesThisBlock,
+                secondsSinceLastChange = float.IsNegativeInfinity(lastAnyChangeTime)
+                    ? session.BlockElapsed : Time.time - lastAnyChangeTime,
+                recentAccuracy = stats != null ? stats.AccuracyLast(accuracyGuardThrows) : 0f,
+                dominantType = HexadWeights.DominantType(session.CurrentProfile),
                 window = window,
-                levels = SnapshotLevels()
+                levels = SnapshotLevels(),
+                affinities = affinities
             };
 
-            pendingTick = tickIndex;
-            pendingWindow = window;
+            pendingTrigger = triggerIndex;
             pendingSentAt = Time.realtimeSinceStartup;
             pendingDeadline = pendingSentAt + resultTimeoutSeconds;
 
-            int tick = tickIndex;
-            provider.RequestChange(request, change => HandleProviderResult(tick, blockIndex, change));
+            int trig = triggerIndex;
+            int block = session.CurrentBlockIndex;
+            provider.RequestChange(request, change => HandleProviderResult(trig, block, change));
         }
 
-        private void HandleProviderResult(int tick, int block, IntensityChange change)
+        private void HandleProviderResult(int trig, int block, IntensityChange change)
         {
-            if (tick != pendingTick || block != session.CurrentBlockIndex || !session.IsBlockRunning)
+            if (trig != pendingTrigger || block != session.CurrentBlockIndex || !session.IsBlockRunning)
             {
-                session.LogEvent("intensity_rejected", "reason=stale_result;tick=" + tick);
+                session.LogEvent("intensity_rejected", "reason=stale_result;trigger=" + trig);
                 return;
             }
-            pendingTick = -1;
+            pendingTrigger = -1;
 
             string latency = "latency_ms=" +
                 ((Time.realtimeSinceStartup - pendingSentAt) * 1000f).ToString("F0", CultureInfo.InvariantCulture);
 
             if (!change.hasChange)
             {
-                session.LogEvent("intensity_hold", "tick=" + tick + ";reason=" + change.reason + ";" + latency);
+                session.LogEvent("intensity_hold", "trigger=" + trig + ";reason=" + change.reason + ";" + latency);
                 return;
             }
 
-            string rejection = CheckGuards(change, pendingWindow);
+            string rejection = CheckGuards(change);
             if (rejection != null)
             {
                 session.LogEvent("intensity_rejected",
                     "element=" + change.element + ";proposed=" + change.newLevel + ";reason=" + rejection +
-                    ";tick=" + tick + ";provider_reason=" + change.reason + ";" + latency);
+                    ";trigger=" + trig + ";provider_reason=" + change.reason + ";" + latency);
                 return;
             }
 
-            SetLevelInternal(change.element, change.newLevel, "adaptive", "tick=" + tick + ";" + change.reason + ";" + latency);
-            if (change.element == ElementId.Choice) choiceAllowedTick = -1;
-            changeAppliedThisTick = true;
+            SetLevelInternal(change.element, change.newLevel, "adaptive", "trigger=" + trig + ";" + change.reason + ";" + latency);
+            if (change.element == ElementId.Choice) choiceAllowed = false;
             PushToLogger();
         }
 
         /// <summary>Returns null if the change is allowed, otherwise the rejection reason.</summary>
-        private string CheckGuards(IntensityChange c, WindowStats w)
+        private string CheckGuards(IntensityChange c)
         {
             if (session.CurrentCondition != "adaptive" || !session.IsBlockRunning) return "not_adaptive_block";
-            if (changeAppliedThisTick) return "one_change_per_tick";
+            if (session.BlockElapsed < minSecondsBeforeFirstChange) return "too_early";
+            if (changesThisBlock >= maxChangesPerBlock) return "max_changes";
+            if (Time.time - lastAnyChangeTime < minGapBetweenChanges) return "min_gap";
 
             IntensityLevel current = levels[c.element];
             if (c.newLevel == current) return "no_change";
             if (c.newLevel < IntensityLevel.Low) return "off_not_allowed";
             if (Mathf.Abs((int)c.newLevel - (int)current) != 1) return "step_too_large";
-            if (Time.time - lastChangeTime[c.element] < cooldownSeconds) return "cooldown";
-            if (c.element == ElementId.Choice && tickIndex != choiceAllowedTick) return "choice_midpoint_only";
+            if (Time.time - lastChangeTime[c.element] < elementCooldownSeconds) return "cooldown";
+            if (c.element == ElementId.Choice && !choiceAllowed) return "choice_midpoint_only";
 
             if (enforceDataGuards)
             {
-                if (w == null || w.throws < minThrowsForChange) return "low_data";
-                if (c.element == ElementId.Timer && c.newLevel == IntensityLevel.High && w.accuracy < timerHighMinAccuracy)
+                SessionStats stats = SessionStats.Instance;
+                if (stats == null || stats.BlockThrows < minBlockThrowsForChange) return "low_data";
+                if (c.element == ElementId.Timer && c.newLevel == IntensityLevel.High &&
+                    stats.AccuracyLast(accuracyGuardThrows) < timerHighMinAccuracy)
                     return "timer_guard";
             }
             return null;
@@ -305,7 +344,13 @@ namespace FYP.Intensity
 
             levels[id] = level;
             if (elements.TryGetValue(id, out GamificationElement el)) el.SetLevel(level);
-            if (source == "adaptive") lastChangeTime[id] = Time.time;
+
+            if (source == "adaptive")
+            {
+                lastChangeTime[id] = Time.time;
+                lastAnyChangeTime = Time.time;
+                changesThisBlock++;
+            }
             if (debugLevels != null && debugLevels.Length == 6) debugLevels[(int)id] = level;
 
             if (session != null)
@@ -324,6 +369,8 @@ namespace FYP.Intensity
             foreach (var kv in levels) d[kv.Key.LogKey()] = kv.Value.ToString();
             ThrowLogger.Instance.SetElementLevels(d);
         }
+
+        private static string F(float v) => v.ToString("F1", CultureInfo.InvariantCulture);
 
         // ------------------------------------------------------ Inspector debug control
 

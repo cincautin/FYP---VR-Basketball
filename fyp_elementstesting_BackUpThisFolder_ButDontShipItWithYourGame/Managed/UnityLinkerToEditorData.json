@@ -5,6 +5,24 @@
         "name": "AI",
         "dependencies": [
           {
+            "name": "NavMeshAgent",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "NavMeshData",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "NavMeshObstacle",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "NavMeshProjectSettings",
             "scenes": [],
             "dependencyType": 1,
@@ -17,8 +35,26 @@
             ],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "OffMeshLink",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
           }
         ]
+      },
+      {
+        "name": "AR",
+        "dependencies": []
+      },
+      {
+        "name": "Accessibility",
+        "dependencies": []
+      },
+      {
+        "name": "AdaptivePerformance",
+        "dependencies": []
       },
       {
         "name": "AndroidJNI",
@@ -27,6 +63,18 @@
       {
         "name": "Animation",
         "dependencies": [
+          {
+            "name": "AimConstraint",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Animation",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
           {
             "name": "AnimationClip",
             "scenes": [
@@ -66,10 +114,22 @@
             "icon": null
           },
           {
+            "name": "AvatarMask",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Behaviour",
             "scenes": [
               "Assets/Scenes/SampleScene.unity"
             ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "BlobObject",
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -80,9 +140,21 @@
             "icon": null
           },
           {
+            "name": "LookAtConstraint",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Motion",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "ParentConstraint",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -94,10 +166,28 @@
             "icon": null
           },
           {
+            "name": "RotationConstraint",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "RuntimeAnimatorController",
             "scenes": [],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "ScaleConstraint",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
           },
           {
             "name": "Required by UIElements Module",
@@ -115,6 +205,24 @@
             "scenes": [],
             "dependencyType": 0,
             "icon": null
+          },
+          {
+            "name": "AssetBundleManifest",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by UnityWebRequestAssetBundle Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
+          },
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
           }
         ]
       },
@@ -130,10 +238,46 @@
             "icon": null
           },
           {
+            "name": "AudioChorusFilter",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "AudioClip",
             "scenes": [
               "Assets/Scenes/SampleScene.unity"
             ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioContainerElement",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioDistortionFilter",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioEchoFilter",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioFilter",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "AudioHighPassFilter",
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -146,9 +290,39 @@
             "icon": null
           },
           {
+            "name": "AudioLowPassFilter",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "AudioManager",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "AudioMixer",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioMixerGroup",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioMixerSnapshot",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioRandomContainer",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -156,6 +330,18 @@
             "scenes": [
               "Assets/Scenes/SampleScene.unity"
             ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioReverbFilter",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioReverbZone",
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -168,9 +354,62 @@
             "icon": null
           },
           {
+            "name": "BaseVideoTexture",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "WebCamTexture",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by DSPGraph Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.dspgraph"
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
+          },
+          {
+            "name": "Required by UnityWebRequestAudio Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestaudio"
+          },
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
+          }
+        ]
+      },
+      {
+        "name": "Cloth",
+        "dependencies": [
+          {
+            "name": "Cloth",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           }
         ]
@@ -193,6 +432,18 @@
             "name": "Behaviour",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "BillboardAsset",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "BillboardRenderer",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -238,6 +489,18 @@
             "icon": null
           },
           {
+            "name": "CustomRenderTexture",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "D3D12DeviceFilterLists",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "DelayedCallManager",
             "scenes": [],
             "dependencyType": 1,
@@ -249,6 +512,18 @@
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "Flare",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "FlareLayer",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -278,6 +553,18 @@
             "icon": null
           },
           {
+            "name": "GraphicsStateCollection",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Halo",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "InputManager",
             "scenes": [],
             "dependencyType": 1,
@@ -285,6 +572,12 @@
           },
           {
             "name": "LODGroup",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "LensFlare",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
@@ -302,6 +595,12 @@
             "scenes": [
               "Assets/Scenes/SampleScene.unity"
             ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "LightProbeGroup",
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -412,6 +711,18 @@
             "icon": null
           },
           {
+            "name": "OcclusionArea",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "OcclusionPortal",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "PlayerSettings",
             "scenes": [],
             "dependencyType": 1,
@@ -419,6 +730,12 @@
           },
           {
             "name": "PreloadData",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Projector",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
@@ -498,6 +815,12 @@
             "icon": null
           },
           {
+            "name": "ShaderVariantCollection",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SkinnedMeshRenderer",
             "scenes": [
               "Assets/Scenes/SampleScene.unity"
@@ -516,6 +839,12 @@
             "scenes": [
               "Assets/Scenes/SampleScene.unity"
             ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "SparseTexture",
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -582,9 +911,21 @@
             "icon": null
           },
           {
+            "name": "TrailRenderer",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Transform",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "VulkanDeviceFilterLists",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -592,6 +933,24 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.ai"
+          },
+          {
+            "name": "Required by AR Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ar"
+          },
+          {
+            "name": "Required by Accessibility Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.accessibility"
+          },
+          {
+            "name": "Required by AdaptivePerformance Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.adaptiveperformance"
           },
           {
             "name": "Required by AndroidJNI Module",
@@ -618,6 +977,12 @@
             "icon": "package/com.unity.modules.audio"
           },
           {
+            "name": "Required by Cloth Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.cloth"
+          },
+          {
             "name": "Required by ContentLoad Module",
             "scenes": [],
             "dependencyType": 2,
@@ -630,10 +995,28 @@
             "icon": "package/com.unity.modules.crashreporting"
           },
           {
+            "name": "Required by DSPGraph Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.dspgraph"
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
+          },
+          {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.graphicsstatecollectionserializer"
+          },
+          {
+            "name": "Required by Grid Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.grid"
           },
           {
             "name": "Required by HierarchyCore Module",
@@ -696,10 +1079,34 @@
             "icon": "package/com.unity.modules.jsonserialize"
           },
           {
+            "name": "Required by Localization Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.localization"
+          },
+          {
+            "name": "Required by Marshalling Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.marshalling"
+          },
+          {
+            "name": "Required by Multiplayer Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.multiplayer"
+          },
+          {
             "name": "Required by ParticleSystem Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.particlesystem"
+          },
+          {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
           },
           {
             "name": "Required by Physics Module",
@@ -732,10 +1139,46 @@
             "icon": "package/com.unity.modules.properties"
           },
           {
+            "name": "Required by RenderAs2D Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.renderas2d"
+          },
+          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
+          },
+          {
+            "name": "Required by ScreenCapture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.screencapture"
+          },
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
+          },
+          {
+            "name": "Required by SpriteShape Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spriteshape"
+          },
+          {
+            "name": "Required by Streaming Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.streaming"
+          },
+          {
+            "name": "Required by Substance Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.substance"
           },
           {
             "name": "Required by Subsystems Module",
@@ -756,6 +1199,12 @@
             "icon": "package/com.unity.modules.terrain"
           },
           {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          },
+          {
             "name": "Required by TextCoreFontEngine Module",
             "scenes": [],
             "dependencyType": 2,
@@ -772,6 +1221,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.textrendering"
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           },
           {
             "name": "Required by U2DRuntime Module",
@@ -816,16 +1271,64 @@
             "icon": "package/com.unity.modules.unityconsent"
           },
           {
+            "name": "Required by UnityCurl Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitycurl"
+          },
+          {
             "name": "Required by UnityWebRequest Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unitywebrequest"
           },
           {
+            "name": "Required by UnityWebRequestAssetBundle Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
+          },
+          {
+            "name": "Required by UnityWebRequestAudio Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestaudio"
+          },
+          {
+            "name": "Required by UnityWebRequestTexture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequesttexture"
+          },
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
+          },
+          {
             "name": "Required by VFX Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.vfx"
+          },
+          {
+            "name": "Required by Vehicles Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.vehicles"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
+          },
+          {
+            "name": "Required by Wind Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.wind"
           },
           {
             "name": "Required by XR Module",
@@ -847,6 +1350,21 @@
         ]
       },
       {
+        "name": "DSPGraph",
+        "dependencies": []
+      },
+      {
+        "name": "Director",
+        "dependencies": [
+          {
+            "name": "PlayableDirector",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "GraphicsStateCollectionSerializer",
         "dependencies": [
           {
@@ -854,6 +1372,29 @@
             "scenes": [],
             "dependencyType": 3,
             "icon": "class/DefaultAsset"
+          }
+        ]
+      },
+      {
+        "name": "Grid",
+        "dependencies": [
+          {
+            "name": "Grid",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "GridLayout",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           }
         ]
       },
@@ -915,11 +1456,36 @@
       },
       {
         "name": "ImageConversion",
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "Required by ScreenCapture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.screencapture"
+          },
+          {
+            "name": "Required by UnityWebRequestTexture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequesttexture"
+          },
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
+          }
+        ]
       },
       {
         "name": "Input",
         "dependencies": [
+          {
+            "name": "Required by AR Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ar"
+          },
           {
             "name": "Required by XR Module",
             "scenes": [],
@@ -983,6 +1549,12 @@
         "name": "JSONSerialize",
         "dependencies": [
           {
+            "name": "Required by AR Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ar"
+          },
+          {
             "name": "Required by AndroidJNI Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1017,6 +1589,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.insights"
+          },
+          {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
           },
           {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
@@ -1057,6 +1635,34 @@
         ]
       },
       {
+        "name": "Localization",
+        "dependencies": [
+          {
+            "name": "LocalizationAsset",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "Marshalling",
+        "dependencies": [
+          {
+            "name": "DifferentMarshallingTestObject",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "MarshallingTestObject",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Mathematics",
         "dependencies": [
           {
@@ -1092,10 +1698,33 @@
         ]
       },
       {
+        "name": "Multiplayer",
+        "dependencies": [
+          {
+            "name": "MultiplayerManager",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "MultiplayerRolesData",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "ParticleSystem",
         "dependencies": [
           {
             "name": "ParticleSystem",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemForceField",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
@@ -1109,8 +1738,18 @@
         ]
       },
       {
+        "name": "PerformanceReporting",
+        "dependencies": []
+      },
+      {
         "name": "Physics",
         "dependencies": [
+          {
+            "name": "ArticulationBody",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
           {
             "name": "BoxCollider",
             "scenes": [
@@ -1134,6 +1773,12 @@
             "icon": null
           },
           {
+            "name": "CharacterJoint",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Collider",
             "scenes": [],
             "dependencyType": 1,
@@ -1146,7 +1791,19 @@
             "icon": null
           },
           {
+            "name": "ConstantForce",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "FixedJoint",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "HingeJoint",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
@@ -1154,7 +1811,7 @@
           {
             "name": "Joint",
             "scenes": [],
-            "dependencyType": 1,
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -1194,16 +1851,46 @@
             "icon": null
           },
           {
+            "name": "SpringJoint",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by AR Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ar"
+          },
+          {
+            "name": "Required by Cloth Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.cloth"
+          },
+          {
             "name": "Required by PhysicsBackendPhysX Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.physicsbackendphysx"
           },
           {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          },
+          {
             "name": "Required by UIElements Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
+          },
+          {
+            "name": "Required by Vehicles Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.vehicles"
           },
           {
             "name": "Required by XR Module",
@@ -1217,10 +1904,190 @@
         "name": "Physics2D",
         "dependencies": [
           {
+            "name": "AnchoredJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AreaEffector2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "BoxCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "BuoyancyEffector2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "CapsuleCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "CircleCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Collider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "CompositeCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ConstantForce2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "CustomCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "DistanceJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "EdgeCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Effector2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "FixedJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "FrictionJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "HingeJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Joint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Physics2DSettings",
             "scenes": [],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "PhysicsMaterial2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "PhysicsUpdateBehaviour2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "PlatformEffector2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "PointEffector2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "PolygonCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "RelativeJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Rigidbody2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "SliderJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "SpringJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "SurfaceEffector2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "TargetJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "WheelJoint2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           }
         ]
       },
@@ -1264,6 +2131,17 @@
         ]
       },
       {
+        "name": "RenderAs2D",
+        "dependencies": [
+          {
+            "name": "RenderAs2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "RuntimeInitializeOnLoadManagerInitializer",
         "dependencies": [
           {
@@ -1275,6 +2153,10 @@
         ]
       },
       {
+        "name": "ScreenCapture",
+        "dependencies": []
+      },
+      {
         "name": "Scripting",
         "dependencies": [
           {
@@ -1282,6 +2164,24 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.ai"
+          },
+          {
+            "name": "Required by AR Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ar"
+          },
+          {
+            "name": "Required by Accessibility Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.accessibility"
+          },
+          {
+            "name": "Required by AdaptivePerformance Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.adaptiveperformance"
           },
           {
             "name": "Required by AndroidJNI Module",
@@ -1308,6 +2208,12 @@
             "icon": "package/com.unity.modules.audio"
           },
           {
+            "name": "Required by Cloth Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.cloth"
+          },
+          {
             "name": "Required by ContentLoad Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1326,10 +2232,28 @@
             "icon": "package/com.unity.modules.crashreporting"
           },
           {
+            "name": "Required by DSPGraph Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.dspgraph"
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
+          },
+          {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.graphicsstatecollectionserializer"
+          },
+          {
+            "name": "Required by Grid Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.grid"
           },
           {
             "name": "Required by HierarchyCore Module",
@@ -1392,16 +2316,40 @@
             "icon": "package/com.unity.modules.jsonserialize"
           },
           {
+            "name": "Required by Localization Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.localization"
+          },
+          {
+            "name": "Required by Marshalling Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.marshalling"
+          },
+          {
             "name": "Required by Mathematics Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.mathematics"
           },
           {
+            "name": "Required by Multiplayer Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.multiplayer"
+          },
+          {
             "name": "Required by ParticleSystem Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.particlesystem"
+          },
+          {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
           },
           {
             "name": "Required by Physics2D Module",
@@ -1428,10 +2376,46 @@
             "icon": "package/com.unity.modules.properties"
           },
           {
+            "name": "Required by RenderAs2D Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.renderas2d"
+          },
+          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
+          },
+          {
+            "name": "Required by ScreenCapture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.screencapture"
+          },
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
+          },
+          {
+            "name": "Required by SpriteShape Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spriteshape"
+          },
+          {
+            "name": "Required by Streaming Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.streaming"
+          },
+          {
+            "name": "Required by Substance Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.substance"
           },
           {
             "name": "Required by Subsystems Module",
@@ -1452,6 +2436,12 @@
             "icon": "package/com.unity.modules.terrain"
           },
           {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          },
+          {
             "name": "Required by TextCoreFontEngine Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1468,6 +2458,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.textrendering"
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           },
           {
             "name": "Required by U2DRuntime Module",
@@ -1512,16 +2508,64 @@
             "icon": "package/com.unity.modules.unityconsent"
           },
           {
+            "name": "Required by UnityCurl Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitycurl"
+          },
+          {
             "name": "Required by UnityWebRequest Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unitywebrequest"
           },
           {
+            "name": "Required by UnityWebRequestAssetBundle Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
+          },
+          {
+            "name": "Required by UnityWebRequestAudio Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestaudio"
+          },
+          {
+            "name": "Required by UnityWebRequestTexture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequesttexture"
+          },
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
+          },
+          {
             "name": "Required by VFX Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.vfx"
+          },
+          {
+            "name": "Required by Vehicles Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.vehicles"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
+          },
+          {
+            "name": "Required by Wind Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.wind"
           },
           {
             "name": "Required by XR Module",
@@ -1539,6 +2583,24 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.ai"
+          },
+          {
+            "name": "Required by AR Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ar"
+          },
+          {
+            "name": "Required by Accessibility Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.accessibility"
+          },
+          {
+            "name": "Required by AdaptivePerformance Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.adaptiveperformance"
           },
           {
             "name": "Required by AndroidJNI Module",
@@ -1565,6 +2627,12 @@
             "icon": "package/com.unity.modules.audio"
           },
           {
+            "name": "Required by Cloth Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.cloth"
+          },
+          {
             "name": "Required by ContentLoad Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1583,10 +2651,28 @@
             "icon": "package/com.unity.modules.crashreporting"
           },
           {
+            "name": "Required by DSPGraph Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.dspgraph"
+          },
+          {
+            "name": "Required by Director Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.director"
+          },
+          {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.graphicsstatecollectionserializer"
+          },
+          {
+            "name": "Required by Grid Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.grid"
           },
           {
             "name": "Required by HierarchyCore Module",
@@ -1649,16 +2735,40 @@
             "icon": "package/com.unity.modules.jsonserialize"
           },
           {
+            "name": "Required by Localization Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.localization"
+          },
+          {
+            "name": "Required by Marshalling Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.marshalling"
+          },
+          {
             "name": "Required by Mathematics Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.mathematics"
           },
           {
+            "name": "Required by Multiplayer Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.multiplayer"
+          },
+          {
             "name": "Required by ParticleSystem Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.particlesystem"
+          },
+          {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
           },
           {
             "name": "Required by Physics Module",
@@ -1691,16 +2801,52 @@
             "icon": "package/com.unity.modules.properties"
           },
           {
+            "name": "Required by RenderAs2D Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.renderas2d"
+          },
+          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
           },
           {
+            "name": "Required by ScreenCapture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.screencapture"
+          },
+          {
             "name": "Required by Scripting Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.scripting"
+          },
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
+          },
+          {
+            "name": "Required by SpriteShape Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spriteshape"
+          },
+          {
+            "name": "Required by Streaming Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.streaming"
+          },
+          {
+            "name": "Required by Substance Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.substance"
           },
           {
             "name": "Required by Subsystems Module",
@@ -1721,6 +2867,12 @@
             "icon": "package/com.unity.modules.terrain"
           },
           {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          },
+          {
             "name": "Required by TextCoreFontEngine Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1737,6 +2889,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.textrendering"
+          },
+          {
+            "name": "Required by Tilemap Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tilemap"
           },
           {
             "name": "Required by U2DRuntime Module",
@@ -1781,16 +2939,64 @@
             "icon": "package/com.unity.modules.unityconsent"
           },
           {
+            "name": "Required by UnityCurl Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitycurl"
+          },
+          {
             "name": "Required by UnityWebRequest Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unitywebrequest"
           },
           {
+            "name": "Required by UnityWebRequestAssetBundle Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
+          },
+          {
+            "name": "Required by UnityWebRequestAudio Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestaudio"
+          },
+          {
+            "name": "Required by UnityWebRequestTexture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequesttexture"
+          },
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
+          },
+          {
             "name": "Required by VFX Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.vfx"
+          },
+          {
+            "name": "Required by Vehicles Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.vehicles"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
+          },
+          {
+            "name": "Required by Wind Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.wind"
           },
           {
             "name": "Required by XR Module",
@@ -1801,8 +3007,76 @@
         ]
       },
       {
+        "name": "SpriteMask",
+        "dependencies": [
+          {
+            "name": "SpriteMask",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "SpriteShape",
+        "dependencies": [
+          {
+            "name": "SpriteShapeRenderer",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
+          }
+        ]
+      },
+      {
+        "name": "Streaming",
+        "dependencies": [
+          {
+            "name": "StreamingController",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "StreamingManager",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "Substance",
+        "dependencies": [
+          {
+            "name": "ProceduralMaterial",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ProceduralTexture",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Subsystems",
         "dependencies": [
+          {
+            "name": "Required by AdaptivePerformance Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.adaptiveperformance"
+          },
           {
             "name": "Required by XR Module",
             "scenes": [],
@@ -1837,12 +3111,24 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unitywebrequest"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
       {
         "name": "Terrain",
         "dependencies": [
+          {
+            "name": "SpeedTreeWindAsset",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
           {
             "name": "Terrain",
             "scenes": [],
@@ -1851,6 +3137,35 @@
           },
           {
             "name": "TerrainData",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "TerrainLayer",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Tree",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          }
+        ]
+      },
+      {
+        "name": "TerrainPhysics",
+        "dependencies": [
+          {
+            "name": "TerrainCollider",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
@@ -1941,6 +3256,35 @@
         ]
       },
       {
+        "name": "Tilemap",
+        "dependencies": [
+          {
+            "name": "Tilemap",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "TilemapCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "TilemapRenderer",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by SpriteMask Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.spritemask"
+          }
+        ]
+      },
+      {
         "name": "U2DRuntime",
         "dependencies": [
           {
@@ -1983,6 +3327,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -2017,6 +3367,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.crashreporting"
+          },
+          {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
           },
           {
             "name": "Required by UnityAnalytics (See Services Window)",
@@ -2065,6 +3421,12 @@
             "icon": "package/com.unity.modules.insights"
           },
           {
+            "name": "Required by PerformanceReporting Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.performancereporting"
+          },
+          {
             "name": "Required by UnityAnalytics (See Services Window)",
             "scenes": [],
             "dependencyType": 3,
@@ -2090,6 +3452,10 @@
         ]
       },
       {
+        "name": "UnityCurl",
+        "dependencies": []
+      },
+      {
         "name": "UnityWebRequest",
         "dependencies": [
           {
@@ -2109,8 +3475,68 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unityanalytics"
+          },
+          {
+            "name": "Required by UnityWebRequestAssetBundle Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
+          },
+          {
+            "name": "Required by UnityWebRequestAudio Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestaudio"
+          },
+          {
+            "name": "Required by UnityWebRequestTexture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequesttexture"
+          },
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           }
         ]
+      },
+      {
+        "name": "UnityWebRequestAssetBundle",
+        "dependencies": [
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
+          }
+        ]
+      },
+      {
+        "name": "UnityWebRequestAudio",
+        "dependencies": [
+          {
+            "name": "Required by UnityWebRequestWWW Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequestwww"
+          }
+        ]
+      },
+      {
+        "name": "UnityWebRequestTexture",
+        "dependencies": []
+      },
+      {
+        "name": "UnityWebRequestWWW",
+        "dependencies": []
       },
       {
         "name": "VFX",
@@ -2143,6 +3569,45 @@
             "name": "VisualEffectObject",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "Vehicles",
+        "dependencies": [
+          {
+            "name": "WheelCollider",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "Video",
+        "dependencies": [
+          {
+            "name": "VideoClip",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "VideoPlayer",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "Wind",
+        "dependencies": [
+          {
+            "name": "WindZone",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           }
         ]
