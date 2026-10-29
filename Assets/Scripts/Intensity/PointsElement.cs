@@ -126,7 +126,7 @@ namespace FYP.Intensity
 
         private void HandleBasketScored(int basePoints)
         {
-            if (Level == IntensityLevel.Off || session == null || !session.IsBlockRunning) return;
+            if (Level == IntensityLevel.Off || session == null || !session.IsBlockRunning || session.IsBlockPaused) return;
 
             streak++;
             if (streak > bestStreak) bestStreak = streak;

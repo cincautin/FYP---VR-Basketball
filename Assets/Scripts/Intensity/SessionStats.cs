@@ -176,7 +176,7 @@ namespace FYP.Intensity
                 if (r.made) PracticeMakes++;
                 return;
             }
-            if (!session.IsBlockRunning) return;
+            if (!session.IsBlockRunning || session.IsBlockPaused) return;
 
             int previousBest = BestStreak;
             if (r.made) { BlockMakes++; CurrentStreak++; }

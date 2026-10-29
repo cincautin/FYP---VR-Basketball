@@ -1,0 +1,1844 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct Action_2_t6D9E9C15AEDCB64542D2BB7BFFA1C9560CBDADE6;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF;
+struct DrawerGroupU5BU5D_tABD880F64A2BFBCDABC5D08E7A7560075FC47F5E;
+struct CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7;
+struct ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233;
+struct GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct String_t;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976;
+struct CapsuleGeometryDrawer_t48EAF34DF7294A30A217049CF61A8AF1CF9F32DB;
+struct LineDrawer_t0ADE85224A088F880899F3E4EA4E8AD0C6310B47;
+struct PointDrawer_tA777A29EFA66D19E2C8B3A018570C50E3020AC74;
+
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_PhysicsCore2DModule[];
+IL2CPP_EXTERN_C RuntimeClass* ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral147C1685BEEF3F0798DAAFE3EC4A5A77B0F416EC;
+IL2CPP_EXTERN_C String_t* _stringLiteral372011F9BA2D855E25B258E2EDD1103512F383F7;
+IL2CPP_EXTERN_C String_t* _stringLiteral4B9579AA268E77C9FECABB1033F850B8A4781D22;
+IL2CPP_EXTERN_C String_t* _stringLiteral8C7078687AC58AC768E568B05A3789DBA49251CD;
+IL2CPP_EXTERN_C String_t* _stringLiteralB55F768FF0A023DEEEBC804C50FB17D9F111B0E2;
+IL2CPP_EXTERN_C String_t* _stringLiteralE48D5F8A7C2B0FEECEA24FD347B5DBA2D8296786;
+IL2CPP_EXTERN_C const RuntimeMethod* CapsuleGeometryDrawer_Draw_m642557DAEC998DD6F730AF0BC02440899E50E2A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CapsuleGeometryDrawer__ctor_m55486ED20ED0AA6D7018493A455093BA63CF0F34_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ComputeBuffer_SetData_TisCapsuleGeometryElement_t834B66F28B944AA313AB50C9C1343105C15B591E_m65BD1CB2977FE8ECA7E88ED6E292D199FAAB14F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ComputeBuffer_SetData_TisLineElement_t012671A3568902C51830B75D1F5DB18B390F8454_mF32C93D28C71E2F36A762CEA06BAE441B2092BA9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ComputeBuffer_SetData_TisPointElement_t5B29DB72B622AE3FF0CFB790DF18EC71970C66A0_m6780A03A6AE303833DE757CC344AE9E7736C1732_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IndirectDrawIndexedArgs_set_indexCountPerInstance_m3683A18DA13AC860B011243EECE17D2BB2788381_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IndirectDrawIndexedArgs_set_instanceCount_m7EF3E8C63A0BE8A6EE1962115B74C561220C7F1B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LineDrawer_Draw_mAB5E08B0DFB57A1FB485D7BC6368B0254F773697_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LineDrawer__ctor_m646BF0A15B3ABA12984BC98549F85C042000A077_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PointDrawer_Draw_m2B43644C74EBDF171543F443C47A1ABB085FAE47_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PointDrawer__ctor_m76B32E76883B58C30B85F9A153E0353BB7769D73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* CapsuleGeometryDrawer_t48EAF34DF7294A30A217049CF61A8AF1CF9F32DB_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* LineDrawer_t0ADE85224A088F880899F3E4EA4E8AD0C6310B47_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PointDrawer_tA777A29EFA66D19E2C8B3A018570C50E3020AC74_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
+IL2CPP_EXTERN_C const char* U3CPrivateImplementationDetailsU3E_t1E0B4DAEEC82B2BB143D2BF86BFF49D4AE5C9F5E_StaticFields____753D5E1ADA77B20B9959A1030B8E0BA5CF925F2881D3635C3F791E5A0AE0EEB1_RVAStorage;
+
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CPrivateImplementationDetailsU3E_t1E0B4DAEEC82B2BB143D2BF86BFF49D4AE5C9F5E  : public RuntimeObject
+{
+};
+struct PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct U3CU3EO_tC54F29A1612FFEFDDA91ADA35E799D5E468B0053  : public RuntimeObject
+{
+};
+struct BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976  : public RuntimeObject
+{
+	bool ___m_Disposed;
+	GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* ___m_GraphicsBuffer;
+	IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* ___m_CommandData;
+	ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___m_ElementBuffer;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_ShaderMaterial;
+	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___m_ShaderMaterialPropertyBlock;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D24_t402BED7237C1F54C03AFBFF69C9C94F57A6F4262 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D24_t402BED7237C1F54C03AFBFF69C9C94F57A6F4262__padding[24];
+	};
+};
+#pragma pack(pop, tp)
+struct IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB 
+{
+	uint32_t ___U3CindexCountPerInstanceU3Ek__BackingField;
+	uint32_t ___U3CinstanceCountU3Ek__BackingField;
+	uint32_t ___U3CstartIndexU3Ek__BackingField;
+	uint32_t ___U3CbaseVertexIndexU3Ek__BackingField;
+	uint32_t ___U3CstartInstanceU3Ek__BackingField;
+};
+struct CapsuleGeometryDrawer_t48EAF34DF7294A30A217049CF61A8AF1CF9F32DB  : public BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976
+{
+};
+struct LineDrawer_t0ADE85224A088F880899F3E4EA4E8AD0C6310B47  : public BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976
+{
+};
+struct PointDrawer_tA777A29EFA66D19E2C8B3A018570C50E3020AC74  : public BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976
+{
+};
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
+struct CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+};
+struct ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+};
+struct GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+};
+struct MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct PhysicsRotate_t3AF8BA583108282C8B59872CB621EC366BC042B0 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___direction;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct DrawFillOptions_tEDFBA1E7E9317CE7533535BC608111EE1E408298 
+{
+	int32_t ___value__;
+};
+struct TransformPlane_t4CCDC8D231EDA8F7669A965964F0404F14B63098 
+{
+	int32_t ___value__;
+};
+struct PointElement_t5B29DB72B622AE3FF0CFB790DF18EC71970C66A0 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position;
+	float ___radius;
+	float ___elementDepth;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
+};
+struct NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct PhysicsTransform_tB8A6E5FBEECAEFA43E89B0975A2D617AC701E434 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position;
+	PhysicsRotate_t3AF8BA583108282C8B59872CB621EC366BC042B0 ___rotation;
+};
+struct PhysicsBuffer_tCAD034F191834ECD0CAE25B468D0610D84B68A4D 
+{
+	intptr_t ___m_Buffer;
+	int32_t ___m_Size;
+	int32_t ___m_Allocator;
+};
+struct DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F 
+{
+	PhysicsBuffer_tCAD034F191834ECD0CAE25B468D0610D84B68A4D ___m_PolygonGeometryElements;
+	PhysicsBuffer_tCAD034F191834ECD0CAE25B468D0610D84B68A4D ___m_CircleGeometryElements;
+	PhysicsBuffer_tCAD034F191834ECD0CAE25B468D0610D84B68A4D ___m_CapsuleGeometryElements;
+	PhysicsBuffer_tCAD034F191834ECD0CAE25B468D0610D84B68A4D ___m_LineElements;
+	PhysicsBuffer_tCAD034F191834ECD0CAE25B468D0610D84B68A4D ___m_PointElements;
+};
+struct CapsuleGeometryElement_t834B66F28B944AA313AB50C9C1343105C15B591E 
+{
+	PhysicsTransform_tB8A6E5FBEECAEFA43E89B0975A2D617AC701E434 ___transform;
+	float ___radius;
+	float ___length;
+	float ___elementDepth;
+	int32_t ___drawFillOptions;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
+};
+struct LineElement_t012671A3568902C51830B75D1F5DB18B390F8454 
+{
+	PhysicsTransform_tB8A6E5FBEECAEFA43E89B0975A2D617AC701E434 ___transform;
+	float ___length;
+	float ___elementDepth;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
+};
+struct U3CPrivateImplementationDetailsU3E_t1E0B4DAEEC82B2BB143D2BF86BFF49D4AE5C9F5E_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D24_t402BED7237C1F54C03AFBFF69C9C94F57A6F4262 ___753D5E1ADA77B20B9959A1030B8E0BA5CF925F2881D3635C3F791E5A0AE0EEB1;
+};
+struct PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields
+{
+	String_t* ___s_RenderCommandBufferName;
+	bool ___s_IsInitialized;
+	bool ___s_UsingBIRP;
+	CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___s_RendererCommandBuffer;
+	DrawerGroupU5BU5D_tABD880F64A2BFBCDABC5D08E7A7560075FC47F5E* ___s_DrawerGroups;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_RenderMesh;
+	int32_t ___s_ElementBufferShaderProperty;
+	int32_t ___s_TransformPlaneShaderProperty;
+	int32_t ___s_TransformPlaneMatrixShaderProperty;
+	int32_t ___s_ThicknessShaderProperty;
+	int32_t ___s_FillAlphaShaderProperty;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct U3CU3EO_tC54F29A1612FFEFDDA91ADA35E799D5E468B0053_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___U3C0U3E__RenderWorlds_BIRP;
+	Action_2_t6D9E9C15AEDCB64542D2BB7BFFA1C9560CBDADE6* ___U3C1U3E__RenderWorlds_SRP;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7_StaticFields
+{
+	bool ___ThrowOnSetRenderTarget;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_StaticFields
+{
+	int32_t ___k_ColorId;
+	int32_t ___k_MainTexId;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB m_Items[1];
+
+	inline IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 m_Items[1];
+
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeBuffer_SetData_TisCapsuleGeometryElement_t834B66F28B944AA313AB50C9C1343105C15B591E_m65BD1CB2977FE8ECA7E88ED6E292D199FAAB14F4_gshared (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602 ___0_data, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeBuffer_SetData_TisLineElement_t012671A3568902C51830B75D1F5DB18B390F8454_mF32C93D28C71E2F36A762CEA06BAE441B2092BA9_gshared (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683 ___0_data, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeBuffer_SetData_TisPointElement_t5B29DB72B622AE3FF0CFB790DF18EC71970C66A0_m6780A03A6AE303833DE757CC344AE9E7736C1732_gshared (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8 ___0_data, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseDrawer__ctor_m283EBCC9B8080749458CC59D3BE80E964AC375CB (BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Scripting2D_PhysicsWorld_GetRenderMaterial_m3FE12B292A96E33F3DB2E0D983715C714195AA74 (String_t* ___0_editorResourceName, String_t* ___1_playerResourceName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602 DrawResults_get_capsuleGeometryArray_m0096CB0B407B6DEC5D54C39812B39C5A3CC7CDC9 (DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Mesh_GetIndexCount_m8F6E3C336023DFD649715A2F9DAAFD83E25ED366 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, int32_t ___0_submesh, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IndirectDrawIndexedArgs_set_indexCountPerInstance_m3683A18DA13AC860B011243EECE17D2BB2788381_inline (IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB* __this, uint32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IndirectDrawIndexedArgs_set_instanceCount_m7EF3E8C63A0BE8A6EE1962115B74C561220C7F1B_inline (IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB* __this, uint32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphicsBuffer_SetData_m6C30CB8A616D560E576063A27C2DE3B3BACD1CAF (GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* __this, RuntimeArray* ___0_data, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CapsuleGeometryElement_Size_mEF17A265B176F6868C276D7B4D8918A33D4A9112 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617 (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, int32_t ___0_count, int32_t ___1_stride, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ComputeBuffer_get_count_m4DAA2D2714BA7A46F007697F601E4446F1049506 (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeBuffer_Release_mF1F157C929A0A5B2FDCD703A286EE09723450B72 (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, const RuntimeMethod* method) ;
+inline void ComputeBuffer_SetData_TisCapsuleGeometryElement_t834B66F28B944AA313AB50C9C1343105C15B591E_m65BD1CB2977FE8ECA7E88ED6E292D199FAAB14F4 (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602 ___0_data, const RuntimeMethod* method)
+{
+	((  void (*) (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*, NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602, const RuntimeMethod*))ComputeBuffer_SetData_TisCapsuleGeometryElement_t834B66F28B944AA313AB50C9C1343105C15B591E_m65BD1CB2977FE8ECA7E88ED6E292D199FAAB14F4_gshared)(__this, ___0_data, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlock_SetBuffer_m9FF172AF2C41F7CBCC50F4AC4C6109B15289BF73 (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* __this, int32_t ___0_nameID, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlock_SetInteger_m099A60987428625ABC06468A7A579D7D7C238D20 (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* __this, int32_t ___0_nameID, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlock_SetMatrix_mA86792A03023DC1F6B46B06C72D61F3CCE4177AC (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* __this, int32_t ___0_nameID, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlock_SetFloat_m6BA8DA03FAD1ABA0BD339E0E5157C4DF3C987267 (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* __this, int32_t ___0_nameID, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommandBuffer_DrawMeshInstancedIndirect_m0C8F11219757E0C8D345B1CA253522F9E4D169A3 (CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, int32_t ___1_submeshIndex, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___2_material, int32_t ___3_shaderPass, GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* ___4_bufferWithArgs, int32_t ___5_argsOffset, MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___6_properties, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683 DrawResults_get_lineArray_m043B2CCCCB0D19754B51456DE5879BD7E2F3DDDB (DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LineElement_Size_m58DD5DB51E7146A96409740B06FCE330BAD5D7E1 (const RuntimeMethod* method) ;
+inline void ComputeBuffer_SetData_TisLineElement_t012671A3568902C51830B75D1F5DB18B390F8454_mF32C93D28C71E2F36A762CEA06BAE441B2092BA9 (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683 ___0_data, const RuntimeMethod* method)
+{
+	((  void (*) (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*, NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683, const RuntimeMethod*))ComputeBuffer_SetData_TisLineElement_t012671A3568902C51830B75D1F5DB18B390F8454_mF32C93D28C71E2F36A762CEA06BAE441B2092BA9_gshared)(__this, ___0_data, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8 DrawResults_get_pointArray_m8F596E75EB091A4D066CA83D089C801E4B0E0771 (DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PointElement_Size_m19698E96D7282190B433C882CFB72D47C05998DB (const RuntimeMethod* method) ;
+inline void ComputeBuffer_SetData_TisPointElement_t5B29DB72B622AE3FF0CFB790DF18EC71970C66A0_m6780A03A6AE303833DE757CC344AE9E7736C1732 (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* __this, NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8 ___0_data, const RuntimeMethod* method)
+{
+	((  void (*) (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*, NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8, const RuntimeMethod*))ComputeBuffer_SetData_TisPointElement_t5B29DB72B622AE3FF0CFB790DF18EC71970C66A0_m6780A03A6AE303833DE757CC344AE9E7736C1732_gshared)(__this, ___0_data, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_normals_m85D73193C49211BE9FA135FF72D5749B16A4760B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_value, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126041
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleGeometryDrawer__ctor_m55486ED20ED0AA6D7018493A455093BA63CF0F34 (CapsuleGeometryDrawer_t48EAF34DF7294A30A217049CF61A8AF1CF9F32DB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CapsuleGeometryDrawer__ctor_m55486ED20ED0AA6D7018493A455093BA63CF0F34_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CapsuleGeometryDrawer_t48EAF34DF7294A30A217049CF61A8AF1CF9F32DB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral147C1685BEEF3F0798DAAFE3EC4A5A77B0F416EC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B9579AA268E77C9FECABB1033F850B8A4781D22);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(CapsuleGeometryDrawer__ctor_m55486ED20ED0AA6D7018493A455093BA63CF0F34_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CapsuleGeometryDrawer__ctor_m55486ED20ED0AA6D7018493A455093BA63CF0F34_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13205));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13206));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:468>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13207));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13208));
+		BaseDrawer__ctor_m283EBCC9B8080749458CC59D3BE80E964AC375CB(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13208));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:470>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13209));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13210));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
+		L_0 = Scripting2D_PhysicsWorld_GetRenderMaterial_m3FE12B292A96E33F3DB2E0D983715C714195AA74(_stringLiteral4B9579AA268E77C9FECABB1033F850B8A4781D22, _stringLiteral147C1685BEEF3F0798DAAFE3EC4A5A77B0F416EC, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13210));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial), (void*)L_0);
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:471>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13211));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13212));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13212));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock), (void*)L_1);
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:472>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13213));
+		return;
+	}
+}
+// Method Definition Index: 126042
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleGeometryDrawer_Draw_m642557DAEC998DD6F730AF0BC02440899E50E2A1 (CapsuleGeometryDrawer_t48EAF34DF7294A30A217049CF61A8AF1CF9F32DB* __this, CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___0_rendererCommandBuffer, DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* ___1_drawResults, float ___2_thickness, float ___3_fillAlpha, int32_t ___4_transformPlane, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___5_transformPlaneCustomMatrix, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CapsuleGeometryDrawer_Draw_m642557DAEC998DD6F730AF0BC02440899E50E2A1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CapsuleGeometryDrawer_t48EAF34DF7294A30A217049CF61A8AF1CF9F32DB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputeBuffer_SetData_TisCapsuleGeometryElement_t834B66F28B944AA313AB50C9C1343105C15B591E_m65BD1CB2977FE8ECA7E88ED6E292D199FAAB14F4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(CapsuleGeometryDrawer_Draw_m642557DAEC998DD6F730AF0BC02440899E50E2A1_RuntimeMethod_var);
+	NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_rendererCommandBuffer), (&___1_drawResults), (&___2_thickness), (&___3_fillAlpha), (&___4_transformPlane), (&___5_transformPlaneCustomMatrix));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CapsuleGeometryDrawer_Draw_m642557DAEC998DD6F730AF0BC02440899E50E2A1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13214));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13215));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:477>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13216));
+		DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* L_0 = ___1_drawResults;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13217));
+		NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602 L_1;
+		L_1 = DrawResults_get_capsuleGeometryArray_m0096CB0B407B6DEC5D54C39812B39C5A3CC7CDC9(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13217));
+		V_0 = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:478>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13218));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13219));
+		int32_t L_2;
+		L_2 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13219));
+		V_1 = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:479>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13220));
+		int32_t L_3 = V_1;
+		if (L_3)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:480>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13221));
+		return;
+	}
+
+IL_0013:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:485>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13222));
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_4 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		NullCheck(L_4);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13223));
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_5;
+		L_5 = PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13223));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13224));
+		NullCheck(L_5);
+		uint32_t L_6;
+		L_6 = Mesh_GetIndexCount_m8F6E3C336023DFD649715A2F9DAAFD83E25ED366(L_5, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13224));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13225));
+		IndirectDrawIndexedArgs_set_indexCountPerInstance_m3683A18DA13AC860B011243EECE17D2BB2788381_inline(((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13225));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:486>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13226));
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_7 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		NullCheck(L_7);
+		int32_t L_8 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13227));
+		IndirectDrawIndexedArgs_set_instanceCount_m7EF3E8C63A0BE8A6EE1962115B74C561220C7F1B_inline(((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13227));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:487>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13228));
+		GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* L_9 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_GraphicsBuffer;
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_10 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13229));
+		NullCheck(L_9);
+		GraphicsBuffer_SetData_m6C30CB8A616D560E576063A27C2DE3B3BACD1CAF(L_9, (RuntimeArray*)L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13229));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:490>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13230));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_11 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		if (L_11)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:492>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13231));
+		int32_t L_12 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13232));
+		int32_t L_13;
+		L_13 = CapsuleGeometryElement_Size_mEF17A265B176F6868C276D7B4D8918A33D4A9112(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13232));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13233));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_14 = (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*)il2cpp_codegen_object_new(ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_14, L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13233));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer), (void*)L_14);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13234));
+		goto IL_0097;
+	}
+
+IL_006d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:494>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13235));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_15 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13236));
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = ComputeBuffer_get_count_m4DAA2D2714BA7A46F007697F601E4446F1049506(L_15, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13236));
+		int32_t L_17 = V_1;
+		if ((((int32_t)L_16) >= ((int32_t)L_17)))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:496>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13237));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_18 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13238));
+		NullCheck(L_18);
+		ComputeBuffer_Release_mF1F157C929A0A5B2FDCD703A286EE09723450B72(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13238));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:497>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13239));
+		int32_t L_19 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13240));
+		int32_t L_20;
+		L_20 = CapsuleGeometryElement_Size_mEF17A265B176F6868C276D7B4D8918A33D4A9112(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13240));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13241));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_21 = (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*)il2cpp_codegen_object_new(ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_21, L_19, L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13241));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer), (void*)L_21);
+	}
+
+IL_0097:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:499>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13242));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_22 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		NativeArray_1_tAE73165FE666BFCBFB4CA0B72FFA351ED1872602 L_23 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13243));
+		NullCheck(L_22);
+		ComputeBuffer_SetData_TisCapsuleGeometryElement_t834B66F28B944AA313AB50C9C1343105C15B591E_m65BD1CB2977FE8ECA7E88ED6E292D199FAAB14F4(L_22, L_23, ComputeBuffer_SetData_TisCapsuleGeometryElement_t834B66F28B944AA313AB50C9C1343105C15B591E_m65BD1CB2977FE8ECA7E88ED6E292D199FAAB14F4_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13243));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:502>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13244));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_24 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		int32_t L_25 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_ElementBufferShaderProperty;
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_26 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13245));
+		NullCheck(L_24);
+		MaterialPropertyBlock_SetBuffer_m9FF172AF2C41F7CBCC50F4AC4C6109B15289BF73(L_24, L_25, L_26, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13245));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:503>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13246));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_27 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_28 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_TransformPlaneShaderProperty;
+		int32_t L_29 = ___4_transformPlane;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13247));
+		NullCheck(L_27);
+		MaterialPropertyBlock_SetInteger_m099A60987428625ABC06468A7A579D7D7C238D20(L_27, L_28, L_29, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13247));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:504>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13248));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_30 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_31 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_TransformPlaneMatrixShaderProperty;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_32 = ___5_transformPlaneCustomMatrix;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_33 = (*(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)L_32);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13249));
+		NullCheck(L_30);
+		MaterialPropertyBlock_SetMatrix_mA86792A03023DC1F6B46B06C72D61F3CCE4177AC(L_30, L_31, L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13249));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:505>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13250));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_34 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_35 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_ThicknessShaderProperty;
+		float L_36 = ___2_thickness;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13251));
+		NullCheck(L_34);
+		MaterialPropertyBlock_SetFloat_m6BA8DA03FAD1ABA0BD339E0E5157C4DF3C987267(L_34, L_35, L_36, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13251));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:506>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13252));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_37 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_38 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_FillAlphaShaderProperty;
+		float L_39 = ___3_fillAlpha;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13253));
+		NullCheck(L_37);
+		MaterialPropertyBlock_SetFloat_m6BA8DA03FAD1ABA0BD339E0E5157C4DF3C987267(L_37, L_38, L_39, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13253));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:509>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13254));
+		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_40 = ___0_rendererCommandBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13255));
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_41;
+		L_41 = PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13255));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_42 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial;
+		GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* L_43 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_GraphicsBuffer;
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_44 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13256));
+		NullCheck(L_40);
+		CommandBuffer_DrawMeshInstancedIndirect_m0C8F11219757E0C8D345B1CA253522F9E4D169A3(L_40, L_41, 0, L_42, 0, L_43, 0, L_44, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13256));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:512>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13257));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126043
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineDrawer__ctor_m646BF0A15B3ABA12984BC98549F85C042000A077 (LineDrawer_t0ADE85224A088F880899F3E4EA4E8AD0C6310B47* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LineDrawer__ctor_m646BF0A15B3ABA12984BC98549F85C042000A077_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LineDrawer_t0ADE85224A088F880899F3E4EA4E8AD0C6310B47_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral372011F9BA2D855E25B258E2EDD1103512F383F7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C7078687AC58AC768E568B05A3789DBA49251CD);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(LineDrawer__ctor_m646BF0A15B3ABA12984BC98549F85C042000A077_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LineDrawer__ctor_m646BF0A15B3ABA12984BC98549F85C042000A077_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13258));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13259));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:521>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13260));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13261));
+		BaseDrawer__ctor_m283EBCC9B8080749458CC59D3BE80E964AC375CB(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13261));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:523>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13262));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13263));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
+		L_0 = Scripting2D_PhysicsWorld_GetRenderMaterial_m3FE12B292A96E33F3DB2E0D983715C714195AA74(_stringLiteral8C7078687AC58AC768E568B05A3789DBA49251CD, _stringLiteral372011F9BA2D855E25B258E2EDD1103512F383F7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13263));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial), (void*)L_0);
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:524>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13264));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13265));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13265));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock), (void*)L_1);
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:525>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13266));
+		return;
+	}
+}
+// Method Definition Index: 126044
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineDrawer_Draw_mAB5E08B0DFB57A1FB485D7BC6368B0254F773697 (LineDrawer_t0ADE85224A088F880899F3E4EA4E8AD0C6310B47* __this, CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___0_rendererCommandBuffer, DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* ___1_drawResults, float ___2_thickness, float ___3_fillAlpha, int32_t ___4_transformPlane, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___5_transformPlaneCustomMatrix, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputeBuffer_SetData_TisLineElement_t012671A3568902C51830B75D1F5DB18B390F8454_mF32C93D28C71E2F36A762CEA06BAE441B2092BA9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LineDrawer_Draw_mAB5E08B0DFB57A1FB485D7BC6368B0254F773697_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LineDrawer_t0ADE85224A088F880899F3E4EA4E8AD0C6310B47_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(LineDrawer_Draw_mAB5E08B0DFB57A1FB485D7BC6368B0254F773697_RuntimeMethod_var);
+	NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_rendererCommandBuffer), (&___1_drawResults), (&___2_thickness), (&___3_fillAlpha), (&___4_transformPlane), (&___5_transformPlaneCustomMatrix));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, LineDrawer_Draw_mAB5E08B0DFB57A1FB485D7BC6368B0254F773697_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13267));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13268));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:530>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13269));
+		DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* L_0 = ___1_drawResults;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13270));
+		NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683 L_1;
+		L_1 = DrawResults_get_lineArray_m043B2CCCCB0D19754B51456DE5879BD7E2F3DDDB(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13270));
+		V_0 = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:531>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13271));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13272));
+		int32_t L_2;
+		L_2 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13272));
+		V_1 = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:532>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13273));
+		int32_t L_3 = V_1;
+		if (L_3)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:533>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13274));
+		return;
+	}
+
+IL_0013:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:538>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13275));
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_4 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		NullCheck(L_4);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13276));
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_5;
+		L_5 = PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13276));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13277));
+		NullCheck(L_5);
+		uint32_t L_6;
+		L_6 = Mesh_GetIndexCount_m8F6E3C336023DFD649715A2F9DAAFD83E25ED366(L_5, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13277));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13278));
+		IndirectDrawIndexedArgs_set_indexCountPerInstance_m3683A18DA13AC860B011243EECE17D2BB2788381_inline(((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13278));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:539>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13279));
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_7 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		NullCheck(L_7);
+		int32_t L_8 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13280));
+		IndirectDrawIndexedArgs_set_instanceCount_m7EF3E8C63A0BE8A6EE1962115B74C561220C7F1B_inline(((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13280));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:540>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13281));
+		GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* L_9 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_GraphicsBuffer;
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_10 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13282));
+		NullCheck(L_9);
+		GraphicsBuffer_SetData_m6C30CB8A616D560E576063A27C2DE3B3BACD1CAF(L_9, (RuntimeArray*)L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13282));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:543>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13283));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_11 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		if (L_11)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:545>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13284));
+		int32_t L_12 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13285));
+		int32_t L_13;
+		L_13 = LineElement_Size_m58DD5DB51E7146A96409740B06FCE330BAD5D7E1(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13285));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13286));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_14 = (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*)il2cpp_codegen_object_new(ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_14, L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13286));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer), (void*)L_14);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13287));
+		goto IL_0097;
+	}
+
+IL_006d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:547>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13288));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_15 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13289));
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = ComputeBuffer_get_count_m4DAA2D2714BA7A46F007697F601E4446F1049506(L_15, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13289));
+		int32_t L_17 = V_1;
+		if ((((int32_t)L_16) >= ((int32_t)L_17)))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:549>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13290));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_18 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13291));
+		NullCheck(L_18);
+		ComputeBuffer_Release_mF1F157C929A0A5B2FDCD703A286EE09723450B72(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13291));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:550>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13292));
+		int32_t L_19 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13293));
+		int32_t L_20;
+		L_20 = LineElement_Size_m58DD5DB51E7146A96409740B06FCE330BAD5D7E1(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13293));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13294));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_21 = (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*)il2cpp_codegen_object_new(ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_21, L_19, L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13294));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer), (void*)L_21);
+	}
+
+IL_0097:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:552>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13295));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_22 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		NativeArray_1_t2EDCD6FB85206C53A92873BFCBE46ACD9462C683 L_23 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13296));
+		NullCheck(L_22);
+		ComputeBuffer_SetData_TisLineElement_t012671A3568902C51830B75D1F5DB18B390F8454_mF32C93D28C71E2F36A762CEA06BAE441B2092BA9(L_22, L_23, ComputeBuffer_SetData_TisLineElement_t012671A3568902C51830B75D1F5DB18B390F8454_mF32C93D28C71E2F36A762CEA06BAE441B2092BA9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13296));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:555>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13297));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_24 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		int32_t L_25 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_ElementBufferShaderProperty;
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_26 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13298));
+		NullCheck(L_24);
+		MaterialPropertyBlock_SetBuffer_m9FF172AF2C41F7CBCC50F4AC4C6109B15289BF73(L_24, L_25, L_26, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13298));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:556>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13299));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_27 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_28 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_TransformPlaneShaderProperty;
+		int32_t L_29 = ___4_transformPlane;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13300));
+		NullCheck(L_27);
+		MaterialPropertyBlock_SetInteger_m099A60987428625ABC06468A7A579D7D7C238D20(L_27, L_28, L_29, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13300));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:557>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13301));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_30 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_31 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_TransformPlaneMatrixShaderProperty;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_32 = ___5_transformPlaneCustomMatrix;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_33 = (*(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)L_32);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13302));
+		NullCheck(L_30);
+		MaterialPropertyBlock_SetMatrix_mA86792A03023DC1F6B46B06C72D61F3CCE4177AC(L_30, L_31, L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13302));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:558>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13303));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_34 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_35 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_ThicknessShaderProperty;
+		float L_36 = ___2_thickness;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13304));
+		NullCheck(L_34);
+		MaterialPropertyBlock_SetFloat_m6BA8DA03FAD1ABA0BD339E0E5157C4DF3C987267(L_34, L_35, L_36, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13304));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:561>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13305));
+		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_37 = ___0_rendererCommandBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13306));
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_38;
+		L_38 = PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13306));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_39 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial;
+		GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* L_40 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_GraphicsBuffer;
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_41 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13307));
+		NullCheck(L_37);
+		CommandBuffer_DrawMeshInstancedIndirect_m0C8F11219757E0C8D345B1CA253522F9E4D169A3(L_37, L_38, 0, L_39, 0, L_40, 0, L_41, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13307));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:564>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13308));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126045
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointDrawer__ctor_m76B32E76883B58C30B85F9A153E0353BB7769D73 (PointDrawer_tA777A29EFA66D19E2C8B3A018570C50E3020AC74* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointDrawer__ctor_m76B32E76883B58C30B85F9A153E0353BB7769D73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointDrawer_tA777A29EFA66D19E2C8B3A018570C50E3020AC74_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB55F768FF0A023DEEEBC804C50FB17D9F111B0E2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE48D5F8A7C2B0FEECEA24FD347B5DBA2D8296786);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PointDrawer__ctor_m76B32E76883B58C30B85F9A153E0353BB7769D73_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PointDrawer__ctor_m76B32E76883B58C30B85F9A153E0353BB7769D73_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13309));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13310));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:573>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13311));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13312));
+		BaseDrawer__ctor_m283EBCC9B8080749458CC59D3BE80E964AC375CB(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13312));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:575>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13313));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13314));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
+		L_0 = Scripting2D_PhysicsWorld_GetRenderMaterial_m3FE12B292A96E33F3DB2E0D983715C714195AA74(_stringLiteralE48D5F8A7C2B0FEECEA24FD347B5DBA2D8296786, _stringLiteralB55F768FF0A023DEEEBC804C50FB17D9F111B0E2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13314));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial), (void*)L_0);
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:576>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13315));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13316));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13316));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock), (void*)L_1);
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:577>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13317));
+		return;
+	}
+}
+// Method Definition Index: 126046
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointDrawer_Draw_m2B43644C74EBDF171543F443C47A1ABB085FAE47 (PointDrawer_tA777A29EFA66D19E2C8B3A018570C50E3020AC74* __this, CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___0_rendererCommandBuffer, DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* ___1_drawResults, float ___2_thickness, float ___3_fillAlpha, int32_t ___4_transformPlane, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___5_transformPlaneCustomMatrix, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputeBuffer_SetData_TisPointElement_t5B29DB72B622AE3FF0CFB790DF18EC71970C66A0_m6780A03A6AE303833DE757CC344AE9E7736C1732_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointDrawer_Draw_m2B43644C74EBDF171543F443C47A1ABB085FAE47_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointDrawer_tA777A29EFA66D19E2C8B3A018570C50E3020AC74_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(PointDrawer_Draw_m2B43644C74EBDF171543F443C47A1ABB085FAE47_RuntimeMethod_var);
+	NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_rendererCommandBuffer), (&___1_drawResults), (&___2_thickness), (&___3_fillAlpha), (&___4_transformPlane), (&___5_transformPlaneCustomMatrix));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PointDrawer_Draw_m2B43644C74EBDF171543F443C47A1ABB085FAE47_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13318));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13319));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:582>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13320));
+		DrawResults_t1554A31BDBD107DCED184C99BA3DA9DD0C9D0C9F* L_0 = ___1_drawResults;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13321));
+		NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8 L_1;
+		L_1 = DrawResults_get_pointArray_m8F596E75EB091A4D066CA83D089C801E4B0E0771(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13321));
+		V_0 = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:583>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13322));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13323));
+		int32_t L_2;
+		L_2 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13323));
+		V_1 = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:584>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13324));
+		int32_t L_3 = V_1;
+		if (L_3)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:585>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13325));
+		return;
+	}
+
+IL_0013:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:590>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13326));
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_4 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		NullCheck(L_4);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13327));
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_5;
+		L_5 = PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13327));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13328));
+		NullCheck(L_5);
+		uint32_t L_6;
+		L_6 = Mesh_GetIndexCount_m8F6E3C336023DFD649715A2F9DAAFD83E25ED366(L_5, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13328));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13329));
+		IndirectDrawIndexedArgs_set_indexCountPerInstance_m3683A18DA13AC860B011243EECE17D2BB2788381_inline(((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13329));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:591>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13330));
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_7 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		NullCheck(L_7);
+		int32_t L_8 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13331));
+		IndirectDrawIndexedArgs_set_instanceCount_m7EF3E8C63A0BE8A6EE1962115B74C561220C7F1B_inline(((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13331));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:592>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13332));
+		GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* L_9 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_GraphicsBuffer;
+		IndirectDrawIndexedArgsU5BU5D_t84825DD018144B0D90D14B350FEA8277448662FF* L_10 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_CommandData;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13333));
+		NullCheck(L_9);
+		GraphicsBuffer_SetData_m6C30CB8A616D560E576063A27C2DE3B3BACD1CAF(L_9, (RuntimeArray*)L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13333));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:595>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13334));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_11 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		if (L_11)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:597>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13335));
+		int32_t L_12 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13336));
+		int32_t L_13;
+		L_13 = PointElement_Size_m19698E96D7282190B433C882CFB72D47C05998DB(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13336));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13337));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_14 = (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*)il2cpp_codegen_object_new(ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_14, L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13337));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer), (void*)L_14);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13338));
+		goto IL_0097;
+	}
+
+IL_006d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:599>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13339));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_15 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13340));
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = ComputeBuffer_get_count_m4DAA2D2714BA7A46F007697F601E4446F1049506(L_15, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13340));
+		int32_t L_17 = V_1;
+		if ((((int32_t)L_16) >= ((int32_t)L_17)))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:601>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13341));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_18 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13342));
+		NullCheck(L_18);
+		ComputeBuffer_Release_mF1F157C929A0A5B2FDCD703A286EE09723450B72(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13342));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:602>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13343));
+		int32_t L_19 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13344));
+		int32_t L_20;
+		L_20 = PointElement_Size_m19698E96D7282190B433C882CFB72D47C05998DB(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13344));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13345));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_21 = (ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*)il2cpp_codegen_object_new(ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233_il2cpp_TypeInfo_var);
+		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_21, L_19, L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13345));
+		((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer), (void*)L_21);
+	}
+
+IL_0097:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:604>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13346));
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_22 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		NativeArray_1_tE9E9E78E659CC7A96EFD37D8824AEE58DE412CA8 L_23 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13347));
+		NullCheck(L_22);
+		ComputeBuffer_SetData_TisPointElement_t5B29DB72B622AE3FF0CFB790DF18EC71970C66A0_m6780A03A6AE303833DE757CC344AE9E7736C1732(L_22, L_23, ComputeBuffer_SetData_TisPointElement_t5B29DB72B622AE3FF0CFB790DF18EC71970C66A0_m6780A03A6AE303833DE757CC344AE9E7736C1732_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13347));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:607>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13348));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_24 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		int32_t L_25 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_ElementBufferShaderProperty;
+		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_26 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ElementBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13349));
+		NullCheck(L_24);
+		MaterialPropertyBlock_SetBuffer_m9FF172AF2C41F7CBCC50F4AC4C6109B15289BF73(L_24, L_25, L_26, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13349));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:608>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13350));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_27 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_28 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_TransformPlaneShaderProperty;
+		int32_t L_29 = ___4_transformPlane;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13351));
+		NullCheck(L_27);
+		MaterialPropertyBlock_SetInteger_m099A60987428625ABC06468A7A579D7D7C238D20(L_27, L_28, L_29, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13351));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:609>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13352));
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_30 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		int32_t L_31 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_TransformPlaneMatrixShaderProperty;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_32 = ___5_transformPlaneCustomMatrix;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_33 = (*(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)L_32);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13353));
+		NullCheck(L_30);
+		MaterialPropertyBlock_SetMatrix_mA86792A03023DC1F6B46B06C72D61F3CCE4177AC(L_30, L_31, L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13353));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:612>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13354));
+		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_34 = ___0_rendererCommandBuffer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13355));
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_35;
+		L_35 = PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13355));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_36 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterial;
+		GraphicsBuffer_t91FACD3CD78588C25C361C453D1A2FE055EC4AF1* L_37 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_GraphicsBuffer;
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_38 = ((BaseDrawer_t5899E4BAD68A5F8BCABA787F38DF3689F7964976*)__this)->___m_ShaderMaterialPropertyBlock;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13356));
+		NullCheck(L_34);
+		CommandBuffer_DrawMeshInstancedIndirect_m0C8F11219757E0C8D345B1CA253522F9E4D169A3(L_34, L_35, 0, L_36, 0, L_37, 0, L_38, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13356));
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:615>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 13357));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 126023
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t1E0B4DAEEC82B2BB143D2BF86BFF49D4AE5C9F5E_StaticFields____753D5E1ADA77B20B9959A1030B8E0BA5CF925F2881D3635C3F791E5A0AE0EEB1_RVAStorage);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PhysicsWorldRenderer_GetMesh_m3C9F7C2060B27BE1E809589690DE04442202F169_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12901));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12902));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:101>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12903));
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_RenderMesh;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12904));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12904));
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:102>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12905));
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = ((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_RenderMesh;
+		return L_2;
+	}
+
+IL_0013:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/PhysicsCore2D/Scripting/PhysicsWorldRenderer.cs:105>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12906));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12907));
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_3 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12907));
+		V_0 = L_3;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4 = V_0;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = L_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12908));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_7), (-1.10000002f), (-1.10000002f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12908));
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_7);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_8 = L_6;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12909));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), (-1.10000002f), (1.10000002f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12909));
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_9);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10 = L_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12910));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_11), (1.10000002f), (1.10000002f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12910));
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_11);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_12 = L_10;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12911));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		memset((&L_13), 0, sizeof(L_13));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_13), (1.10000002f), (-1.10000002f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12911));
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(3), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_13);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12912));
+		NullCheck(L_4);
+		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_4, L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12912));
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_14 = V_0;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_15 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_16 = L_15;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12913));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12913));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12914));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12914));
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_18);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_19 = L_16;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12915));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12915));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12916));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12916));
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_21);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_22 = L_19;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12917));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12917));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12918));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_23, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12918));
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(2), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_24);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_25 = L_22;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12919));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12919));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12920));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_26, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12920));
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(3), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_27);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12921));
+		NullCheck(L_14);
+		Mesh_set_normals_m85D73193C49211BE9FA135FF72D5749B16A4760B(L_14, L_25, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12921));
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_28 = V_0;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_29 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)4);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_30 = L_29;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12922));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31;
+		L_31 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12922));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_31);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_32 = L_30;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12923));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
+		memset((&L_33), 0, sizeof(L_33));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_33), (0.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12923));
+		NullCheck(L_32);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_33);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_34 = L_32;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12924));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35;
+		L_35 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12924));
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(2), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_35);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_36 = L_34;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12925));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37;
+		memset((&L_37), 0, sizeof(L_37));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_37), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12925));
+		NullCheck(L_36);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(3), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_37);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12926));
+		NullCheck(L_28);
+		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_28, L_36, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12926));
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_38 = V_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_39 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)6);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_40 = L_39;
+		Il2CppFieldRvaData L_41 = {U3CPrivateImplementationDetailsU3E_t1E0B4DAEEC82B2BB143D2BF86BFF49D4AE5C9F5E_StaticFields____753D5E1ADA77B20B9959A1030B8E0BA5CF925F2881D3635C3F791E5A0AE0EEB1_RVAStorage, sizeof(__StaticArrayInitTypeSizeU3D24_t402BED7237C1F54C03AFBFF69C9C94F57A6F4262)};
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12927));
+		il2cpp_codegen_runtime_helpers_initialize_array((RuntimeArray*)L_40, L_41);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12927));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12928));
+		NullCheck(L_38);
+		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_38, L_40, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_PhysicsCore2DModule + 12928));
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_42 = V_0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_43 = L_42;
+		il2cpp_codegen_runtime_class_init_inline(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var);
+		((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_RenderMesh = L_43;
+		Il2CppCodeGenWriteBarrier((void**)(&((PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_StaticFields*)il2cpp_codegen_static_fields_for(PhysicsWorldRenderer_t6FBEDAE6FB3563B3BCBDA9ABDAD4B9106EDD42FF_il2cpp_TypeInfo_var))->___s_RenderMesh), (void*)L_43);
+		return L_43;
+	}
+}
+// Method Definition Index: 35508
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IndirectDrawIndexedArgs_set_indexCountPerInstance_m3683A18DA13AC860B011243EECE17D2BB2788381_inline (IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB* __this, uint32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IndirectDrawIndexedArgs_set_indexCountPerInstance_m3683A18DA13AC860B011243EECE17D2BB2788381_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, IndirectDrawIndexedArgs_set_indexCountPerInstance_m3683A18DA13AC860B011243EECE17D2BB2788381_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 15078));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 15079));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Graphics/GraphicsBuffer.bindings.cs:102>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 15080));
+		uint32_t L_0 = ___0_value;
+		__this->___U3CindexCountPerInstanceU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 35510
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IndirectDrawIndexedArgs_set_instanceCount_m7EF3E8C63A0BE8A6EE1962115B74C561220C7F1B_inline (IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB* __this, uint32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IndirectDrawIndexedArgs_set_instanceCount_m7EF3E8C63A0BE8A6EE1962115B74C561220C7F1B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IndirectDrawIndexedArgs_t43439E77ECB29BDF03BBDCC245276D40730E26DB_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, IndirectDrawIndexedArgs_set_instanceCount_m7EF3E8C63A0BE8A6EE1962115B74C561220C7F1B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 15084));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 15085));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Graphics/GraphicsBuffer.bindings.cs:103>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 15086));
+		uint32_t L_0 = ___0_value;
+		__this->___U3CinstanceCountU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 38153
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24568));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24569));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:331>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24570));
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:331>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24571));
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:331>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24572));
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:331>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24573));
+		return;
+	}
+}
+// Method Definition Index: 38198
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24870));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24871));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:734>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24872));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___forwardVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 38208
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24900));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24901));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:784>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 24902));
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		(&V_0)->___x = ((-L_1));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___y;
+		(&V_0)->___y = ((-L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___z;
+		(&V_0)->___z = ((-L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 38466
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 26300));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 26301));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:670>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 26302));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 38402
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 25886));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 25887));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:58>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 25888));
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:58>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 25889));
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:58>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 25890));
+		return;
+	}
+}
+// Method Definition Index: 38467
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 26303));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 26304));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:672>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 26305));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___oneVector;
+		return L_0;
+	}
+}

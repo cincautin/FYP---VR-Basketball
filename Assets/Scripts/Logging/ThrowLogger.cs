@@ -41,6 +41,7 @@ namespace FYP.Logging
         private string lvlChoice = "NA";
         private string lvlPersonalBest = "NA";
         private string lvlTimer = "NA";
+        private string choiceBallSkin = "NA", choiceEnvironment = "NA", choiceFbType = "NA", choiceFbFreq = "NA";
 
         // Current in-flight throw state
         private PendingThrow activePendingThrow = null;
@@ -194,6 +195,14 @@ namespace FYP.Logging
             if (levels.TryGetValue("lvl_choice", out string choice)) lvlChoice = choice;
             if (levels.TryGetValue("lvl_personal_best", out string pb)) lvlPersonalBest = pb;
             if (levels.TryGetValue("lvl_timer", out string timer)) lvlTimer = timer;
+        }
+
+        public void SetChoiceState(string ballSkin, string environment, string feedbackType, string feedbackFrequency)
+        {
+            choiceBallSkin = ballSkin;
+            choiceEnvironment = environment;
+            choiceFbType = feedbackType;
+            choiceFbFreq = feedbackFrequency;
         }
 
         /// <summary>True while a released ball's outcome has not been logged yet.</summary>
@@ -399,6 +408,11 @@ namespace FYP.Logging
             record.lvl_choice = lvlChoice;
             record.lvl_personal_best = lvlPersonalBest;
             record.lvl_timer = lvlTimer;
+            record.choice_ball_skin = choiceBallSkin;
+            record.choice_environment = choiceEnvironment;
+            record.choice_fb_type = choiceFbType;
+            record.choice_fb_freq = choiceFbFreq;
+            record.block_paused = FYP.Session.SessionManager.Instance != null && FYP.Session.SessionManager.Instance.IsBlockPaused;
 
             // Store in memory
             loggedRecords.Add(record);

@@ -250,7 +250,7 @@ namespace FYP.Session
             log.Write("tutorial_end", CurrentState.ToString(), 0, "tutorial", "seconds=" + tutorialElapsed.ToString("F0", CultureInfo.InvariantCulture));
             Show("Tutorial done",
                 "When you are ready, press Start. Round 1 will begin.",
-                "Start", () => EnterState(SessionState.Block1));
+                "Start", () => BeginBlock(SessionState.Block1, 1));
         }
 
         private void ShowBreak(int nextBlockIndex)
@@ -258,7 +258,7 @@ namespace FYP.Session
             string summary = BlockSummary.Compose();
             string body = (summary.Length > 0 ? "Round summary:\n" + summary + "\n\n" : "") +
                         "Take a short rest. Round 2 is next. Press Start when you are ready.";
-            Show("Rest", body, "Start", () => EnterState(SessionState.Block2));
+            Show("Rest", body, "Start", () => BeginBlock(SessionState.Block2, 2));
         }
 
         private void ShowEnd()
@@ -281,6 +281,45 @@ namespace FYP.Session
         public void LogEvent(string eventName, string detail)
         {
             log.Write(eventName, CurrentState.ToString(), CurrentBlockIndex, CurrentCondition, detail);
+        }
+
+        /// <summary>Raised when the participant presses Start, before a block begins. A handler may call
+        /// HoldBlockStart() before returning to delay the block (for example for a menu), then ReleaseBlockStart().</summary>
+        public event Action<int, string> OnBeforeBlock;   // blockIndex, condition
+
+        private int blockHolds;
+        private bool beginningBlock;
+        private SessionState? pendingBlockState;
+
+        public void HoldBlockStart() { blockHolds++; }
+
+        public void ReleaseBlockStart()
+        {
+            if (blockHolds > 0) blockHolds--;
+            if (blockHolds == 0 && !beginningBlock && pendingBlockState.HasValue)
+            {
+                SessionState s = pendingBlockState.Value;
+                pendingBlockState = null;
+                EnterState(s);
+            }
+        }
+
+        private void BeginBlock(SessionState blockState, int blockIndex)
+        {
+            blockHolds = 0;
+            pendingBlockState = blockState;
+            beginningBlock = true;
+            OnBeforeBlock?.Invoke(blockIndex, CurrentProfile.ConditionForBlock(blockIndex));
+            beginningBlock = false;
+
+            if (blockHolds > 0)
+            {
+                if (panel != null) panel.Hide();   // a menu is taking over the screen
+                return;
+            }
+
+            pendingBlockState = null;
+            EnterState(blockState);
         }
 
         public bool IsBlockPaused => blockPaused;
@@ -375,6 +414,7 @@ namespace FYP.Session
             IsBlockRunning = false;
             blockPaused = false;
             tutorialActive = false;
+            blockHolds = 0; pendingBlockState = null;
             log.Write("session_abort", CurrentState.ToString(), CurrentBlockIndex, CurrentCondition, reason);
             EnterState(SessionState.End);
         }

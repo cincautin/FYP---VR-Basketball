@@ -5044,12 +5044,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1079411266}
-  - component: {fileID: 1079411265}
-  - component: {fileID: 1079411264}
-  - component: {fileID: 1079411260}
-  - component: {fileID: 1079411261}
-  - component: {fileID: 1079411263}
-  - component: {fileID: 1079411262}
   m_Layer: 0
   m_Name: ElementsTest
   m_TagString: Untagged
@@ -5057,84 +5051,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1079411260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079411259}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
-  element: 5
---- !u!114 &1079411261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079411259}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
-  element: 4
---- !u!114 &1079411262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079411259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
-  element: 3
---- !u!114 &1079411263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079411259}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
-  element: 2
---- !u!114 &1079411264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079411259}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
-  element: 1
---- !u!114 &1079411265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079411259}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.LogOnlyElement
-  element: 0
 --- !u!4 &1079411266
 Transform:
   m_ObjectHideFlags: 0
@@ -6541,7 +6457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83693d5a5a196e7469f7b8f29b28a51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VRBasketball::FYP.Session.SessionManager
-  blockSeconds: 300
+  blockSeconds: 240
   throwsTarget: 30
   endBlockAtTarget: 0
   tutorialLongSeconds: 180
@@ -6549,7 +6465,7 @@ MonoBehaviour:
   adaptationTickSeconds: 30
   panelBehaviour: {fileID: 1360915425}
   ballSpawner: {fileID: 0}
-  allowTestProfile: 0
+  allowTestProfile: 1
   debugParticipantId: 2
   tutorialDrivenExternally: 0
   abortHoldSeconds: 3
@@ -8887,12 +8803,14 @@ GameObject:
   - component: {fileID: 2095115282}
   - component: {fileID: 2095115281}
   - component: {fileID: 2095115280}
+  - component: {fileID: 2095115286}
   - component: {fileID: 2095115283}
   - component: {fileID: 2095115284}
   - component: {fileID: 2095115285}
   - component: {fileID: 2095115287}
-  - component: {fileID: 2095115286}
   - component: {fileID: 2095115288}
+  - component: {fileID: 2095115290}
+  - component: {fileID: 2095115289}
   m_Layer: 0
   m_Name: Elements
   m_TagString: Untagged
@@ -9058,6 +8976,36 @@ MonoBehaviour:
   panelColor: {r: 0.08, g: 0.09, b: 0.14, a: 0.75}
   earnedColor: {r: 1, g: 0.78, b: 0.2, a: 1}
   lockedColor: {r: 0.24, g: 0.26, b: 0.33, a: 1}
+--- !u!114 &2095115289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26eff4fe7d1c32e47b3de245aefd787a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.DebugChoiceMenu
+  autoDelaySeconds: 1.5
+  pickRandom: 1
+  simulateTimeout: 0
+--- !u!114 &2095115290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b66fab1f637f346a7415ccdbd77ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.PlayerChoiceElement
+  menuBehaviour: {fileID: 2095115289}
+  blockStartTimeoutSeconds: 20
+  midpointTimeoutSeconds: 10
 --- !u!1001 &1036505491579795906
 PrefabInstance:
   m_ObjectHideFlags: 0

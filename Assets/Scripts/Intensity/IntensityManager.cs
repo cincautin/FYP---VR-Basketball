@@ -148,6 +148,18 @@ namespace FYP.Intensity
             return d;
         }
 
+        public IntensityLevel PlannedLevel(ElementId id, string condition)
+        {
+            switch (condition)
+            {
+                case "fixed": return IntensityLevel.Medium;
+                case "adaptive":
+                    var start = HexadWeights.ComputeStartingLevels(session.CurrentProfile);
+                    return start.TryGetValue(id, out IntensityLevel level) ? level : IntensityLevel.Medium;
+                default: return IntensityLevel.Off;
+            }
+        }
+
         // ---------------------------------------------------------- Session events
 
         private void HandleStateChanged(SessionState state)

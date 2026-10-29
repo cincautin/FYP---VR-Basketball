@@ -37,13 +37,19 @@ namespace FYP.Logging
         public string lvl_choice = "NA";
         public string lvl_personal_best = "NA";
         public string lvl_timer = "NA";
+        public string choice_ball_skin = "NA";
+        public string choice_environment = "NA";
+        public string choice_fb_type = "NA";
+        public string choice_fb_freq = "NA";
+        public bool block_paused;
 
         public const string CsvHeader =
             "participant_id,session_id,block_index,condition,throw_index,timestamp_utc," +
             "time_since_block_start,time_held,release_pos_x,release_pos_y,release_pos_z," +
             "release_vel_x,release_vel_y,release_vel_z,release_speed,release_elevation_deg," +
             "release_azimuth_error_deg,hand,distance_to_hoop,made,time_to_outcome," +
-            "shot_clock_expired,lvl_points,lvl_progress,lvl_badges,lvl_choice,lvl_personal_best,lvl_timer";
+            "shot_clock_expired,lvl_points,lvl_progress,lvl_badges,lvl_choice,lvl_personal_best,lvl_timer," +
+            "choice_ball_skin,choice_environment,choice_fb_type,choice_fb_freq,block_paused";
 
         /// <summary>
         /// Formats this record as an escaped CSV line using InvariantCulture.
@@ -52,7 +58,7 @@ namespace FYP.Logging
         {
             var inv = CultureInfo.InvariantCulture;
             return string.Format(inv,
-                "{0},{1},{2},{3},{4},{5},{6:F3},{7:F3},{8:F3},{9:F3},{10:F3},{11:F3},{12:F3},{13:F3},{14:F3},{15:F2},{16:F2},{17},{18:F3},{19},{20:F3},{21},{22},{23},{24},{25},{26},{27}",
+                "{0},{1},{2},{3},{4},{5},{6:F3},{7:F3},{8:F3},{9:F3},{10:F3},{11:F3},{12:F3},{13:F3},{14:F3},{15:F2},{16:F2},{17},{18:F3},{19},{20:F3},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32}",
                 EscapeCsv(participant_id),
                 EscapeCsv(session_id),
                 block_index,
@@ -80,7 +86,12 @@ namespace FYP.Logging
                 EscapeCsv(lvl_badges),
                 EscapeCsv(lvl_choice),
                 EscapeCsv(lvl_personal_best),
-                EscapeCsv(lvl_timer)
+                EscapeCsv(lvl_timer),
+                EscapeCsv(choice_ball_skin),
+                EscapeCsv(choice_environment),
+                EscapeCsv(choice_fb_type),
+                EscapeCsv(choice_fb_freq),
+                block_paused ? "true" : "false"
             );
         }
 

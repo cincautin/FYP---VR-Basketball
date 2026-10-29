@@ -1,0 +1,25 @@
+{
+  "Messages": [
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.Pipeline.IlInterpreter] - IlInterpreter.Interpreter.ScriptInterpreter/LoweredMethod IlInterpreter.Interpreter.ScriptInterpreter/IrLowerer::LowerMethod(IlInterpreter.Interpreter.ScriptInterpreter/ParsedMethod,IlInterpreter.Interpreter.ScriptInterpreter/ParsedAssembly) - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+      "Type": 0,
+      "Text": "[Unity.Pipeline.IlInterpreter] - IlInterpreter.Interpreter.CallReturn IlInterpreter.Interpreter.ScriptInterpreter/Vm::Run(IlInterpreter.Interpreter.ScriptInterpreter/ParsedMethod,System.Object[],IlInterpreter.Interpreter.ScriptInterpreter/ParsedAssembly,System.Int32) - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    }
+  ],
+  "CommandLine": "@Library\\Bee\\artifacts\\rsp\\5997146229007494140.rsp"
+}
