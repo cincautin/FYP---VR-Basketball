@@ -146,7 +146,7 @@ struct Comparer_1_t40DF654372F4C75AEFB47EECDA5500BC04A7CB5F;
 struct Comparer_1_t31AFA64332324C7ACC2ED3890CBD4E7F97A2F092;
 struct Comparer_1_t9719D9A6BF57686E90E8710129BB891752709AA1;
 struct Comparer_1_tAC9E13E24947C724FE22C16DEE46692EEDFFEDC2;
-struct Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C;
+struct Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4;
 struct ComparisonComparer_1_tD2F2548D942C6D173CCAF07886B075FD072F255A;
 struct ComparisonComparer_1_t840263689B316063982D113E504130811FB35B37;
 struct ComparisonComparer_1_t18F5E57A87BF011BB26D29AD5FC65F03FA1F4731;
@@ -240,7 +240,7 @@ struct ComparisonComparer_1_tFC6B9B640B7CB8AFD157A858AA3CA5BDB0991434;
 struct ComparisonComparer_1_t86615F652D2FBA595360C14D6E40077A2C58A1DD;
 struct ComparisonComparer_1_tB49F3B9BB75DDF7A565AA9E85236D3176253B8D5;
 struct ComparisonComparer_1_tA4FBFEAFD1072F96DEABA75D6B7D238BCEA6C2C6;
-struct ComparisonComparer_1_t7B8E0F5DAA08A8701FB5004DD0E45A30052BDA56;
+struct ComparisonComparer_1_tF9495DCD662F40A2706739B6CA2450214E3BF85C;
 struct Comparison_1_tE68D245A5CD7F54899C04EDE679025720DDC8BC0;
 struct Comparison_1_t6002EB6EFE7598F24473C7D235BA040DBB2EA95D;
 struct Comparison_1_tF595505898D0E28C78EAEAD035B855A75F551D12;
@@ -335,7 +335,7 @@ struct Comparison_1_t7F4AA622C1F22734C55CF75CFEFBEF108FDBAF9A;
 struct Comparison_1_tC126A1DB2317CDCD96353C3DB19460E7A21F51EA;
 struct Comparison_1_tFC76793B9BC4699DC8BBCC7A41DD9298C01E1602;
 struct Comparison_1_t53C7968EAD02BE23D913BD2C7F7F58BBBDD8D096;
-struct Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3;
+struct Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9;
 struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83;
 struct Dictionary_2_t29F21243F1646FCAD86C6C5C2DB161713F7C3E53;
 struct Dictionary_2_tBDFE58AA02239A2E8AE42B477C6B65E3C9A05D5C;
@@ -434,7 +434,7 @@ struct ObjectComparer_1_tB259C9D8E33E6EA38B46BF1DE8D0F46271FD7F66;
 struct ObjectComparer_1_tCC4E3A4446D611D5B76E42A24226BF99244DBCDD;
 struct ObjectComparer_1_t8295549DF48326EA4FFE8B7506A406D47004C252;
 struct ObjectComparer_1_tC79324F1E6E294CA4CE2325C2AFD6504B5FFF227;
-struct ObjectComparer_1_t0C9CF94D8544A545CB883CC504C85F77EBCDCADE;
+struct ObjectComparer_1_tC82095BA7B5098C09EAE7C3DAA58874DAC49871C;
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
@@ -471,7 +471,6 @@ struct StyleComplexSelector_tE46C29F65FDBA48D3152781187401C8B55B7D8AD;
 struct StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428;
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
 struct Type_t;
-struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct XRHandCaptureSequence_t2502B9E7312D8143A2C53EF4A8CE0987BE2C3237;
 struct UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4;
@@ -787,7 +786,7 @@ struct Comparer_1_t9719D9A6BF57686E90E8710129BB891752709AA1  : public RuntimeObj
 struct Comparer_1_tAC9E13E24947C724FE22C16DEE46692EEDFFEDC2  : public RuntimeObject
 {
 };
-struct Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C  : public RuntimeObject
+struct Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4  : public RuntimeObject
 {
 };
 struct MemberInfo_t  : public RuntimeObject
@@ -1183,9 +1182,9 @@ struct ComparisonComparer_1_tA4FBFEAFD1072F96DEABA75D6B7D238BCEA6C2C6  : public 
 {
 	Comparison_1_t53C7968EAD02BE23D913BD2C7F7F58BBBDD8D096* ____comparison;
 };
-struct ComparisonComparer_1_t7B8E0F5DAA08A8701FB5004DD0E45A30052BDA56  : public Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C
+struct ComparisonComparer_1_tF9495DCD662F40A2706739B6CA2450214E3BF85C  : public Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4
 {
-	Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3* ____comparison;
+	Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9* ____comparison;
 };
 struct Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 
 {
@@ -1474,7 +1473,7 @@ struct ObjectComparer_1_t8295549DF48326EA4FFE8B7506A406D47004C252  : public Comp
 struct ObjectComparer_1_tC79324F1E6E294CA4CE2325C2AFD6504B5FFF227  : public Comparer_1_tAC9E13E24947C724FE22C16DEE46692EEDFFEDC2
 {
 };
-struct ObjectComparer_1_t0C9CF94D8544A545CB883CC504C85F77EBCDCADE  : public Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C
+struct ObjectComparer_1_tC82095BA7B5098C09EAE7C3DAA58874DAC49871C  : public Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4
 {
 };
 struct ReadOnlyArray_1_t4A15F7D15ACB297B45A08889D51E4CACEAD4EDF9 
@@ -2062,21 +2061,6 @@ struct AwaitableAndFrameIndex_t5B42EA520B0415D199F9487706ABCD53407C0161_marshale
 {
 	Awaitable_t690337FEC1C411606E233EA36A41337B931C23CB* ___U3CAwaitableU3Ek__BackingField;
 	int32_t ___U3CFrameIndexU3Ek__BackingField;
-};
-struct OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837 
-{
-	int32_t ___order;
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___callback;
-};
-struct OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837_marshaled_pinvoke
-{
-	int32_t ___order;
-	Il2CppMethodPointer ___callback;
-};
-struct OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837_marshaled_com
-{
-	int32_t ___order;
-	Il2CppMethodPointer ___callback;
 };
 struct ButtonsState_tC596C9B742AF4FDB4D32B05551EEDB23D243E996 
 {
@@ -2733,6 +2717,11 @@ struct XrAgenticExternalToolParameterTypeMETAX1_t23301BA6647EA09607FE2A7B256585A
 struct XrStructureType_t99AEF77046555042E617DA08DA96591B89746BB6 
 {
 	int32_t ___value__;
+};
+struct PositionSample_tE4F07C2ECB1D7B3B07AD1AD3398F26FAE9E491A1 
+{
+	float ___time;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
 };
 struct Button_tA3E7AF5F245F630CB38476BAB013B509F53B35B8 
 {
@@ -4188,7 +4177,7 @@ struct Comparison_1_tFC76793B9BC4699DC8BBCC7A41DD9298C01E1602  : public Multicas
 struct Comparison_1_t53C7968EAD02BE23D913BD2C7F7F58BBBDD8D096  : public MulticastDelegate_t
 {
 };
-struct Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3  : public MulticastDelegate_t
+struct Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9  : public MulticastDelegate_t
 {
 };
 struct FixedAttachmentArray_1_t74727BB5F586B5A943D14A73DE3B503914222023 
@@ -5058,9 +5047,9 @@ struct Comparer_1_tAC9E13E24947C724FE22C16DEE46692EEDFFEDC2_StaticFields
 {
 	Comparer_1_tAC9E13E24947C724FE22C16DEE46692EEDFFEDC2* ___defaultComparer;
 };
-struct Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C_StaticFields
+struct Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4_StaticFields
 {
-	Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* ___defaultComparer;
+	Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* ___defaultComparer;
 };
 struct String_t_StaticFields
 {
@@ -5507,9 +5496,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectComparer_1__ctor_m2918A25D354268C5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_tAC9E13E24947C724FE22C16DEE46692EEDFFEDC2* Comparer_1_CreateComparer_m37AAE97A5C2033FF04BB34E8597B2558E606A1A4_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComparisonComparer_1__ctor_m437548C600C496D18FE8ABFFFE3BE786175445E6_gshared (ComparisonComparer_1_tA4FBFEAFD1072F96DEABA75D6B7D238BCEA6C2C6* __this, Comparison_1_t53C7968EAD02BE23D913BD2C7F7F58BBBDD8D096* ___0_comparison, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectComparer_1__ctor_mFCE64A0CB923E3126F7D41A41B00F5D555613ECD_gshared (ObjectComparer_1_tC79324F1E6E294CA4CE2325C2AFD6504B5FFF227* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* Comparer_1_CreateComparer_m7757A7C9EF0E6C2BD0E91E2406EAF385D8FEB9DD_gshared (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComparisonComparer_1__ctor_mBE471E0EECC3F6B1B569AF7E1E676A9ADE1677D2_gshared (ComparisonComparer_1_t7B8E0F5DAA08A8701FB5004DD0E45A30052BDA56* __this, Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3* ___0_comparison, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectComparer_1__ctor_m70130B3D02107DBC2608B35BBF3FA2CEF2585B58_gshared (ObjectComparer_1_t0C9CF94D8544A545CB883CC504C85F77EBCDCADE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* Comparer_1_CreateComparer_m10D1818BD850734E1280F974D6CB246241DCB114_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComparisonComparer_1__ctor_mA04AE990FFB504B1018FDF28DFB876A79DE9980B_gshared (ComparisonComparer_1_tF9495DCD662F40A2706739B6CA2450214E3BF85C* __this, Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9* ___0_comparison, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectComparer_1__ctor_mE15751EF1BC0A20D64A44E219F1D528CCF3871EE_gshared (ObjectComparer_1_tC82095BA7B5098C09EAE7C3DAA58874DAC49871C* __this, const RuntimeMethod* method) ;
 
 inline Comparer_1_t23421756F8088B6B5616896BDBE558A89217CCDC* Comparer_1_CreateComparer_m3CAAB4BF857F3C249F0792D2A212B1A7BABD5725 (const RuntimeMethod* method)
 {
@@ -6633,17 +6622,17 @@ inline void ObjectComparer_1__ctor_mFCE64A0CB923E3126F7D41A41B00F5D555613ECD (Ob
 {
 	((  void (*) (ObjectComparer_1_tC79324F1E6E294CA4CE2325C2AFD6504B5FFF227*, const RuntimeMethod*))ObjectComparer_1__ctor_mFCE64A0CB923E3126F7D41A41B00F5D555613ECD_gshared)(__this, method);
 }
-inline Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* Comparer_1_CreateComparer_m7757A7C9EF0E6C2BD0E91E2406EAF385D8FEB9DD (const RuntimeMethod* method)
+inline Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* Comparer_1_CreateComparer_m10D1818BD850734E1280F974D6CB246241DCB114 (const RuntimeMethod* method)
 {
-	return ((  Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* (*) (const RuntimeMethod*))Comparer_1_CreateComparer_m7757A7C9EF0E6C2BD0E91E2406EAF385D8FEB9DD_gshared)(method);
+	return ((  Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* (*) (const RuntimeMethod*))Comparer_1_CreateComparer_m10D1818BD850734E1280F974D6CB246241DCB114_gshared)(method);
 }
-inline void ComparisonComparer_1__ctor_mBE471E0EECC3F6B1B569AF7E1E676A9ADE1677D2 (ComparisonComparer_1_t7B8E0F5DAA08A8701FB5004DD0E45A30052BDA56* __this, Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3* ___0_comparison, const RuntimeMethod* method)
+inline void ComparisonComparer_1__ctor_mA04AE990FFB504B1018FDF28DFB876A79DE9980B (ComparisonComparer_1_tF9495DCD662F40A2706739B6CA2450214E3BF85C* __this, Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9* ___0_comparison, const RuntimeMethod* method)
 {
-	((  void (*) (ComparisonComparer_1_t7B8E0F5DAA08A8701FB5004DD0E45A30052BDA56*, Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3*, const RuntimeMethod*))ComparisonComparer_1__ctor_mBE471E0EECC3F6B1B569AF7E1E676A9ADE1677D2_gshared)(__this, ___0_comparison, method);
+	((  void (*) (ComparisonComparer_1_tF9495DCD662F40A2706739B6CA2450214E3BF85C*, Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9*, const RuntimeMethod*))ComparisonComparer_1__ctor_mA04AE990FFB504B1018FDF28DFB876A79DE9980B_gshared)(__this, ___0_comparison, method);
 }
-inline void ObjectComparer_1__ctor_m70130B3D02107DBC2608B35BBF3FA2CEF2585B58 (ObjectComparer_1_t0C9CF94D8544A545CB883CC504C85F77EBCDCADE* __this, const RuntimeMethod* method)
+inline void ObjectComparer_1__ctor_mE15751EF1BC0A20D64A44E219F1D528CCF3871EE (ObjectComparer_1_tC82095BA7B5098C09EAE7C3DAA58874DAC49871C* __this, const RuntimeMethod* method)
 {
-	((  void (*) (ObjectComparer_1_t0C9CF94D8544A545CB883CC504C85F77EBCDCADE*, const RuntimeMethod*))ObjectComparer_1__ctor_m70130B3D02107DBC2608B35BBF3FA2CEF2585B58_gshared)(__this, method);
+	((  void (*) (ObjectComparer_1_tC82095BA7B5098C09EAE7C3DAA58874DAC49871C*, const RuntimeMethod*))ObjectComparer_1__ctor_mE15751EF1BC0A20D64A44E219F1D528CCF3871EE_gshared)(__this, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -31566,42 +31555,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparer_1__ctor_mAEABC9E9038A09047E6727
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 11238
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* Comparer_1_get_Default_m58094BC6CDF03D193C521CA670F3A4A6F14156C1_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* Comparer_1_get_Default_mC22CF0A4FE88843C32DADD970DC6AE2FC013C004_gshared (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
-	Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* V_0 = NULL;
+	Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* V_0 = NULL;
 	{
-		Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* L_0 = ((Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___defaultComparer;
+		Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* L_0 = ((Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___defaultComparer;
 		il2cpp_codegen_memory_barrier();
 		V_0 = L_0;
-		Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* L_1 = V_0;
+		Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* L_1 = V_0;
 		if (L_1)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* L_2;
-		L_2 = Comparer_1_CreateComparer_m7757A7C9EF0E6C2BD0E91E2406EAF385D8FEB9DD(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* L_2;
+		L_2 = Comparer_1_CreateComparer_m10D1818BD850734E1280F974D6CB246241DCB114(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		V_0 = L_2;
-		Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* L_3 = V_0;
+		Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* L_3 = V_0;
 		il2cpp_codegen_memory_barrier();
-		((Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___defaultComparer = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___defaultComparer), (void*)L_3);
+		((Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___defaultComparer = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___defaultComparer), (void*)L_3);
 	}
 
 IL_0019:
 	{
-		Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* L_4 = V_0;
+		Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* L_4 = V_0;
 		return L_4;
 	}
 }
 // Method Definition Index: 11239
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* Comparer_1_Create_m36770AE2B088550E1475B0139CE090F5C465ACDD_gshared (Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3* ___0_comparison, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* Comparer_1_Create_m7F82F6E0E9B9244661C52CF0323F423515E4B2CC_gshared (Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9* ___0_comparison, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	{
-		Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3* L_0 = ___0_comparison;
+		Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9* L_0 = ___0_comparison;
 		if (L_0)
 		{
 			goto IL_000e;
@@ -31615,14 +31604,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D61
 
 IL_000e:
 	{
-		Comparison_1_tC8BBA462D5337723AC34773EEE343018753C7FF3* L_2 = ___0_comparison;
-		ComparisonComparer_1_t7B8E0F5DAA08A8701FB5004DD0E45A30052BDA56* L_3 = (ComparisonComparer_1_t7B8E0F5DAA08A8701FB5004DD0E45A30052BDA56*)il2cpp_codegen_object_new(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		ComparisonComparer_1__ctor_mBE471E0EECC3F6B1B569AF7E1E676A9ADE1677D2(L_3, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
-		return (Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C*)L_3;
+		Comparison_1_t8FD30BEA9C88A9FFEDBA63FBA6F82B8B33A82CE9* L_2 = ___0_comparison;
+		ComparisonComparer_1_tF9495DCD662F40A2706739B6CA2450214E3BF85C* L_3 = (ComparisonComparer_1_tF9495DCD662F40A2706739B6CA2450214E3BF85C*)il2cpp_codegen_object_new(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		ComparisonComparer_1__ctor_mA04AE990FFB504B1018FDF28DFB876A79DE9980B(L_3, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		return (Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4*)L_3;
 	}
 }
 // Method Definition Index: 11240
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* Comparer_1_CreateComparer_m7757A7C9EF0E6C2BD0E91E2406EAF385D8FEB9DD_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* Comparer_1_CreateComparer_m10D1818BD850734E1280F974D6CB246241DCB114_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -31665,7 +31654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D61
 		il2cpp_codegen_runtime_class_init_inline(RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_il2cpp_TypeInfo_var);
 		RuntimeObject* L_9;
 		L_9 = RuntimeType_CreateInstanceForAnotherGenericParameter_m5AD0AF8C5D092750500FF193E17F311C59A6D066(L_7, L_8, NULL);
-		return ((Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C*)CastclassClass((RuntimeObject*)L_9, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0)));
+		return ((Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4*)CastclassClass((RuntimeObject*)L_9, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0)));
 	}
 
 IL_0038:
@@ -31735,18 +31724,18 @@ IL_0038:
 		il2cpp_codegen_runtime_class_init_inline(RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_il2cpp_TypeInfo_var);
 		RuntimeObject* L_32;
 		L_32 = RuntimeType_CreateInstanceForAnotherGenericParameter_m5AD0AF8C5D092750500FF193E17F311C59A6D066(L_30, L_31, NULL);
-		return ((Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C*)CastclassClass((RuntimeObject*)L_32, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0)));
+		return ((Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4*)CastclassClass((RuntimeObject*)L_32, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0)));
 	}
 
 IL_009c:
 	{
-		ObjectComparer_1_t0C9CF94D8544A545CB883CC504C85F77EBCDCADE* L_33 = (ObjectComparer_1_t0C9CF94D8544A545CB883CC504C85F77EBCDCADE*)il2cpp_codegen_object_new(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		ObjectComparer_1__ctor_m70130B3D02107DBC2608B35BBF3FA2CEF2585B58(L_33, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
-		return (Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C*)L_33;
+		ObjectComparer_1_tC82095BA7B5098C09EAE7C3DAA58874DAC49871C* L_33 = (ObjectComparer_1_tC82095BA7B5098C09EAE7C3DAA58874DAC49871C*)il2cpp_codegen_object_new(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		ObjectComparer_1__ctor_mE15751EF1BC0A20D64A44E219F1D528CCF3871EE(L_33, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		return (Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4*)L_33;
 	}
 }
 // Method Definition Index: 11242
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparer_1_System_Collections_IComparer_Compare_mD92DC20D14FFBB38EF023949C4F445CCA9020BF6_gshared (Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparer_1_System_Collections_IComparer_Compare_mF1CB45361E5AB89D6554015971853AAC516E43EE_gshared (Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	{
@@ -31803,7 +31792,7 @@ IL_000f:
 		RuntimeObject* L_5 = ___0_x;
 		RuntimeObject* L_6 = ___1_y;
 		int32_t L_7;
-		L_7 = VirtualFuncInvoker2< int32_t, OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837, OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837 >::Invoke(6, __this, ((*(OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837*)UnBox(L_5, il2cpp_rgctx_data(method->klass->rgctx_data, 8)))), ((*(OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837*)UnBox(L_6, il2cpp_rgctx_data(method->klass->rgctx_data, 8)))));
+		L_7 = VirtualFuncInvoker2< int32_t, PositionSample_tE4F07C2ECB1D7B3B07AD1AD3398F26FAE9E491A1, PositionSample_tE4F07C2ECB1D7B3B07AD1AD3398F26FAE9E491A1 >::Invoke(6, __this, ((*(PositionSample_tE4F07C2ECB1D7B3B07AD1AD3398F26FAE9E491A1*)UnBox(L_5, il2cpp_rgctx_data(method->klass->rgctx_data, 8)))), ((*(PositionSample_tE4F07C2ECB1D7B3B07AD1AD3398F26FAE9E491A1*)UnBox(L_6, il2cpp_rgctx_data(method->klass->rgctx_data, 8)))));
 		return L_7;
 	}
 
@@ -31814,7 +31803,7 @@ IL_0032:
 	}
 }
 // Method Definition Index: 11243
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparer_1__ctor_m844367CC9D1B9F538B0D22AE98F884A4194AC130_gshared (Comparer_1_t83BB240F5840BD62CA43AFBDF10E51D6192FBE6C* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparer_1__ctor_mD5677E0909B57561F12A8636F7D193441AEE3B2F_gshared (Comparer_1_tEBE2E16E937B61EC1B4DAC8EC1EDD0C3AD182CF4* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	{

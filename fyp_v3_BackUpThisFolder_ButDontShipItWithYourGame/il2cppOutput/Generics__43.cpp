@@ -9769,6 +9769,7 @@ struct MeshChunk_tEEA891FD6A9FBF660DB8ED98B23FCCB8A413C2BD
 struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57 
 {
 	String_t* ___text;
+	String_t* ___sub;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
 	float ___seconds;
 	int32_t ___sfx;
@@ -9776,6 +9777,7 @@ struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57
 struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57_marshaled_pinvoke
 {
 	char* ___text;
+	char* ___sub;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
 	float ___seconds;
 	int32_t ___sfx;
@@ -9783,6 +9785,7 @@ struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57_marshaled_pinvoke
 struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57_marshaled_com
 {
 	Il2CppChar* ___text;
+	Il2CppChar* ___sub;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
 	float ___seconds;
 	int32_t ___sfx;
@@ -23064,6 +23067,9 @@ struct MessageU5BU5D_t7E253D91CC969C44F06EA3AF77481E7A1F32F634  : public Runtime
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___text), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___sub), (void*)NULL);
+		#endif
 	}
 	inline Message_t439BAAD871295B67F7429E4BF40147801DD52B57 GetAtUnchecked(il2cpp_array_size_t index) const
 	{
@@ -23077,6 +23083,9 @@ struct MessageU5BU5D_t7E253D91CC969C44F06EA3AF77481E7A1F32F634  : public Runtime
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___text), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___sub), (void*)NULL);
+		#endif
 	}
 };
 struct AnimatedFadeDataU5BU5D_tC11E7BD5A06165601C1C1B43DDE866882BAAF158  : public RuntimeArray
@@ -38312,7 +38321,7 @@ bool ElementTryParser_1_Invoke_mCB099664E37D4000A9D067737BC522BF4E928EBF_OpenGen
 	NullCheck(___0_lexer);
 	return GenericInterfaceFuncInvoker2< bool, Il2CppSharedGenericObject**, Token_t97B178673FF7CB702F702E256C5AC3DAF3CCB112* >::Invoke(method, ___0_lexer, ___1_parsedValue, ___2_token);
 }
-// Method Definition Index: 84626
+// Method Definition Index: 84665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementTryParser_1__ctor_m5378FC58BEF1542A3B6E522170F04EA619C84F0D_gshared (ElementTryParser_1_t10376182234915E33DAA3879A0690FEF1BD81279* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -38366,7 +38375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementTryParser_1__ctor_m5378FC58BEF154
 	}
 	__this->___extra_arg = (intptr_t)&ElementTryParser_1_Invoke_mCB099664E37D4000A9D067737BC522BF4E928EBF_Multicast;
 }
-// Method Definition Index: 84627
+// Method Definition Index: 84666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ElementTryParser_1_Invoke_mCB099664E37D4000A9D067737BC522BF4E928EBF_gshared (ElementTryParser_1_t10376182234915E33DAA3879A0690FEF1BD81279* __this, Lexer_tEB5CE4B8FBF019C518920A6F9B17B7B1766484A6* ___0_lexer, Il2CppSharedGenericObject** ___1_parsedValue, Token_t97B178673FF7CB702F702E256C5AC3DAF3CCB112* ___2_token, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -38425,7 +38434,7 @@ bool ElementTryParser_1_Invoke_m06F2A2F8B23C5B2952A809AE29C76FB8E029B200_OpenGen
 	NullCheck(___0_lexer);
 	return GenericInterfaceFuncInvoker2< bool, Il2CppFullySharedGenericAny*, Token_t97B178673FF7CB702F702E256C5AC3DAF3CCB112* >::Invoke(method, ___0_lexer, ___1_parsedValue, ___2_token);
 }
-// Method Definition Index: 84626
+// Method Definition Index: 84665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementTryParser_1__ctor_m567F904F6E450429D65120B06659E1EAED00DF23_gshared (ElementTryParser_1_tF5C64163E4A279CF6F7D083E32F8237740268972* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -38479,7 +38488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementTryParser_1__ctor_m567F904F6E4504
 	}
 	__this->___extra_arg = (intptr_t)&ElementTryParser_1_Invoke_m06F2A2F8B23C5B2952A809AE29C76FB8E029B200_Multicast;
 }
-// Method Definition Index: 84627
+// Method Definition Index: 84666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ElementTryParser_1_Invoke_m06F2A2F8B23C5B2952A809AE29C76FB8E029B200_gshared (ElementTryParser_1_tF5C64163E4A279CF6F7D083E32F8237740268972* __this, Lexer_tEB5CE4B8FBF019C518920A6F9B17B7B1766484A6* ___0_lexer, Il2CppFullySharedGenericAny* ___1_parsedValue, Token_t97B178673FF7CB702F702E256C5AC3DAF3CCB112* ___2_token, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -45316,7 +45325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyArray_1__cctor_m121791F2A58A26A3335
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85661
+// Method Definition Index: 85700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyEnumerable_1__cctor_mA5F0D538BBD6AAB4CE33B937FB30179E88A17C53_gshared (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -45335,7 +45344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyEnumerable_1__cctor_mA5F0D538BBD6AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85661
+// Method Definition Index: 85700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyEnumerable_1__cctor_m6576803E88604C30B742181AD02FB81FB8560FE9_gshared (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -45354,7 +45363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyEnumerable_1__cctor_m6576803E88604C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 85661
+// Method Definition Index: 85700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyEnumerable_1__cctor_mF43E0A91F939568F94E076C5D37765945E3A175D_gshared (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -60029,7 +60038,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FixedList_PaddingBytes_Ti
 		return L_3;
 	}
 }
-// Method Definition Index: 88459
+// Method Definition Index: 88498
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_tzcnt_m25573278D92DAE1280EBFACAAB6BB50CFF4172CD_inline (int32_t ___0_x, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -60040,7 +60049,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_tzcnt_m25573278D92DA
 		return L_1;
 	}
 }
-// Method Definition Index: 88394
+// Method Definition Index: 88433
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_min_m0D183243301588F5000801E35B451374CD10DFC1_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -60063,7 +60072,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 88400
+// Method Definition Index: 88439
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_max_m5EE58D9462EC2A39BDE97B0C27BB14CF4A0DB651_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -60086,7 +60095,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 88460
+// Method Definition Index: 88499
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_tzcnt_m9318C63D3F5FC4DE0F7ACB372307134237D52DA9_inline (uint32_t ___0_x, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

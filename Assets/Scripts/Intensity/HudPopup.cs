@@ -6,7 +6,10 @@ using FYP.Session;
 
 namespace FYP.Intensity
 {
-    /// <summary>Short alerts in the HUD's Popup slot, shown one at a time. Used by personal best and badges.</summary>
+    /// <summary>
+    /// Short alerts in the HUD's Popup slot, shown one at a time. Used by personal best and badges.
+    /// An alert has a main line and an optional smaller line underneath.
+    /// </summary>
     public class HudPopup : MonoBehaviour
     {
         public static HudPopup Instance { get; private set; }
@@ -16,6 +19,7 @@ namespace FYP.Intensity
         private struct Message
         {
             public string text;
+            public string sub;
             public Color color;
             public float seconds;
             public SfxId sfx;
@@ -27,6 +31,7 @@ namespace FYP.Intensity
         private float hideAt;
         private Image accent;
         private TextMeshProUGUI label;
+        private TextMeshProUGUI subLabel;
         private SessionManager session;
 
         private void Awake()
@@ -70,20 +75,36 @@ namespace FYP.Intensity
             accent = ElementsHud.CreatePanel(slot, "Accent", Color.white);
             RectTransform ar = accent.rectTransform;
             ar.anchorMin = new Vector2(0f, 0f);
-            ar.anchorMax = new Vector2(1f, 0.08f);
+            ar.anchorMax = new Vector2(1f, 0.07f);
             ar.offsetMin = Vector2.zero;
             ar.offsetMax = Vector2.zero;
 
             label = ElementsHud.CreateText(slot, "Label", "", 44, TextAlignmentOptions.Midline, Color.white);
             label.fontStyle = FontStyles.Bold;
+            label.enableAutoSizing = true;
+            label.fontSizeMin = 22;
+            label.fontSizeMax = 44;
+
+            subLabel = ElementsHud.CreateText(slot, "SubLabel", "", 28, TextAlignmentOptions.Midline, new Color(0.85f, 0.88f, 0.95f));
+            subLabel.enableAutoSizing = true;
+            subLabel.fontSizeMin = 16;
+            subLabel.fontSizeMax = 28;
+            subLabel.gameObject.SetActive(false);
+
             built = true;
         }
 
-        /// <summary>Queues an alert. Extra alerts beyond the queue limit are dropped.</summary>
+        /// <summary>Queues an alert with one line. Extra alerts beyond the queue limit are dropped.</summary>
         public void Show(string text, Color color, float seconds = 2.2f, SfxId sfx = SfxId.Pop)
         {
+            Show(text, "", color, seconds, sfx);
+        }
+
+        /// <summary>Queues an alert with a main line and a smaller explanation line.</summary>
+        public void Show(string text, string sub, Color color, float seconds = 2.2f, SfxId sfx = SfxId.Pop)
+        {
             if (!built || queue.Count >= maxQueued) return;
-            queue.Enqueue(new Message { text = text, color = color, seconds = seconds, sfx = sfx });
+            queue.Enqueue(new Message { text = text, sub = sub, color = color, seconds = seconds, sfx = sfx });
         }
 
         public void Clear()
@@ -91,6 +112,14 @@ namespace FYP.Intensity
             queue.Clear();
             showing = false;
             if (built) ElementsHud.Instance.SetSlotActive(HudSlot.Popup, false);
+        }
+
+        private static void SetAnchors(RectTransform rt, float x0, float y0, float x1, float y1)
+        {
+            rt.anchorMin = new Vector2(x0, y0);
+            rt.anchorMax = new Vector2(x1, y1);
+            rt.offsetMin = Vector2.zero;
+            rt.offsetMax = Vector2.zero;
         }
 
         private void Update()
@@ -106,11 +135,22 @@ namespace FYP.Intensity
             if (!showing && queue.Count > 0)
             {
                 Message m = queue.Dequeue();
+                bool hasSub = !string.IsNullOrEmpty(m.sub);
+
                 ElementsHud.Instance.SetSlotActive(HudSlot.Popup, true);
+                SetAnchors(label.rectTransform, 0.03f, hasSub ? 0.46f : 0.1f, 0.97f, 0.96f);
                 label.text = m.text;
                 label.color = Color.white;
+
+                subLabel.gameObject.SetActive(hasSub);
+                if (hasSub)
+                {
+                    SetAnchors(subLabel.rectTransform, 0.03f, 0.1f, 0.97f, 0.46f);
+                    subLabel.text = m.sub;
+                }
+
                 accent.color = m.color;
-                UiAnim.Pop(label.transform, 1.25f, 0.3f);
+                UiAnim.Pop(label.transform, 1.2f, 0.3f);
                 if (SfxPlayer.Instance != null) SfxPlayer.Instance.Play(m.sfx);
                 showing = true;
                 hideAt = Time.time + m.seconds;

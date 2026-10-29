@@ -900,6 +900,7 @@ struct XrSpaceFilterUuidMETA_t8F5BF755EB45D64B811C28BB4FB119782BD29773
 struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57 
 {
 	String_t* ___text;
+	String_t* ___sub;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
 	float ___seconds;
 	int32_t ___sfx;
@@ -907,6 +908,7 @@ struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57
 struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57_marshaled_pinvoke
 {
 	char* ___text;
+	char* ___sub;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
 	float ___seconds;
 	int32_t ___sfx;
@@ -914,6 +916,7 @@ struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57_marshaled_pinvoke
 struct Message_t439BAAD871295B67F7429E4BF40147801DD52B57_marshaled_com
 {
 	Il2CppChar* ___text;
+	Il2CppChar* ___sub;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color;
 	float ___seconds;
 	int32_t ___sfx;
@@ -1641,6 +1644,9 @@ struct MessageU5BU5D_t7E253D91CC969C44F06EA3AF77481E7A1F32F634  : public Runtime
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___text), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___sub), (void*)NULL);
+		#endif
 	}
 	inline Message_t439BAAD871295B67F7429E4BF40147801DD52B57 GetAtUnchecked(il2cpp_array_size_t index) const
 	{
@@ -1654,6 +1660,9 @@ struct MessageU5BU5D_t7E253D91CC969C44F06EA3AF77481E7A1F32F634  : public Runtime
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___text), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___sub), (void*)NULL);
+		#endif
 	}
 };
 struct CallbackInfoU5BU5D_tACA211A7E82CC25DD66260299AAA6FE5595E10E9  : public RuntimeArray
@@ -12504,6 +12513,9 @@ IL_001f:
 		Message_t439BAAD871295B67F7429E4BF40147801DD52B57 L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		*(Message_t439BAAD871295B67F7429E4BF40147801DD52B57*)L_4 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)&(((Message_t439BAAD871295B67F7429E4BF40147801DD52B57*)L_4)->___text), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((Message_t439BAAD871295B67F7429E4BF40147801DD52B57*)L_4)->___sub), (void*)NULL);
+		#endif
 	}
 	{
 		MessageU5BU5D_t7E253D91CC969C44F06EA3AF77481E7A1F32F634* L_9 = V_1;
@@ -12577,6 +12589,9 @@ IL_0011:
 		Message_t439BAAD871295B67F7429E4BF40147801DD52B57 L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		*(Message_t439BAAD871295B67F7429E4BF40147801DD52B57*)L_2 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)&(((Message_t439BAAD871295B67F7429E4BF40147801DD52B57*)L_2)->___text), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((Message_t439BAAD871295B67F7429E4BF40147801DD52B57*)L_2)->___sub), (void*)NULL);
+		#endif
 		return (bool)1;
 	}
 }
@@ -18841,7 +18856,7 @@ IL_009d:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 88394
+// Method Definition Index: 88433
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_min_m0D183243301588F5000801E35B451374CD10DFC1_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

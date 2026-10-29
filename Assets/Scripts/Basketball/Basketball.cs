@@ -14,22 +14,33 @@ namespace VRBasketball
         [SerializeField] private AudioClip backboardSound;
 
         [Header("Auto Return")]
-        [SerializeField] private float restTimeBeforeReturn = 5f;
+        [Tooltip("Seconds after a shot first touches the floor before the ball returns to the rack.")]
+        [SerializeField] private float returnDelayAfterFloorHit = 1.5f;
+        [Tooltip("Fallback: seconds a shot ball must rest somewhere else (table, backboard) before it returns.")]
+        [SerializeField] private float restTimeBeforeReturn = 2f;
         [SerializeField] private float restVelocityThreshold = 0.15f;
+        [Tooltip("A ball knocked off the rack without being thrown returns after resting this long.")]
+        [SerializeField] private float strayReturnSeconds = 3f;
+        [Tooltip("How far from its spot a ball must be to count as a stray (metres).")]
+        [SerializeField] private float strayMinDistance = 0.4f;
 
         private Rigidbody rb;
         private Grabbable grabbable;
         private Vector3 initialSpawnPosition;
         private Quaternion initialSpawnRotation;
         private float restTimer = 0f;
+        private float strayTimer = 0f;
         private bool isHeld = false;
         private bool hasBeenShot = false;
+        private bool hitFloorSinceShot = false;
+        private float floorHitTime = 0f;
 
         private OVRCameraRig cachedRig;
         private string currentGrabHand = "right";
         private bool grabEventRaised = false;
 
         public bool IsThreePointer { get; set; } = false;
+        public bool IsHeld => isHeld;
 
         // Static events for logging and game hooks
         public static event Action<Basketball, string> OnBallGrabbed;
@@ -114,7 +125,9 @@ namespace VRBasketball
         {
             isHeld = true;
             hasBeenShot = false;
+            hitFloorSinceShot = false;
             restTimer = 0f;
+            strayTimer = 0f;
 
             if (!grabEventRaised)
             {
@@ -127,7 +140,9 @@ namespace VRBasketball
         {
             isHeld = false;
             hasBeenShot = true;
+            hitFloorSinceShot = false;
             restTimer = 0f;
+            strayTimer = 0f;
 
             // Check if player threw from beyond 3-point line (~6.75m from hoop)
             float distToHoop = Vector2.Distance(new Vector2(transform.position.x, transform.position.z), Vector2.zero);
@@ -155,19 +170,43 @@ namespace VRBasketball
                 return;
             }
 
-            // Auto-return if resting on ground after a shot
-            if (hasBeenShot && rb.linearVelocity.magnitude < restVelocityThreshold)
+            if (hasBeenShot)
             {
-                restTimer += Time.deltaTime;
-                if (restTimer >= restTimeBeforeReturn)
+                // Fast path: return a short while after the ball first touches the floor
+                if (hitFloorSinceShot && Time.time - floorHitTime >= returnDelayAfterFloorHit)
                 {
-                    OnBallHitFloorOrOutOfBounds?.Invoke(this);
                     Respawn();
+                    return;
+                }
+
+                // Fallback: ball came to rest somewhere else (table, backboard...)
+                if (rb.linearVelocity.magnitude < restVelocityThreshold)
+                {
+                    restTimer += Time.deltaTime;
+                    if (restTimer >= restTimeBeforeReturn)
+                    {
+                        OnBallHitFloorOrOutOfBounds?.Invoke(this);
+                        Respawn();
+                    }
+                }
+                else
+                {
+                    restTimer = 0f;
                 }
             }
             else
             {
-                restTimer = 0f;
+                // Stray ball: knocked off the rack without being thrown
+                bool away = (transform.position - initialSpawnPosition).sqrMagnitude > strayMinDistance * strayMinDistance;
+                if (away && rb.linearVelocity.magnitude < restVelocityThreshold)
+                {
+                    strayTimer += Time.deltaTime;
+                    if (strayTimer >= strayReturnSeconds) Respawn();
+                }
+                else
+                {
+                    strayTimer = 0f;
+                }
             }
         }
 
@@ -178,7 +217,9 @@ namespace VRBasketball
             transform.position = initialSpawnPosition;
             transform.rotation = initialSpawnRotation;
             hasBeenShot = false;
+            hitFloorSinceShot = false;
             restTimer = 0f;
+            strayTimer = 0f;
             grabEventRaised = false;
         }
 
@@ -197,6 +238,11 @@ namespace VRBasketball
                     (collision.contacts.Length > 0 && collision.contacts[0].point.y < 0.2f &&
                      !collision.gameObject.CompareTag("Rim") && !collision.gameObject.CompareTag("Backboard")))
                 {
+                    if (!hitFloorSinceShot)
+                    {
+                        hitFloorSinceShot = true;
+                        floorHitTime = Time.time;
+                    }
                     OnBallHitFloorOrOutOfBounds?.Invoke(this);
                 }
             }
@@ -221,4 +267,3 @@ namespace VRBasketball
         }
     }
 }
-

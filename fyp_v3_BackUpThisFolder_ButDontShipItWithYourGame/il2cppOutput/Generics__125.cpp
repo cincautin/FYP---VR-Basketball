@@ -1000,6 +1000,18 @@ struct NativeArray_1_t60C2883F9133642CF381234B3DD254605DD4F0A5
 	int32_t ___m_Length;
 	int32_t ___m_AllocatorLabel;
 };
+struct NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
 struct NativeArray_1_t3C666A50D3E0F5803B63036EC771A974D48FFF62 
 {
 	void* ___m_Buffer;
@@ -1007,6 +1019,12 @@ struct NativeArray_1_t3C666A50D3E0F5803B63036EC771A974D48FFF62
 	int32_t ___m_AllocatorLabel;
 };
 struct NativeArray_1_t1779DD80E20BBE47D98F52B8F789215FA99BC8C8 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 
 {
 	void* ___m_Buffer;
 	int32_t ___m_Length;
@@ -1473,6 +1491,26 @@ struct Enumerator_t68967AD88D53927E18B0E3EB45F2FFE01B0A448D
 	NativeArray_1_t60C2883F9133642CF381234B3DD254605DD4F0A5 ___m_Array;
 	int32_t ___m_Index;
 	BatchID_t884E3C204D1F4C18FFD2361FC14A1E64CFBD8770 ___value;
+};
+struct NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E 
+{
+	int32_t ___m_Allocator;
+	MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___m_MemoryLabel;
+};
+struct NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A 
+{
+	int32_t ___m_Allocator;
+	MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___m_MemoryLabel;
+};
+struct NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC 
+{
+	int32_t ___m_Allocator;
+	MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___m_MemoryLabel;
+};
+struct NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492 
+{
+	int32_t ___m_Allocator;
+	MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___m_MemoryLabel;
 };
 struct NativeArrayAllocator_t60748B6A3A7FB52B1E41A4D6F12C18F2D6FD7798 
 {
@@ -2551,6 +2589,22 @@ struct BatchIDU5BU5D_t24AE29CD511A8C8CBDEBA151173F1FD709792963  : public Runtime
 };
 
 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_m180FFB744929A3ABACCCF407FD3560A57CBA1C0C_gshared (NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mD0D16C1AD93FA5DDF17C3C7F03ECE341A35121ED_gshared (NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m3C861C28046C6CF0E1E81CEFDFF76BA7D636C044_gshared (NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 NativeArrayAllocator_CreateArray_m32A0BA1DC18EED2754250A7E3D4F2635F809AEFB_gshared (NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_mE26BEF6D8679504380BFAA7D80CB1E0B7E58664C_gshared (NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mDE6E6EEA3F6290E5C34C4721D4D24C42F62894C9_gshared (NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m33F96952EDD0E94C1566D84E6274466155C2F663_gshared (NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD NativeArrayAllocator_CreateArray_mB039FC4DDACC14876FF0F9A52DF1225D9424E412_gshared (NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_mE1BA75DFA73C61BC46BBB128FEC6635FCA3BF934_gshared (NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m07DCCFE7F73F7817188936884372B12DC6F0CAB5_gshared (NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mBBC6CC6B966E1C7A15C962C864A05D369B8259A4_gshared (NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 NativeArrayAllocator_CreateArray_m728A13B88FD85FA6CF5F2D64F22592CB03C8632B_gshared (NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_m44FA9B3E65248C9541D203A60A05E8067106EF43_gshared (NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m01C0164611F0F10354E4ABA539FA854E3A97F76A_gshared (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m788DE0F85C4051DDF092DDF96484DE655ACFB6F1_gshared (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 NativeArrayAllocator_CreateArray_m23A47AB9FCCC96DE09A09E691F423EEE92972DFE_gshared (NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_mF1B3404421DC1ED69C04A554A30730E5BF285721_gshared (NativeArrayAllocator_t60748B6A3A7FB52B1E41A4D6F12C18F2D6FD7798* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m24C7DBB8A689B474130F9AE3BA859AF00FFBC7E5_gshared (NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m0D9FDCFFDFAF90AEEE2D92B7894892ED10590F29_gshared (NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
@@ -3551,11 +3605,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlySpan_1_t3D56DFE8743E7EF0665F38A59DA5B
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryLabel_SupportsAllocator_m2FBEAFCA15699420E8C5E42BA823DEE2999B6E6D (int32_t ___0_allocator, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryLabel__ctor_m9EBEB7071302DF5EC12EB34EB2949E01617C5191 (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* __this, String_t* ___0_areaName, String_t* ___1_objectName, int32_t ___2_allocator, const RuntimeMethod* method) ;
+inline void NativeArrayAllocator__ctor_m180FFB744929A3ABACCCF407FD3560A57CBA1C0C (NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E*, String_t*, int32_t, const RuntimeMethod*))NativeArrayAllocator__ctor_m180FFB744929A3ABACCCF407FD3560A57CBA1C0C_gshared)(__this, ___0_profilerName, ___1_allocator, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryLabel_get_IsCreated_m8B3D6AC21CEADC1D4C4EF4A3D2B168EBFADC26BA (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* __this, const RuntimeMethod* method) ;
+inline void NativeArray_1__ctor_mD0D16C1AD93FA5DDF17C3C7F03ECE341A35121ED (NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3*, int32_t, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2, int32_t, const RuntimeMethod*))NativeArray_1__ctor_mD0D16C1AD93FA5DDF17C3C7F03ECE341A35121ED_gshared)(__this, ___0_length, ___1_label, ___2_options, method);
+}
+inline void NativeArray_1__ctor_m3C861C28046C6CF0E1E81CEFDFF76BA7D636C044 (NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m3C861C28046C6CF0E1E81CEFDFF76BA7D636C044_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+inline NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 NativeArrayAllocator_CreateArray_m32A0BA1DC18EED2754250A7E3D4F2635F809AEFB (NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 (*) (NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E*, int32_t, int32_t, const RuntimeMethod*))NativeArrayAllocator_CreateArray_m32A0BA1DC18EED2754250A7E3D4F2635F809AEFB_gshared)(__this, ___0_length, ___1_options, method);
+}
+inline void NativeArrayAllocator__ctor_mE26BEF6D8679504380BFAA7D80CB1E0B7E58664C (NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A*, String_t*, int32_t, const RuntimeMethod*))NativeArrayAllocator__ctor_mE26BEF6D8679504380BFAA7D80CB1E0B7E58664C_gshared)(__this, ___0_profilerName, ___1_allocator, method);
+}
+inline void NativeArray_1__ctor_mDE6E6EEA3F6290E5C34C4721D4D24C42F62894C9 (NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD*, int32_t, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2, int32_t, const RuntimeMethod*))NativeArray_1__ctor_mDE6E6EEA3F6290E5C34C4721D4D24C42F62894C9_gshared)(__this, ___0_length, ___1_label, ___2_options, method);
+}
+inline void NativeArray_1__ctor_m33F96952EDD0E94C1566D84E6274466155C2F663 (NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m33F96952EDD0E94C1566D84E6274466155C2F663_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+inline NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD NativeArrayAllocator_CreateArray_mB039FC4DDACC14876FF0F9A52DF1225D9424E412 (NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD (*) (NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A*, int32_t, int32_t, const RuntimeMethod*))NativeArrayAllocator_CreateArray_mB039FC4DDACC14876FF0F9A52DF1225D9424E412_gshared)(__this, ___0_length, ___1_options, method);
+}
+inline void NativeArrayAllocator__ctor_mE1BA75DFA73C61BC46BBB128FEC6635FCA3BF934 (NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC*, String_t*, int32_t, const RuntimeMethod*))NativeArrayAllocator__ctor_mE1BA75DFA73C61BC46BBB128FEC6635FCA3BF934_gshared)(__this, ___0_profilerName, ___1_allocator, method);
+}
+inline void NativeArray_1__ctor_m07DCCFE7F73F7817188936884372B12DC6F0CAB5 (NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149*, int32_t, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m07DCCFE7F73F7817188936884372B12DC6F0CAB5_gshared)(__this, ___0_length, ___1_label, ___2_options, method);
+}
+inline void NativeArray_1__ctor_mBBC6CC6B966E1C7A15C962C864A05D369B8259A4 (NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_mBBC6CC6B966E1C7A15C962C864A05D369B8259A4_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+inline NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 NativeArrayAllocator_CreateArray_m728A13B88FD85FA6CF5F2D64F22592CB03C8632B (NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 (*) (NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC*, int32_t, int32_t, const RuntimeMethod*))NativeArrayAllocator_CreateArray_m728A13B88FD85FA6CF5F2D64F22592CB03C8632B_gshared)(__this, ___0_length, ___1_options, method);
+}
+inline void NativeArrayAllocator__ctor_m44FA9B3E65248C9541D203A60A05E8067106EF43 (NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492*, String_t*, int32_t, const RuntimeMethod*))NativeArrayAllocator__ctor_m44FA9B3E65248C9541D203A60A05E8067106EF43_gshared)(__this, ___0_profilerName, ___1_allocator, method);
+}
+inline void NativeArray_1__ctor_m01C0164611F0F10354E4ABA539FA854E3A97F76A (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, int32_t, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m01C0164611F0F10354E4ABA539FA854E3A97F76A_gshared)(__this, ___0_length, ___1_label, ___2_options, method);
+}
+inline void NativeArray_1__ctor_m788DE0F85C4051DDF092DDF96484DE655ACFB6F1 (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m788DE0F85C4051DDF092DDF96484DE655ACFB6F1_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+inline NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 NativeArrayAllocator_CreateArray_m23A47AB9FCCC96DE09A09E691F423EEE92972DFE (NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 (*) (NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492*, int32_t, int32_t, const RuntimeMethod*))NativeArrayAllocator_CreateArray_m23A47AB9FCCC96DE09A09E691F423EEE92972DFE_gshared)(__this, ___0_length, ___1_options, method);
+}
 inline void NativeArrayAllocator__ctor_mF1B3404421DC1ED69C04A554A30730E5BF285721 (NativeArrayAllocator_t60748B6A3A7FB52B1E41A4D6F12C18F2D6FD7798* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
 {
 	((  void (*) (NativeArrayAllocator_t60748B6A3A7FB52B1E41A4D6F12C18F2D6FD7798*, String_t*, int32_t, const RuntimeMethod*))NativeArrayAllocator__ctor_mF1B3404421DC1ED69C04A554A30730E5BF285721_gshared)(__this, ___0_profilerName, ___1_allocator, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MemoryLabel_get_IsCreated_m8B3D6AC21CEADC1D4C4EF4A3D2B168EBFADC26BA (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* __this, const RuntimeMethod* method) ;
 inline void NativeArray_1__ctor_m24C7DBB8A689B474130F9AE3BA859AF00FFBC7E5 (NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57* __this, int32_t ___0_length, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 ___1_label, int32_t ___2_options, const RuntimeMethod* method)
 {
 	((  void (*) (NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57*, int32_t, MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m24C7DBB8A689B474130F9AE3BA859AF00FFBC7E5_gshared)(__this, ___0_length, ___1_label, ___2_options, method);
@@ -7550,6 +7668,386 @@ inline ReadOnlySpan_1_t3D56DFE8743E7EF0665F38A59DA5B99E0F9425B0 NativeArray_1_As
 	return ((  ReadOnlySpan_1_t3D56DFE8743E7EF0665F38A59DA5B99E0F9425B0 (*) (NativeArray_1_t60C2883F9133642CF381234B3DD254605DD4F0A5*, const RuntimeMethod*))NativeArray_1_AsReadOnlySpan_m5CB14088B66B0DE98183F03B1FDEA2A9502B0B90_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeException_mD7D90276EDCDF9394A8EA635923E3B48BB71BD56 (const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 21282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_m180FFB744929A3ABACCCF407FD3560A57CBA1C0C_gshared (NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47E8CCB1C331C9476E88F8A6179C1466CBA62167);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___1_allocator;
+		bool L_1;
+		L_1 = MemoryLabel_SupportsAllocator_m2FBEAFCA15699420E8C5E42BA823DEE2999B6E6D(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		__this->___m_Allocator = (int32_t)0;
+		String_t* L_2 = ___0_profilerName;
+		int32_t L_3 = ___1_allocator;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		MemoryLabel__ctor_m9EBEB7071302DF5EC12EB34EB2949E01617C5191((&L_4), _stringLiteral47E8CCB1C331C9476E88F8A6179C1466CBA62167, L_2, L_3, NULL);
+		__this->___m_MemoryLabel = L_4;
+		return;
+	}
+
+IL_0022:
+	{
+		int32_t L_5 = ___1_allocator;
+		__this->___m_Allocator = L_5;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* L_6 = (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2*)(&__this->___m_MemoryLabel);
+		il2cpp_codegen_initobj(L_6, sizeof(MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void NativeArrayAllocator__ctor_m180FFB744929A3ABACCCF407FD3560A57CBA1C0C_AdjustorThunk (RuntimeObject* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E>(__this);
+	NativeArrayAllocator__ctor_m180FFB744929A3ABACCCF407FD3560A57CBA1C0C(_thisAdjusted, ___0_profilerName, ___1_allocator, method);
+}
+// Method Definition Index: 21283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 NativeArrayAllocator_CreateArray_m32A0BA1DC18EED2754250A7E3D4F2635F809AEFB_gshared (NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* L_0 = (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2*)(&__this->___m_MemoryLabel);
+		bool L_1;
+		L_1 = MemoryLabel_get_IsCreated_m8B3D6AC21CEADC1D4C4EF4A3D2B168EBFADC26BA(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_2 = ___0_length;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 L_3 = __this->___m_MemoryLabel;
+		int32_t L_4 = ___1_options;
+		NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		NativeArray_1__ctor_mD0D16C1AD93FA5DDF17C3C7F03ECE341A35121ED((&L_5), L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		return L_5;
+	}
+
+IL_001b:
+	{
+		int32_t L_6 = ___0_length;
+		int32_t L_7 = __this->___m_Allocator;
+		int32_t L_8 = ___1_options;
+		NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		NativeArray_1__ctor_m3C861C28046C6CF0E1E81CEFDFF76BA7D636C044((&L_9), L_6, L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C  NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 NativeArrayAllocator_CreateArray_m32A0BA1DC18EED2754250A7E3D4F2635F809AEFB_AdjustorThunk (RuntimeObject* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method)
+{
+	NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NativeArrayAllocator_t26840BC165D783F0FB52061DC70D297E3AF7D28E>(__this);
+	NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 _returnValue;
+	_returnValue = NativeArrayAllocator_CreateArray_m32A0BA1DC18EED2754250A7E3D4F2635F809AEFB(_thisAdjusted, ___0_length, ___1_options, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 21282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_mE26BEF6D8679504380BFAA7D80CB1E0B7E58664C_gshared (NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47E8CCB1C331C9476E88F8A6179C1466CBA62167);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___1_allocator;
+		bool L_1;
+		L_1 = MemoryLabel_SupportsAllocator_m2FBEAFCA15699420E8C5E42BA823DEE2999B6E6D(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		__this->___m_Allocator = (int32_t)0;
+		String_t* L_2 = ___0_profilerName;
+		int32_t L_3 = ___1_allocator;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		MemoryLabel__ctor_m9EBEB7071302DF5EC12EB34EB2949E01617C5191((&L_4), _stringLiteral47E8CCB1C331C9476E88F8A6179C1466CBA62167, L_2, L_3, NULL);
+		__this->___m_MemoryLabel = L_4;
+		return;
+	}
+
+IL_0022:
+	{
+		int32_t L_5 = ___1_allocator;
+		__this->___m_Allocator = L_5;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* L_6 = (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2*)(&__this->___m_MemoryLabel);
+		il2cpp_codegen_initobj(L_6, sizeof(MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void NativeArrayAllocator__ctor_mE26BEF6D8679504380BFAA7D80CB1E0B7E58664C_AdjustorThunk (RuntimeObject* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A>(__this);
+	NativeArrayAllocator__ctor_mE26BEF6D8679504380BFAA7D80CB1E0B7E58664C(_thisAdjusted, ___0_profilerName, ___1_allocator, method);
+}
+// Method Definition Index: 21283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD NativeArrayAllocator_CreateArray_mB039FC4DDACC14876FF0F9A52DF1225D9424E412_gshared (NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* L_0 = (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2*)(&__this->___m_MemoryLabel);
+		bool L_1;
+		L_1 = MemoryLabel_get_IsCreated_m8B3D6AC21CEADC1D4C4EF4A3D2B168EBFADC26BA(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_2 = ___0_length;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 L_3 = __this->___m_MemoryLabel;
+		int32_t L_4 = ___1_options;
+		NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		NativeArray_1__ctor_mDE6E6EEA3F6290E5C34C4721D4D24C42F62894C9((&L_5), L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		return L_5;
+	}
+
+IL_001b:
+	{
+		int32_t L_6 = ___0_length;
+		int32_t L_7 = __this->___m_Allocator;
+		int32_t L_8 = ___1_options;
+		NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		NativeArray_1__ctor_m33F96952EDD0E94C1566D84E6274466155C2F663((&L_9), L_6, L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C  NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD NativeArrayAllocator_CreateArray_mB039FC4DDACC14876FF0F9A52DF1225D9424E412_AdjustorThunk (RuntimeObject* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method)
+{
+	NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NativeArrayAllocator_t3708FF11DA1D8F1E666473BCA311E72E2A39250A>(__this);
+	NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD _returnValue;
+	_returnValue = NativeArrayAllocator_CreateArray_mB039FC4DDACC14876FF0F9A52DF1225D9424E412(_thisAdjusted, ___0_length, ___1_options, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 21282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_mE1BA75DFA73C61BC46BBB128FEC6635FCA3BF934_gshared (NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47E8CCB1C331C9476E88F8A6179C1466CBA62167);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___1_allocator;
+		bool L_1;
+		L_1 = MemoryLabel_SupportsAllocator_m2FBEAFCA15699420E8C5E42BA823DEE2999B6E6D(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		__this->___m_Allocator = (int32_t)0;
+		String_t* L_2 = ___0_profilerName;
+		int32_t L_3 = ___1_allocator;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		MemoryLabel__ctor_m9EBEB7071302DF5EC12EB34EB2949E01617C5191((&L_4), _stringLiteral47E8CCB1C331C9476E88F8A6179C1466CBA62167, L_2, L_3, NULL);
+		__this->___m_MemoryLabel = L_4;
+		return;
+	}
+
+IL_0022:
+	{
+		int32_t L_5 = ___1_allocator;
+		__this->___m_Allocator = L_5;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* L_6 = (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2*)(&__this->___m_MemoryLabel);
+		il2cpp_codegen_initobj(L_6, sizeof(MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void NativeArrayAllocator__ctor_mE1BA75DFA73C61BC46BBB128FEC6635FCA3BF934_AdjustorThunk (RuntimeObject* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC>(__this);
+	NativeArrayAllocator__ctor_mE1BA75DFA73C61BC46BBB128FEC6635FCA3BF934(_thisAdjusted, ___0_profilerName, ___1_allocator, method);
+}
+// Method Definition Index: 21283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 NativeArrayAllocator_CreateArray_m728A13B88FD85FA6CF5F2D64F22592CB03C8632B_gshared (NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* L_0 = (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2*)(&__this->___m_MemoryLabel);
+		bool L_1;
+		L_1 = MemoryLabel_get_IsCreated_m8B3D6AC21CEADC1D4C4EF4A3D2B168EBFADC26BA(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_2 = ___0_length;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 L_3 = __this->___m_MemoryLabel;
+		int32_t L_4 = ___1_options;
+		NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		NativeArray_1__ctor_m07DCCFE7F73F7817188936884372B12DC6F0CAB5((&L_5), L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		return L_5;
+	}
+
+IL_001b:
+	{
+		int32_t L_6 = ___0_length;
+		int32_t L_7 = __this->___m_Allocator;
+		int32_t L_8 = ___1_options;
+		NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		NativeArray_1__ctor_mBBC6CC6B966E1C7A15C962C864A05D369B8259A4((&L_9), L_6, L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C  NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 NativeArrayAllocator_CreateArray_m728A13B88FD85FA6CF5F2D64F22592CB03C8632B_AdjustorThunk (RuntimeObject* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method)
+{
+	NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NativeArrayAllocator_tBE5CF641484EFFF7ED506443BFF9EED193D947FC>(__this);
+	NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 _returnValue;
+	_returnValue = NativeArrayAllocator_CreateArray_m728A13B88FD85FA6CF5F2D64F22592CB03C8632B(_thisAdjusted, ___0_length, ___1_options, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 21282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayAllocator__ctor_m44FA9B3E65248C9541D203A60A05E8067106EF43_gshared (NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47E8CCB1C331C9476E88F8A6179C1466CBA62167);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = ___1_allocator;
+		bool L_1;
+		L_1 = MemoryLabel_SupportsAllocator_m2FBEAFCA15699420E8C5E42BA823DEE2999B6E6D(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		__this->___m_Allocator = (int32_t)0;
+		String_t* L_2 = ___0_profilerName;
+		int32_t L_3 = ___1_allocator;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		MemoryLabel__ctor_m9EBEB7071302DF5EC12EB34EB2949E01617C5191((&L_4), _stringLiteral47E8CCB1C331C9476E88F8A6179C1466CBA62167, L_2, L_3, NULL);
+		__this->___m_MemoryLabel = L_4;
+		return;
+	}
+
+IL_0022:
+	{
+		int32_t L_5 = ___1_allocator;
+		__this->___m_Allocator = L_5;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* L_6 = (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2*)(&__this->___m_MemoryLabel);
+		il2cpp_codegen_initobj(L_6, sizeof(MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2));
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void NativeArrayAllocator__ctor_m44FA9B3E65248C9541D203A60A05E8067106EF43_AdjustorThunk (RuntimeObject* __this, String_t* ___0_profilerName, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492>(__this);
+	NativeArrayAllocator__ctor_m44FA9B3E65248C9541D203A60A05E8067106EF43(_thisAdjusted, ___0_profilerName, ___1_allocator, method);
+}
+// Method Definition Index: 21283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 NativeArrayAllocator_CreateArray_m23A47AB9FCCC96DE09A09E691F423EEE92972DFE_gshared (NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2* L_0 = (MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2*)(&__this->___m_MemoryLabel);
+		bool L_1;
+		L_1 = MemoryLabel_get_IsCreated_m8B3D6AC21CEADC1D4C4EF4A3D2B168EBFADC26BA(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_2 = ___0_length;
+		MemoryLabel_t29CE7AB312D2ED888B444BBE5D452F7132EC9DB2 L_3 = __this->___m_MemoryLabel;
+		int32_t L_4 = ___1_options;
+		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		NativeArray_1__ctor_m01C0164611F0F10354E4ABA539FA854E3A97F76A((&L_5), L_2, L_3, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		return L_5;
+	}
+
+IL_001b:
+	{
+		int32_t L_6 = ___0_length;
+		int32_t L_7 = __this->___m_Allocator;
+		int32_t L_8 = ___1_options;
+		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		NativeArray_1__ctor_m788DE0F85C4051DDF092DDF96484DE655ACFB6F1((&L_9), L_6, L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 NativeArrayAllocator_CreateArray_m23A47AB9FCCC96DE09A09E691F423EEE92972DFE_AdjustorThunk (RuntimeObject* __this, int32_t ___0_length, int32_t ___1_options, const RuntimeMethod* method)
+{
+	NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492* _thisAdjusted;
+	_thisAdjusted = il2cpp_codegen_get_raw_data<NativeArrayAllocator_t7D098BCF0B0C50F493B510D50B8986211C63F492>(__this);
+	NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 _returnValue;
+	_returnValue = NativeArrayAllocator_CreateArray_m23A47AB9FCCC96DE09A09E691F423EEE92972DFE(_thisAdjusted, ___0_length, ___1_options, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

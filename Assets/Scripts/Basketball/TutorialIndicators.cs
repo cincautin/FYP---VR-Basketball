@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using FYP.Session;
 
 namespace VRBasketball
 {
@@ -14,16 +15,22 @@ namespace VRBasketball
         [SerializeField] private float bobSpeed = 2f;
         [SerializeField] private float bobHeight = 0.08f;
 
+        [Header("Visibility")]
+        [Tooltip("Show the popups only while the session is in its tutorial. Untick for the old always-on behaviour.")]
+        [SerializeField] private bool onlyDuringTutorial = true;
+
         private Vector3 rackInitialPos;
         private Vector3 grabInitialPos;
         private Vector3 hoopInitialPos;
+        private bool rackStartActive, grabStartActive, hoopStartActive;
+        private bool shown = true;
         private int shotsTaken = 0;
 
         private void Start()
         {
-            if (rackIndicator != null) rackInitialPos = rackIndicator.transform.position;
-            if (grabIndicator != null) grabInitialPos = grabIndicator.transform.position;
-            if (hoopIndicator != null) hoopInitialPos = hoopIndicator.transform.position;
+            if (rackIndicator != null) { rackInitialPos = rackIndicator.transform.position; rackStartActive = rackIndicator.activeSelf; }
+            if (grabIndicator != null) { grabInitialPos = grabIndicator.transform.position; grabStartActive = grabIndicator.activeSelf; }
+            if (hoopIndicator != null) { hoopInitialPos = hoopIndicator.transform.position; hoopStartActive = hoopIndicator.activeSelf; }
         }
 
         private void OnEnable()
@@ -38,6 +45,9 @@ namespace VRBasketball
 
         private void Update()
         {
+            if (onlyDuringTutorial) UpdateVisibility();
+            if (!shown) return;
+
             float bob = Mathf.Sin(Time.time * bobSpeed) * bobHeight;
 
             if (rackIndicator != null && rackIndicator.activeSelf)
@@ -53,7 +63,7 @@ namespace VRBasketball
                 hoopIndicator.transform.position = hoopInitialPos + Vector3.up * (bob * 1.2f);
             }
 
-            // Billboard effect: Make indicators always face the player/camera
+            // Billboard effect: make indicators face the player/camera
             Camera cam = Camera.main;
             if (cam != null)
             {
@@ -61,6 +71,22 @@ namespace VRBasketball
                 FaceCamera(grabIndicator, cam.transform);
                 FaceCamera(hoopIndicator, cam.transform);
             }
+        }
+
+        private void UpdateVisibility()
+        {
+            SessionManager s = SessionManager.Instance;
+            bool wanted = s != null && s.CurrentState == SessionState.Tutorial && s.IsTutorialActive;
+            if (wanted != shown) SetVisible(wanted);
+        }
+
+        private void SetVisible(bool visible)
+        {
+            shown = visible;
+            if (visible) shotsTaken = 0;
+            if (rackIndicator != null) rackIndicator.SetActive(visible && rackStartActive);
+            if (grabIndicator != null) grabIndicator.SetActive(visible && grabStartActive);
+            if (hoopIndicator != null) hoopIndicator.SetActive(visible && hoopStartActive);
         }
 
         private void FaceCamera(GameObject indicator, Transform camTransform)
@@ -76,8 +102,9 @@ namespace VRBasketball
 
         private void HandleBasketScored(int points)
         {
+            if (!shown) return;
             shotsTaken++;
-            // Dim or hide beginner prompts once the player successfully scores 2 baskets
+            // Hide the beginner prompts once the player has scored 2 baskets
             if (shotsTaken >= 2)
             {
                 if (rackIndicator != null) rackIndicator.SetActive(false);

@@ -152,12 +152,13 @@ RectTransform:
   - {fileID: 9452409}
   - {fileID: 1168441004}
   - {fileID: 103201919}
+  - {fileID: 1252917681}
   m_Father: {fileID: 808847745}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 360, y: 220}
+  m_SizeDelta: {x: 360, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6965477
 MonoBehaviour:
@@ -240,7 +241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 65}
+  m_AnchoredPosition: {x: 0, y: 135}
   m_SizeDelta: {x: 330, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9452410
@@ -641,7 +642,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -25}
+  m_AnchoredPosition: {x: 0, y: -110}
   m_SizeDelta: {x: 330, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103201920
@@ -1374,7 +1375,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 38}
+  m_AnchoredPosition: {x: 0, y: 34}
   m_SizeDelta: {x: 300, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &186631133
@@ -3836,6 +3837,7 @@ MonoBehaviour:
   hoopIndicator: {fileID: 1625473084}
   bobSpeed: 2
   bobHeight: 0.08
+  onlyDuringTutorial: 1
 --- !u!4 &699696660
 Transform:
   m_ObjectHideFlags: 0
@@ -4346,7 +4348,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.55, z: 0.02}
+  m_LocalScale: {x: 0.9, y: 0.8525, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 808847745}
@@ -5044,10 +5046,10 @@ GameObject:
   - component: {fileID: 1079411266}
   - component: {fileID: 1079411265}
   - component: {fileID: 1079411264}
+  - component: {fileID: 1079411260}
+  - component: {fileID: 1079411261}
   - component: {fileID: 1079411263}
   - component: {fileID: 1079411262}
-  - component: {fileID: 1079411261}
-  - component: {fileID: 1079411260}
   m_Layer: 0
   m_Name: ElementsTest
   m_TagString: Untagged
@@ -5062,7 +5064,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079411259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
   m_Name: 
@@ -5075,7 +5077,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079411259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
   m_Name: 
@@ -5101,7 +5103,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079411259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
   m_Name: 
@@ -5114,7 +5116,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079411259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
   m_Name: 
@@ -5127,7 +5129,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079411259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3920f9fb750225841b912cdd6f776d7f, type: 3}
   m_Name: 
@@ -5437,7 +5439,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 38}
+  m_AnchoredPosition: {x: 0, y: 105}
   m_SizeDelta: {x: 300, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168441005
@@ -5704,6 +5706,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201452816}
+  m_CullTransparentMesh: 1
+--- !u!1 &1252917680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252917681}
+  - component: {fileID: 1252917683}
+  - component: {fileID: 1252917682}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1252917681
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252917680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6965476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 20}
+  m_SizeDelta: {x: 330, y: 141}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1252917682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252917680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c2e42e907998a174b932f30f83bb14be, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1252917683
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252917680}
   m_CullTransparentMesh: 1
 --- !u!1 &1268352691
 GameObject:
@@ -8813,6 +8890,9 @@ GameObject:
   - component: {fileID: 2095115283}
   - component: {fileID: 2095115284}
   - component: {fileID: 2095115285}
+  - component: {fileID: 2095115287}
+  - component: {fileID: 2095115286}
+  - component: {fileID: 2095115288}
   m_Layer: 0
   m_Name: Elements
   m_TagString: Untagged
@@ -8924,6 +9004,60 @@ MonoBehaviour:
   clockWarn: {r: 1, g: 0.75, b: 0.15, a: 1}
   clockUrgent: {r: 1, g: 0.25, b: 0.2, a: 1}
   clockIdle: {r: 0.45, g: 0.5, b: 0.6, a: 1}
+--- !u!114 &2095115286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0aeb1c4bd9ec64382dccba41af0dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.HudPopup
+  maxQueued: 3
+--- !u!114 &2095115287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ede15088d45cc449859d106208d6a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.PersonalBestElement
+  panelColor: {r: 0.08, g: 0.09, b: 0.14, a: 0.75}
+  aheadColor: {r: 0.25, g: 0.85, b: 0.45, a: 1}
+  behindColor: {r: 1, g: 0.7, b: 0.2, a: 1}
+  alertColor: {r: 1, g: 0.85, b: 0.2, a: 1}
+  paceBarRangeMakes: 5
+--- !u!114 &2095115288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095115279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 125074a450877f9418c9d2d37d2a987c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRBasketball::FYP.Intensity.BadgesElement
+  hotStreakLength: 3
+  onTargetWindow: 8
+  onTargetMakes: 5
+  steadyThrows: 5
+  steadySpeedRange: 0.6
+  steadyElevationRange: 6
+  steppingUpDelta: 0.2
+  mediumPopupSeconds: 2
+  highPopupSeconds: 3.5
+  panelColor: {r: 0.08, g: 0.09, b: 0.14, a: 0.75}
+  earnedColor: {r: 1, g: 0.78, b: 0.2, a: 1}
+  lockedColor: {r: 0.24, g: 0.26, b: 0.33, a: 1}
 --- !u!1001 &1036505491579795906
 PrefabInstance:
   m_ObjectHideFlags: 0
