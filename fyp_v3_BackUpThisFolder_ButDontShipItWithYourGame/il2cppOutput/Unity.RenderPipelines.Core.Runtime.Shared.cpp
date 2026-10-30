@@ -56,6 +56,9 @@ struct OnExecutionRegisteredDelegate_tCCD234646691F298602408925867AE91256D2226;
 struct OnGraphRegisteredDelegate_t7DEB75DB071EA0F49C47E2617D72D40EF3A8188C;
 struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Collections[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_RenderPipelines_Core_Runtime[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared[];
 IL2CPP_EXTERN_C RuntimeClass* AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var;
@@ -80,20 +83,63 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC04F99C69E9CFB4931A7E575A7BF18921BB15B43
 IL2CPP_EXTERN_C String_t* _stringLiteralC21916F0F912C1E4BA3A1BFB9B23B24EB022BE93;
 IL2CPP_EXTERN_C String_t* _stringLiteralC9C9D11EDECD5DDD1659C50F5476EFC3E756E1D6;
 IL2CPP_EXTERN_C String_t* _stringLiteralE5463EF0F3AE3C9E1312C37560F10536E7232672;
+IL2CPP_EXTERN_C const RuntimeMethod* CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CollectionHelper_AssumePositive_mD1EC1F05F50F605141D9BA5D70C4332AC902B4B1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalRenderGraphValidation_SetAdditionalValidationLayer_m7E17169717A597EC93778D76E4B3603326CE557F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InternalRenderGraphValidation__ctor_mD73A84ABA9010ADDC8939286A5405D7B167069DF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeList_1_Add_mB14804AEFFEDC5CC08C24C9194BCFCF7A5D22683_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeList_1_Clear_mCA3E6D0F6C58EA058173033DB87DE3763172C078_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeList_1_Dispose_m55270875C5EFA18ADF213ECE9D17783B2F679C01_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeList_1_ElementAt_m9A52458B4BCB36789AEFA83D2A93CC83A0B22C48_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeList_1__ctor_mE603A1C3CA9C40D507CEEA2A09D42C3B6E860430_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeList_1_get_Length_m986542417F88B3F6DC55ACA39F80C36AC84811A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_Add_m806B75033A01469DF7F696BD596CB1FC1523B448_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_Clear_m24ABD8A5C7F35135E1A0F280077F011D43A137B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_Dispose_mC1A80EDB4A145C46C2648BF21079470E42786B7B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_OnPassAddedBegin_mCA43370D61BF89ACE568EBD45EFB60031B26EC74_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_OnPassAddedDispose_mEC5C677267EEFD5ECF27A4E316ABE4B54BE2CADC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_Remove_m5C5772DBA7B5A25ABE803D0B9298B1352222729A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_SetGlobalTextureAfterPass_mC46991FF1200D4D11777B4ED7EC30421A7DE8E16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_SetInputAttachment_m83B484B3E8755611327DF614DF2F30A31E74EB5E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_SetRenderAttachmentDepth_m8A0176DD00B25F1AF1EEB61A954DE7E29A86FBF1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_SetRenderAttachment_mA13E12DE1C3F4777FE2BC9D9AF2E9B7FC632DAD9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_UseTexture_mDAA9B7BF3CCFC7CF6025E0A36F0C23970C8AEC99_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer__ctor_m3576107877B64ADE640D5E79A70F4ED89AA3E17B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_set_renderGraph_m8DCA2A883D5EB8FA39830B7E94D80CB97E59423E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* DynamicArray_1_tC637D025EB5176CD63E77B260EF1BDB42DC69C7F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NativeList_1_t0DD56C6A6FBCF305924DF0100D2E13E4858CF74E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UnsafeList_1_t098D123ECC7F884EDDA7751485B9FBE450B8C9D7_0_0_0_var;
 IL2CPP_EXTERN_C const char* U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82_StaticFields____4D63F242605071ED145C2E15BCE59E6198B162807635456F339A8FC72018A5AD_RVAStorage;
 IL2CPP_EXTERN_C const char* U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82_StaticFields____D8CBA9E1641DD4371FB1297F476841612645BF13868CA8A62BB796119CD64984_RVAStorage;
 struct Exception_t_marshaled_com;
@@ -128,6 +174,7 @@ struct DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0  : public Runtim
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___m_Array;
 	int32_t ___U3CsizeU3Ek__BackingField;
+	int32_t ___U3CversionU3Ek__BackingField;
 };
 struct U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82  : public RuntimeObject
 {
@@ -744,7 +791,7 @@ inline void NativeList_1_Clear_mCA3E6D0F6C58EA058173033DB87DE3763172C078 (Native
 {
 	((  void (*) (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*, const RuntimeMethod*))NativeList_1_Clear_mCA3E6D0F6C58EA058173033DB87DE3763172C078_gshared)(__this, method);
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 TextureHandle_get_nullHandle_m077A7652CAF9B2004942375C6F1CCFD714AA9E19_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 TextureHandle_get_nullHandle_m077A7652CAF9B2004942375C6F1CCFD714AA9E19 (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_inline (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* __this, const RuntimeMethod* method) ;
 inline int32_t UnsafeList_1_get_Length_m1AA36F704928BD96D3C86F409ED299FC15B133ED_inline (UnsafeList_1_t3F9D0EC640E63CF6B1A42991801DB2074F8E565A* __this, const RuntimeMethod* method)
 {
@@ -764,45 +811,77 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CollectionHelper_AssumePo
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90757
+// Method Definition Index: 180274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82_StaticFields____4D63F242605071ED145C2E15BCE59E6198B162807635456F339A8FC72018A5AD_RVAStorage);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82_StaticFields____D8CBA9E1641DD4371FB1297F476841612645BF13868CA8A62BB796119CD64984_RVAStorage);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633_RuntimeMethod_var);
 	MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 2));
+		//<source_info:./Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.SourceGenerators/Unity.MonoScriptGenerator.MonoScriptInfoGenerator/AssemblyMonoScriptTypes.generated.cs:49>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)362));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		Il2CppFieldRvaData L_2 = {U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82_StaticFields____4D63F242605071ED145C2E15BCE59E6198B162807635456F339A8FC72018A5AD_RVAStorage, sizeof(__StaticArrayInitTypeSizeU3D362_tBFE2B3E96099756098F257B9184AAC30A7543AA5)};
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 4));
 		il2cpp_codegen_runtime_helpers_initialize_array((RuntimeArray*)L_1, L_2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)283));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		Il2CppFieldRvaData L_5 = {U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82_StaticFields____D8CBA9E1641DD4371FB1297F476841612645BF13868CA8A62BB796119CD64984_RVAStorage, sizeof(__StaticArrayInitTypeSizeU3D283_t21E205E53335496B1BCAA845ED4614D8DCBA25C6)};
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 5));
 		il2cpp_codegen_runtime_helpers_initialize_array((RuntimeArray*)L_4, L_5);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = 3;
 		(&V_0)->___TotalTypes = 4;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_005d;
+	}
+
+IL_005d:
+	{
+		//<source_info:./Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.SourceGenerators/Unity.MonoScriptGenerator.MonoScriptInfoGenerator/AssemblyMonoScriptTypes.generated.cs:56>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 6));
+		MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 90758
+// Method Definition Index: 180275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t21637E60B4727FCC74DBA2662FABA55B062650DA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -886,21 +965,30 @@ IL2CPP_EXTERN_C void MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90759
+// Method Definition Index: 180276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_camera));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 8));
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/AssemblyInfo.cs:25>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 9));
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 10));
 		il2cpp_codegen_runtime_class_init_inline(CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var);
 		RuntimeObject* L_1;
 		L_1 = CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m6ECF80A30B41D0DBA2404F64A33CCE58F31B1B3A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 10));
 		return L_1;
 	}
 }
@@ -912,22 +1000,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraCaptureBridge_GetCachedC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90760
+// Method Definition Index: 180277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalRenderGraphValidation_SetAdditionalValidationLayer_m7E17169717A597EC93778D76E4B3603326CE557F (RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* ___0_renderGraph, RenderGraphValidationLayer_tBF2C2015E4548F52F7C144F5B1FC3177250AC01C* ___1_layer, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalRenderGraphValidation_SetAdditionalValidationLayer_m7E17169717A597EC93778D76E4B3603326CE557F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalRenderGraphValidation_SetAdditionalValidationLayer_m7E17169717A597EC93778D76E4B3603326CE557F_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_renderGraph), (&___1_layer));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalRenderGraphValidation_SetAdditionalValidationLayer_m7E17169717A597EC93778D76E4B3603326CE557F_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 11));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 12));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 13));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/InternalRenderGraphValidation.cs:10>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 14));
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0 = ___0_renderGraph;
 		RenderGraphValidationLayer_tBF2C2015E4548F52F7C144F5B1FC3177250AC01C* L_1 = ___1_layer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 15));
 		NullCheck(L_0);
 		RenderGraph_set_validationLayer_m23232A2466B1BE5947895533B71B9CF152086587(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 15));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/InternalRenderGraphValidation.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 16));
 		return;
 	}
 }
-// Method Definition Index: 90761
+// Method Definition Index: 180278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalRenderGraphValidation__ctor_mD73A84ABA9010ADDC8939286A5405D7B167069DF (InternalRenderGraphValidation_tF516C33BC3F2E2683FE53D7E46874936356D3681* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InternalRenderGraphValidation__ctor_mD73A84ABA9010ADDC8939286A5405D7B167069DF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(InternalRenderGraphValidation__ctor_mD73A84ABA9010ADDC8939286A5405D7B167069DF_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InternalRenderGraphValidation__ctor_mD73A84ABA9010ADDC8939286A5405D7B167069DF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -941,27 +1055,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalRenderGraphValidation__ctor_mD73
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90762
+// Method Definition Index: 180279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 17));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 18));
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:70>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 19));
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0 = __this->___U3CrenderGraphU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 90763
+// Method Definition Index: 180280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_set_renderGraph_m8DCA2A883D5EB8FA39830B7E94D80CB97E59423E (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_set_renderGraph_m8DCA2A883D5EB8FA39830B7E94D80CB97E59423E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_set_renderGraph_m8DCA2A883D5EB8FA39830B7E94D80CB97E59423E_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_set_renderGraph_m8DCA2A883D5EB8FA39830B7E94D80CB97E59423E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 20));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 21));
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:70>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 22));
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0 = ___0_value;
 		__this->___U3CrenderGraphU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrenderGraphU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 90764
+// Method Definition Index: 180281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer__ctor_m3576107877B64ADE640D5E79A70F4ED89AA3E17B (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -969,57 +1110,135 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer__ctor_m3576107877B
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer__ctor_m3576107877B64ADE640D5E79A70F4ED89AA3E17B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral850FF8B49AAF4C21C4CCFFABEBFD835EDD2BE46E);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer__ctor_m3576107877B64ADE640D5E79A70F4ED89AA3E17B_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer__ctor_m3576107877B64ADE640D5E79A70F4ED89AA3E17B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 23));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 24));
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:81>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 25));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 26));
 		RenderGraphValidationLayer__ctor_m0A3DE2AC5239D374766AA59E4059CE862D04A15B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 26));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 27));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:84>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 28));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 29));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0*)il2cpp_codegen_object_new(DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0_il2cpp_TypeInfo_var);
 		DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91(L_0, ((int32_t)20), DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 29));
 		__this->___m_HandleStates = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HandleStates), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:86>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 30));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_1 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 31));
 		Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 31));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:88>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 32));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 33));
 		VirtualActionInvoker0::Invoke(36, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 33));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:90>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 34));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 35));
 		OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_inline(__this, _stringLiteral850FF8B49AAF4C21C4CCFFABEBFD835EDD2BE46E, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 35));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:91>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 36));
 		return;
 	}
 }
-// Method Definition Index: 90765
+// Method Definition Index: 180282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 37));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 38));
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:93>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 39));
 		String_t* L_0 = __this->___U3CerrorMessageHowToResolveU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 90766
+// Method Definition Index: 180283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 40));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 41));
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:93>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 42));
 		String_t* L_0 = ___0_value;
 		__this->___U3CerrorMessageHowToResolveU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CerrorMessageHowToResolveU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 90767
+// Method Definition Index: 180284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
-	int32_t V_0 = 0;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_RuntimeMethod_var);
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 43));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 44));
+	int32_t G_B4_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 45));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:99>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 46));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 47));
 		int32_t L_1;
 		L_1 = OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_inline(__this, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 47));
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:101>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 48));
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)(-1))))
 		{
-			goto IL_002a;
+			goto IL_0026;
 		}
 	}
 	{
@@ -1027,43 +1246,93 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateNoNonRaste
 		int32_t L_4 = V_0;
 		if ((((int32_t)L_3) <= ((int32_t)L_4)))
 		{
-			goto IL_002a;
+			goto IL_0026;
 		}
 	}
 	{
 		int32_t L_5 = __this->___m_LastNonRasterPassIndex;
 		int32_t L_6 = __this->___m_NumberOfPasses;
-		if ((((int32_t)L_5) >= ((int32_t)L_6)))
+		G_B4_0 = ((((int32_t)L_5) < ((int32_t)L_6))? 1 : 0);
+		goto IL_0027;
+	}
+
+IL_0026:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0027:
+	{
+		V_1 = (bool)G_B4_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 49));
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_002a;
+			goto IL_0035;
 		}
 	}
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_input;
-		OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3(__this, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 50));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:103>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 51));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 52));
+		OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3(__this, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 52));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 53));
 	}
 
-IL_002a:
+IL_0035:
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_input;
-		int32_t L_9 = __this->___m_NumberOfPasses;
-		OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline(__this, L_8, L_9, NULL);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:107>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 54));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_9 = ___0_input;
+		int32_t L_10 = __this->___m_NumberOfPasses;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 55));
+		OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline(__this, L_9, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 55));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:108>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 56));
 		return;
 	}
 }
-// Method Definition Index: 90768
+// Method Definition Index: 180285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
-	String_t* V_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3_RuntimeMethod_var);
+	String_t* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 57));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 58));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 59));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:112>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 60));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 61));
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0;
 		L_0 = OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 61));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 62));
 		NullCheck(L_0);
 		String_t* L_2;
 		L_2 = RenderGraph_GetTextureName_m2B541469B92E08B986E0313F7CC1BAADA35B60D7(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 62));
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:115>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 63));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)8);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
 		NullCheck(L_4);
@@ -1093,30 +1362,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowNoNonRasterPa
 		NullCheck(L_16);
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral008BD30AF451F87B4DB85E412BC6960A9E8ECD9A)));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 64));
 		String_t* L_18;
 		L_18 = OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 64));
 		NullCheck(L_17);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_18);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 65));
 		String_t* L_19;
 		L_19 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 65));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 66));
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_20 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_20, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 66));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 90769
+// Method Definition Index: 180286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, String_t* ___1_methodName, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
-	String_t* V_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D_RuntimeMethod_var);
+	String_t* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input), (&___1_methodName));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 67));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 68));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 69));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:120>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 70));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 71));
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0;
 		L_0 = OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 71));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 72));
 		NullCheck(L_0);
 		String_t* L_2;
 		L_2 = RenderGraph_GetTextureName_m2B541469B92E08B986E0313F7CC1BAADA35B60D7(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 72));
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:121>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 73));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)8);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
 		NullCheck(L_4);
@@ -1145,30 +1442,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowTextureSampli
 		NullCheck(L_15);
 		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral21403EF5CDA7CA42ECE71C50FF4961F5D447D052)));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 74));
 		String_t* L_17;
 		L_17 = OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 74));
 		NullCheck(L_16);
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_17);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 75));
 		String_t* L_18;
 		L_18 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 75));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 76));
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_19 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_19, L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 76));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 90770
+// Method Definition Index: 180287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, String_t* ___1_methodName, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
-	String_t* V_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33_RuntimeMethod_var);
+	String_t* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input), (&___1_methodName));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 77));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 78));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 79));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:126>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 80));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 81));
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0;
 		L_0 = OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 81));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 82));
 		NullCheck(L_0);
 		String_t* L_2;
 		L_2 = RenderGraph_GetTextureName_m2B541469B92E08B986E0313F7CC1BAADA35B60D7(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 82));
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:127>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:128>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:129>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 83));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)8);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
 		NullCheck(L_4);
@@ -1197,274 +1524,516 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowNotRasterPass
 		NullCheck(L_15);
 		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA26536399DAE602EE8F0F27C8A44BBC81F148BA2)));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 84));
 		String_t* L_17;
 		L_17 = OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 84));
 		NullCheck(L_16);
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_17);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 85));
 		String_t* L_18;
 		L_18 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 85));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 86));
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_19 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_19, L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 86));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 90771
+// Method Definition Index: 180288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_UseTexture_mDAA9B7BF3CCFC7CF6025E0A36F0C23970C8AEC99 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, int32_t ___1_flags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_UseTexture_mDAA9B7BF3CCFC7CF6025E0A36F0C23970C8AEC99_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_UseTexture_mDAA9B7BF3CCFC7CF6025E0A36F0C23970C8AEC99_RuntimeMethod_var);
+	bool V_0 = false;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input), (&___1_flags));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_UseTexture_mDAA9B7BF3CCFC7CF6025E0A36F0C23970C8AEC99_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 87));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 88));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 89));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:139>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 90));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 91));
 		bool L_1;
 		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
-		if (L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 91));
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 92));
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_000a;
+			goto IL_0011;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:140>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 93));
+		goto IL_0048;
 	}
 
-IL_000a:
+IL_0011:
 	{
-		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_2 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
-		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_3 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_2->___info);
-		int32_t L_4 = L_3->___type;
-		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:144>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 94));
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_3 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_4 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_3->___info);
+		int32_t L_5 = L_4->___type;
+		V_1 = (bool)((((int32_t)L_5) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 95));
+		bool L_6 = V_1;
+		if (!L_6)
 		{
-			goto IL_002a;
+			goto IL_0039;
 		}
 	}
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_5 = ___0_input;
-		OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D(__this, L_5, _stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089, NULL);
-		return;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 96));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:146>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 97));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 98));
+		OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D(__this, L_7, _stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 98));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 99));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 100));
+		goto IL_0048;
 	}
 
-IL_002a:
+IL_0039:
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_input;
-		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_6, _stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 101));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:150>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 102));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 103));
+		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_8, _stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 103));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 104));
+	}
+
+IL_0048:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:152>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 105));
 		return;
 	}
 }
-// Method Definition Index: 90772
+// Method Definition Index: 180289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetGlobalTextureAfterPass_mC46991FF1200D4D11777B4ED7EC30421A7DE8E16 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, int32_t ___1_propertyId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeList_1_Add_mB14804AEFFEDC5CC08C24C9194BCFCF7A5D22683_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_SetGlobalTextureAfterPass_mC46991FF1200D4D11777B4ED7EC30421A7DE8E16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_SetGlobalTextureAfterPass_mC46991FF1200D4D11777B4ED7EC30421A7DE8E16_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input), (&___1_propertyId));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_SetGlobalTextureAfterPass_mC46991FF1200D4D11777B4ED7EC30421A7DE8E16_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 106));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 107));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 108));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:156>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 109));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_0 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
 		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_1 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&L_0->___globalTexturesAfterPass);
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_2 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 110));
 		NativeList_1_Add_mB14804AEFFEDC5CC08C24C9194BCFCF7A5D22683(L_1, L_2, NativeList_1_Add_mB14804AEFFEDC5CC08C24C9194BCFCF7A5D22683_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 110));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:157>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 111));
 		return;
 	}
 }
-// Method Definition Index: 90773
+// Method Definition Index: 180290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_tex, String_t* ___1_methodName, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_RuntimeMethod_var);
+	bool V_0 = false;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_tex), (&___1_methodName));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 112));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 113));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 114));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:162>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 115));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_tex;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 116));
 		bool L_1;
 		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
-		if (!L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 116));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 117));
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_002c;
+			goto IL_003c;
 		}
 	}
 	{
-		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_2 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
-		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_3 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_2->___info);
-		int32_t L_4 = L_3->___type;
-		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 118));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:164>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 119));
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_3 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_4 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_3->___info);
+		int32_t L_5 = L_4->___type;
+		V_1 = (bool)((((int32_t)L_5) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 120));
+		bool L_6 = V_1;
+		if (!L_6)
 		{
-			goto IL_0024;
+			goto IL_0030;
 		}
 	}
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_5 = ___0_tex;
-		OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline(__this, L_5, NULL);
-		return;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 121));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:166>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 122));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_tex;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 123));
+		OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline(__this, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 123));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 124));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 125));
+		goto IL_003b;
 	}
 
-IL_0024:
+IL_0030:
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_tex;
-		String_t* L_7 = ___1_methodName;
-		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 126));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:170>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 127));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_tex;
+		String_t* L_9 = ___1_methodName;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 128));
+		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_8, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 128));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 129));
 	}
 
-IL_002c:
+IL_003b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 130));
+	}
+
+IL_003c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:173>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 131));
 		return;
 	}
 }
-// Method Definition Index: 90774
+// Method Definition Index: 180291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetRenderAttachment_mA13E12DE1C3F4777FE2BC9D9AF2E9B7FC632DAD9 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 ___0_tex, int32_t ___1_index, int32_t ___2_flags, int32_t ___3_mipLevel, int32_t ___4_depthSlice, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_SetRenderAttachment_mA13E12DE1C3F4777FE2BC9D9AF2E9B7FC632DAD9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE5463EF0F3AE3C9E1312C37560F10536E7232672);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
-	int32_t V_0 = 0;
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_SetRenderAttachment_mA13E12DE1C3F4777FE2BC9D9AF2E9B7FC632DAD9_RuntimeMethod_var);
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_tex), (&___1_index), (&___2_flags), (&___3_mipLevel), (&___4_depthSlice));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_SetRenderAttachment_mA13E12DE1C3F4777FE2BC9D9AF2E9B7FC632DAD9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 132));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 133));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 134));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:178>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 135));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_0 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
 		int32_t L_1 = L_0->___renderCount;
 		il2cpp_codegen_runtime_class_init_inline(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var);
 		int32_t L_2 = ((RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticFields*)il2cpp_codegen_static_fields_for(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var))->___kMaxMRTCount;
-		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 136));
+		bool L_3 = V_0;
+		if (!L_3)
 		{
-			goto IL_0013;
+			goto IL_0019;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:179>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 137));
+		goto IL_005b;
 	}
 
-IL_0013:
+IL_0019:
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:181>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 138));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 139));
 		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
-		bool L_3;
-		L_3 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline((&___0_tex), NULL);
-		if (L_3)
+		bool L_4;
+		L_4 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline((&___0_tex), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 139));
+		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 140));
+		bool L_5 = V_1;
+		if (!L_5)
 		{
-			goto IL_001d;
+			goto IL_0029;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:182>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 141));
+		goto IL_005b;
 	}
 
-IL_001d:
+IL_0029:
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:184>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 142));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 143));
 		OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_inline(__this, (&___0_tex), _stringLiteralE5463EF0F3AE3C9E1312C37560F10536E7232672, NULL);
-		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_4 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
-		TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7* L_5 = L_4->___renderAttachments;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 143));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:186>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 144));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_6 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
-		int32_t* L_7 = (int32_t*)(&L_6->___renderCount);
-		int32_t* L_8 = L_7;
-		int32_t L_9 = il2cpp_codegen_ldind<int32_t, int32_t>(L_8);
-		V_0 = L_9;
-		int32_t L_10 = V_0;
-		il2cpp_codegen_stind<int32_t>((int32_t*)L_8, (int32_t)((int32_t)il2cpp_codegen_add(L_10, 1)));
-		int32_t L_11 = V_0;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_12 = ___0_tex;
-		NullCheck(L_5);
-		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388)L_12);
+		TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7* L_7 = L_6->___renderAttachments;
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_8 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		int32_t* L_9 = (int32_t*)(&L_8->___renderCount);
+		int32_t* L_10 = L_9;
+		int32_t L_11 = il2cpp_codegen_ldind<int32_t, int32_t>(L_10);
+		V_2 = L_11;
+		int32_t L_12 = V_2;
+		il2cpp_codegen_stind<int32_t>((int32_t*)L_10, (int32_t)((int32_t)il2cpp_codegen_add(L_12, 1)));
+		int32_t L_13 = V_2;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_14 = ___0_tex;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388)L_14);
+	}
+
+IL_005b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:187>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 145));
 		return;
 	}
 }
-// Method Definition Index: 90775
+// Method Definition Index: 180292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetRenderAttachmentDepth_m8A0176DD00B25F1AF1EEB61A954DE7E29A86FBF1 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 ___0_tex, int32_t ___1_flags, int32_t ___2_mipLevel, int32_t ___3_depthSlice, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_SetRenderAttachmentDepth_m8A0176DD00B25F1AF1EEB61A954DE7E29A86FBF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8996E64589692D27C6CF7956C58596B827E5200A);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_SetRenderAttachmentDepth_m8A0176DD00B25F1AF1EEB61A954DE7E29A86FBF1_RuntimeMethod_var);
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_tex), (&___1_flags), (&___2_mipLevel), (&___3_depthSlice));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_SetRenderAttachmentDepth_m8A0176DD00B25F1AF1EEB61A954DE7E29A86FBF1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 146));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 147));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 148));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:191>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 149));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 150));
 		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline((&___0_tex), NULL);
-		if (L_0)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 150));
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 151));
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_000a;
+			goto IL_0011;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:192>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 152));
+		goto IL_002b;
 	}
 
-IL_000a:
+IL_0011:
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:194>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 153));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 154));
 		OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_inline(__this, (&___0_tex), _stringLiteral8996E64589692D27C6CF7956C58596B827E5200A, NULL);
-		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_1 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_2 = ___0_tex;
-		L_1->___renderAttachmentDepth = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 154));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:196>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 155));
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_2 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_3 = ___0_tex;
+		L_2->___renderAttachmentDepth = L_3;
+	}
+
+IL_002b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:197>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 156));
 		return;
 	}
 }
-// Method Definition Index: 90776
+// Method Definition Index: 180293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetInputAttachment_m83B484B3E8755611327DF614DF2F30A31E74EB5E (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 ___0_tex, int32_t ___1_index, int32_t ___2_flags, int32_t ___3_mipLevel, int32_t ___4_depthSlice, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_SetInputAttachment_m83B484B3E8755611327DF614DF2F30A31E74EB5E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_SetInputAttachment_m83B484B3E8755611327DF614DF2F30A31E74EB5E_RuntimeMethod_var);
+	bool V_0 = false;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_tex), (&___1_index), (&___2_flags), (&___3_mipLevel), (&___4_depthSlice));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_SetInputAttachment_m83B484B3E8755611327DF614DF2F30A31E74EB5E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 157));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 158));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 159));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:201>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 160));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 161));
 		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline((&___0_tex), NULL);
-		if (L_0)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 161));
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 162));
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_000a;
+			goto IL_0011;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:202>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 163));
+		goto IL_0032;
 	}
 
-IL_000a:
+IL_0011:
 	{
-		bool L_1;
-		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, (&___0_tex), NULL);
-		if (L_1)
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:204>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 164));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 165));
+		bool L_2;
+		L_2 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, (&___0_tex), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 165));
+		V_1 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 166));
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_0015;
+			goto IL_0022;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:205>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 167));
+		goto IL_0032;
 	}
 
-IL_0015:
+IL_0022:
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:207>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 168));
 		__this->___m_InputAttachmentsHaveOnTileResource = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:209>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 169));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 170));
 		OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline(__this, (&___0_tex), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 170));
+	}
+
+IL_0032:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:210>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 171));
 		return;
 	}
 }
-// Method Definition Index: 90777
+// Method Definition Index: 180294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_OnPassAddedBegin_mCA43370D61BF89ACE568EBD45EFB60031B26EC74 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* ___0_renderPassInfo, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_OnPassAddedBegin_mCA43370D61BF89ACE568EBD45EFB60031B26EC74_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_OnPassAddedBegin_mCA43370D61BF89ACE568EBD45EFB60031B26EC74_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_renderPassInfo));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_OnPassAddedBegin_mCA43370D61BF89ACE568EBD45EFB60031B26EC74_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 172));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 173));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 174));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:214>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 175));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_0 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 176));
 		Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 176));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:215>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 177));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_1 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
 		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_2 = ___0_renderPassInfo;
 		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 L_3 = (*(RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)L_2);
 		L_1->___info = L_3;
 		Il2CppCodeGenWriteBarrier((void**)&(((&L_1->___info))->___name), (void*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:217>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 178));
 		__this->___m_InputAttachmentsHaveOnTileResource = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:218>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 179));
 		return;
 	}
 }
-// Method Definition Index: 90778
+// Method Definition Index: 180295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_OnPassAddedDispose_mEC5C677267EEFD5ECF27A4E316ABE4B54BE2CADC (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1472,262 +2041,465 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_OnPassAddedDispose
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeList_1_ElementAt_m9A52458B4BCB36789AEFA83D2A93CC83A0B22C48_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeList_1_get_Length_m986542417F88B3F6DC55ACA39F80C36AC84811A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_OnPassAddedDispose_mEC5C677267EEFD5ECF27A4E316ABE4B54BE2CADC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2E6FA5B77193B1C006957958D071A1D347E89145);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_OnPassAddedDispose_mEC5C677267EEFD5ECF27A4E316ABE4B54BE2CADC_RuntimeMethod_var);
 	Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	int32_t V_1 = 0;
-	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	int32_t V_3 = 0;
-	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* V_4 = NULL;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	int32_t V_8 = 0;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* V_9 = NULL;
+	bool V_10 = false;
+	bool V_11 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3), (&V_8), (&V_9));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_OnPassAddedDispose_mEC5C677267EEFD5ECF27A4E316ABE4B54BE2CADC_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 180));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 181));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 182));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:222>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 183));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 L_0 = __this->___m_CurrentPass;
 		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:224>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 184));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 L_1 = V_0;
 		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 L_2 = L_1.___info;
 		int32_t L_3 = L_2.___type;
-		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		V_1 = (bool)((((int32_t)L_3) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 185));
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0068;
+			goto IL_0087;
 		}
 	}
 	{
-		V_1 = 0;
-		goto IL_003a;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 186));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:226>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 187));
+		V_2 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 188));
+		goto IL_0047;
 	}
 
-IL_0019:
+IL_001f:
 	{
-		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 L_4 = V_0;
-		TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7* L_5 = L_4.___renderAttachments;
-		int32_t L_6 = V_1;
-		NullCheck(L_5);
-		int32_t L_7 = L_6;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
-		V_2 = L_8;
-		bool L_9 = __this->___m_InputAttachmentsHaveOnTileResource;
-		if (!L_9)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 189));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:228>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 190));
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 L_5 = V_0;
+		TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7* L_6 = L_5.___renderAttachments;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_3 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:231>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 191));
+		bool L_10 = __this->___m_InputAttachmentsHaveOnTileResource;
+		V_4 = L_10;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 192));
+		bool L_11 = V_4;
+		if (!L_11)
 		{
-			goto IL_0036;
+			goto IL_0042;
 		}
 	}
 	{
-		OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_inline(__this, (&V_2), NULL);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:232>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 193));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 194));
+		OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_inline(__this, (&V_3), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 194));
 	}
 
-IL_0036:
+IL_0042:
 	{
-		int32_t L_10 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 195));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:226>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 196));
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
-IL_003a:
+IL_0047:
 	{
-		int32_t L_11 = V_1;
-		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 L_12 = V_0;
-		int32_t L_13 = L_12.___renderCount;
-		if ((((int32_t)L_11) < ((int32_t)L_13)))
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:226>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 197));
+		int32_t L_13 = V_2;
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 L_14 = V_0;
+		int32_t L_15 = L_14.___renderCount;
+		V_5 = (bool)((((int32_t)L_13) < ((int32_t)L_15))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 198));
+		bool L_16 = V_5;
+		if (L_16)
 		{
-			goto IL_0019;
+			goto IL_001f;
 		}
 	}
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_14 = (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388*)(&(&V_0)->___renderAttachmentDepth);
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
-		bool L_15;
-		L_15 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline(L_14, NULL);
-		if (!L_15)
-		{
-			goto IL_0085;
-		}
-	}
-	{
-		bool L_16 = __this->___m_InputAttachmentsHaveOnTileResource;
-		if (!L_16)
-		{
-			goto IL_0085;
-		}
-	}
-	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:235>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 199));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_17 = (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388*)(&(&V_0)->___renderAttachmentDepth);
-		OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_inline(__this, L_17, NULL);
-		goto IL_0085;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 200));
+		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline(L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 200));
+		V_6 = L_18;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 201));
+		bool L_19 = V_6;
+		if (!L_19)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 202));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:238>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 203));
+		bool L_20 = __this->___m_InputAttachmentsHaveOnTileResource;
+		V_7 = L_20;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 204));
+		bool L_21 = V_7;
+		if (!L_21)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:239>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 205));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_22 = (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388*)(&(&V_0)->___renderAttachmentDepth);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 206));
+		OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_inline(__this, L_22, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 206));
 	}
 
-IL_0068:
+IL_0083:
 	{
-		int32_t L_18 = __this->___m_NumberOfPasses;
-		__this->___m_LastNonRasterPassIndex = L_18;
-		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_19 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
-		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 L_20 = L_19->___info;
-		__this->___m_LastNonRasterPassInfo = L_20;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 207));
+	}
+
+IL_0084:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 208));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 209));
+		goto IL_00a6;
+	}
+
+IL_0087:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 210));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:244>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 211));
+		int32_t L_23 = __this->___m_NumberOfPasses;
+		__this->___m_LastNonRasterPassIndex = L_23;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:245>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 212));
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_24 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 L_25 = L_24->___info;
+		__this->___m_LastNonRasterPassInfo = L_25;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_LastNonRasterPassInfo))->___name), (void*)NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 213));
 	}
 
-IL_0085:
+IL_00a6:
 	{
-		V_3 = 0;
-		goto IL_00b3;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:249>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 214));
+		V_8 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 215));
+		goto IL_00e1;
 	}
 
-IL_0089:
+IL_00ab:
 	{
-		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_21 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&(&V_0)->___globalTexturesAfterPass);
-		int32_t L_22 = V_3;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_23;
-		L_23 = NativeList_1_ElementAt_m9A52458B4BCB36789AEFA83D2A93CC83A0B22C48(L_21, L_22, NativeList_1_ElementAt_m9A52458B4BCB36789AEFA83D2A93CC83A0B22C48_RuntimeMethod_var);
-		V_4 = L_23;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_24 = V_4;
-		bool L_25;
-		L_25 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_24, NULL);
-		if (!L_25)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 216));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:251>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 217));
+		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_26 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&(&V_0)->___globalTexturesAfterPass);
+		int32_t L_27 = V_8;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 218));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_28;
+		L_28 = NativeList_1_ElementAt_m9A52458B4BCB36789AEFA83D2A93CC83A0B22C48(L_26, L_27, NativeList_1_ElementAt_m9A52458B4BCB36789AEFA83D2A93CC83A0B22C48_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 218));
+		V_9 = L_28;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:253>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 219));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_29 = V_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 220));
+		bool L_30;
+		L_30 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_29, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 220));
+		V_10 = L_30;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 221));
+		bool L_31 = V_10;
+		if (!L_31)
 		{
-			goto IL_00af;
+			goto IL_00da;
 		}
 	}
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_26 = V_4;
-		OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D(__this, L_26, _stringLiteral2E6FA5B77193B1C006957958D071A1D347E89145, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 222));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:255>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 223));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_32 = V_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 224));
+		OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D(__this, L_32, _stringLiteral2E6FA5B77193B1C006957958D071A1D347E89145, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 224));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 225));
 	}
 
-IL_00af:
+IL_00da:
 	{
-		int32_t L_27 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 226));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:249>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 227));
+		int32_t L_33 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
-IL_00b3:
+IL_00e1:
 	{
-		int32_t L_28 = V_3;
-		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_29 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&(&V_0)->___globalTexturesAfterPass);
-		int32_t L_30;
-		L_30 = NativeList_1_get_Length_m986542417F88B3F6DC55ACA39F80C36AC84811A8_inline(L_29, NativeList_1_get_Length_m986542417F88B3F6DC55ACA39F80C36AC84811A8_RuntimeMethod_var);
-		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:249>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 228));
+		int32_t L_34 = V_8;
+		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_35 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&(&V_0)->___globalTexturesAfterPass);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 229));
+		int32_t L_36;
+		L_36 = NativeList_1_get_Length_m986542417F88B3F6DC55ACA39F80C36AC84811A8_inline(L_35, NativeList_1_get_Length_m986542417F88B3F6DC55ACA39F80C36AC84811A8_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 229));
+		V_11 = (bool)((((int32_t)L_34) < ((int32_t)L_36))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 230));
+		bool L_37 = V_11;
+		if (L_37)
 		{
-			goto IL_0089;
+			goto IL_00ab;
 		}
 	}
 	{
-		int32_t L_31 = __this->___m_NumberOfPasses;
-		__this->___m_NumberOfPasses = ((int32_t)il2cpp_codegen_add(L_31, 1));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:259>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 231));
+		int32_t L_38 = __this->___m_NumberOfPasses;
+		__this->___m_NumberOfPasses = ((int32_t)il2cpp_codegen_add(L_38, 1));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:260>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 232));
 		return;
 	}
 }
-// Method Definition Index: 90779
+// Method Definition Index: 180296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_Add_m806B75033A01469DF7F696BD596CB1FC1523B448 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_Add_m806B75033A01469DF7F696BD596CB1FC1523B448_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_Add_m806B75033A01469DF7F696BD596CB1FC1523B448_RuntimeMethod_var);
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_Add_m806B75033A01469DF7F696BD596CB1FC1523B448_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 233));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 234));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 235));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:264>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 236));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 237));
 		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline(L_0, NULL);
-		if (L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 237));
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 238));
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0009;
+			goto IL_0010;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:265>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 239));
+		goto IL_0018;
 	}
 
-IL_0009:
+IL_0010:
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_2 = ___0_handle;
-		OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_inline(__this, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:267>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 240));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_3 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 241));
+		OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_inline(__this, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 241));
+	}
+
+IL_0018:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:268>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 242));
 		return;
 	}
 }
-// Method Definition Index: 90780
+// Method Definition Index: 180297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_RuntimeMethod_var);
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 243));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 244));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 245));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:274>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 246));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 247));
 		bool L_1;
 		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
-		if (!L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 247));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 248));
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_000a;
+			goto IL_000e;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:275>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 249));
+		goto IL_002e;
 	}
 
-IL_000a:
+IL_000e:
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_2 = ___0_handle;
-		OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_inline(__this, L_2, NULL);
-		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_3 = __this->___m_HandleStates;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_4 = ___0_handle;
-		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_5 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_4->___handle);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:277>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 250));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_3 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 251));
+		OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_inline(__this, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 251));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:279>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 252));
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_4 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_5 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_6 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_5->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 253));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
-		int32_t L_6;
-		L_6 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_5, NULL);
-		NullCheck(L_3);
-		int32_t* L_7;
-		L_7 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_3, L_6, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
-		il2cpp_codegen_stind<int32_t>((int32_t*)L_7, (int32_t)(-1));
+		int32_t L_7;
+		L_7 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 253));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 254));
+		NullCheck(L_4);
+		int32_t* L_8;
+		L_8 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_4, L_7, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 254));
+		il2cpp_codegen_stind<int32_t>((int32_t*)L_8, (int32_t)(-1));
+	}
+
+IL_002e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:280>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 255));
 		return;
 	}
 }
-// Method Definition Index: 90781
+// Method Definition Index: 180298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_Remove_m5C5772DBA7B5A25ABE803D0B9298B1352222729A (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_Remove_m5C5772DBA7B5A25ABE803D0B9298B1352222729A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_Remove_m5C5772DBA7B5A25ABE803D0B9298B1352222729A_RuntimeMethod_var);
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_Remove_m5C5772DBA7B5A25ABE803D0B9298B1352222729A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 256));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 257));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 258));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:285>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 259));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 260));
 		bool L_1;
 		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
-		if (!L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 260));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 261));
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0021;
+			goto IL_0024;
 		}
 	}
 	{
-		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_2 = __this->___m_HandleStates;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_3 = ___0_handle;
-		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_4 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_3->___handle);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:286>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 262));
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_3 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_4 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_5 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_4->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 263));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
-		int32_t L_5;
-		L_5 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_4, NULL);
-		NullCheck(L_2);
-		int32_t* L_6;
-		L_6 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_2, L_5, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
-		il2cpp_codegen_stind<int32_t>((int32_t*)L_6, (int32_t)0);
+		int32_t L_6;
+		L_6 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 263));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 264));
+		NullCheck(L_3);
+		int32_t* L_7;
+		L_7 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_3, L_6, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 264));
+		il2cpp_codegen_stind<int32_t>((int32_t*)L_7, (int32_t)0);
 	}
 
-IL_0021:
+IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:287>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 265));
 		return;
 	}
 }
-// Method Definition Index: 90782
+// Method Definition Index: 180299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_Clear_m24ABD8A5C7F35135E1A0F280077F011D43A137B6 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1735,24 +2507,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_Clear_m24ABD8A5C7F
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_Clear_m24ABD8A5C7F35135E1A0F280077F011D43A137B6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_Clear_m24ABD8A5C7F35135E1A0F280077F011D43A137B6_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_Clear_m24ABD8A5C7F35135E1A0F280077F011D43A137B6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 266));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 267));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 268));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:292>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 269));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_1 = __this->___m_HandleStates;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 270));
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_1, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 270));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 271));
 		NullCheck(L_0);
 		DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C(L_0, L_2, DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 271));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:294>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 272));
 		__this->___m_NumberOfPasses = 1;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:295>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 273));
 		__this->___m_LastNonRasterPassIndex = (-1);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:296>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 274));
 		__this->___m_InputAttachmentsHaveOnTileResource = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:297>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 275));
 		return;
 	}
 }
-// Method Definition Index: 90783
+// Method Definition Index: 180300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1761,48 +2554,81 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_EnsureHandleStateC
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_RuntimeMethod_var);
 	int32_t V_0 = 0;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 276));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 277));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 278));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:302>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 279));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_1 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_0->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 280));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 280));
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:304>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 281));
 		int32_t L_3 = V_0;
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_4 = __this->___m_HandleStates;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 282));
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_4, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
-		if ((((int32_t)L_3) < ((int32_t)L_5)))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 282));
+		V_1 = (bool)((((int32_t)((((int32_t)L_3) < ((int32_t)L_5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 283));
+		bool L_6 = V_1;
+		if (!L_6)
 		{
-			goto IL_003b;
+			goto IL_0046;
 		}
 	}
 	{
-		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_6 = __this->___m_HandleStates;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 284));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:306>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 285));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_7 = __this->___m_HandleStates;
-		NullCheck(L_7);
-		int32_t L_8;
-		L_8 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_7, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
-		int32_t L_9 = V_0;
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_8 = __this->___m_HandleStates;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 286));
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_8, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 286));
+		int32_t L_10 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 287));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		int32_t L_10;
-		L_10 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(((int32_t)il2cpp_codegen_multiply(L_8, 2)), ((int32_t)il2cpp_codegen_add(L_9, 1)), NULL);
-		NullCheck(L_6);
-		DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A(L_6, L_10, (bool)1, DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A_RuntimeMethod_var);
+		int32_t L_11;
+		L_11 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(((int32_t)il2cpp_codegen_multiply(L_9, 2)), ((int32_t)il2cpp_codegen_add(L_10, 1)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 287));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 288));
+		NullCheck(L_7);
+		DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A(L_7, L_11, (bool)1, DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 288));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 289));
 	}
 
-IL_003b:
+IL_0046:
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:308>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 290));
 		return;
 	}
 }
-// Method Definition Index: 90784
+// Method Definition Index: 180301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1810,120 +2636,238 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetHandleState_
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_RuntimeMethod_var);
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 291));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 292));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 293));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:316>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 294));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_1 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_0->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 295));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 295));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_3 = __this->___m_HandleStates;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 296));
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_3, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
-		if ((((int32_t)L_2) < ((int32_t)L_4)))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 296));
+		V_0 = (bool)((((int32_t)((((int32_t)L_2) < ((int32_t)L_4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 297));
+		bool L_5 = V_0;
+		if (!L_5)
 		{
-			goto IL_001a;
+			goto IL_0025;
 		}
 	}
 	{
-		return 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 298));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:318>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 299));
+		V_1 = 0;
+		goto IL_003f;
 	}
 
-IL_001a:
+IL_0025:
 	{
-		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_5 = __this->___m_HandleStates;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_handle;
-		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_7 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_6->___handle);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:320>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 300));
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_6 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_8 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_7->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 301));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
-		int32_t L_8;
-		L_8 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_7, NULL);
-		NullCheck(L_5);
-		int32_t* L_9;
-		L_9 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_5, L_8, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
-		int32_t L_10 = il2cpp_codegen_ldind<int32_t, int32_t>(L_9);
-		return L_10;
+		int32_t L_9;
+		L_9 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 301));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 302));
+		NullCheck(L_6);
+		int32_t* L_10;
+		L_10 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_6, L_9, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 302));
+		int32_t L_11 = il2cpp_codegen_ldind<int32_t, int32_t>(L_10);
+		V_1 = L_11;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:321>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 303));
+		int32_t L_12 = V_1;
+		return L_12;
 	}
 }
-// Method Definition Index: 90785
+// Method Definition Index: 180302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_RuntimeMethod_var);
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 304));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 305));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 306));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:326>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 307));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 308));
 		int32_t L_1;
 		L_1 = OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_inline(__this, L_0, NULL);
-		return (bool)((!(((uint32_t)L_1) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 308));
+		V_0 = (bool)((!(((uint32_t)L_1) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:327>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 309));
+		bool L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 90786
+// Method Definition Index: 180303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_RuntimeMethod_var);
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 310));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 311));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 312));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:332>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 313));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_handle;
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_2 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_1->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 314));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 314));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 315));
 		NullCheck(L_0);
 		int32_t* L_4;
 		L_4 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_0, L_3, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 315));
 		int32_t L_5 = il2cpp_codegen_ldind<int32_t, int32_t>(L_4);
-		return L_5;
+		V_0 = L_5;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:333>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 316));
+		int32_t L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 90787
+// Method Definition Index: 180304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, int32_t ___1_lastRasterPass, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle), (&___1_lastRasterPass));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 317));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 318));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 319));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:338>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 320));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_handle;
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_2 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_1->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 321));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 321));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 322));
 		NullCheck(L_0);
 		int32_t* L_4;
 		L_4 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_0, L_3, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 322));
 		int32_t L_5 = ___1_lastRasterPass;
 		il2cpp_codegen_stind<int32_t>((int32_t*)L_4, (int32_t)L_5);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:339>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 323));
 		return;
 	}
 }
-// Method Definition Index: 90788
+// Method Definition Index: 180305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_Dispose_mC1A80EDB4A145C46C2648BF21079470E42786B7B (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeList_1_Dispose_m55270875C5EFA18ADF213ECE9D17783B2F679C01_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_Dispose_mC1A80EDB4A145C46C2648BF21079470E42786B7B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(OnTileValidationLayer_Dispose_mC1A80EDB4A145C46C2648BF21079470E42786B7B_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_Dispose_mC1A80EDB4A145C46C2648BF21079470E42786B7B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 324));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 325));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 326));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:343>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 327));
 		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_0 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
 		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_1 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&L_0->___globalTexturesAfterPass);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 328));
 		NativeList_1_Dispose_m55270875C5EFA18ADF213ECE9D17783B2F679C01(L_1, NativeList_1_Dispose_m55270875C5EFA18ADF213ECE9D17783B2F679C01_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 328));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:344>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 329));
 		return;
 	}
 }
@@ -2099,7 +3043,7 @@ IL2CPP_EXTERN_C void Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshal_com_
 	}
 	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com_cleanup(marshaled.___renderAttachmentDepth);
 }
-// Method Definition Index: 90789
+// Method Definition Index: 180306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2107,24 +3051,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pass_Init_m7B382342CD2678E457817E50E1FB2
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeList_1__ctor_mE603A1C3CA9C40D507CEEA2A09D42C3B6E860430_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 330));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 331));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 332));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:51>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 333));
 		il2cpp_codegen_runtime_class_init_inline(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticFields*)il2cpp_codegen_static_fields_for(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var))->___kMaxMRTCount;
 		TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7* L_1 = (TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*)(TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*)SZArrayNew(TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		__this->___renderAttachments = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___renderAttachments), (void*)L_1);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:52>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 334));
 		il2cpp_codegen_runtime_class_init_inline(AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_il2cpp_TypeInfo_var);
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_2 = ((AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_StaticFields*)il2cpp_codegen_static_fields_for(AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_il2cpp_TypeInfo_var))->___Persistent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 335));
 		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0 L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		NativeList_1__ctor_mE603A1C3CA9C40D507CEEA2A09D42C3B6E860430((&L_3), 6, L_2, NativeList_1__ctor_mE603A1C3CA9C40D507CEEA2A09D42C3B6E860430_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 335));
 		__this->___globalTexturesAfterPass = L_3;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:53>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 336));
 		__this->___renderCount = 0;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:54>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 337));
 		return;
 	}
 }
@@ -2134,25 +3095,44 @@ IL2CPP_EXTERN_C  void Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A_Adjust
 	_thisAdjusted = il2cpp_codegen_get_raw_data<Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0>(__this);
 	Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A(_thisAdjusted, method);
 }
-// Method Definition Index: 90790
+// Method Definition Index: 180307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeList_1_Clear_mCA3E6D0F6C58EA058173033DB87DE3763172C078_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 338));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 339));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 340));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:58>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 341));
 		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_0 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&__this->___globalTexturesAfterPass);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 342));
 		NativeList_1_Clear_mCA3E6D0F6C58EA058173033DB87DE3763172C078(L_0, NativeList_1_Clear_mCA3E6D0F6C58EA058173033DB87DE3763172C078_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 342));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:59>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 343));
 		__this->___renderCount = 0;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:60>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 344));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 345));
 		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_1;
-		L_1 = TextureHandle_get_nullHandle_m077A7652CAF9B2004942375C6F1CCFD714AA9E19_inline(NULL);
+		L_1 = TextureHandle_get_nullHandle_m077A7652CAF9B2004942375C6F1CCFD714AA9E19(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 345));
 		__this->___renderAttachmentDepth = L_1;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:61>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 346));
 		return;
 	}
 }
@@ -2189,111 +3169,233 @@ IL2CPP_EXTERN_C  void Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE_Adjus
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 90766
+// Method Definition Index: 180283
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 40));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 41));
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:93>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 42));
 		String_t* L_0 = ___0_value;
 		__this->___U3CerrorMessageHowToResolveU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CerrorMessageHowToResolveU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 90786
+// Method Definition Index: 180303
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 310));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 311));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 312));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:332>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 313));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_handle;
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_2 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_1->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 314));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 314));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 315));
 		NullCheck(L_0);
 		int32_t* L_4;
 		L_4 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_0, L_3, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 315));
 		int32_t L_5 = il2cpp_codegen_ldind<int32_t, int32_t>(L_4);
-		return L_5;
+		V_0 = L_5;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:333>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 316));
+		int32_t L_6 = V_0;
+		return L_6;
 	}
 }
-// Method Definition Index: 90787
+// Method Definition Index: 180304
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, int32_t ___1_lastRasterPass, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle), (&___1_lastRasterPass));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 317));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 318));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 319));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:338>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 320));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_handle;
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_2 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_1->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 321));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 321));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 322));
 		NullCheck(L_0);
 		int32_t* L_4;
 		L_4 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_0, L_3, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 322));
 		int32_t L_5 = ___1_lastRasterPass;
 		il2cpp_codegen_stind<int32_t>((int32_t*)L_4, (int32_t)L_5);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:339>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 323));
 		return;
 	}
 }
-// Method Definition Index: 90762
+// Method Definition Index: 180279
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 17));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 18));
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:70>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 19));
 		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0 = __this->___U3CrenderGraphU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 90765
+// Method Definition Index: 180282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 37));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 38));
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:93>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 39));
 		String_t* L_0 = __this->___U3CerrorMessageHowToResolveU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 90785
+// Method Definition Index: 180302
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 304));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 305));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 306));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:326>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 307));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 308));
 		int32_t L_1;
 		L_1 = OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_inline(__this, L_0, NULL);
-		return (bool)((!(((uint32_t)L_1) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 308));
+		V_0 = (bool)((!(((uint32_t)L_1) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:327>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 309));
+		bool L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 90767
+// Method Definition Index: 180284
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
-	int32_t V_0 = 0;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 43));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 44));
+	int32_t G_B4_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 45));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:99>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 46));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 47));
 		int32_t L_1;
 		L_1 = OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_inline(__this, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 47));
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:101>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 48));
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)(-1))))
 		{
-			goto IL_002a;
+			goto IL_0026;
 		}
 	}
 	{
@@ -2301,130 +3403,245 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_Valida
 		int32_t L_4 = V_0;
 		if ((((int32_t)L_3) <= ((int32_t)L_4)))
 		{
-			goto IL_002a;
+			goto IL_0026;
 		}
 	}
 	{
 		int32_t L_5 = __this->___m_LastNonRasterPassIndex;
 		int32_t L_6 = __this->___m_NumberOfPasses;
-		if ((((int32_t)L_5) >= ((int32_t)L_6)))
+		G_B4_0 = ((((int32_t)L_5) < ((int32_t)L_6))? 1 : 0);
+		goto IL_0027;
+	}
+
+IL_0026:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0027:
+	{
+		V_1 = (bool)G_B4_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 49));
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_002a;
+			goto IL_0035;
 		}
 	}
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_input;
-		OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3(__this, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 50));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:103>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 51));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 52));
+		OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3(__this, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 52));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 53));
 	}
 
-IL_002a:
+IL_0035:
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_input;
-		int32_t L_9 = __this->___m_NumberOfPasses;
-		OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline(__this, L_8, L_9, NULL);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:107>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 54));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_9 = ___0_input;
+		int32_t L_10 = __this->___m_NumberOfPasses;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 55));
+		OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline(__this, L_9, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 55));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:108>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 56));
 		return;
 	}
 }
-// Method Definition Index: 34690
+// Method Definition Index: 67453
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56348));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56349));
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime/RenderGraph/RenderGraphResourceTexture.cs:205>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56350));
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_0 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&__this->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56351));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_inline(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56351));
 		return L_1;
 	}
 }
-// Method Definition Index: 90773
+// Method Definition Index: 180290
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_tex, String_t* ___1_methodName, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_tex), (&___1_methodName));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 112));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 113));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 114));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:162>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 115));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_tex;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 116));
 		bool L_1;
 		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
-		if (!L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 116));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 117));
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_002c;
+			goto IL_003c;
 		}
 	}
 	{
-		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_2 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
-		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_3 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_2->___info);
-		int32_t L_4 = L_3->___type;
-		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 118));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:164>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 119));
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_3 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_4 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_3->___info);
+		int32_t L_5 = L_4->___type;
+		V_1 = (bool)((((int32_t)L_5) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 120));
+		bool L_6 = V_1;
+		if (!L_6)
 		{
-			goto IL_0024;
+			goto IL_0030;
 		}
 	}
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_5 = ___0_tex;
-		OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline(__this, L_5, NULL);
-		return;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 121));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:166>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 122));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_tex;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 123));
+		OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline(__this, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 123));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 124));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 125));
+		goto IL_003b;
 	}
 
-IL_0024:
+IL_0030:
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_tex;
-		String_t* L_7 = ___1_methodName;
-		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 126));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:170>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 127));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_tex;
+		String_t* L_9 = ___1_methodName;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 128));
+		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_8, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 128));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 129));
 	}
 
-IL_002c:
+IL_003b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 130));
+	}
+
+IL_003c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:173>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 131));
 		return;
 	}
 }
-// Method Definition Index: 90780
+// Method Definition Index: 180297
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 243));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 244));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 245));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:274>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 246));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 247));
 		bool L_1;
 		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
-		if (!L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 247));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 248));
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_000a;
+			goto IL_000e;
 		}
 	}
 	{
-		return;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:275>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 249));
+		goto IL_002e;
 	}
 
-IL_000a:
+IL_000e:
 	{
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_2 = ___0_handle;
-		OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_inline(__this, L_2, NULL);
-		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_3 = __this->___m_HandleStates;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_4 = ___0_handle;
-		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_5 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_4->___handle);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:277>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 250));
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_3 = ___0_handle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 251));
+		OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_inline(__this, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 251));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:279>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 252));
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_4 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_5 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_6 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_5->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 253));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
-		int32_t L_6;
-		L_6 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_5, NULL);
-		NullCheck(L_3);
-		int32_t* L_7;
-		L_7 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_3, L_6, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
-		il2cpp_codegen_stind<int32_t>((int32_t*)L_7, (int32_t)(-1));
+		int32_t L_7;
+		L_7 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 253));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 254));
+		NullCheck(L_4);
+		int32_t* L_8;
+		L_8 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_4, L_7, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 254));
+		il2cpp_codegen_stind<int32_t>((int32_t*)L_8, (int32_t)(-1));
+	}
+
+IL_002e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:280>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 255));
 		return;
 	}
 }
-// Method Definition Index: 90783
+// Method Definition Index: 180300
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2433,57 +3650,112 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_Ensure
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
 	int32_t V_0 = 0;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 276));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 277));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 278));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:302>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 279));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_1 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_0->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 280));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 280));
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:304>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 281));
 		int32_t L_3 = V_0;
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_4 = __this->___m_HandleStates;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 282));
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_4, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
-		if ((((int32_t)L_3) < ((int32_t)L_5)))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 282));
+		V_1 = (bool)((((int32_t)((((int32_t)L_3) < ((int32_t)L_5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 283));
+		bool L_6 = V_1;
+		if (!L_6)
 		{
-			goto IL_003b;
+			goto IL_0046;
 		}
 	}
 	{
-		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_6 = __this->___m_HandleStates;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 284));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:306>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 285));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_7 = __this->___m_HandleStates;
-		NullCheck(L_7);
-		int32_t L_8;
-		L_8 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_7, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
-		int32_t L_9 = V_0;
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_8 = __this->___m_HandleStates;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 286));
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_8, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 286));
+		int32_t L_10 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 287));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		int32_t L_10;
-		L_10 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(((int32_t)il2cpp_codegen_multiply(L_8, 2)), ((int32_t)il2cpp_codegen_add(L_9, 1)), NULL);
-		NullCheck(L_6);
-		DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A(L_6, L_10, (bool)1, DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A_RuntimeMethod_var);
+		int32_t L_11;
+		L_11 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(((int32_t)il2cpp_codegen_multiply(L_9, 2)), ((int32_t)il2cpp_codegen_add(L_10, 1)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 287));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 288));
+		NullCheck(L_7);
+		DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A(L_7, L_11, (bool)1, DynamicArray_1_Resize_m50153B2F9764A001CC0EF85FC83CF0C63A5C4F7A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 288));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 289));
 	}
 
-IL_003b:
+IL_0046:
 	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:308>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 290));
 		return;
 	}
 }
-// Method Definition Index: 34719
+// Method Definition Index: 67482
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56715));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56716));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56717));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime/RenderGraph/RenderGraphResources.cs:44>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56718));
 		uint32_t L_0 = __this->___m_VersionIndex;
-		return ((int32_t)((int32_t)L_0&((int32_t)65535)));
+		V_0 = ((int32_t)((int32_t)L_0&((int32_t)65535)));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime/RenderGraph/RenderGraphResources.cs:44>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56719));
+		int32_t L_1 = V_0;
+		return L_1;
 	}
 }
-// Method Definition Index: 90784
+// Method Definition Index: 180301
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2491,128 +3763,246 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_Get
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_handle));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 291));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 292));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 293));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:316>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 294));
 		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_1 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_0->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 295));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 295));
 		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_3 = __this->___m_HandleStates;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 296));
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_3, DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_RuntimeMethod_var);
-		if ((((int32_t)L_2) < ((int32_t)L_4)))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 296));
+		V_0 = (bool)((((int32_t)((((int32_t)L_2) < ((int32_t)L_4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 297));
+		bool L_5 = V_0;
+		if (!L_5)
 		{
-			goto IL_001a;
+			goto IL_0025;
 		}
 	}
 	{
-		return 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 298));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:318>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 299));
+		V_1 = 0;
+		goto IL_003f;
 	}
 
-IL_001a:
+IL_0025:
 	{
-		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_5 = __this->___m_HandleStates;
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_handle;
-		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_7 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_6->___handle);
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:320>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 300));
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_6 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_8 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_7->___handle);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 301));
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
-		int32_t L_8;
-		L_8 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_7, NULL);
-		NullCheck(L_5);
-		int32_t* L_9;
-		L_9 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_5, L_8, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
-		int32_t L_10 = il2cpp_codegen_ldind<int32_t, int32_t>(L_9);
-		return L_10;
+		int32_t L_9;
+		L_9 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 301));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 302));
+		NullCheck(L_6);
+		int32_t* L_10;
+		L_10 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_6, L_9, DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 302));
+		int32_t L_11 = il2cpp_codegen_ldind<int32_t, int32_t>(L_10);
+		V_1 = L_11;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime-PrivateShared/OnTileValidationLayer.cs:321>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 303));
+		int32_t L_12 = V_1;
+		return L_12;
 	}
 }
-// Method Definition Index: 34678
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 TextureHandle_get_nullHandle_m077A7652CAF9B2004942375C6F1CCFD714AA9E19_inline (const RuntimeMethod* method) 
+// Method Definition Index: 116731
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NativeList_1_get_Length_m986542417F88B3F6DC55ACA39F80C36AC84811A8_gshared_inline (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeList_1_t0DD56C6A6FBCF305924DF0100D2E13E4858CF74E_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 22250));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 22251));
 	{
-		il2cpp_codegen_runtime_class_init_inline(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var);
-		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_0 = ((TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_StaticFields*)il2cpp_codegen_static_fields_for(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_il2cpp_TypeInfo_var))->___s_NullHandle;
-		return L_0;
-	}
-}
-// Method Definition Index: 63241
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NativeList_1_get_Length_m986542417F88B3F6DC55ACA39F80C36AC84811A8_gshared_inline (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* __this, const RuntimeMethod* method) 
-{
-	//<source_info:<no-source>:1>
-	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 22252));
+		//<source_info:./Library/PackageCache/com.unity.collections@a43cabe808ca/Unity.Collections/NativeList.cs:265>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 22253));
 		UnsafeList_1_t3F9D0EC640E63CF6B1A42991801DB2074F8E565A* L_0 = __this->___m_ListData;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 22254));
 		int32_t L_1;
-		L_1 = UnsafeList_1_get_Length_m1AA36F704928BD96D3C86F409ED299FC15B133ED_inline((UnsafeList_1_t3F9D0EC640E63CF6B1A42991801DB2074F8E565A*)L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 23));
+		L_1 = UnsafeList_1_get_Length_m1AA36F704928BD96D3C86F409ED299FC15B133ED_inline((UnsafeList_1_t3F9D0EC640E63CF6B1A42991801DB2074F8E565A*)L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 28));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 22254));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 22255));
 		int32_t L_2;
 		L_2 = CollectionHelper_AssumePositive_mD1EC1F05F50F605141D9BA5D70C4332AC902B4B1_inline(L_1, NULL);
-		return L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 22255));
+		V_0 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@a43cabe808ca/Unity.Collections/NativeList.cs:266>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 22256));
+		int32_t L_3 = V_0;
+		return L_3;
 	}
 }
-// Method Definition Index: 31103
+// Method Definition Index: 63582
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_gshared_inline (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_tC637D025EB5176CD63E77B260EF1BDB42DC69C7F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 8119));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 8120));
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime/Common/DynamicArray.cs:22>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 8121));
 		int32_t L_0 = __this->___U3CsizeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 34725
+// Method Definition Index: 67488
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_inline (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56756));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56757));
+	int32_t G_B3_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56758));
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime/RenderGraph/RenderGraphResources.cs:85>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56759));
 		uint32_t L_0 = __this->___m_Validity;
 		if (!L_0)
 		{
-			goto IL_0016;
+			goto IL_0018;
 		}
 	}
 	{
 		uint32_t L_1 = __this->___m_Validity;
 		il2cpp_codegen_runtime_class_init_inline(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
 		uint32_t L_2 = ((ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticFields*)il2cpp_codegen_static_fields_for(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var))->___s_CurrentValidBit;
-		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+		goto IL_0019;
 	}
 
-IL_0016:
+IL_0018:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_0019:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9fe9377312a8/Runtime/RenderGraph/RenderGraphResources.cs:86>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime + 56760));
+		bool L_3 = V_0;
+		return L_3;
 	}
 }
-// Method Definition Index: 61554
+// Method Definition Index: 115044
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CollectionHelper_AssumePositive_mD1EC1F05F50F605141D9BA5D70C4332AC902B4B1_inline (int32_t ___0_value, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CollectionHelper_AssumePositive_mD1EC1F05F50F605141D9BA5D70C4332AC902B4B1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CollectionHelper_AssumePositive_mD1EC1F05F50F605141D9BA5D70C4332AC902B4B1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 2842));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 2843));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 2844));
+		//<source_info:./Library/PackageCache/com.unity.collections@a43cabe808ca/Unity.Collections/CollectionHelper.cs:252>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 2845));
 		int32_t L_0 = ___0_value;
-		return L_0;
+		V_0 = L_0;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@a43cabe808ca/Unity.Collections/CollectionHelper.cs:253>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 2846));
+		int32_t L_1 = V_0;
+		return L_1;
 	}
 }
-// Method Definition Index: 64313
+// Method Definition Index: 117803
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m1AA36F704928BD96D3C86F409ED299FC15B133ED_gshared_inline (UnsafeList_1_t3F9D0EC640E63CF6B1A42991801DB2074F8E565A* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeList_1_t098D123ECC7F884EDDA7751485B9FBE450B8C9D7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 33642));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 33643));
+	{
+		//<source_info:./Library/PackageCache/com.unity.collections@a43cabe808ca/Unity.Collections/UnsafeList.cs:92>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 33644));
 		int32_t L_0 = __this->___m_length;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 33645));
 		int32_t L_1;
 		L_1 = CollectionHelper_AssumePositive_mD1EC1F05F50F605141D9BA5D70C4332AC902B4B1_inline(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 33645));
 		return L_1;
 	}
 }

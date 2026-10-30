@@ -6,7 +6,7 @@ namespace FYP.Intensity
     public enum ChoiceKind { BallSkin = 0, Environment = 1, FeedbackType = 2, FeedbackFrequency = 3 }
 
     // Option 0 of every kind is the default everyone gets unless they choose something else.
-    public enum BallSkin { Standard = 0, Striped = 1, Glittery = 2, Rainbow = 3 }
+    public enum BallSkin { Standard = 0, Black = 1, RedWhiteBlue = 2 }
     public enum EnvironmentPreset { OutdoorCourt = 0, IndoorGym = 1, NightCourt = 2 }
     public enum FeedbackType { AccuracyOnly = 0, ArcTrace = 1, AngleSpeed = 2 }
     public enum FeedbackFrequency { EveryThirdThrow = 0, EveryThrow = 1, EndOfBlock = 2 }
@@ -20,7 +20,7 @@ namespace FYP.Intensity
 
         private static readonly string[][] Names =
         {
-            new[] { "Standard", "Striped", "Glittery", "Rainbow" },
+            new[] { "Orange", "Black", "Red, white & blue" },
             new[] { "Outdoor court", "Indoor gym", "Night court" },
             new[] { "Accuracy only", "Arc trace", "Angle & speed" },
             new[] { "Every 3 throws", "Every throw", "End of block" },

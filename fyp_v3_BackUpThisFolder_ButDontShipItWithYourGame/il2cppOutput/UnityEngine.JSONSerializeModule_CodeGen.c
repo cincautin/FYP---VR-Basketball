@@ -14,9 +14,10 @@ extern void JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6
 extern void JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (void);
 extern void JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53 (void);
 extern void JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A (void);
+extern void JsonUtility_FromJsonOverwrite_mF60C8238431C1A42F7F482BB717757B281570D56 (void);
 extern void JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB (void);
 extern void JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5 (void);
-static Il2CppMethodPointer s_methodPointers[10] = 
+static Il2CppMethodPointer s_methodPointers[11] = 
 {
 	EmbeddedAttribute__ctor_m54E2F4D46C6DA226F7F814E2B2709D39B40D6785,
 	RefSafetyRulesAttribute__ctor_mEC922F778E83EBE5136CDA3D149115E8E577E9B4,
@@ -26,21 +27,23 @@ static Il2CppMethodPointer s_methodPointers[10] =
 	JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53,
 	NULL,
 	JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A,
+	JsonUtility_FromJsonOverwrite_mF60C8238431C1A42F7F482BB717757B281570D56,
 	JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB,
 	JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5,
 };
-static const int32_t s_InvokerIndices[10] = 
+static const int32_t s_InvokerIndices[11] = 
 {
-	14743,
-	11064,
-	18784,
-	17594,
-	20398,
-	18784,
+	23374,
+	17908,
+	30562,
+	28682,
+	33872,
+	30562,
 	-1,
-	18783,
-	18262,
-	17594,
+	30560,
+	32300,
+	29712,
+	28682,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -53,11 +56,12 @@ static const Il2CppRGCTXDefinition s_rgctxValues[2] =
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tB3191261F083EB0AE2454F736BF8A220615E222C },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tB3191261F083EB0AE2454F736BF8A220615E222C },
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_JSONSerializeModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule = 
 {
 	"UnityEngine.JSONSerializeModule.dll",
-	10,
+	11,
 	s_methodPointers,
 	0,
 	NULL,
@@ -68,7 +72,7 @@ const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule =
 	s_rgctxIndices,
 	2,
 	s_rgctxValues,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_JSONSerializeModule,
 	NULL,
 	NULL,
 	NULL,

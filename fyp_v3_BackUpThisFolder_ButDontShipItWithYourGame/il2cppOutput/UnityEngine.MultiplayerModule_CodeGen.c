@@ -1,0 +1,91 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_mAD428EF4F4CCB5C61C769847041B242AA5E178CC (void);
+extern void RefSafetyRulesAttribute__ctor_m24C1B53C65A6914ED7DF48BCF6C90BDACE8624C4 (void);
+extern void CurrentPlayerApi_get_IsMainEditor_mFEA5B330F18B819D9F3AE17A186E61BB8AD384C1 (void);
+extern void CurrentPlayerApi_SetTags_mEFD414E209DE87C3A29D005D374D7C7C6887691D (void);
+extern void CurrentPlayerApi_ReadOnlyTags_m9C5807618179DE9863F8852FF6D8F0BB3FD4DF68 (void);
+extern void CurrentPlayerApi_ReportResult_m70C4A3533E23585C2D90B9AE2955B8956D526161 (void);
+extern void CurrentPlayerApi__ctor_m475B8A0DA8932E65609EABFA04FCB7D5A0ABEC8A (void);
+extern void CurrentPlayer_EnsureInitialized_m1C823033BB4F229FD5D6AB10A43AA80A1FC9B360 (void);
+extern void CurrentPlayer_get_IsMainEditor_mAFBB53D60C3FC3D4C1AFC80F301A4736FFBFD4E6 (void);
+extern void CurrentPlayer_get_Tags_m453D8267BF405DEA6939BA0A7AF2F86C84FD3E61 (void);
+extern void CurrentPlayer_ReportResult_m1E84994D6D7DC26EF0BC4431438D6B4406072D24 (void);
+extern void CurrentPlayer_ReadOnlyTags_m304B0F406F6F73230986D44FF43DE6ACE5DCB9F3 (void);
+extern void MultiplayerRolesData__ctor_mBFC1EB949CE794AC9DD50E5ACBF11670CCBEDBB7 (void);
+extern void MultiplayerManager_get_activeMultiplayerRoleMask_m7353CF3D74C5D098F918B293B1AA77BDCE565052 (void);
+extern void MultiplayerManager_GetMultiplayerRoleMaskForGameObject_m9AD1E42CC453D1D4A6AC31B0D7365AFA1AAEAA12 (void);
+extern void MultiplayerManager_GetMultiplayerRoleMaskForComponent_m802FB7CC45D8433A6AEEB54E33653B1A47B4513F (void);
+extern void MultiplayerManager_GetMultiplayerRoleMaskForGameObject_Injected_mF75AF83FC133DE3BB6A8DF575A942859028FEA56 (void);
+extern void MultiplayerManager_GetMultiplayerRoleMaskForComponent_Injected_m60FC5F9C1CC7D897B1914770DF0230AA7542C976 (void);
+static Il2CppMethodPointer s_methodPointers[18] = 
+{
+	EmbeddedAttribute__ctor_mAD428EF4F4CCB5C61C769847041B242AA5E178CC,
+	RefSafetyRulesAttribute__ctor_m24C1B53C65A6914ED7DF48BCF6C90BDACE8624C4,
+	CurrentPlayerApi_get_IsMainEditor_mFEA5B330F18B819D9F3AE17A186E61BB8AD384C1,
+	CurrentPlayerApi_SetTags_mEFD414E209DE87C3A29D005D374D7C7C6887691D,
+	CurrentPlayerApi_ReadOnlyTags_m9C5807618179DE9863F8852FF6D8F0BB3FD4DF68,
+	CurrentPlayerApi_ReportResult_m70C4A3533E23585C2D90B9AE2955B8956D526161,
+	CurrentPlayerApi__ctor_m475B8A0DA8932E65609EABFA04FCB7D5A0ABEC8A,
+	CurrentPlayer_EnsureInitialized_m1C823033BB4F229FD5D6AB10A43AA80A1FC9B360,
+	CurrentPlayer_get_IsMainEditor_mAFBB53D60C3FC3D4C1AFC80F301A4736FFBFD4E6,
+	CurrentPlayer_get_Tags_m453D8267BF405DEA6939BA0A7AF2F86C84FD3E61,
+	CurrentPlayer_ReportResult_m1E84994D6D7DC26EF0BC4431438D6B4406072D24,
+	CurrentPlayer_ReadOnlyTags_m304B0F406F6F73230986D44FF43DE6ACE5DCB9F3,
+	MultiplayerRolesData__ctor_mBFC1EB949CE794AC9DD50E5ACBF11670CCBEDBB7,
+	MultiplayerManager_get_activeMultiplayerRoleMask_m7353CF3D74C5D098F918B293B1AA77BDCE565052,
+	MultiplayerManager_GetMultiplayerRoleMaskForGameObject_m9AD1E42CC453D1D4A6AC31B0D7365AFA1AAEAA12,
+	MultiplayerManager_GetMultiplayerRoleMaskForComponent_m802FB7CC45D8433A6AEEB54E33653B1A47B4513F,
+	MultiplayerManager_GetMultiplayerRoleMaskForGameObject_Injected_mF75AF83FC133DE3BB6A8DF575A942859028FEA56,
+	MultiplayerManager_GetMultiplayerRoleMaskForComponent_Injected_m60FC5F9C1CC7D897B1914770DF0230AA7542C976,
+};
+static const int32_t s_InvokerIndices[18] = 
+{
+	23374,
+	17908,
+	22542,
+	17580,
+	22468,
+	3819,
+	23374,
+	36834,
+	36589,
+	36554,
+	28341,
+	36554,
+	23374,
+	36649,
+	34518,
+	34518,
+	34546,
+	34546,
+};
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_MultiplayerModule;
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_MultiplayerModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_MultiplayerModule_CodeGenModule = 
+{
+	"UnityEngine.MultiplayerModule.dll",
+	18,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_MultiplayerModule,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

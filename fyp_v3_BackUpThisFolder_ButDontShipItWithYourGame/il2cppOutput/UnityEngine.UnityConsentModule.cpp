@@ -10,6 +10,7 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
+struct Delegate_t;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
 struct EmbeddedAttribute_t2D4F1F0FFB2E85678CD7847C4EEAF4C2310B8104;
 struct MethodInfo_t;
@@ -17,12 +18,26 @@ struct RefSafetyRulesAttribute_t8BBAC91199463222A52CDDDD50F86AD91912ECFF;
 struct String_t;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_UnityConsentModule[];
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ConsentStatus_tFD23FF9FF61DE15204FE5674C7330A3D27CFB9EC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral06768697C7AEFC180282130D8FAE9E3B5B426E3F;
 IL2CPP_EXTERN_C String_t* _stringLiteral17CDF64C98FE31EEDA619F17DDBA89A1CBD7FA79;
 IL2CPP_EXTERN_C String_t* _stringLiteral6ABEC54176A65626EB85E914828E700B7E79A956;
+IL2CPP_EXTERN_C const RuntimeMethod* ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B1906810146665_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72C1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EmbeddedAttribute__ctor_m0B7103D0FED6E4EEA6D2F21449DE391A4127DCD1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EndUserConsent_GetConsentState_mD5E805A905B376D596AAF31A4AB4344535F7CD8E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EndUserConsent_OnConsentStateChanged_m7A2FD500C237FDAE46112404721227038A7A259A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EndUserConsent_SetConsentState_mE13405FDDB00166E0C7F69FD0737E8091D745A74_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EndUserConsent_add_consentStateChanged_mE152E1B088314D954E739BDBBF1770528302A208_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EndUserConsent_remove_consentStateChanged_mE0636B45A7C6DFBF7782FFC5E2ADE9892F33F5D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RefSafetyRulesAttribute__ctor_m43EE5945539D1DA178D5E0C476BC55CFC3370C63_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -219,6 +234,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentState__ctor_mB3407A219590592A7EF8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B1906810146665 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* ___0_ret, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* ___0_consentState, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF EndUserConsent_GetConsentState_mD5E805A905B376D596AAF31A4AB4344535F7CD8E (const RuntimeMethod* method) ;
 inline void Action_1_Invoke_mA0C49E7E3E4E856769E5D6FC5DF7CB90A95E28AB_inline (Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* __this, ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF ___0_obj, const RuntimeMethod* method)
 {
@@ -237,10 +255,19 @@ inline void Action_1_Invoke_mA0C49E7E3E4E856769E5D6FC5DF7CB90A95E28AB_inline (Ac
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91024
+// Method Definition Index: 180561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m0B7103D0FED6E4EEA6D2F21449DE391A4127DCD1 (EmbeddedAttribute_t2D4F1F0FFB2E85678CD7847C4EEAF4C2310B8104* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EmbeddedAttribute__ctor_m0B7103D0FED6E4EEA6D2F21449DE391A4127DCD1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(EmbeddedAttribute__ctor_m0B7103D0FED6E4EEA6D2F21449DE391A4127DCD1_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EmbeddedAttribute__ctor_m0B7103D0FED6E4EEA6D2F21449DE391A4127DCD1_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		return;
@@ -254,10 +281,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m0B7103D0FED6E4E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91025
+// Method Definition Index: 180562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m43EE5945539D1DA178D5E0C476BC55CFC3370C63 (RefSafetyRulesAttribute_t8BBAC91199463222A52CDDDD50F86AD91912ECFF* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RefSafetyRulesAttribute__ctor_m43EE5945539D1DA178D5E0C476BC55CFC3370C63_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(RefSafetyRulesAttribute__ctor_m43EE5945539D1DA178D5E0C476BC55CFC3370C63_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RefSafetyRulesAttribute__ctor_m43EE5945539D1DA178D5E0C476BC55CFC3370C63_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		int32_t L_0 = ___0_p;
@@ -273,13 +309,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m43EE59455
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91026
+// Method Definition Index: 180563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72C1 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72C1_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72C1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 1));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/UnityConsent/ConsentState.bindings.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 2));
 		__this->___AdsIntent = 0;
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/UnityConsent/ConsentState.bindings.cs:28>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 3));
 		__this->___AnalyticsIntent = 0;
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/UnityConsent/ConsentState.bindings.cs:29>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 4));
 		return;
 	}
 }
@@ -289,12 +342,14 @@ IL2CPP_EXTERN_C  void ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72
 	_thisAdjusted = il2cpp_codegen_get_raw_data<ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF>(__this);
 	ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72C1(_thisAdjusted, method);
 }
-// Method Definition Index: 91027
+// Method Definition Index: 180564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B1906810146665 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B1906810146665_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConsentStatus_tFD23FF9FF61DE15204FE5674C7330A3D27CFB9EC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral06768697C7AEFC180282130D8FAE9E3B5B426E3F);
@@ -302,8 +357,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConsentState_ToString_mEDD4D983C948
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6ABEC54176A65626EB85E914828E700B7E79A956);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B1906810146665_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B1906810146665_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 5));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 6));
 	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/UnityConsent/ConsentState.bindings.cs:37>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 7));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		NullCheck(L_1);
@@ -327,8 +388,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConsentState_ToString_mEDD4D983C948
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_10);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_10);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 8));
 		String_t* L_11;
 		L_11 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral06768697C7AEFC180282130D8FAE9E3B5B426E3F, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 8));
 		return L_11;
 	}
 }
@@ -356,29 +419,160 @@ IL2CPP_EXTERN_C  String_t* ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B190
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91028
+// Method Definition Index: 180565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF EndUserConsent_GetConsentState_mD5E805A905B376D596AAF31A4AB4344535F7CD8E (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_GetConsentState_mD5E805A905B376D596AAF31A4AB4344535F7CD8E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(EndUserConsent_GetConsentState_mD5E805A905B376D596AAF31A4AB4344535F7CD8E_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EndUserConsent_GetConsentState_mD5E805A905B376D596AAF31A4AB4344535F7CD8E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53((&V_0), NULL);
 		ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF L_0 = V_0;
 		return L_0;
 	}
 }
-// Method Definition Index: 91029
+// Method Definition Index: 180566
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_SetConsentState_mE13405FDDB00166E0C7F69FD0737E8091D745A74 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF ___0_consentState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_SetConsentState_mE13405FDDB00166E0C7F69FD0737E8091D745A74_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(EndUserConsent_SetConsentState_mE13405FDDB00166E0C7F69FD0737E8091D745A74_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EndUserConsent_SetConsentState_mE13405FDDB00166E0C7F69FD0737E8091D745A74_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E((&___0_consentState), NULL);
+		return;
+	}
+}
+// Method Definition Index: 180567
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_add_consentStateChanged_mE152E1B088314D954E739BDBBF1770528302A208 (Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_add_consentStateChanged_mE152E1B088314D954E739BDBBF1770528302A208_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(EndUserConsent_add_consentStateChanged_mE152E1B088314D954E739BDBBF1770528302A208_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* V_0 = NULL;
+	Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* V_1 = NULL;
+	Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* V_2 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EndUserConsent_add_consentStateChanged_mE152E1B088314D954E739BDBBF1770528302A208_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_0 = ((EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_StaticFields*)il2cpp_codegen_static_fields_for(EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var))->___consentStateChanged;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		CHECK_PAUSE_POINT;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_2 = V_1;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900*)Castclass((RuntimeObject*)L_4, Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900_il2cpp_TypeInfo_var));
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_5 = V_2;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_6 = V_1;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900*>((&((EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_StaticFields*)il2cpp_codegen_static_fields_for(EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var))->___consentStateChanged), L_5, L_6);
+		V_0 = L_7;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_8 = V_0;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900*)L_8) == ((RuntimeObject*)(Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 180568
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_remove_consentStateChanged_mE0636B45A7C6DFBF7782FFC5E2ADE9892F33F5D0 (Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_remove_consentStateChanged_mE0636B45A7C6DFBF7782FFC5E2ADE9892F33F5D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(EndUserConsent_remove_consentStateChanged_mE0636B45A7C6DFBF7782FFC5E2ADE9892F33F5D0_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* V_0 = NULL;
+	Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* V_1 = NULL;
+	Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* V_2 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EndUserConsent_remove_consentStateChanged_mE0636B45A7C6DFBF7782FFC5E2ADE9892F33F5D0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_0 = ((EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_StaticFields*)il2cpp_codegen_static_fields_for(EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var))->___consentStateChanged;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		CHECK_PAUSE_POINT;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_2 = V_1;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_3 = ___0_value;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900*)Castclass((RuntimeObject*)L_4, Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900_il2cpp_TypeInfo_var));
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_5 = V_2;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_6 = V_1;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900*>((&((EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_StaticFields*)il2cpp_codegen_static_fields_for(EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var))->___consentStateChanged), L_5, L_6);
+		V_0 = L_7;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_8 = V_0;
+		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900*)L_8) == ((RuntimeObject*)(Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Method Definition Index: 180569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_OnConsentStateChanged_m7A2FD500C237FDAE46112404721227038A7A259A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_OnConsentStateChanged_m7A2FD500C237FDAE46112404721227038A7A259A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(EndUserConsent_OnConsentStateChanged_m7A2FD500C237FDAE46112404721227038A7A259A_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EndUserConsent_OnConsentStateChanged_m7A2FD500C237FDAE46112404721227038A7A259A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 9));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 10));
 	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/UnityConsent/EndUserConsent.bindings.cs:38>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 11));
 		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_0 = ((EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_StaticFields*)il2cpp_codegen_static_fields_for(EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var))->___consentStateChanged;
 		if (!L_0)
 		{
@@ -386,21 +580,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_OnConsentStateChanged_m7A
 		}
 	}
 	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/UnityConsent/EndUserConsent.bindings.cs:40>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 12));
 		Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* L_1 = ((EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_StaticFields*)il2cpp_codegen_static_fields_for(EndUserConsent_t4111002DFEC56F1F8A2447A2F3C28978BD51D636_il2cpp_TypeInfo_var))->___consentStateChanged;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 13));
 		ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF L_2;
 		L_2 = EndUserConsent_GetConsentState_mD5E805A905B376D596AAF31A4AB4344535F7CD8E(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 13));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 14));
 		NullCheck(L_1);
 		Action_1_Invoke_mA0C49E7E3E4E856769E5D6FC5DF7CB90A95E28AB_inline(L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 14));
 	}
 
 IL_0016:
 	{
+		//<source_info:/home/bokken/build/output/unity/unity/Modules/UnityConsent/EndUserConsent.bindings.cs:42>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UnityConsentModule + 15));
 		return;
 	}
 }
-// Method Definition Index: 91030
+// Method Definition Index: 180570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* ___0_ret, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	typedef void (*EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53_ftn) (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF*);
 	static EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53_ftn _il2cpp_icall_func;
@@ -408,10 +617,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_GetConsentState_Injected_
 	_il2cpp_icall_func = (EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UnityConsent.EndUserConsent::GetConsentState_Injected(UnityEngine.UnityConsent.ConsentState&)");
 	_il2cpp_icall_func(___0_ret);
 }
+// Method Definition Index: 180571
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* ___0_consentState, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E_ftn) (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF*);
+	static EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (EndUserConsent_SetConsentState_Injected_mBE4A2C22EA52438D87E6CEE29DAAA43EBD95B45E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UnityConsent.EndUserConsent::SetConsentState_Injected(UnityEngine.UnityConsent.ConsentState&)");
+	_il2cpp_icall_func(___0_consentState);
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 880
+// Method Definition Index: 927
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA0C49E7E3E4E856769E5D6FC5DF7CB90A95E28AB_gshared_inline (Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* __this, ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF ___0_obj, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

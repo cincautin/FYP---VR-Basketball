@@ -1,0 +1,1469 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
+struct EmbeddedAttribute_tDD790B23CBD5C515C7815F2051E117B9A49855E7;
+struct RefSafetyRulesAttribute_tC2FFBE69B0140CD1B46706B04CF49B59F5091EAD;
+struct String_t;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+IL2CPP_EXTERN_C const RuntimeMethod* AudioMemoryManager_Internal_AllocateAudioMemory_m6477CDE12AEC407FA1F621DD7DF3FDE4AEF3B218_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioMemoryManager_Internal_FreeAudioMemory_mDE924139CDF3495E1DA5701BCE721BE8B91995B5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AudioOutputHookManager_Internal_DisposeAudioOutputHook_mBCF3664FD122283AB71A5D982541578F3FE98563_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_Cancel_m672B7955A872BE6D20D8563CEE052CA569ABB7E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_AddNodeEventHandler_mEA5C25F791E69E088B47B4E5807902E31C254853_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_AllocateHandle_m094585C5E4EE5DA3118E86077938CBCEEA9E9AF8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_AssertMainThread_m74BFADC790F3917BA15F33B95D42FAEAE36C1366_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_AssertMixerThread_mD52A9F34ADFFD0C135757C9981DAE72612E3EE6B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_GetDSPClock_m2CE4657E6137E7DBB7EDA11B2294DFE9A216FD61_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_RemoveNodeEventHandler_m65E3516D0C21EDA48D3D48081C7A9741280FA26D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_ScheduleGraph_m2930B5BB4FA10E217AC3250854D12825DBC580C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_SyncFenceNoWorkSteal_m516B51B2F645FC5F2B685BFA1590F75CA740BE5E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPNodeUpdateRequestHandleInternal_Internal_Dispose_mD231D704BBDFAC276392884A4FEC90009AFE7C90_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPNodeUpdateRequestHandleInternal_Internal_GetUpdateJobData_mB392A3B3A66DD68DD21645463DFA0F2BA7FEA39D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPNodeUpdateRequestHandleInternal_Internal_HasError_m72E30C80D1CE856B86559F732ECD736066F59C2B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_GetChannelCountById_mF9B7C00D8DFB78E5F40C8BA0D3E6BA75BE00DB63_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_GetChannelCount_m0F11CAAD6596B88F7E56BDABDA99E1F21D3EDC8A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_GetSampleRateById_m52C797917E17C7E639BBC8CE8A65C251473C3924_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_GetSampleRate_m679B37C8351CADEA6FF53F99B5A71725416D2B38_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_ReadFloatFromSampleProviderById_m585D8447ECFDDE270DE19750436DEC7A88A515D8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_ReadFloatFromSampleProvider_m214E1C1E2D627E77536EFAC67C228912D3A6A0D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProviderById_m1C3099A8576A8D28FD89BAFF4397FF937F18FEEA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProvider_mBABB781CA231ED433404E196767651697022D5A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProviderById_m1B5A33CD09C3CBC636E5E1BC2C1381DB8346B605_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProvider_m452593870CB755E994B7AD42D8C2DE192480B835_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EmbeddedAttribute__ctor_mB5088B52119271C2ECD16F0646AEB27429BD5463_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ExecuteContextInternal_Internal_PostEvent_m85AEE83FF62AF2694A6153A056AB8C711BE7E685_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* RefSafetyRulesAttribute__ctor_mA3201F49A3EE952C32886A2F1877059BC784AD22_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tA4B1C23679546A60C8EDFAD02EF08A3270B0EC5D 
+{
+};
+struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct AudioMemoryManager_t6194352EA30C4FCEFE00518138154DE8FACF1AFB 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t AudioMemoryManager_t6194352EA30C4FCEFE00518138154DE8FACF1AFB__padding[1];
+	};
+};
+struct AudioOutputHookManager_t9E63B1F3496B0B6FDCBBBDFCE1493A4BF2C1C3B5 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t AudioOutputHookManager_t9E63B1F3496B0B6FDCBBBDFCE1493A4BF2C1C3B5__padding[1];
+	};
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct DSPCommandBlockInternal_t294EEBC9845D95F2E599B73FE792C3138EEA9129 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DSPCommandBlockInternal_t294EEBC9845D95F2E599B73FE792C3138EEA9129__padding[1];
+	};
+};
+struct DSPGraphExecutionNode_t5493A250E7F7B91CA2D9C2416921903E800074D0 
+{
+	void* ___ReflectionData;
+	void* ___JobStructData;
+	void* ___JobData;
+	void* ___ResourceContext;
+	int32_t ___FunctionIndex;
+	int32_t ___FenceIndex;
+	int32_t ___FenceCount;
+};
+struct DSPGraphInternal_tB4D9177BB769619FBE13D4DBED34D71178D16B22 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DSPGraphInternal_tB4D9177BB769619FBE13D4DBED34D71178D16B22__padding[1];
+	};
+};
+struct DSPNodeUpdateRequestHandleInternal_tA0A273138D98C2311E043087F9E9B946D45EDD5B 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DSPNodeUpdateRequestHandleInternal_tA0A273138D98C2311E043087F9E9B946D45EDD5B__padding[1];
+	};
+};
+struct DSPSampleProviderInternal_t0DF6D7F252688C449EE59A29C689450C27510990 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DSPSampleProviderInternal_t0DF6D7F252688C449EE59A29C689450C27510990__padding[1];
+	};
+};
+struct EmbeddedAttribute_tDD790B23CBD5C515C7815F2051E117B9A49855E7  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+};
+struct ExecuteContextInternal_t8116BBF8204E5B8DBD39AD477FC4B0D50DF9E488 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ExecuteContextInternal_t8116BBF8204E5B8DBD39AD477FC4B0D50DF9E488__padding[1];
+	};
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 
+{
+	uint64_t ___jobGroup;
+	int32_t ___version;
+};
+struct RefSafetyRulesAttribute_tC2FFBE69B0140CD1B46706B04CF49B59F5091EAD  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___Version;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
+{
+	uint16_t ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF 
+{
+	uint64_t ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153 
+{
+	intptr_t ___m_Node;
+	int32_t ___Version;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2 (Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_ret, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625 (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___0_inputDeps, void* ___1_nodes, int32_t ___2_nodeCount, int32_t* ___3_childTable, void* ___4_dependencies, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___0_handle, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179462
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mB5088B52119271C2ECD16F0646AEB27429BD5463 (EmbeddedAttribute_tDD790B23CBD5C515C7815F2051E117B9A49855E7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EmbeddedAttribute__ctor_mB5088B52119271C2ECD16F0646AEB27429BD5463_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(EmbeddedAttribute__ctor_mB5088B52119271C2ECD16F0646AEB27429BD5463_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EmbeddedAttribute__ctor_mB5088B52119271C2ECD16F0646AEB27429BD5463_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179463
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mA3201F49A3EE952C32886A2F1877059BC784AD22 (RefSafetyRulesAttribute_tC2FFBE69B0140CD1B46706B04CF49B59F5091EAD* __this, int32_t ___0_p, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RefSafetyRulesAttribute__ctor_mA3201F49A3EE952C32886A2F1877059BC784AD22_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(RefSafetyRulesAttribute__ctor_mA3201F49A3EE952C32886A2F1877059BC784AD22_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RefSafetyRulesAttribute__ctor_mA3201F49A3EE952C32886A2F1877059BC784AD22_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		int32_t L_0 = ___0_p;
+		__this->___Version = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179464
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* AudioMemoryManager_Internal_AllocateAudioMemory_m6477CDE12AEC407FA1F621DD7DF3FDE4AEF3B218 (int32_t ___0_size, int32_t ___1_alignment, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioMemoryManager_Internal_AllocateAudioMemory_m6477CDE12AEC407FA1F621DD7DF3FDE4AEF3B218_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(AudioMemoryManager_Internal_AllocateAudioMemory_m6477CDE12AEC407FA1F621DD7DF3FDE4AEF3B218_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void* (*AudioMemoryManager_Internal_AllocateAudioMemory_m6477CDE12AEC407FA1F621DD7DF3FDE4AEF3B218_ftn) (int32_t, int32_t);
+	static AudioMemoryManager_Internal_AllocateAudioMemory_m6477CDE12AEC407FA1F621DD7DF3FDE4AEF3B218_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioMemoryManager_Internal_AllocateAudioMemory_m6477CDE12AEC407FA1F621DD7DF3FDE4AEF3B218_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.AudioMemoryManager::Internal_AllocateAudioMemory(System.Int32,System.Int32)");
+	void* icallRetVal = _il2cpp_icall_func(___0_size, ___1_alignment);
+	return icallRetVal;
+}
+// Method Definition Index: 179465
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioMemoryManager_Internal_FreeAudioMemory_mDE924139CDF3495E1DA5701BCE721BE8B91995B5 (void* ___0_memory, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioMemoryManager_Internal_FreeAudioMemory_mDE924139CDF3495E1DA5701BCE721BE8B91995B5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(AudioMemoryManager_Internal_FreeAudioMemory_mDE924139CDF3495E1DA5701BCE721BE8B91995B5_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*AudioMemoryManager_Internal_FreeAudioMemory_mDE924139CDF3495E1DA5701BCE721BE8B91995B5_ftn) (void*);
+	static AudioMemoryManager_Internal_FreeAudioMemory_mDE924139CDF3495E1DA5701BCE721BE8B91995B5_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioMemoryManager_Internal_FreeAudioMemory_mDE924139CDF3495E1DA5701BCE721BE8B91995B5_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.AudioMemoryManager::Internal_FreeAudioMemory(System.Void*)");
+	_il2cpp_icall_func(___0_memory);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179466
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_outputHook, void* ___1_jobReflectionData, void* ___2_jobData, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, void*, void*);
+	static AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.AudioOutputHookManager::Internal_CreateAudioOutputHook(Unity.Audio.Handle&,System.Void*,System.Void*)");
+	_il2cpp_icall_func(___0_outputHook, ___1_jobReflectionData, ___2_jobData);
+}
+// Method Definition Index: 179467
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutputHookManager_Internal_DisposeAudioOutputHook_mBCF3664FD122283AB71A5D982541578F3FE98563 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_outputHook, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioOutputHookManager_Internal_DisposeAudioOutputHook_mBCF3664FD122283AB71A5D982541578F3FE98563_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(AudioOutputHookManager_Internal_DisposeAudioOutputHook_mBCF3664FD122283AB71A5D982541578F3FE98563_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*AudioOutputHookManager_Internal_DisposeAudioOutputHook_mBCF3664FD122283AB71A5D982541578F3FE98563_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static AudioOutputHookManager_Internal_DisposeAudioOutputHook_mBCF3664FD122283AB71A5D982541578F3FE98563_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioOutputHookManager_Internal_DisposeAudioOutputHook_mBCF3664FD122283AB71A5D982541578F3FE98563_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.AudioOutputHookManager::Internal_DisposeAudioOutputHook(Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_outputHook);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179468
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_jobReflectionData, void* ___4_jobMemory, void* ___5_parameterDescriptionArray, int32_t ___6_parameterCount, void* ___7_sampleProviderDescriptionArray, int32_t ___8_sampleProviderCount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, void*, void*, void*, int32_t, void*, int32_t);
+	static DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_CreateDSPNode(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.Void*,System.Void*,System.Int32,System.Void*,System.Int32)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_jobReflectionData, ___4_jobMemory, ___5_parameterDescriptionArray, ___6_parameterCount, ___7_sampleProviderDescriptionArray, ___8_sampleProviderCount);
+}
+// Method Definition Index: 179469
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_jobReflectionData, uint32_t ___4_pIndex, float ___5_value, uint32_t ___6_interpolationLength, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, void*, uint32_t, float, uint32_t);
+	static DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SetFloat(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.UInt32,System.Single,System.UInt32)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_jobReflectionData, ___4_pIndex, ___5_value, ___6_interpolationLength);
+}
+// Method Definition Index: 179470
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_jobReflectionData, uint32_t ___4_pIndex, uint64_t ___5_dspClock, float ___6_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, void*, uint32_t, uint64_t, float);
+	static DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_AddFloatKey(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.UInt32,System.UInt64,System.Single)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_jobReflectionData, ___4_pIndex, ___5_dspClock, ___6_value);
+}
+// Method Definition Index: 179471
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_jobReflectionData, uint32_t ___4_pIndex, uint64_t ___5_dspClock, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, void*, uint32_t, uint64_t);
+	static DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SustainFloat(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.UInt32,System.UInt64)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_jobReflectionData, ___4_pIndex, ___5_dspClock);
+}
+// Method Definition Index: 179472
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_updateJobMem, void* ___4_updateJobReflectionData, void* ___5_nodeReflectionData, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, void*, void*, void*);
+	static DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_UpdateAudioJob(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.Void*,System.Void*)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_updateJobMem, ___4_updateJobReflectionData, ___5_nodeReflectionData);
+}
+// Method Definition Index: 179473
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___3_request, RuntimeObject* ___4_callback, void* ___5_updateJobMem, void* ___6_updateJobReflectionData, void* ___7_nodeReflectionData, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, RuntimeObject*, void*, void*, void*);
+	static DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_CreateUpdateRequest(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Object,System.Void*,System.Void*,System.Void*)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_request, ___4_callback, ___5_updateJobMem, ___6_updateJobReflectionData, ___7_nodeReflectionData);
+}
+// Method Definition Index: 179474
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_ReleaseDSPNode(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node);
+}
+// Method Definition Index: 179475
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_output, int32_t ___3_outputPort, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___4_input, int32_t ___5_inputPort, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___6_connection, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_Connect(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,Unity.Audio.Handle&,System.Int32,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_output, ___3_outputPort, ___4_input, ___5_inputPort, ___6_connection);
+}
+// Method Definition Index: 179476
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_output, int32_t ___3_outputPort, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___4_input, int32_t ___5_inputPort, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t);
+	static DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_Disconnect(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,Unity.Audio.Handle&,System.Int32)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_output, ___3_outputPort, ___4_input, ___5_inputPort);
+}
+// Method Definition Index: 179477
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_connection, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_DisconnectByHandle(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_connection);
+}
+// Method Definition Index: 179478
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_connection, void* ___3_value, uint8_t ___4_dimension, uint32_t ___5_interpolationLength, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, void*, uint8_t, uint32_t);
+	static DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SetAttenuation(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.Byte,System.UInt32)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_connection, ___3_value, ___4_dimension, ___5_interpolationLength);
+}
+// Method Definition Index: 179479
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_connection, uint64_t ___3_dspClock, void* ___4_value, uint8_t ___5_dimension, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, uint64_t, void*, uint8_t);
+	static DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_AddAttenuationKey(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.UInt64,System.Void*,System.Byte)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_connection, ___3_dspClock, ___4_value, ___5_dimension);
+}
+// Method Definition Index: 179480
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_connection, uint64_t ___3_dspClock, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, uint64_t);
+	static DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SustainAttenuation(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.UInt64)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_connection, ___3_dspClock);
+}
+// Method Definition Index: 179481
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_channelCount, int32_t ___4_format, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, int32_t);
+	static DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_AddInletPort(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_channelCount, ___4_format);
+}
+// Method Definition Index: 179482
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_channelCount, int32_t ___4_format, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, int32_t);
+	static DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_AddOutletPort(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_channelCount, ___4_format);
+}
+// Method Definition Index: 179483
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_item, int32_t ___4_index, uint32_t ___5_audioSampleProviderId, bool ___6_destroyOnRemove, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, int32_t, uint32_t, bool);
+	static DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SetSampleProvider(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32,System.UInt32,System.Boolean)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_item, ___4_index, ___5_audioSampleProviderId, ___6_destroyOnRemove);
+}
+// Method Definition Index: 179484
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_item, int32_t ___4_index, uint32_t ___5_audioSampleProviderId, bool ___6_destroyOnRemove, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, int32_t, uint32_t, bool);
+	static DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_InsertSampleProvider(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32,System.UInt32,System.Boolean)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_item, ___4_index, ___5_audioSampleProviderId, ___6_destroyOnRemove);
+}
+// Method Definition Index: 179485
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_item, int32_t ___4_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, int32_t);
+	static DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_RemoveSampleProvider(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32)");
+	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_item, ___4_index);
+}
+// Method Definition Index: 179486
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_Complete(Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_block);
+}
+// Method Definition Index: 179487
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Cancel_m672B7955A872BE6D20D8563CEE052CA569ABB7E6 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPCommandBlockInternal_Internal_Cancel_m672B7955A872BE6D20D8563CEE052CA569ABB7E6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPCommandBlockInternal_Internal_Cancel_m672B7955A872BE6D20D8563CEE052CA569ABB7E6_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPCommandBlockInternal_Internal_Cancel_m672B7955A872BE6D20D8563CEE052CA569ABB7E6_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPCommandBlockInternal_Internal_Cancel_m672B7955A872BE6D20D8563CEE052CA569ABB7E6_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_Cancel_m672B7955A872BE6D20D8563CEE052CA569ABB7E6_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_Cancel(Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_block);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179488
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, int32_t ___1_outputFormat, uint32_t ___2_outputChannels, uint32_t ___3_dspBufferSize, uint32_t ___4_sampleRate, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, uint32_t, uint32_t, uint32_t);
+	static DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_CreateDSPGraph(Unity.Audio.Handle&,System.Int32,System.UInt32,System.UInt32,System.UInt32)");
+	_il2cpp_icall_func(___0_graph, ___1_outputFormat, ___2_outputChannels, ___3_dspBufferSize, ___4_sampleRate);
+}
+// Method Definition Index: 179489
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_DisposeDSPGraph(Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph);
+}
+// Method Definition Index: 179490
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_CreateDSPCommandBlock(Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_block);
+}
+// Method Definition Index: 179491
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPGraphInternal_Internal_AddNodeEventHandler_mEA5C25F791E69E088B47B4E5807902E31C254853 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, int64_t ___1_eventTypeHashCode, RuntimeObject* ___2_handler, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_AddNodeEventHandler_mEA5C25F791E69E088B47B4E5807902E31C254853_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_AddNodeEventHandler_mEA5C25F791E69E088B47B4E5807902E31C254853_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef uint32_t (*DSPGraphInternal_Internal_AddNodeEventHandler_mEA5C25F791E69E088B47B4E5807902E31C254853_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int64_t, RuntimeObject*);
+	static DSPGraphInternal_Internal_AddNodeEventHandler_mEA5C25F791E69E088B47B4E5807902E31C254853_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_AddNodeEventHandler_mEA5C25F791E69E088B47B4E5807902E31C254853_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_AddNodeEventHandler(Unity.Audio.Handle&,System.Int64,System.Object)");
+	uint32_t icallRetVal = _il2cpp_icall_func(___0_graph, ___1_eventTypeHashCode, ___2_handler);
+	return icallRetVal;
+}
+// Method Definition Index: 179492
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_RemoveNodeEventHandler_m65E3516D0C21EDA48D3D48081C7A9741280FA26D (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, uint32_t ___1_handlerId, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_RemoveNodeEventHandler_m65E3516D0C21EDA48D3D48081C7A9741280FA26D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_RemoveNodeEventHandler_m65E3516D0C21EDA48D3D48081C7A9741280FA26D_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef bool (*DSPGraphInternal_Internal_RemoveNodeEventHandler_m65E3516D0C21EDA48D3D48081C7A9741280FA26D_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, uint32_t);
+	static DSPGraphInternal_Internal_RemoveNodeEventHandler_m65E3516D0C21EDA48D3D48081C7A9741280FA26D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_RemoveNodeEventHandler_m65E3516D0C21EDA48D3D48081C7A9741280FA26D_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_RemoveNodeEventHandler(Unity.Audio.Handle&,System.UInt32)");
+	bool icallRetVal = _il2cpp_icall_func(___0_graph, ___1_handlerId);
+	return icallRetVal;
+}
+// Method Definition Index: 179493
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_root, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_GetRootDSP(Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_root);
+}
+// Method Definition Index: 179494
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t DSPGraphInternal_Internal_GetDSPClock_m2CE4657E6137E7DBB7EDA11B2294DFE9A216FD61 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_GetDSPClock_m2CE4657E6137E7DBB7EDA11B2294DFE9A216FD61_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_GetDSPClock_m2CE4657E6137E7DBB7EDA11B2294DFE9A216FD61_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef uint64_t (*DSPGraphInternal_Internal_GetDSPClock_m2CE4657E6137E7DBB7EDA11B2294DFE9A216FD61_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPGraphInternal_Internal_GetDSPClock_m2CE4657E6137E7DBB7EDA11B2294DFE9A216FD61_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_GetDSPClock_m2CE4657E6137E7DBB7EDA11B2294DFE9A216FD61_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_GetDSPClock(Unity.Audio.Handle&)");
+	uint64_t icallRetVal = _il2cpp_icall_func(___0_graph);
+	return icallRetVal;
+}
+// Method Definition Index: 179495
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, int32_t ___1_frameCount, int32_t ___2_executionMode, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, int32_t, int32_t);
+	static DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_BeginMix(Unity.Audio.Handle&,System.Int32,System.Int32)");
+	_il2cpp_icall_func(___0_graph, ___1_frameCount, ___2_executionMode);
+}
+// Method Definition Index: 179496
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, void* ___1_buffer, int32_t ___2_frameCount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, void*, int32_t);
+	static DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_ReadMix(Unity.Audio.Handle&,System.Void*,System.Int32)");
+	_il2cpp_icall_func(___0_graph, ___1_buffer, ___2_frameCount);
+}
+// Method Definition Index: 179497
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_Update(Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph);
+}
+// Method Definition Index: 179498
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_AssertMixerThread_mD52A9F34ADFFD0C135757C9981DAE72612E3EE6B (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_AssertMixerThread_mD52A9F34ADFFD0C135757C9981DAE72612E3EE6B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_AssertMixerThread_mD52A9F34ADFFD0C135757C9981DAE72612E3EE6B_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef bool (*DSPGraphInternal_Internal_AssertMixerThread_mD52A9F34ADFFD0C135757C9981DAE72612E3EE6B_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPGraphInternal_Internal_AssertMixerThread_mD52A9F34ADFFD0C135757C9981DAE72612E3EE6B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_AssertMixerThread_mD52A9F34ADFFD0C135757C9981DAE72612E3EE6B_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_AssertMixerThread(Unity.Audio.Handle&)");
+	bool icallRetVal = _il2cpp_icall_func(___0_graph);
+	return icallRetVal;
+}
+// Method Definition Index: 179499
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_AssertMainThread_m74BFADC790F3917BA15F33B95D42FAEAE36C1366 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_AssertMainThread_m74BFADC790F3917BA15F33B95D42FAEAE36C1366_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_AssertMainThread_m74BFADC790F3917BA15F33B95D42FAEAE36C1366_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef bool (*DSPGraphInternal_Internal_AssertMainThread_m74BFADC790F3917BA15F33B95D42FAEAE36C1366_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPGraphInternal_Internal_AssertMainThread_m74BFADC790F3917BA15F33B95D42FAEAE36C1366_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_AssertMainThread_m74BFADC790F3917BA15F33B95D42FAEAE36C1366_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_AssertMainThread(Unity.Audio.Handle&)");
+	bool icallRetVal = _il2cpp_icall_func(___0_graph);
+	return icallRetVal;
+}
+// Method Definition Index: 179500
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153 DSPGraphInternal_Internal_AllocateHandle_m094585C5E4EE5DA3118E86077938CBCEEA9E9AF8 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_AllocateHandle_m094585C5E4EE5DA3118E86077938CBCEEA9E9AF8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_AllocateHandle_m094585C5E4EE5DA3118E86077938CBCEEA9E9AF8_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DSPGraphInternal_Internal_AllocateHandle_m094585C5E4EE5DA3118E86077938CBCEEA9E9AF8_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* L_0 = ___0_graph;
+		DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E(L_0, (&V_0), NULL);
+		Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 179501
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6 (void* ___0_jobStructData, void* ___1_jobReflectionData, void* ___2_resourceContext, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6_ftn) (void*, void*, void*);
+	static DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_InitializeJob(System.Void*,System.Void*,System.Void*)");
+	_il2cpp_icall_func(___0_jobStructData, ___1_jobReflectionData, ___2_resourceContext);
+}
+// Method Definition Index: 179502
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90 (void* ___0_jobStructData, void* ___1_jobReflectionData, void* ___2_jobData, void* ___3_resourceContext, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90_ftn) (void*, void*, void*, void*);
+	static DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_ExecuteJob(System.Void*,System.Void*,System.Void*,System.Void*)");
+	_il2cpp_icall_func(___0_jobStructData, ___1_jobReflectionData, ___2_jobData, ___3_resourceContext);
+}
+// Method Definition Index: 179503
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3 (void* ___0_updateStructMemory, void* ___1_updateReflectionData, void* ___2_jobStructMemory, void* ___3_jobReflectionData, void* ___4_resourceContext, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___5_requestHandle, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___6_fence, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3_ftn) (void*, void*, void*, void*, void*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08*);
+	static DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_ExecuteUpdateJob(System.Void*,System.Void*,System.Void*,System.Void*,System.Void*,Unity.Audio.Handle&,Unity.Jobs.JobHandle&)");
+	_il2cpp_icall_func(___0_updateStructMemory, ___1_updateReflectionData, ___2_jobStructMemory, ___3_jobReflectionData, ___4_resourceContext, ___5_requestHandle, ___6_fence);
+}
+// Method Definition Index: 179504
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84 (void* ___0_jobStructData, void* ___1_jobReflectionData, void* ___2_resourceContext, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84_ftn) (void*, void*, void*);
+	static DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_DisposeJob(System.Void*,System.Void*,System.Void*)");
+	_il2cpp_icall_func(___0_jobStructData, ___1_jobReflectionData, ___2_resourceContext);
+}
+// Method Definition Index: 179505
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ScheduleGraph_m2930B5BB4FA10E217AC3250854D12825DBC580C0 (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_inputDeps, void* ___1_nodes, int32_t ___2_nodeCount, int32_t* ___3_childTable, void* ___4_dependencies, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_ScheduleGraph_m2930B5BB4FA10E217AC3250854D12825DBC580C0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_ScheduleGraph_m2930B5BB4FA10E217AC3250854D12825DBC580C0_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DSPGraphInternal_Internal_ScheduleGraph_m2930B5BB4FA10E217AC3250854D12825DBC580C0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		void* L_0 = ___1_nodes;
+		int32_t L_1 = ___2_nodeCount;
+		int32_t* L_2 = ___3_childTable;
+		void* L_3 = ___4_dependencies;
+		DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625((&___0_inputDeps), L_0, L_1, L_2, L_3, NULL);
+		return;
+	}
+}
+// Method Definition Index: 179506
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_SyncFenceNoWorkSteal_m516B51B2F645FC5F2B685BFA1590F75CA740BE5E (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_SyncFenceNoWorkSteal_m516B51B2F645FC5F2B685BFA1590F75CA740BE5E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_SyncFenceNoWorkSteal_m516B51B2F645FC5F2B685BFA1590F75CA740BE5E_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DSPGraphInternal_Internal_SyncFenceNoWorkSteal_m516B51B2F645FC5F2B685BFA1590F75CA740BE5E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB((&___0_handle), NULL);
+		return;
+	}
+}
+// Method Definition Index: 179507
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_ret, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_AllocateHandle_Injected(Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_ret);
+}
+// Method Definition Index: 179508
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625 (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___0_inputDeps, void* ___1_nodes, int32_t ___2_nodeCount, int32_t* ___3_childTable, void* ___4_dependencies, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625_ftn) (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08*, void*, int32_t, int32_t*, void*);
+	static DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_ScheduleGraph_Injected(Unity.Jobs.JobHandle&,System.Void*,System.Int32,System.Int32*,System.Void*)");
+	_il2cpp_icall_func(___0_inputDeps, ___1_nodes, ___2_nodeCount, ___3_childTable, ___4_dependencies);
+}
+// Method Definition Index: 179509
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB_ftn) (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08*);
+	static DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_SyncFenceNoWorkSteal_Injected(Unity.Jobs.JobHandle&)");
+	_il2cpp_icall_func(___0_handle);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179510
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* DSPNodeUpdateRequestHandleInternal_Internal_GetUpdateJobData_mB392A3B3A66DD68DD21645463DFA0F2BA7FEA39D (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPNodeUpdateRequestHandleInternal_Internal_GetUpdateJobData_mB392A3B3A66DD68DD21645463DFA0F2BA7FEA39D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPNodeUpdateRequestHandleInternal_Internal_GetUpdateJobData_mB392A3B3A66DD68DD21645463DFA0F2BA7FEA39D_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void* (*DSPNodeUpdateRequestHandleInternal_Internal_GetUpdateJobData_mB392A3B3A66DD68DD21645463DFA0F2BA7FEA39D_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPNodeUpdateRequestHandleInternal_Internal_GetUpdateJobData_mB392A3B3A66DD68DD21645463DFA0F2BA7FEA39D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPNodeUpdateRequestHandleInternal_Internal_GetUpdateJobData_mB392A3B3A66DD68DD21645463DFA0F2BA7FEA39D_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPNodeUpdateRequestHandleInternal::Internal_GetUpdateJobData(Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	void* icallRetVal = _il2cpp_icall_func(___0_graph, ___1_requestHandle);
+	return icallRetVal;
+}
+// Method Definition Index: 179511
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPNodeUpdateRequestHandleInternal_Internal_HasError_m72E30C80D1CE856B86559F732ECD736066F59C2B (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPNodeUpdateRequestHandleInternal_Internal_HasError_m72E30C80D1CE856B86559F732ECD736066F59C2B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPNodeUpdateRequestHandleInternal_Internal_HasError_m72E30C80D1CE856B86559F732ECD736066F59C2B_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef bool (*DSPNodeUpdateRequestHandleInternal_Internal_HasError_m72E30C80D1CE856B86559F732ECD736066F59C2B_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPNodeUpdateRequestHandleInternal_Internal_HasError_m72E30C80D1CE856B86559F732ECD736066F59C2B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPNodeUpdateRequestHandleInternal_Internal_HasError_m72E30C80D1CE856B86559F732ECD736066F59C2B_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPNodeUpdateRequestHandleInternal::Internal_HasError(Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	bool icallRetVal = _il2cpp_icall_func(___0_graph, ___1_requestHandle);
+	return icallRetVal;
+}
+// Method Definition Index: 179512
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPNodeUpdateRequestHandleInternal::Internal_GetDSPNode(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_requestHandle, ___2_node);
+}
+// Method Definition Index: 179513
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___2_fence, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08*);
+	static DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPNodeUpdateRequestHandleInternal::Internal_GetFence(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Jobs.JobHandle&)");
+	_il2cpp_icall_func(___0_graph, ___1_requestHandle, ___2_fence);
+}
+// Method Definition Index: 179514
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Internal_Dispose_mD231D704BBDFAC276392884A4FEC90009AFE7C90 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPNodeUpdateRequestHandleInternal_Internal_Dispose_mD231D704BBDFAC276392884A4FEC90009AFE7C90_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPNodeUpdateRequestHandleInternal_Internal_Dispose_mD231D704BBDFAC276392884A4FEC90009AFE7C90_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*DSPNodeUpdateRequestHandleInternal_Internal_Dispose_mD231D704BBDFAC276392884A4FEC90009AFE7C90_ftn) (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153*);
+	static DSPNodeUpdateRequestHandleInternal_Internal_Dispose_mD231D704BBDFAC276392884A4FEC90009AFE7C90_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPNodeUpdateRequestHandleInternal_Internal_Dispose_mD231D704BBDFAC276392884A4FEC90009AFE7C90_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPNodeUpdateRequestHandleInternal::Internal_Dispose(Unity.Audio.Handle&,Unity.Audio.Handle&)");
+	_il2cpp_icall_func(___0_graph, ___1_requestHandle);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179515
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProvider_m452593870CB755E994B7AD42D8C2DE192480B835 (void* ___0_provider, int32_t ___1_format, void* ___2_buffer, int32_t ___3_length, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProvider_m452593870CB755E994B7AD42D8C2DE192480B835_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProvider_m452593870CB755E994B7AD42D8C2DE192480B835_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef int32_t (*DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProvider_m452593870CB755E994B7AD42D8C2DE192480B835_ftn) (void*, int32_t, void*, int32_t);
+	static DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProvider_m452593870CB755E994B7AD42D8C2DE192480B835_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProvider_m452593870CB755E994B7AD42D8C2DE192480B835_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_ReadUInt8FromSampleProvider(System.Void*,System.Int32,System.Void*,System.Int32)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_provider, ___1_format, ___2_buffer, ___3_length);
+	return icallRetVal;
+}
+// Method Definition Index: 179516
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProvider_mBABB781CA231ED433404E196767651697022D5A2 (void* ___0_provider, int32_t ___1_format, void* ___2_buffer, int32_t ___3_length, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProvider_mBABB781CA231ED433404E196767651697022D5A2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProvider_mBABB781CA231ED433404E196767651697022D5A2_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef int32_t (*DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProvider_mBABB781CA231ED433404E196767651697022D5A2_ftn) (void*, int32_t, void*, int32_t);
+	static DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProvider_mBABB781CA231ED433404E196767651697022D5A2_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProvider_mBABB781CA231ED433404E196767651697022D5A2_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_ReadSInt16FromSampleProvider(System.Void*,System.Int32,System.Void*,System.Int32)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_provider, ___1_format, ___2_buffer, ___3_length);
+	return icallRetVal;
+}
+// Method Definition Index: 179517
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadFloatFromSampleProvider_m214E1C1E2D627E77536EFAC67C228912D3A6A0D0 (void* ___0_provider, void* ___1_buffer, int32_t ___2_length, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_ReadFloatFromSampleProvider_m214E1C1E2D627E77536EFAC67C228912D3A6A0D0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_ReadFloatFromSampleProvider_m214E1C1E2D627E77536EFAC67C228912D3A6A0D0_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef int32_t (*DSPSampleProviderInternal_Internal_ReadFloatFromSampleProvider_m214E1C1E2D627E77536EFAC67C228912D3A6A0D0_ftn) (void*, void*, int32_t);
+	static DSPSampleProviderInternal_Internal_ReadFloatFromSampleProvider_m214E1C1E2D627E77536EFAC67C228912D3A6A0D0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_ReadFloatFromSampleProvider_m214E1C1E2D627E77536EFAC67C228912D3A6A0D0_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_ReadFloatFromSampleProvider(System.Void*,System.Void*,System.Int32)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_provider, ___1_buffer, ___2_length);
+	return icallRetVal;
+}
+// Method Definition Index: 179518
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t DSPSampleProviderInternal_Internal_GetChannelCount_m0F11CAAD6596B88F7E56BDABDA99E1F21D3EDC8A (void* ___0_provider, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_GetChannelCount_m0F11CAAD6596B88F7E56BDABDA99E1F21D3EDC8A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_GetChannelCount_m0F11CAAD6596B88F7E56BDABDA99E1F21D3EDC8A_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef uint16_t (*DSPSampleProviderInternal_Internal_GetChannelCount_m0F11CAAD6596B88F7E56BDABDA99E1F21D3EDC8A_ftn) (void*);
+	static DSPSampleProviderInternal_Internal_GetChannelCount_m0F11CAAD6596B88F7E56BDABDA99E1F21D3EDC8A_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_GetChannelCount_m0F11CAAD6596B88F7E56BDABDA99E1F21D3EDC8A_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_GetChannelCount(System.Void*)");
+	uint16_t icallRetVal = _il2cpp_icall_func(___0_provider);
+	return icallRetVal;
+}
+// Method Definition Index: 179519
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPSampleProviderInternal_Internal_GetSampleRate_m679B37C8351CADEA6FF53F99B5A71725416D2B38 (void* ___0_provider, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_GetSampleRate_m679B37C8351CADEA6FF53F99B5A71725416D2B38_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_GetSampleRate_m679B37C8351CADEA6FF53F99B5A71725416D2B38_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef uint32_t (*DSPSampleProviderInternal_Internal_GetSampleRate_m679B37C8351CADEA6FF53F99B5A71725416D2B38_ftn) (void*);
+	static DSPSampleProviderInternal_Internal_GetSampleRate_m679B37C8351CADEA6FF53F99B5A71725416D2B38_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_GetSampleRate_m679B37C8351CADEA6FF53F99B5A71725416D2B38_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_GetSampleRate(System.Void*)");
+	uint32_t icallRetVal = _il2cpp_icall_func(___0_provider);
+	return icallRetVal;
+}
+// Method Definition Index: 179520
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProviderById_m1B5A33CD09C3CBC636E5E1BC2C1381DB8346B605 (uint32_t ___0_providerId, int32_t ___1_format, void* ___2_buffer, int32_t ___3_length, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProviderById_m1B5A33CD09C3CBC636E5E1BC2C1381DB8346B605_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProviderById_m1B5A33CD09C3CBC636E5E1BC2C1381DB8346B605_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef int32_t (*DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProviderById_m1B5A33CD09C3CBC636E5E1BC2C1381DB8346B605_ftn) (uint32_t, int32_t, void*, int32_t);
+	static DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProviderById_m1B5A33CD09C3CBC636E5E1BC2C1381DB8346B605_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProviderById_m1B5A33CD09C3CBC636E5E1BC2C1381DB8346B605_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_ReadUInt8FromSampleProviderById(System.UInt32,System.Int32,System.Void*,System.Int32)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_providerId, ___1_format, ___2_buffer, ___3_length);
+	return icallRetVal;
+}
+// Method Definition Index: 179521
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProviderById_m1C3099A8576A8D28FD89BAFF4397FF937F18FEEA (uint32_t ___0_providerId, int32_t ___1_format, void* ___2_buffer, int32_t ___3_length, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProviderById_m1C3099A8576A8D28FD89BAFF4397FF937F18FEEA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProviderById_m1C3099A8576A8D28FD89BAFF4397FF937F18FEEA_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef int32_t (*DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProviderById_m1C3099A8576A8D28FD89BAFF4397FF937F18FEEA_ftn) (uint32_t, int32_t, void*, int32_t);
+	static DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProviderById_m1C3099A8576A8D28FD89BAFF4397FF937F18FEEA_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProviderById_m1C3099A8576A8D28FD89BAFF4397FF937F18FEEA_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_ReadSInt16FromSampleProviderById(System.UInt32,System.Int32,System.Void*,System.Int32)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_providerId, ___1_format, ___2_buffer, ___3_length);
+	return icallRetVal;
+}
+// Method Definition Index: 179522
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadFloatFromSampleProviderById_m585D8447ECFDDE270DE19750436DEC7A88A515D8 (uint32_t ___0_providerId, void* ___1_buffer, int32_t ___2_length, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_ReadFloatFromSampleProviderById_m585D8447ECFDDE270DE19750436DEC7A88A515D8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_ReadFloatFromSampleProviderById_m585D8447ECFDDE270DE19750436DEC7A88A515D8_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef int32_t (*DSPSampleProviderInternal_Internal_ReadFloatFromSampleProviderById_m585D8447ECFDDE270DE19750436DEC7A88A515D8_ftn) (uint32_t, void*, int32_t);
+	static DSPSampleProviderInternal_Internal_ReadFloatFromSampleProviderById_m585D8447ECFDDE270DE19750436DEC7A88A515D8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_ReadFloatFromSampleProviderById_m585D8447ECFDDE270DE19750436DEC7A88A515D8_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_ReadFloatFromSampleProviderById(System.UInt32,System.Void*,System.Int32)");
+	int32_t icallRetVal = _il2cpp_icall_func(___0_providerId, ___1_buffer, ___2_length);
+	return icallRetVal;
+}
+// Method Definition Index: 179523
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t DSPSampleProviderInternal_Internal_GetChannelCountById_mF9B7C00D8DFB78E5F40C8BA0D3E6BA75BE00DB63 (uint32_t ___0_providerId, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_GetChannelCountById_mF9B7C00D8DFB78E5F40C8BA0D3E6BA75BE00DB63_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_GetChannelCountById_mF9B7C00D8DFB78E5F40C8BA0D3E6BA75BE00DB63_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef uint16_t (*DSPSampleProviderInternal_Internal_GetChannelCountById_mF9B7C00D8DFB78E5F40C8BA0D3E6BA75BE00DB63_ftn) (uint32_t);
+	static DSPSampleProviderInternal_Internal_GetChannelCountById_mF9B7C00D8DFB78E5F40C8BA0D3E6BA75BE00DB63_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_GetChannelCountById_mF9B7C00D8DFB78E5F40C8BA0D3E6BA75BE00DB63_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_GetChannelCountById(System.UInt32)");
+	uint16_t icallRetVal = _il2cpp_icall_func(___0_providerId);
+	return icallRetVal;
+}
+// Method Definition Index: 179524
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPSampleProviderInternal_Internal_GetSampleRateById_m52C797917E17C7E639BBC8CE8A65C251473C3924 (uint32_t ___0_providerId, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSPSampleProviderInternal_Internal_GetSampleRateById_m52C797917E17C7E639BBC8CE8A65C251473C3924_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DSPSampleProviderInternal_Internal_GetSampleRateById_m52C797917E17C7E639BBC8CE8A65C251473C3924_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef uint32_t (*DSPSampleProviderInternal_Internal_GetSampleRateById_m52C797917E17C7E639BBC8CE8A65C251473C3924_ftn) (uint32_t);
+	static DSPSampleProviderInternal_Internal_GetSampleRateById_m52C797917E17C7E639BBC8CE8A65C251473C3924_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (DSPSampleProviderInternal_Internal_GetSampleRateById_m52C797917E17C7E639BBC8CE8A65C251473C3924_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPSampleProviderInternal::Internal_GetSampleRateById(System.UInt32)");
+	uint32_t icallRetVal = _il2cpp_icall_func(___0_providerId);
+	return icallRetVal;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 179525
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteContextInternal_Internal_PostEvent_m85AEE83FF62AF2694A6153A056AB8C711BE7E685 (void* ___0_dspNodePtr, int64_t ___1_eventTypeHashCode, void* ___2_eventPtr, int32_t ___3_eventSize, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ExecuteContextInternal_Internal_PostEvent_m85AEE83FF62AF2694A6153A056AB8C711BE7E685_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(ExecuteContextInternal_Internal_PostEvent_m85AEE83FF62AF2694A6153A056AB8C711BE7E685_RuntimeMethod_var);
+	//<source_info:<no-source>:1>
+	typedef void (*ExecuteContextInternal_Internal_PostEvent_m85AEE83FF62AF2694A6153A056AB8C711BE7E685_ftn) (void*, int64_t, void*, int32_t);
+	static ExecuteContextInternal_Internal_PostEvent_m85AEE83FF62AF2694A6153A056AB8C711BE7E685_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (ExecuteContextInternal_Internal_PostEvent_m85AEE83FF62AF2694A6153A056AB8C711BE7E685_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.ExecuteContextInternal::Internal_PostEvent(System.Void*,System.Int64,System.Void*,System.Int32)");
+	_il2cpp_icall_func(___0_dspNodePtr, ___1_eventTypeHashCode, ___2_eventPtr, ___3_eventSize);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

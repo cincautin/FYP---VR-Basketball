@@ -37,6 +37,8 @@ struct GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F;
 struct GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D;
 struct GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsMeta_XR_ImmersiveDebugger_Interface[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var;
@@ -45,9 +47,44 @@ IL2CPP_EXTERN_C RuntimeClass* GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690
 IL2CPP_EXTERN_C RuntimeClass* ICustomIntegrationConfig_tFCD8804FF3B4DD9472013D5B6899DD36C0651D11_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteralB6F0795DD4F409C92875D0327F58FDEA357047F1;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C const RuntimeMethod* Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfigBase_Awake_mE343DD448130865AD3706C93DFBB62E0D5F4CD78_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfigBase_GetCamera_m00168AB60C2B28A6286AF3D29FA7ED81F24E4EAB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfigBase_OnDestroy_mB07679E1AA9B42D79B1E3D30192010B56F0640CC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfigBase__ctor_mE96705B31E26A03C2FEDA28BCE42594BA3E59993_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfig_ClearAllConfig_mD56C62AD1DD7E8DD0FE78F7100C238E851888F9C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfig_GetCamera_mEDE04EC5F6A566321B919F4A733F84D6F10A3454_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfig_SetupAllConfig_m44E2A1766C87194074F81B59D3835F8F38194993_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfig_add_GetCameraHandler_m2CB915911752F24CE3A0DD370DBBF04BF4153C46_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CustomIntegrationConfig_remove_GetCameraHandler_m3819BC074331701ED3D3EC09BCCC1A5468D2F2EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DebugDecorativeText__ctor_m99EA5F24B91A75A6FB24C288575B1222EB0403C2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DebugMember__cctor_mCDE94112D1AD0353A21B35FC7D2A1DD84FA62566_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DebugMember__ctor_m23524BF378E4EA831123889D02C9A659855D65EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DebugMember__ctor_m48F4B79CA4CCA8D15EAC6BE1D5903E2D3AF636D2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m89EDCC103C21225DED231D8769B8BEA6C15036E0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mFCCDCFAC6FB39BCAE4E7830446913C2218C4F9C2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mBAA4ED6CC042ECFC8C0082003BABEE36BCCE12F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetCameraDelegate_BeginInvoke_mE9E25AA56311EF957EBC18156E9A5135AB26CDF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetCameraDelegate_EndInvoke_mD131D65511047387210FB3C809F61257AA6A947F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetLeftControllerTransformDelegate_BeginInvoke_mDD3FC86531E7771FB1C1665165728A94C12EBC6A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetLeftControllerTransformDelegate_EndInvoke_m837CB988C9C82D71C7BB6F02170CAC63B22D3838_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetLeftControllerTransformDelegate_Invoke_mBDD7372DA04E645773D618511F3EA0BD4F84DA6C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetLeftControllerTransformDelegate__ctor_m47B5A3B60F77255EE4ED73F869D0505B86FB3649_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetRightControllerTransformDelegate_BeginInvoke_mEAC2B78E3E654314CBCA928BD7258629930C6729_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetRightControllerTransformDelegate_EndInvoke_m3C9814263CB05AD4AF37D9E0735334EDB9CBCBC7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetRightControllerTransformDelegate_Invoke_mA3E03A6AC793BBE9DC6B974E93429F6F70635CA9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GetRightControllerTransformDelegate__ctor_mA50C965B2E8F5E1CDE853B7947B870191C52ECB7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mADC772862F562035DFA9797014361F1F494C93AC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB8D37EBA5643F54561CD111CA6664DF4A9064A5C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DebugDecorativeText_t4C5C01A1A722DA11B04A59A4B802C4AB076B83A4_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91_0_0_0_var;
 IL2CPP_EXTERN_C const char* U3CPrivateImplementationDetailsU3E_tE6601B48E444C1F6EDA28012ED1C20F5CAEA9D41_StaticFields____87DB54C5196F5CBC33EADDF72F934741A6570C5AC44B1243D06FB6766C8F4011_RVAStorage;
 IL2CPP_EXTERN_C const char* U3CPrivateImplementationDetailsU3E_tE6601B48E444C1F6EDA28012ED1C20F5CAEA9D41_StaticFields____A4DAFB41E2DE6A6261CA5E65D58178E29FF76B861354A85EAB9FDCA8D8CC5122_RVAStorage;
 struct Delegate_t_marshaled_com;
@@ -490,45 +527,77 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90889
+// Method Definition Index: 180406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mADC772862F562035DFA9797014361F1F494C93AC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tE6601B48E444C1F6EDA28012ED1C20F5CAEA9D41_StaticFields____87DB54C5196F5CBC33EADDF72F934741A6570C5AC44B1243D06FB6766C8F4011_RVAStorage);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tE6601B48E444C1F6EDA28012ED1C20F5CAEA9D41_StaticFields____A4DAFB41E2DE6A6261CA5E65D58178E29FF76B861354A85EAB9FDCA8D8CC5122_RVAStorage);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mADC772862F562035DFA9797014361F1F494C93AC_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mADC772862F562035DFA9797014361F1F494C93AC_RuntimeMethod_var);
 	MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mADC772862F562035DFA9797014361F1F494C93AC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 2));
+		//<source_info:./Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.SourceGenerators/Unity.MonoScriptGenerator.MonoScriptInfoGenerator/AssemblyMonoScriptTypes.generated.cs:48>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)244));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		Il2CppFieldRvaData L_2 = {U3CPrivateImplementationDetailsU3E_tE6601B48E444C1F6EDA28012ED1C20F5CAEA9D41_StaticFields____87DB54C5196F5CBC33EADDF72F934741A6570C5AC44B1243D06FB6766C8F4011_RVAStorage, sizeof(__StaticArrayInitTypeSizeU3D244_tCCFE855201A4FE55FE541246AE5032758CB5DFC6)};
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 4));
 		il2cpp_codegen_runtime_helpers_initialize_array((RuntimeArray*)L_1, L_2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)259));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		Il2CppFieldRvaData L_5 = {U3CPrivateImplementationDetailsU3E_tE6601B48E444C1F6EDA28012ED1C20F5CAEA9D41_StaticFields____A4DAFB41E2DE6A6261CA5E65D58178E29FF76B861354A85EAB9FDCA8D8CC5122_RVAStorage, sizeof(__StaticArrayInitTypeSizeU3D259_t2C7E4423B9E1BC0995F4AEB3E08554FE4C4FCEF0)};
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 5));
 		il2cpp_codegen_runtime_helpers_initialize_array((RuntimeArray*)L_4, L_5);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = 2;
 		(&V_0)->___TotalTypes = 5;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91 L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_005d;
+	}
+
+IL_005d:
+	{
+		//<source_info:./Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.SourceGenerators/Unity.MonoScriptGenerator.MonoScriptInfoGenerator/AssemblyMonoScriptTypes.generated.cs:55>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 6));
+		MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91 L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 90890
+// Method Definition Index: 180407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB8D37EBA5643F54561CD111CA6664DF4A9064A5C (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t8E6F91B6B79D31B423A5CAC957BDCDC07EA10658* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB8D37EBA5643F54561CD111CA6664DF4A9064A5C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB8D37EBA5643F54561CD111CA6664DF4A9064A5C_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB8D37EBA5643F54561CD111CA6664DF4A9064A5C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -612,20 +681,24 @@ IL2CPP_EXTERN_C void MonoScriptData_t113DD40832282FB5D525B6C22108B15A014C4E91_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90891
+// Method Definition Index: 180408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_add_GetCameraHandler_m2CB915911752F24CE3A0DD370DBBF04BF4153C46 (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfig_add_GetCameraHandler_m2CB915911752F24CE3A0DD370DBBF04BF4153C46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfig_add_GetCameraHandler_m2CB915911752F24CE3A0DD370DBBF04BF4153C46_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* V_0 = NULL;
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* V_1 = NULL;
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* V_2 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfig_add_GetCameraHandler_m2CB915911752F24CE3A0DD370DBBF04BF4153C46_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_0 = ((CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_StaticFields*)il2cpp_codegen_static_fields_for(CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_il2cpp_TypeInfo_var))->___GetCameraHandler;
 		V_0 = L_0;
@@ -633,6 +706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_add_GetCameraHan
 
 IL_0006:
 	{
+		CHECK_PAUSE_POINT;
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_1 = V_0;
 		V_1 = L_1;
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_2 = V_1;
@@ -656,20 +730,24 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 90892
+// Method Definition Index: 180409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_remove_GetCameraHandler_m3819BC074331701ED3D3EC09BCCC1A5468D2F2EA (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfig_remove_GetCameraHandler_m3819BC074331701ED3D3EC09BCCC1A5468D2F2EA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfig_remove_GetCameraHandler_m3819BC074331701ED3D3EC09BCCC1A5468D2F2EA_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* V_0 = NULL;
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* V_1 = NULL;
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* V_2 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfig_remove_GetCameraHandler_m3819BC074331701ED3D3EC09BCCC1A5468D2F2EA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_0 = ((CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_StaticFields*)il2cpp_codegen_static_fields_for(CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_il2cpp_TypeInfo_var))->___GetCameraHandler;
 		V_0 = L_0;
@@ -677,6 +755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_remove_GetCamera
 
 IL_0006:
 	{
+		CHECK_PAUSE_POINT;
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_1 = V_0;
 		V_1 = L_1;
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_2 = V_1;
@@ -700,80 +779,135 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 90893
+// Method Definition Index: 180410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_SetupAllConfig_m44E2A1766C87194074F81B59D3835F8F38194993 (RuntimeObject* ___0_customConfig, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfig_SetupAllConfig_m44E2A1766C87194074F81B59D3835F8F38194993_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICustomIntegrationConfig_tFCD8804FF3B4DD9472013D5B6899DD36C0651D11_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfig_SetupAllConfig_m44E2A1766C87194074F81B59D3835F8F38194993_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_customConfig));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfig_SetupAllConfig_m44E2A1766C87194074F81B59D3835F8F38194993_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 8));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 9));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:65>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 10));
 		RuntimeObject* L_0 = ___0_customConfig;
 		RuntimeObject* L_1 = L_0;
 		void* L_2 = (void*)GetInterfaceMethodInfo((RuntimeObject*)L_1, 0, ICustomIntegrationConfig_tFCD8804FF3B4DD9472013D5B6899DD36C0651D11_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 11));
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_3 = (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F*)il2cpp_codegen_object_new(GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F_il2cpp_TypeInfo_var);
 		GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D(L_3, L_1, (intptr_t)(L_2), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 11));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 12));
 		CustomIntegrationConfig_add_GetCameraHandler_m2CB915911752F24CE3A0DD370DBBF04BF4153C46(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 12));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:66>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 13));
 		return;
 	}
 }
-// Method Definition Index: 90894
+// Method Definition Index: 180411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_ClearAllConfig_mD56C62AD1DD7E8DD0FE78F7100C238E851888F9C (RuntimeObject* ___0_customConfig, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfig_ClearAllConfig_mD56C62AD1DD7E8DD0FE78F7100C238E851888F9C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICustomIntegrationConfig_tFCD8804FF3B4DD9472013D5B6899DD36C0651D11_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfig_ClearAllConfig_mD56C62AD1DD7E8DD0FE78F7100C238E851888F9C_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_customConfig));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfig_ClearAllConfig_mD56C62AD1DD7E8DD0FE78F7100C238E851888F9C_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 14));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 15));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 16));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:74>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 17));
 		RuntimeObject* L_0 = ___0_customConfig;
 		RuntimeObject* L_1 = L_0;
 		void* L_2 = (void*)GetInterfaceMethodInfo((RuntimeObject*)L_1, 0, ICustomIntegrationConfig_tFCD8804FF3B4DD9472013D5B6899DD36C0651D11_il2cpp_TypeInfo_var);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 18));
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_3 = (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F*)il2cpp_codegen_object_new(GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F_il2cpp_TypeInfo_var);
 		GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D(L_3, L_1, (intptr_t)(L_2), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 18));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 19));
 		CustomIntegrationConfig_remove_GetCameraHandler_m3819BC074331701ED3D3EC09BCCC1A5468D2F2EA(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 19));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:75>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 20));
 		return;
 	}
 }
-// Method Definition Index: 90895
+// Method Definition Index: 180412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* CustomIntegrationConfig_GetCamera_mEDE04EC5F6A566321B919F4A733F84D6F10A3454 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfig_GetCamera_mEDE04EC5F6A566321B919F4A733F84D6F10A3454_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfig_GetCamera_mEDE04EC5F6A566321B919F4A733F84D6F10A3454_RuntimeMethod_var);
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_0 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfig_GetCamera_mEDE04EC5F6A566321B919F4A733F84D6F10A3454_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 21));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 22));
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* G_B2_0 = NULL;
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* G_B1_0 = NULL;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* G_B3_0 = NULL;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 23));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:83>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 24));
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_0 = ((CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_StaticFields*)il2cpp_codegen_static_fields_for(CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_il2cpp_TypeInfo_var))->___GetCameraHandler;
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_1 = L_0;
 		if (L_1)
 		{
 			G_B2_0 = L_1;
-			goto IL_000b;
+			goto IL_000d;
 		}
 		G_B1_0 = L_1;
 	}
 	{
-		return (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
+		G_B3_0 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)(NULL));
+		goto IL_0012;
 	}
 
-IL_000b:
+IL_000d:
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 25));
 		NullCheck(G_B2_0);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
 		L_2 = GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824_inline(G_B2_0, NULL);
-		return L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 25));
+		G_B3_0 = L_2;
+	}
+
+IL_0012:
+	{
+		V_0 = G_B3_0;
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:84>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 26));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = V_0;
+		return L_3;
 	}
 }
 #ifdef __clang__
@@ -807,9 +941,16 @@ Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetCameraDelegate_Invoke_mF0C2
 	typedef Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*FunctionPointerType) (const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(method);
 }
-// Method Definition Index: 90896
+// Method Definition Index: 180413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
 	__this->___method = ___1_method;
@@ -837,23 +978,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetCameraDelegate__ctor_mBE95805D1E07B85
 	}
 	__this->___extra_arg = (intptr_t)&GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824_Multicast;
 }
-// Method Definition Index: 90897
+// Method Definition Index: 180414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824 (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	typedef Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 90898
+// Method Definition Index: 180415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GetCameraDelegate_BeginInvoke_mE9E25AA56311EF957EBC18156E9A5135AB26CDF9 (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetCameraDelegate_BeginInvoke_mE9E25AA56311EF957EBC18156E9A5135AB26CDF9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetCameraDelegate_BeginInvoke_mE9E25AA56311EF957EBC18156E9A5135AB26CDF9_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	void *__d_args[1] = {0};
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
-// Method Definition Index: 90899
+// Method Definition Index: 180416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetCameraDelegate_EndInvoke_mD131D65511047387210FB3C809F61257AA6A947F (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetCameraDelegate_EndInvoke_mD131D65511047387210FB3C809F61257AA6A947F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetCameraDelegate_EndInvoke_mD131D65511047387210FB3C809F61257AA6A947F_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 	return (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)__result;
@@ -889,9 +1051,16 @@ Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetLeftControllerTransformD
 	typedef Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*FunctionPointerType) (const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(method);
 }
-// Method Definition Index: 90900
+// Method Definition Index: 180417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetLeftControllerTransformDelegate__ctor_m47B5A3B60F77255EE4ED73F869D0505B86FB3649 (GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetLeftControllerTransformDelegate__ctor_m47B5A3B60F77255EE4ED73F869D0505B86FB3649_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetLeftControllerTransformDelegate__ctor_m47B5A3B60F77255EE4ED73F869D0505B86FB3649_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
 	__this->___method = ___1_method;
@@ -919,23 +1088,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetLeftControllerTransformDelegate__ctor
 	}
 	__this->___extra_arg = (intptr_t)&GetLeftControllerTransformDelegate_Invoke_mBDD7372DA04E645773D618511F3EA0BD4F84DA6C_Multicast;
 }
-// Method Definition Index: 90901
+// Method Definition Index: 180418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetLeftControllerTransformDelegate_Invoke_mBDD7372DA04E645773D618511F3EA0BD4F84DA6C (GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetLeftControllerTransformDelegate_Invoke_mBDD7372DA04E645773D618511F3EA0BD4F84DA6C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetLeftControllerTransformDelegate_Invoke_mBDD7372DA04E645773D618511F3EA0BD4F84DA6C_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	typedef Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 90902
+// Method Definition Index: 180419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GetLeftControllerTransformDelegate_BeginInvoke_mDD3FC86531E7771FB1C1665165728A94C12EBC6A (GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetLeftControllerTransformDelegate_BeginInvoke_mDD3FC86531E7771FB1C1665165728A94C12EBC6A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetLeftControllerTransformDelegate_BeginInvoke_mDD3FC86531E7771FB1C1665165728A94C12EBC6A_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	void *__d_args[1] = {0};
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
-// Method Definition Index: 90903
+// Method Definition Index: 180420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetLeftControllerTransformDelegate_EndInvoke_m837CB988C9C82D71C7BB6F02170CAC63B22D3838 (GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetLeftControllerTransformDelegate_EndInvoke_m837CB988C9C82D71C7BB6F02170CAC63B22D3838_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetLeftControllerTransformDelegate_EndInvoke_m837CB988C9C82D71C7BB6F02170CAC63B22D3838_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 	return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)__result;
@@ -971,9 +1161,16 @@ Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetRightControllerTransform
 	typedef Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*FunctionPointerType) (const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(method);
 }
-// Method Definition Index: 90904
+// Method Definition Index: 180421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetRightControllerTransformDelegate__ctor_mA50C965B2E8F5E1CDE853B7947B870191C52ECB7 (GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetRightControllerTransformDelegate__ctor_mA50C965B2E8F5E1CDE853B7947B870191C52ECB7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetRightControllerTransformDelegate__ctor_mA50C965B2E8F5E1CDE853B7947B870191C52ECB7_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
 	__this->___method = ___1_method;
@@ -1001,23 +1198,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetRightControllerTransformDelegate__cto
 	}
 	__this->___extra_arg = (intptr_t)&GetRightControllerTransformDelegate_Invoke_mA3E03A6AC793BBE9DC6B974E93429F6F70635CA9_Multicast;
 }
-// Method Definition Index: 90905
+// Method Definition Index: 180422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetRightControllerTransformDelegate_Invoke_mA3E03A6AC793BBE9DC6B974E93429F6F70635CA9 (GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetRightControllerTransformDelegate_Invoke_mA3E03A6AC793BBE9DC6B974E93429F6F70635CA9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetRightControllerTransformDelegate_Invoke_mA3E03A6AC793BBE9DC6B974E93429F6F70635CA9_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	typedef Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 90906
+// Method Definition Index: 180423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GetRightControllerTransformDelegate_BeginInvoke_mEAC2B78E3E654314CBCA928BD7258629930C6729 (GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetRightControllerTransformDelegate_BeginInvoke_mEAC2B78E3E654314CBCA928BD7258629930C6729_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetRightControllerTransformDelegate_BeginInvoke_mEAC2B78E3E654314CBCA928BD7258629930C6729_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	void *__d_args[1] = {0};
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
-// Method Definition Index: 90907
+// Method Definition Index: 180424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetRightControllerTransformDelegate_EndInvoke_m3C9814263CB05AD4AF37D9E0735334EDB9CBCBC7 (GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetRightControllerTransformDelegate_EndInvoke_m3C9814263CB05AD4AF37D9E0735334EDB9CBCBC7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GetRightControllerTransformDelegate_EndInvoke_m3C9814263CB05AD4AF37D9E0735334EDB9CBCBC7_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 	return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)__result;
@@ -1030,36 +1248,106 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90909
+// Method Definition Index: 180426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfigBase_Awake_mE343DD448130865AD3706C93DFBB62E0D5F4CD78 (CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfigBase_Awake_mE343DD448130865AD3706C93DFBB62E0D5F4CD78_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfigBase_Awake_mE343DD448130865AD3706C93DFBB62E0D5F4CD78_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfigBase_Awake_mE343DD448130865AD3706C93DFBB62E0D5F4CD78_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 27));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 28));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 29));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:109>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 30));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 31));
 		CustomIntegrationConfig_SetupAllConfig_m44E2A1766C87194074F81B59D3835F8F38194993(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 31));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:110>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 32));
 		return;
 	}
 }
-// Method Definition Index: 90910
+// Method Definition Index: 180427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfigBase_OnDestroy_mB07679E1AA9B42D79B1E3D30192010B56F0640CC (CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfigBase_OnDestroy_mB07679E1AA9B42D79B1E3D30192010B56F0640CC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfigBase_OnDestroy_mB07679E1AA9B42D79B1E3D30192010B56F0640CC_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfigBase_OnDestroy_mB07679E1AA9B42D79B1E3D30192010B56F0640CC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 33));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 34));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 35));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:114>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 36));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 37));
 		CustomIntegrationConfig_ClearAllConfig_mD56C62AD1DD7E8DD0FE78F7100C238E851888F9C(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 37));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:115>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 38));
 		return;
 	}
 }
-// Method Definition Index: 90911
+// Method Definition Index: 180428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* CustomIntegrationConfigBase_GetCamera_m00168AB60C2B28A6286AF3D29FA7ED81F24E4EAB (CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC* __this, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		return (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfigBase_GetCamera_m00168AB60C2B28A6286AF3D29FA7ED81F24E4EAB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfigBase_GetCamera_m00168AB60C2B28A6286AF3D29FA7ED81F24E4EAB_RuntimeMethod_var);
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_0 = NULL;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfigBase_GetCamera_m00168AB60C2B28A6286AF3D29FA7ED81F24E4EAB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 39));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 40));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 41));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:125>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 42));
+		V_0 = (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
+		goto IL_0005;
+	}
+
+IL_0005:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:126>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 43));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = V_0;
+		return L_0;
 	}
 }
-// Method Definition Index: 90912
+// Method Definition Index: 180429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfigBase__ctor_mE96705B31E26A03C2FEDA28BCE42594BA3E59993 (CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CustomIntegrationConfigBase__ctor_mE96705B31E26A03C2FEDA28BCE42594BA3E59993_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(CustomIntegrationConfigBase__ctor_mE96705B31E26A03C2FEDA28BCE42594BA3E59993_RuntimeMethod_var);
 	//<source_info:<no-source>:1>
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CustomIntegrationConfigBase__ctor_mE96705B31E26A03C2FEDA28BCE42594BA3E59993_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -1081,23 +1369,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfigBase__ctor_mE9670
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90913
+// Method Definition Index: 180430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugDecorativeText__ctor_m99EA5F24B91A75A6FB24C288575B1222EB0403C2 (DebugDecorativeText_t4C5C01A1A722DA11B04A59A4B802C4AB076B83A4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugDecorativeText__ctor_m99EA5F24B91A75A6FB24C288575B1222EB0403C2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugDecorativeText_t4C5C01A1A722DA11B04A59A4B802C4AB076B83A4_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB6F0795DD4F409C92875D0327F58FDEA357047F1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(DebugDecorativeText__ctor_m99EA5F24B91A75A6FB24C288575B1222EB0403C2_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DebugDecorativeText__ctor_m99EA5F24B91A75A6FB24C288575B1222EB0403C2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 44));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 45));
 	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:46>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 46));
 		__this->___Content = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Content), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:54>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 47));
 		__this->___Style = _stringLiteralB6F0795DD4F409C92875D0327F58FDEA357047F1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Style), (void*)_stringLiteralB6F0795DD4F409C92875D0327F58FDEA357047F1);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 48));
 		PreserveAttribute__ctor_m6593128D3469BF4005BC1BC29141CE21ECF20AD0(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 48));
 		return;
 	}
 }
@@ -1109,123 +1409,226 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugDecorativeText__ctor_m99EA5F24B91A7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90914
+// Method Definition Index: 180431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__ctor_m23524BF378E4EA831123889D02C9A659855D65EA (DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* __this, int32_t ___0_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugMember__ctor_m23524BF378E4EA831123889D02C9A659855D65EA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mFCCDCFAC6FB39BCAE4E7830446913C2218C4F9C2_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(DebugMember__ctor_m23524BF378E4EA831123889D02C9A659855D65EA_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_color));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DebugMember__ctor_m23524BF378E4EA831123889D02C9A659855D65EA_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 49));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 50));
 	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:98>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 51));
+		__this->___GizmoType = 0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:103>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 52));
+		__this->___ShowGizmoByDefault = (bool)0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:108>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 53));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 54));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 54));
 		__this->___Color = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:115>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 55));
 		__this->___Tweakable = (bool)1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:123>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 56));
 		__this->___Max = (1.0f);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:145>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 57));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 58));
 		PreserveAttribute__ctor_m6593128D3469BF4005BC1BC29141CE21ECF20AD0(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 58));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 59));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:147>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 60));
 		il2cpp_codegen_runtime_class_init_inline(DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var);
 		Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6* L_1 = ((DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_StaticFields*)il2cpp_codegen_static_fields_for(DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var))->___ParsedColors;
 		int32_t L_2 = ___0_color;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_3 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___Color);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 61));
 		NullCheck(L_1);
 		bool L_4;
 		L_4 = Dictionary_2_TryGetValue_mFCCDCFAC6FB39BCAE4E7830446913C2218C4F9C2(L_1, L_2, L_3, Dictionary_2_TryGetValue_mFCCDCFAC6FB39BCAE4E7830446913C2218C4F9C2_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 61));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:148>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 62));
 		return;
 	}
 }
-// Method Definition Index: 90915
+// Method Definition Index: 180432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__ctor_m48F4B79CA4CCA8D15EAC6BE1D5903E2D3AF636D2 (DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* __this, String_t* ___0_colorString, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
-	memset((&V_0), 0, sizeof(V_0));
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugMember__ctor_m48F4B79CA4CCA8D15EAC6BE1D5903E2D3AF636D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(DebugMember__ctor_m48F4B79CA4CCA8D15EAC6BE1D5903E2D3AF636D2_RuntimeMethod_var);
+	bool V_0 = false;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_colorString));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DebugMember__ctor_m48F4B79CA4CCA8D15EAC6BE1D5903E2D3AF636D2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 63));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 64));
 	DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* G_B3_0 = NULL;
 	DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* G_B2_0 = NULL;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B4_0;
 	memset((&G_B4_0), 0, sizeof(G_B4_0));
 	DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* G_B4_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:98>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 65));
+		__this->___GizmoType = 0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:103>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 66));
+		__this->___ShowGizmoByDefault = (bool)0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:108>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 67));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 68));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 68));
 		__this->___Color = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:115>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 69));
 		__this->___Tweakable = (bool)1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:123>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 70));
 		__this->___Max = (1.0f);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:155>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 71));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 72));
 		PreserveAttribute__ctor_m6593128D3469BF4005BC1BC29141CE21ECF20AD0(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 72));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 73));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:157>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 74));
 		String_t* L_1 = ___0_colorString;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 75));
 		bool L_2;
 		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
-		if (L_2)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 75));
+		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 76));
+		bool L_3 = V_0;
+		if (!L_3)
 		{
-			goto IL_0043;
+			goto IL_005a;
 		}
 	}
 	{
-		String_t* L_3 = ___0_colorString;
-		bool L_4;
-		L_4 = ColorUtility_TryParseHtmlString_m8E4DF912AF247EE6893655537CDF0FB47BFE563D(L_3, (&V_0), NULL);
-		if (L_4)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 77));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:159>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 78));
+		String_t* L_4 = ___0_colorString;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 79));
+		bool L_5;
+		L_5 = ColorUtility_TryParseHtmlString_m8E4DF912AF247EE6893655537CDF0FB47BFE563D(L_4, (&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 79));
+		if (L_5)
 		{
 			G_B3_0 = __this;
-			goto IL_003d;
+			goto IL_0053;
 		}
 		G_B2_0 = __this;
 	}
 	{
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5;
-		L_5 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
-		G_B4_0 = L_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 80));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
+		L_6 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 80));
+		G_B4_0 = L_6;
 		G_B4_1 = G_B2_0;
-		goto IL_003e;
+		goto IL_0054;
 	}
 
-IL_003d:
+IL_0053:
 	{
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = V_0;
-		G_B4_0 = L_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = V_1;
+		G_B4_0 = L_7;
 		G_B4_1 = G_B3_0;
 	}
 
-IL_003e:
+IL_0054:
 	{
 		NullCheck(G_B4_1);
 		G_B4_1->___Color = G_B4_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 81));
 	}
 
-IL_0043:
+IL_005a:
 	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:161>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 82));
 		return;
 	}
 }
-// Method Definition Index: 90916
+// Method Definition Index: 180433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__cctor_mCDE94112D1AD0353A21B35FC7D2A1DD84FA62566 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugMember__cctor_mCDE94112D1AD0353A21B35FC7D2A1DD84FA62566_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m89EDCC103C21225DED231D8769B8BEA6C15036E0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mBAA4ED6CC042ECFC8C0082003BABEE36BCCE12F4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	//<source_info:<no-source>:1>
+	ProfilerMethodSentry _profilerMethodSentry(DebugMember__cctor_mCDE94112D1AD0353A21B35FC7D2A1DD84FA62566_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DebugMember__cctor_mCDE94112D1AD0353A21B35FC7D2A1DD84FA62566_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 83));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 84));
 	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@c0efcbf2ba70/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:92>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 85));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 86));
 		Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6* L_0 = (Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6*)il2cpp_codegen_object_new(Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mBAA4ED6CC042ECFC8C0082003BABEE36BCCE12F4(L_0, Dictionary_2__ctor_mBAA4ED6CC042ECFC8C0082003BABEE36BCCE12F4_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 86));
 		Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6* L_1 = L_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 87));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 87));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 88));
 		NullCheck(L_1);
 		Dictionary_2_Add_m89EDCC103C21225DED231D8769B8BEA6C15036E0(L_1, 0, L_2, Dictionary_2_Add_m89EDCC103C21225DED231D8769B8BEA6C15036E0_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 88));
 		Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6* L_3 = L_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 89));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
 		L_4 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 89));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 90));
 		NullCheck(L_3);
 		Dictionary_2_Add_m89EDCC103C21225DED231D8769B8BEA6C15036E0(L_3, 1, L_4, Dictionary_2_Add_m89EDCC103C21225DED231D8769B8BEA6C15036E0_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsMeta_XR_ImmersiveDebugger_Interface + 90));
 		((DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_StaticFields*)il2cpp_codegen_static_fields_for(DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var))->___ParsedColors = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_StaticFields*)il2cpp_codegen_static_fields_for(DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var))->___ParsedColors), (void*)L_3);
 		return;
@@ -1266,37 +1669,70 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__cctor_mCDE94112D1AD0353A21B
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 90897
+// Method Definition Index: 180414
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824_inline (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 50425
+// Method Definition Index: 37917
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 23248));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 23249));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:945>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 23250));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 23251));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (0.0f), (0.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 23251));
 		return L_0;
 	}
 }
-// Method Definition Index: 50391
+// Method Definition Index: 37754
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
-	//<source_info:<no-source>:1>
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_r), (&___1_g), (&___2_b), (&___3_a));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22453));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22454));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22455));
 		float L_0 = ___0_r;
 		__this->___r = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22456));
 		float L_1 = ___1_g;
 		__this->___g = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22457));
 		float L_2 = ___2_b;
 		__this->___b = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22458));
 		float L_3 = ___3_a;
 		__this->___a = L_3;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:40>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22459));
 		return;
 	}
 }
