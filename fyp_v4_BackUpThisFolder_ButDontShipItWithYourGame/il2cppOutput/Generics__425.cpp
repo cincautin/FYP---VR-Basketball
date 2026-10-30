@@ -8561,7 +8561,7 @@ IL2CPP_EXTERN_C  void UnmanagedTempList_1_Dispose_m0FB7811DDD03907E5B14D5B777AC2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 167956
+// Method Definition Index: 168045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeCircularBufferTDebugView_1__ctor_m49FEEB9579B7C8534C2C0BA368B58FDF399A030B_gshared (UnsafeCircularBufferTDebugView_1_t16429EC87664BB8D626B2D1B20446E04C9C2B76C* __this, CircularBuffer_1_t15C393EA5123F24210BCA33C9594E7E2ED583889* ___0_buffer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8592,7 +8592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeCircularBufferTDebugView_1__ctor_m
 		return;
 	}
 }
-// Method Definition Index: 167957
+// Method Definition Index: 168046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR __CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* UnsafeCircularBufferTDebugView_1_get_Items_m40D267EC1B9137E063EFE76EA636F1EBF62AF121_gshared (UnsafeCircularBufferTDebugView_1_t16429EC87664BB8D626B2D1B20446E04C9C2B76C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

@@ -43,11 +43,11 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CrashReportingModule[];
 Il2CppSequencePoint g_sequencePointsUnityEngine_CrashReportingModule[5] = 
 {
-	{ 180107, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 180107, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 180107, 1, 14, 14, 9, 37, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 180107, 1, 14, 14, 9, 37, 1, kSequencePointKind_StepOut, 0, 3 },
-	{ 180107, 1, 16, 16, 9, 10, 6, kSequencePointKind_Normal, 0, 4 },
+	{ 180196, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 180196, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 180196, 1, 14, 14, 9, 37, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 180196, 1, 14, 14, 9, 37, 1, kSequencePointKind_StepOut, 0, 3 },
+	{ 180196, 1, 16, 16, 9, 10, 6, kSequencePointKind_Normal, 0, 4 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnityEngine_CrashReportingModule[];
@@ -69,7 +69,7 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = 
 {
-	{ 21304, 1 },
+	{ 21316, 1 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };

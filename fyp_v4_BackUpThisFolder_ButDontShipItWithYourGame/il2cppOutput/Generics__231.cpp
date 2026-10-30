@@ -38732,7 +38732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1__cctor_m8F9E922BC52E4CC9DC52
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 162176
+// Method Definition Index: 162265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1_Initialize_m86BCCFF0EBB94326C3E4DD6F909D861164D5CC8F_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38835,7 +38835,7 @@ IL_0056:
 		return;
 	}
 }
-// Method Definition Index: 162177
+// Method Definition Index: 162266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1_Execute_m858B794A2302318A587D5B276DEAD0D9A2729CD8_gshared (Storage_t13BB0EB5BA5EDEAD18A16455E0A3101FC3AC5BC1* ___0_storage, intptr_t ___1_additionalPtr, intptr_t ___2_additionalPtr2, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -38973,7 +38973,7 @@ IL_0097:
 		return;
 	}
 }
-// Method Definition Index: 162178
+// Method Definition Index: 162267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1__cctor_mAFEB6874E78DC3364411E376BD4DE886FF438640_gshared (const RuntimeMethod* method) 
 {
 	ProfilerMethodSentry _profilerMethodSentry(method);
@@ -39142,7 +39142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1__cctor_m44B87E61721729ADE176
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 162229
+// Method Definition Index: 162318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1_Initialize_m14F7B9A357F99E5C214FC08734B9A686D2BC04AE_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39235,7 +39235,7 @@ IL_004e:
 		return;
 	}
 }
-// Method Definition Index: 162230
+// Method Definition Index: 162319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1_Execute_mC16C97A75E3620670B29C915711FF28A16CCE8AA_gshared (Storage_t0388372F87D4C8B88B5D4911F4DD4E77B7D9411B* ___0_storage, intptr_t ___1_additionalPtr, intptr_t ___2_processorFunction, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -39475,7 +39475,7 @@ IL_00f1:
 		return;
 	}
 }
-// Method Definition Index: 162231
+// Method Definition Index: 162320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1__cctor_m6999A877521C0E0E5EE63A8E9104CB6149123CC2_gshared (const RuntimeMethod* method) 
 {
 	ProfilerMethodSentry _profilerMethodSentry(method);
@@ -43671,7 +43671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_1__cctor_mC6356F599F4A3E220D52
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 162168
+// Method Definition Index: 162257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_2_Initialize_m39A2F980032890DCB24C473F1B28E2A1261930AD_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43774,7 +43774,7 @@ IL_0056:
 		return;
 	}
 }
-// Method Definition Index: 162169
+// Method Definition Index: 162258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_2_Execute_m3FB51E2E721E447A82DB00F2B9B1F7C644E76C9B_gshared (ControlStorage_t3C0DE517532940FD44E3237C17C5412AE9FB55E8* ___0_storage, intptr_t ___1_additionalPtr, intptr_t ___2_additionalPtr2, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -43918,7 +43918,7 @@ IL_00ee:
 		return;
 	}
 }
-// Method Definition Index: 162170
+// Method Definition Index: 162259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_2__cctor_m200E1357879806FD5E1557C16665D1C81DC085AA_gshared (const RuntimeMethod* method) 
 {
 	ProfilerMethodSentry _profilerMethodSentry(method);
@@ -43944,7 +43944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_2__cctor_m200E1357879806FD5E15
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 162219
+// Method Definition Index: 162308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_2_Initialize_m692742262A884F04800D4ABFC0B737816431DF7F_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44047,7 +44047,7 @@ IL_0056:
 		return;
 	}
 }
-// Method Definition Index: 162220
+// Method Definition Index: 162309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_2_Execute_mD421B3C39E0D0C93AF392B4CBA83733492E5E3D0_gshared (ControlStorage_tA68C9B361D6C7A7C2922326AB18605A88A5DF6BF* ___0_storage, intptr_t ___1_additionalPtr, intptr_t ___2_additionalPtr2, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -44154,7 +44154,7 @@ IL_0054:
 		return;
 	}
 }
-// Method Definition Index: 162221
+// Method Definition Index: 162310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobStruct_2__cctor_m9744C96BED67ED5E078D55ADB68F8CD4C7DF62C4_gshared (const RuntimeMethod* method) 
 {
 	ProfilerMethodSentry _profilerMethodSentry(method);
@@ -45674,7 +45674,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 162025
+// Method Definition Index: 162114
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AudioFormat__ctor_mBFE4E6592886674C77AC0C44DD214E47C39A0BED_inline (AudioFormat_tC9651BFD36B41D1FC782C702B6C980D9768F699D* __this, AudioConfiguration_t4C8585EA98B6559B306B6FAD6A68088555394A5D ___0_config, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

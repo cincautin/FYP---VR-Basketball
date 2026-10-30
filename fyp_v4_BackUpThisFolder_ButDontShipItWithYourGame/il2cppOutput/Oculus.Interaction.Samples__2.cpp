@@ -1966,7 +1966,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 154834
+// Method Definition Index: 155542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListSnapPoseDelegateRoundedBoxVisual_LateUpdate_mA64310ED582AAFC3FFA090F491960B6755F3308F (ListSnapPoseDelegateRoundedBoxVisual_tAFC195489CF9D15687712D98BB4E8349D192CBC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2134,7 +2134,7 @@ IL_00d2:
 		return;
 	}
 }
-// Method Definition Index: 154835
+// Method Definition Index: 155543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListSnapPoseDelegateRoundedBoxVisual__ctor_m932607E06BC4217D487631B462B2723D969A26E6 (ListSnapPoseDelegateRoundedBoxVisual_tAFC195489CF9D15687712D98BB4E8349D192CBC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2173,7 +2173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListSnapPoseDelegateRoundedBoxVisual__ct
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 154836
+// Method Definition Index: 155544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView_Update_m89864AE8B102BD06AB6E325CAC4DE718E2537BF0 (StayInView_tE8D2B7875C6FA1C3D1632647610427931746757A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2344,7 +2344,7 @@ IL_00d2:
 		return;
 	}
 }
-// Method Definition Index: 154837
+// Method Definition Index: 155545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView__ctor_m435B954052EEF944F030C5A3943EB5EAF7884060 (StayInView_tE8D2B7875C6FA1C3D1632647610427931746757A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2380,7 +2380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StayInView__ctor_m435B954052EEF944F030C5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 154838
+// Method Definition Index: 155546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DominantHandGameObjectFilter_get_LeftHand_m13629ACE93E748E82C2085D621BA45FDF223F39E (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2402,7 +2402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DominantHandGameObjectFilter_g
 		return L_0;
 	}
 }
-// Method Definition Index: 154839
+// Method Definition Index: 155547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter_set_LeftHand_m414A11473DF45B7E384E42B82F745D7447AA8968 (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2427,7 +2427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter_set_LeftHan
 		return;
 	}
 }
-// Method Definition Index: 154840
+// Method Definition Index: 155548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter_Start_m49DD4641F43EBEF6166F2A4CF9A2624A9581C2F7 (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2566,7 +2566,7 @@ IL_0053:
 		return;
 	}
 }
-// Method Definition Index: 154841
+// Method Definition Index: 155549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DominantHandGameObjectFilter_Filter_m635BA7F571D9BA2F46D61EACF44F3D531AA07117 (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2646,7 +2646,7 @@ IL_0030:
 		return L_9;
 	}
 }
-// Method Definition Index: 154842
+// Method Definition Index: 155550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter__ctor_mFFC28195ADD0F644B38FA10EDAFF3447752A35C9 (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2696,7 +2696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter__ctor_mFFC2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 154843
+// Method Definition Index: 155551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpaceTransform_get_LeftHand_m578908461A011E4613AA3F34DE8506F00AF0F98C (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2718,7 +2718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpace
 		return L_0;
 	}
 }
-// Method Definition Index: 154844
+// Method Definition Index: 155552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_set_LeftHand_m061D0A2A6EC3908D168D1929C605A5751E537418 (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2743,7 +2743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_
 		return;
 	}
 }
-// Method Definition Index: 154845
+// Method Definition Index: 155553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpaceTransform_get_RightHand_m8BDA220815523DB52A1D5BA57879ED345C6A0D9E (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2765,7 +2765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpace
 		return L_0;
 	}
 }
-// Method Definition Index: 154846
+// Method Definition Index: 155554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_set_RightHand_m039A88F0AE4ADFC98CD3F1851EB6550E49ADD3E0 (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2790,7 +2790,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_
 		return;
 	}
 }
-// Method Definition Index: 154847
+// Method Definition Index: 155555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_Awake_m729043D30B50C56101BF440625C68A795ECFF1C3 (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2869,7 +2869,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 154848
+// Method Definition Index: 155556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_Update_mBEE49E415804595F4FF5371739173E6C69D6E576 (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3108,7 +3108,7 @@ IL_00c8:
 		return;
 	}
 }
-// Method Definition Index: 154849
+// Method Definition Index: 155557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform__ctor_m727746AE887D5ED14ABD4032872086A7FE96CA98 (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3170,7 +3170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 154850
+// Method Definition Index: 155558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_Start_mABF689D3037CA2E660DD5AB94B017F3C717D2739 (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3216,7 +3216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_Start_mABF689D3037CA2E66
 		return;
 	}
 }
-// Method Definition Index: 154851
+// Method Definition Index: 155559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_Update_m76BE78DCD9F1647E0886E913B73CC23DBD3F9092 (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3325,7 +3325,7 @@ IL_0069:
 		return;
 	}
 }
-// Method Definition Index: 154852
+// Method Definition Index: 155560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PalmMenuExample_CalculateNearestButtonIdx_mB8E7E1C50D6A32D108EBF3341DAF5937D4B2234D (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3594,7 +3594,7 @@ IL_00fc:
 		return L_55;
 	}
 }
-// Method Definition Index: 154853
+// Method Definition Index: 155561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_LerpToButton_m43F025054E618B84B0AE95B2597B74DE4E21E070 (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3765,7 +3765,7 @@ IL_0074:
 		return;
 	}
 }
-// Method Definition Index: 154854
+// Method Definition Index: 155562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample_ToggleMenu_m288508A87E8D7A682FFB7F27A4A3B0F6A74DB289 (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3847,7 +3847,7 @@ IL_0048:
 		return;
 	}
 }
-// Method Definition Index: 154855
+// Method Definition Index: 155563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample__ctor_m22A137A51BBD27EB75E82A69613994EA520CAFCD (PalmMenuExample_tD4083D87F2785C208D16DFC657774C2335619B1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3880,7 +3880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExample__ctor_m22A137A51BBD27EB7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 154856
+// Method Definition Index: 155564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Start_mF5B8C344F66C24B6A6B575E36375AE7743A18B7E (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3967,7 +3967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Start_mF5B
 		return;
 	}
 }
-// Method Definition Index: 154857
+// Method Definition Index: 155565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_Update_mE4689BA4EBF81E176D526E6DFEF62CBF06A02292 (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4094,7 +4094,7 @@ IL_005c:
 		return;
 	}
 }
-// Method Definition Index: 154858
+// Method Definition Index: 155566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_CycleColor_mA67AEF7D86D0EFC0100925AB5511415CF74FF43D (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4168,7 +4168,7 @@ IL_002f:
 		return;
 	}
 }
-// Method Definition Index: 154859
+// Method Definition Index: 155567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_ToggleRotationEnabled_m7BEB28979D061BF95C0BB3914EAB3300B159490F (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4210,7 +4210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_ToggleRota
 		return;
 	}
 }
-// Method Definition Index: 154860
+// Method Definition Index: 155568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_CycleRotationDirection_m147693647FE52B477C1C97C6F188505CE2DDF79E (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4377,7 +4377,7 @@ IL_00ae:
 		return;
 	}
 }
-// Method Definition Index: 154861
+// Method Definition Index: 155569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_IncrementElevation_m53D6A5CBACBA61C33B942442AEE77106E361EA0B (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, bool ___0_up, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4467,7 +4467,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 154862
+// Method Definition Index: 155570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers_CycleShape_m7B15D0F86D08B49B0883B91BD5CD808B6A6EC502 (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, bool ___0_cycleForward, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4623,7 +4623,7 @@ IL_006e:
 		return;
 	}
 }
-// Method Definition Index: 154863
+// Method Definition Index: 155571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers__ctor_m067CE830F7189BC2A9FBE333E1D27D247FF3912F (PalmMenuExampleButtonHandlers_t030DB06A3E0A064D1A498BC7E2CE8F62BFD68B24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4659,7 +4659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PalmMenuExampleButtonHandlers__ctor_m067
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 154864
+// Method Definition Index: 155572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CPrivateImplementationDetailsU3E_ComputeStringHash_mAC6DE2E26FE500BB44C4A219CEF97D6778F8B1E4 (String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5032,7 +5032,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 154839
+// Method Definition Index: 155547
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter_set_LeftHand_m414A11473DF45B7E384E42B82F745D7447AA8968_inline (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5056,7 +5056,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DominantHandGameObjectFilter
 		return;
 	}
 }
-// Method Definition Index: 154838
+// Method Definition Index: 155546
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* DominantHandGameObjectFilter_get_LeftHand_m13629ACE93E748E82C2085D621BA45FDF223F39E_inline (DominantHandGameObjectFilter_t087AD2B3823585B3F137FF23CC301051896C1618* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5077,7 +5077,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* DominantHandGameOb
 		return L_0;
 	}
 }
-// Method Definition Index: 154843
+// Method Definition Index: 155551
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpaceTransform_get_LeftHand_m578908461A011E4613AA3F34DE8506F00AF0F98C_inline (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5098,7 +5098,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPa
 		return L_0;
 	}
 }
-// Method Definition Index: 154844
+// Method Definition Index: 155552
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_set_LeftHand_m061D0A2A6EC3908D168D1929C605A5751E537418_inline (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5122,7 +5122,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpa
 		return;
 	}
 }
-// Method Definition Index: 154845
+// Method Definition Index: 155553
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPalmWorldSpaceTransform_get_RightHand_m8BDA220815523DB52A1D5BA57879ED345C6A0D9E_inline (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5143,7 +5143,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* MatchNonDominantPa
 		return L_0;
 	}
 }
-// Method Definition Index: 154846
+// Method Definition Index: 155554
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MatchNonDominantPalmWorldSpaceTransform_set_RightHand_m039A88F0AE4ADFC98CD3F1851EB6550E49ADD3E0_inline (MatchNonDominantPalmWorldSpaceTransform_tCE0DE65626E6A0963AF81A34EB8B501256843469* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

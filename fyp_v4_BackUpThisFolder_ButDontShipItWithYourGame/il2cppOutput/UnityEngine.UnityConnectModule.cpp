@@ -246,7 +246,7 @@ inline void ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_inlin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179943
+// Method Definition Index: 180032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mA14E13C950F45FCA68822DD87976A0C9ECC10299 (EmbeddedAttribute_t75888AF2888A37125977CEAFBB1B5990BC69A786* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -272,7 +272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mA14E13C950F45FC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179944
+// Method Definition Index: 180033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m8D2284392C743A2DEF24ABC62D7A513BF5C9EFEA (RefSafetyRulesAttribute_tBAC87715C61A18E143205CC28CD3C67AC16A4FC8* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -300,7 +300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m8D2284392
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179945
+// Method Definition Index: 180034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityConnectSettings_get_enabled_m867E6927DE3787A5259CCD98C70D5CDC6B36ADA5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -318,7 +318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityConnectSettings_get_enabled_m867E69
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 179946
+// Method Definition Index: 180035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_enabled_mB696F73FD98AB871072E3D8134EB4D9B549E76A7 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -335,7 +335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_enabled_mB696F7
 	_il2cpp_icall_func = (UnityConnectSettings_set_enabled_mB696F73FD98AB871072E3D8134EB4D9B549E76A7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Connect.UnityConnectSettings::set_enabled(System.Boolean)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 179947
+// Method Definition Index: 180036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityConnectSettings_get_testMode_mDFAFDB7CF6591A3C1175264BA690DB215EDA5D46 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -353,7 +353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityConnectSettings_get_testMode_mDFAFD
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 179948
+// Method Definition Index: 180037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_testMode_m69C03E750DF3B2F03910C78F3285E40FD545B475 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -370,7 +370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_testMode_m69C03
 	_il2cpp_icall_func = (UnityConnectSettings_set_testMode_m69C03E750DF3B2F03910C78F3285E40FD545B475_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Connect.UnityConnectSettings::set_testMode(System.Boolean)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 179949
+// Method Definition Index: 180038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityConnectSettings_get_eventUrl_m4F530A4F56AEB2421110E8E5490A2224D3D9AC62 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -422,7 +422,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 179950
+// Method Definition Index: 180039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_eventUrl_mA85C06C998DEE553E85E1553C460315CB6C0392B (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -502,7 +502,7 @@ IL_0037:
 		return;
 	}
 }
-// Method Definition Index: 179951
+// Method Definition Index: 180040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityConnectSettings_get_eventOldUrl_mC6F81A1E6394386CD5C2537E5431AE7FC803333B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -554,7 +554,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 179952
+// Method Definition Index: 180041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_eventOldUrl_m12CD35CA5AF9D3FC92D4917FA8E521CAF70AEA02 (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -634,7 +634,7 @@ IL_0037:
 		return;
 	}
 }
-// Method Definition Index: 179953
+// Method Definition Index: 180042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityConnectSettings_get_configUrl_m13D4E12D95DB2135570B8D774EDBB57572640C70 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -686,7 +686,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 179954
+// Method Definition Index: 180043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_configUrl_mAF280198CC19DC82B1A0078B455D24031918AABC (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -766,7 +766,7 @@ IL_0037:
 		return;
 	}
 }
-// Method Definition Index: 179955
+// Method Definition Index: 180044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityConnectSettings_get_testInitMode_m127F04D899DDDEF0AE5A2B986B2414849A3DC3C3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -784,7 +784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityConnectSettings_get_testInitMode
 	int32_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 179956
+// Method Definition Index: 180045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_testInitMode_m8B90D81B0ABAC31965FB939721320F082A81A59D (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -801,7 +801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_testInitMode_m8
 	_il2cpp_icall_func = (UnityConnectSettings_set_testInitMode_m8B90D81B0ABAC31965FB939721320F082A81A59D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Connect.UnityConnectSettings::set_testInitMode(System.Int32)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 179957
+// Method Definition Index: 180046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings__ctor_m52B180993E2FBFBA90A679B119590FDA83E0D2AB (UnityConnectSettings_t70F8B3FFCEA5C5B6385372A9A139D12A1C798EDA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -821,7 +821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings__ctor_m52B180993E2F
 		return;
 	}
 }
-// Method Definition Index: 179958
+// Method Definition Index: 180047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_get_eventUrl_Injected_m98EC0B65BE0A1B176E9E0418C94FB2453C2DC881 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -838,7 +838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_get_eventUrl_Inject
 	_il2cpp_icall_func = (UnityConnectSettings_get_eventUrl_Injected_m98EC0B65BE0A1B176E9E0418C94FB2453C2DC881_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Connect.UnityConnectSettings::get_eventUrl_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_ret);
 }
-// Method Definition Index: 179959
+// Method Definition Index: 180048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_eventUrl_Injected_m33AD1B3E69E8F60E9016E6C91DAF2B762D545F92 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -855,7 +855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_eventUrl_Inject
 	_il2cpp_icall_func = (UnityConnectSettings_set_eventUrl_Injected_m33AD1B3E69E8F60E9016E6C91DAF2B762D545F92_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Connect.UnityConnectSettings::set_eventUrl_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 179960
+// Method Definition Index: 180049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_get_eventOldUrl_Injected_m0480DA3E7FECF66CC72FE2F85178D05FDE85B2A1 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -872,7 +872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_get_eventOldUrl_Inj
 	_il2cpp_icall_func = (UnityConnectSettings_get_eventOldUrl_Injected_m0480DA3E7FECF66CC72FE2F85178D05FDE85B2A1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Connect.UnityConnectSettings::get_eventOldUrl_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_ret);
 }
-// Method Definition Index: 179961
+// Method Definition Index: 180050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_eventOldUrl_Injected_m454A47622ADA1B4EC63ED683581AECBC469B516E (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -889,7 +889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_eventOldUrl_Inj
 	_il2cpp_icall_func = (UnityConnectSettings_set_eventOldUrl_Injected_m454A47622ADA1B4EC63ED683581AECBC469B516E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Connect.UnityConnectSettings::set_eventOldUrl_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 179962
+// Method Definition Index: 180051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_get_configUrl_Injected_mBECF9059F64E60A00928AA081A8A84BEE088A45F (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -906,7 +906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_get_configUrl_Injec
 	_il2cpp_icall_func = (UnityConnectSettings_get_configUrl_Injected_mBECF9059F64E60A00928AA081A8A84BEE088A45F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Connect.UnityConnectSettings::get_configUrl_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_ret);
 }
-// Method Definition Index: 179963
+// Method Definition Index: 180052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_configUrl_Injected_m65C8FDD72FCDEC5332C76904702EA3F6DD718F15 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -931,7 +931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityConnectSettings_set_configUrl_Injec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179964
+// Method Definition Index: 180053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityAdsSettings_get_enabled_m7FC5CA5CAC32D89E997E56F85709E95D693FFDD6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -949,7 +949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityAdsSettings_get_enabled_m7FC5CA5CAC
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 179965
+// Method Definition Index: 180054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_set_enabled_mED8F9E3987137A06FAC0DED1074976FA27A20279 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -966,7 +966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_set_enabled_mED8F9E3987
 	_il2cpp_icall_func = (UnityAdsSettings_set_enabled_mED8F9E3987137A06FAC0DED1074976FA27A20279_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Advertisements.UnityAdsSettings::set_enabled(System.Boolean)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 179966
+// Method Definition Index: 180055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityAdsSettings_IsPlatformEnabled_m5544575971444B4D60A66E75872DB99D04F6CA2F (int32_t ___0_platform, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -986,7 +986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityAdsSettings_IsPlatformEnabled_m5544
 		return (bool)1;
 	}
 }
-// Method Definition Index: 179967
+// Method Definition Index: 180056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_SetPlatformEnabled_mE15C6EBB1CA537EE9477CA5576C342320D560551 (int32_t ___0_platform, bool ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1006,7 +1006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_SetPlatformEnabled_mE15
 		return;
 	}
 }
-// Method Definition Index: 179968
+// Method Definition Index: 180057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityAdsSettings_get_initializeOnStartup_m7C45929DD9C44F2C41978FF2F1F83DB24BB85698 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1024,7 +1024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityAdsSettings_get_initializeOnStartup
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 179969
+// Method Definition Index: 180058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_set_initializeOnStartup_m5EF6EACF0342129CB46CB4A9A19E545ADB4E09EE (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1041,7 +1041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_set_initializeOnStartup
 	_il2cpp_icall_func = (UnityAdsSettings_set_initializeOnStartup_m5EF6EACF0342129CB46CB4A9A19E545ADB4E09EE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Advertisements.UnityAdsSettings::set_initializeOnStartup(System.Boolean)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 179970
+// Method Definition Index: 180059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityAdsSettings_get_testMode_mF098639F51F4AD94C01CA0DFA0CF70B81769BB55 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1059,7 +1059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityAdsSettings_get_testMode_mF098639F5
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 179971
+// Method Definition Index: 180060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_set_testMode_m7786647A721E0A19C2ADA5794F62FB4871C8BD8E (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1076,7 +1076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_set_testMode_m7786647A7
 	_il2cpp_icall_func = (UnityAdsSettings_set_testMode_m7786647A721E0A19C2ADA5794F62FB4871C8BD8E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Advertisements.UnityAdsSettings::set_testMode(System.Boolean)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 179972
+// Method Definition Index: 180061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityAdsSettings_GetGameId_m86D0B75C01498D76593CEC10A3D89A90DD3B6CCF (int32_t ___0_platform, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1129,7 +1129,7 @@ IL_0012:
 		return L_3;
 	}
 }
-// Method Definition Index: 179973
+// Method Definition Index: 180062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_SetGameId_m1D9A3409CDF70F991D28B087B0D6EED04144DB3D (int32_t ___0_platform, String_t* ___1_gameId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1215,7 +1215,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 179974
+// Method Definition Index: 180063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_GetGameId_Injected_mE4722DAB2C2F81AE087A4F0BB64C43BBE486DAED (int32_t ___0_platform, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1232,7 +1232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_GetGameId_Injected_mE47
 	_il2cpp_icall_func = (UnityAdsSettings_GetGameId_Injected_mE4722DAB2C2F81AE087A4F0BB64C43BBE486DAED_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Advertisements.UnityAdsSettings::GetGameId_Injected(UnityEngine.RuntimePlatform,UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_platform, ___1_ret);
 }
-// Method Definition Index: 179975
+// Method Definition Index: 180064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAdsSettings_SetGameId_Injected_m91CEC903C8719992B4EFFE660185623230D10DD5 (int32_t ___0_platform, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_gameId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

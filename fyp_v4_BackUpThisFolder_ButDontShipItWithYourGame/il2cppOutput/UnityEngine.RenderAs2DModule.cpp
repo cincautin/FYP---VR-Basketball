@@ -162,7 +162,7 @@ inline intptr_t MarshalledUnityObject_MarshalNotNull_TisIl2CppSharedGenericObjec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180215
+// Method Definition Index: 180304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mEB803648DF667ECA50D661689CE20CD75239CD41 (EmbeddedAttribute_tBA2613C80CE04CDD5F0D03723A7454296C10BA5B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -188,7 +188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mEB803648DF667EC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180216
+// Method Definition Index: 180305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m566490389527EEBD269F3F860BDD72D500E5CF83 (RefSafetyRulesAttribute_t7175D017D5CC9763D764EF7407C5FB6683C4D75D* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -216,7 +216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m566490389
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180217
+// Method Definition Index: 180306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderAs2D_Init_m360310DD49755F6612582E6C69564225CA11E93A (RenderAs2D_t4B994B556D72ACF59AD3AC0403A079139BD83CB1* __this, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_owner, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -260,7 +260,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 180218
+// Method Definition Index: 180307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RenderAs2D_IsOwner_m274BAB8C6232CB94F10EBBAFCA0F41807DB19E7C (RenderAs2D_t4B994B556D72ACF59AD3AC0403A079139BD83CB1* __this, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_owner, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -305,7 +305,7 @@ IL_000f:
 		return L_4;
 	}
 }
-// Method Definition Index: 180219
+// Method Definition Index: 180308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderAs2D__ctor_m9996A809CD2264D68D09BB5D6B1F9B84DA166C11 (RenderAs2D_t4B994B556D72ACF59AD3AC0403A079139BD83CB1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -323,7 +323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderAs2D__ctor_m9996A809CD2264D68D09BB
 		return;
 	}
 }
-// Method Definition Index: 180220
+// Method Definition Index: 180309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderAs2D_Init_Injected_mA36EDA29F7CF5246EB4731CE9563AA9DEDFE4454 (intptr_t ___0__unity_self, intptr_t ___1_owner, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -340,7 +340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderAs2D_Init_Injected_mA36EDA29F7CF52
 	_il2cpp_icall_func = (RenderAs2D_Init_Injected_mA36EDA29F7CF5246EB4731CE9563AA9DEDFE4454_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.RenderAs2D::Init_Injected(System.IntPtr,System.IntPtr)");
 	_il2cpp_icall_func(___0__unity_self, ___1_owner);
 }
-// Method Definition Index: 180221
+// Method Definition Index: 180310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RenderAs2D_IsOwner_Injected_mA12EF77223393FE7874BC0B0DF4FAB6B7693460A (intptr_t ___0__unity_self, intptr_t ___1_owner, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -366,7 +366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RenderAs2D_IsOwner_Injected_mA12EF772233
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180222
+// Method Definition Index: 180311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderAs2DUtil_InitializeCanRenderAs2D_mE5CB68451AF6AE5EBC965EE700A067DA8CF5EEA5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -383,7 +383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderAs2DUtil_InitializeCanRenderAs2D_m
 	_il2cpp_icall_func = (RenderAs2DUtil_InitializeCanRenderAs2D_mE5CB68451AF6AE5EBC965EE700A067DA8CF5EEA5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.RenderAs2DUtil::InitializeCanRenderAs2D()");
 	_il2cpp_icall_func();
 }
-// Method Definition Index: 180223
+// Method Definition Index: 180312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderAs2DUtil_DisposeCanRenderAs2D_mBCFB3191DF91EBE61CF3A915D17EA2B0121B2997 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

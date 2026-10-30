@@ -385,7 +385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnifiedEventData_Send_m6D91E52BE549A382A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180405
+// Method Definition Index: 180494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tDE7DD7AFCFCC153D8D5EEFCB4505AFD61D456B8F UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m64E0A18765190758BDCDA7E8FAD549D8C082736D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -443,7 +443,7 @@ IL_005d:
 		return L_7;
 	}
 }
-// Method Definition Index: 180406
+// Method Definition Index: 180495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3DC1F8A985B0D24CA7A000C07215F4BC018BCDFE (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t27FBC93CACF548D15BD9748ABD4975FD436FB024* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -539,7 +539,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tDE7DD7AFCFCC153D8D5EEFCB4505AFD61D456B8F_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180407
+// Method Definition Index: 180496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnifiedEventData_tEDECDFB75E38F848CEBAD43511511688BF895A2B McpBridgeTelemetry_AddMcpBridgeContext_mB18023A0F5F694FA45E7E29FC647E97A9FA980D6 (UnifiedEventData_tEDECDFB75E38F848CEBAD43511511688BF895A2B ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -576,7 +576,7 @@ IL_000d:
 		return L_1;
 	}
 }
-// Method Definition Index: 180408
+// Method Definition Index: 180497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void McpBridgeTelemetry_SendEvent_m1C63DD5838EB86F16B9EB6D455D7AF82B13CF1F4 (String_t* ___0_eventName, Action_1_tB51B52ED6060F222173B11F3D7C92BC3413BDCC2* ___1_configureEvent, bool ___2_isEssential, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

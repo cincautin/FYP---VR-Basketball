@@ -138,7 +138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_SendMoreBody_mDCCE90E23DCC8B62
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180190
+// Method Definition Index: 180279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mA76AE61412D89A9BBE135AFA98C68E04FA923146 (EmbeddedAttribute_tE6A2AD336DEA10A6E9C9F9E7E45DED5CC06E4269* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -164,7 +164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mA76AE61412D89A9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180191
+// Method Definition Index: 180280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mD5F2712DEA813E7489C56938721FB827A6E1E728 (RefSafetyRulesAttribute_t090616F7E8FAD0FE0BEF1750243754D01C99B1FB* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -208,7 +208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mD5F2712DE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180192
+// Method Definition Index: 180281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UnityCurl_CreateMultiHandle_mFAD43C5FD774014FC5DEA6294695D0385D6E4A8F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -226,7 +226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UnityCurl_CreateMultiHandle_mFAD43C5
 	intptr_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 180193
+// Method Definition Index: 180282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_DestroyMultiHandle_mB4D3F17C06C91AB18E1DF260E2D5CF48AC91B660 (intptr_t ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -243,7 +243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_DestroyMultiHandle_mB4D3F17C06
 	_il2cpp_icall_func = (UnityCurl_DestroyMultiHandle_mB4D3F17C06C91AB18E1DF260E2D5CF48AC91B660_ftn)il2cpp_codegen_resolve_icall ("Unity.Curl.UnityCurl::DestroyMultiHandle(System.IntPtr)");
 	_il2cpp_icall_func(___0_handle);
 }
-// Method Definition Index: 180194
+// Method Definition Index: 180283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UnityCurl_CreateEasyHandle_m4CF72FEE8CAB5F020D4742F02E6399905957E6BA (uint8_t* ___0_method, uint8_t* ___1_url, uint32_t* ___2_curlMethod, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -261,7 +261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UnityCurl_CreateEasyHandle_m4CF72FEE
 	intptr_t icallRetVal = _il2cpp_icall_func(___0_method, ___1_url, ___2_curlMethod);
 	return icallRetVal;
 }
-// Method Definition Index: 180195
+// Method Definition Index: 180284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_SetupEasyHandle_m7A72F85593F6978341D150A278A978D27ADF90DD (intptr_t ___0_handle, uint32_t ___1_curlMethod, intptr_t ___2_headers, uint64_t ___3_contentLen, uint32_t ___4_flags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -278,7 +278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_SetupEasyHandle_m7A72F85593F69
 	_il2cpp_icall_func = (UnityCurl_SetupEasyHandle_m7A72F85593F6978341D150A278A978D27ADF90DD_ftn)il2cpp_codegen_resolve_icall ("Unity.Curl.UnityCurl::SetupEasyHandle(System.IntPtr,System.UInt32,System.IntPtr,System.UInt64,System.UInt32)");
 	_il2cpp_icall_func(___0_handle, ___1_curlMethod, ___2_headers, ___3_contentLen, ___4_flags);
 }
-// Method Definition Index: 180196
+// Method Definition Index: 180285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_DestroyEasyHandle_m63090DCB3999475E1EA8B5AC73174356716AE99C (intptr_t ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -295,7 +295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_DestroyEasyHandle_m63090DCB399
 	_il2cpp_icall_func = (UnityCurl_DestroyEasyHandle_m63090DCB3999475E1EA8B5AC73174356716AE99C_ftn)il2cpp_codegen_resolve_icall ("Unity.Curl.UnityCurl::DestroyEasyHandle(System.IntPtr)");
 	_il2cpp_icall_func(___0_handle);
 }
-// Method Definition Index: 180197
+// Method Definition Index: 180286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_QueueRequest_m8AD1E5A2B5727BE7D996827D059603FC27E1781B (intptr_t ___0_multiHandle, intptr_t ___1_easyHandle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -312,7 +312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_QueueRequest_m8AD1E5A2B5727BE7
 	_il2cpp_icall_func = (UnityCurl_QueueRequest_m8AD1E5A2B5727BE7D996827D059603FC27E1781B_ftn)il2cpp_codegen_resolve_icall ("Unity.Curl.UnityCurl::QueueRequest(System.IntPtr,System.IntPtr)");
 	_il2cpp_icall_func(___0_multiHandle, ___1_easyHandle);
 }
-// Method Definition Index: 180198
+// Method Definition Index: 180287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UnityCurl_AppendHeader_mD12557F5C153EDA8366494021D480FFB924CD40A (intptr_t ___0_headerList, uint8_t* ___1_header, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -330,7 +330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UnityCurl_AppendHeader_mD12557F5C153
 	intptr_t icallRetVal = _il2cpp_icall_func(___0_headerList, ___1_header);
 	return icallRetVal;
 }
-// Method Definition Index: 180199
+// Method Definition Index: 180288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_FreeHeaderList_mCE08BBF03709F6D7A39218C400250AE3CC629B50 (intptr_t ___0_headerList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -347,7 +347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_FreeHeaderList_mCE08BBF03709F6
 	_il2cpp_icall_func = (UnityCurl_FreeHeaderList_mCE08BBF03709F6D7A39218C400250AE3CC629B50_ftn)il2cpp_codegen_resolve_icall ("Unity.Curl.UnityCurl::FreeHeaderList(System.IntPtr)");
 	_il2cpp_icall_func(___0_headerList);
 }
-// Method Definition Index: 180200
+// Method Definition Index: 180289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityCurl_GetRequestErrorCode_m1AE1DBB7F28C81997DB62EEA2177122A28F6A0A2 (intptr_t ___0_request, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -365,7 +365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityCurl_GetRequestErrorCode_m1AE1DB
 	int32_t icallRetVal = _il2cpp_icall_func(___0_request);
 	return icallRetVal;
 }
-// Method Definition Index: 180201
+// Method Definition Index: 180290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityCurl_GetRequestStatus_mA17A96D1B8FF00B5BE5944EC4A0C35AD431E36E8 (intptr_t ___0_request, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -383,7 +383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityCurl_GetRequestStatus_mA17A96D1B
 	int32_t icallRetVal = _il2cpp_icall_func(___0_request);
 	return icallRetVal;
 }
-// Method Definition Index: 180202
+// Method Definition Index: 180291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UnityCurl_GetRequestStatusCode_m1C7B5E7736AB43DE511FA647DD567F656183A16B (intptr_t ___0_request, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -401,7 +401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UnityCurl_GetRequestStatusCode_m1C7B
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_request);
 	return icallRetVal;
 }
-// Method Definition Index: 180203
+// Method Definition Index: 180292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_GetDownloadSize_m7EEF1CA4D0F534FA49014533CD4656B9CB588453 (intptr_t ___0_request, uint64_t* ___1_downloaded, uint64_t* ___2_expected, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -418,7 +418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_GetDownloadSize_m7EEF1CA4D0F53
 	_il2cpp_icall_func = (UnityCurl_GetDownloadSize_m7EEF1CA4D0F534FA49014533CD4656B9CB588453_ftn)il2cpp_codegen_resolve_icall ("Unity.Curl.UnityCurl::GetDownloadSize(System.IntPtr,System.UInt64&,System.UInt64&)");
 	_il2cpp_icall_func(___0_request, ___1_downloaded, ___2_expected);
 }
-// Method Definition Index: 180204
+// Method Definition Index: 180293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* UnityCurl_GetResponseHeader_m02965E1F68AA9DA32210F1511D0D9960A9AB90E4 (intptr_t ___0_request, uint32_t ___1_index, uint32_t* ___2_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -436,7 +436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* UnityCurl_GetResponseHeader_m02965E1
 	uint8_t* icallRetVal = _il2cpp_icall_func(___0_request, ___1_index, ___2_length);
 	return icallRetVal;
 }
-// Method Definition Index: 180205
+// Method Definition Index: 180294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* UnityCurl_GetMoreBody_m54394046C60CFBD1DDDD121CF6C693870314A203 (intptr_t ___0_handle, int32_t* ___1_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -454,7 +454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* UnityCurl_GetMoreBody_m54394046C60CF
 	uint8_t* icallRetVal = _il2cpp_icall_func(___0_handle, ___1_length);
 	return icallRetVal;
 }
-// Method Definition Index: 180206
+// Method Definition Index: 180295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_SendMoreBody_m2389229DF9F2269C19A8BCDCE7182FA6441AC5C7 (intptr_t ___0_handle, uint8_t* ___1_chunk, uint32_t ___2_length, int32_t ___3_ownership, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -483,7 +483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_SendMoreBody_m2389229DF9F2269C
 		return;
 	}
 }
-// Method Definition Index: 180207
+// Method Definition Index: 180296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_SendMoreBody_mDCCE90E23DCC8B62E0E4958BD8E362A399C7208F (intptr_t ___0_handle, uint8_t* ___1_chunk, uint32_t ___2_length, int32_t ___3_ownership, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -500,7 +500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_SendMoreBody_mDCCE90E23DCC8B62
 	_il2cpp_icall_func = (UnityCurl_SendMoreBody_mDCCE90E23DCC8B62E0E4958BD8E362A399C7208F_ftn)il2cpp_codegen_resolve_icall ("Unity.Curl.UnityCurl::SendMoreBody(System.IntPtr,System.Byte*,System.UInt32,System.Int32)");
 	_il2cpp_icall_func(___0_handle, ___1_chunk, ___2_length, ___3_ownership);
 }
-// Method Definition Index: 180208
+// Method Definition Index: 180297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityCurl_AbortRequest_m1D70458AC6946F7F4458ED696EF4673C4950DEE9 (intptr_t ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

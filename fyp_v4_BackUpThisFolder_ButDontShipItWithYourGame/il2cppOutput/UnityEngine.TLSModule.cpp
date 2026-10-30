@@ -328,7 +328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179392
+// Method Definition Index: 179481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m9758E4148A7658D11B9D2458EB2975967A392C77 (EmbeddedAttribute_t73D42D9822F9BC8CE332471957AA38196190EB90* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -354,7 +354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m9758E4148A7658D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179393
+// Method Definition Index: 179482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m9B3F2A9C1F772ABD62A0AFB10C4FC71137706521 (RefSafetyRulesAttribute_t877D27D35EF1EC31C4215F27F3E0A20D53365352* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -390,7 +390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m9B3F2A9C1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179394
+// Method Definition Index: 179483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_send_data_m5086C52FA8F5F51D6A764CDF277FFFBCBA6D1928 (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, uint8_t* ___1_data, uintptr_t ___2_dataLen, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -408,7 +408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_send_data_m5
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance, ___1_data, ___2_dataLen);
 	return icallRetVal;
 }
-// Method Definition Index: 179395
+// Method Definition Index: 179484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_read_data_mF232A9B9C2DB17E25ACB540144CB2C4CD3D67C2F (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, uint8_t* ___1_buffer, uintptr_t ___2_bufferLen, uintptr_t* ___3_bytesRead, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -426,7 +426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_read_data_mF
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance, ___1_buffer, ___2_bufferLen, ___3_bytesRead);
 	return icallRetVal;
 }
-// Method Definition Index: 179396
+// Method Definition Index: 179485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Binding_unitytls_client_add_ciphersuite_m84984570244F915AA13080689DB22C9E07D67F9D (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, uint32_t ___1_suite, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -443,7 +443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Binding_unitytls_client_add_ciphersuite_
 	_il2cpp_icall_func = (Binding_unitytls_client_add_ciphersuite_m84984570244F915AA13080689DB22C9E07D67F9D_ftn)il2cpp_codegen_resolve_icall ("Unity.TLS.LowLevel.Binding::unitytls_client_add_ciphersuite(Unity.TLS.LowLevel.Binding/unitytls_client*,System.UInt32)");
 	_il2cpp_icall_func(___0_clientInstance, ___1_suite);
 }
-// Method Definition Index: 179397
+// Method Definition Index: 179486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_ciphersuite_mC97F9B45F0437090A710FCB23ED5A6B32782196D (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, int32_t ___1_ndx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -461,7 +461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_ciphersu
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance, ___1_ndx);
 	return icallRetVal;
 }
-// Method Definition Index: 179398
+// Method Definition Index: 179487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Binding_unitytls_client_get_ciphersuite_cnt_m747F87B3AB85A453C6D41FCFC220F79FE7172A03 (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -479,7 +479,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Binding_unitytls_client_get_ciphersui
 	int32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance);
 	return icallRetVal;
 }
-// Method Definition Index: 179399
+// Method Definition Index: 179488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Binding_unitytls_client_init_config_m82074495EA2A17758484F4A7FF1C6BB2EFE198B5 (unitytls_client_config_t573FD029CCF308C0D922A8643773696C20726F4F* ___0_config, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -496,7 +496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Binding_unitytls_client_init_config_m820
 	_il2cpp_icall_func = (Binding_unitytls_client_init_config_m82074495EA2A17758484F4A7FF1C6BB2EFE198B5_ftn)il2cpp_codegen_resolve_icall ("Unity.TLS.LowLevel.Binding::unitytls_client_init_config(Unity.TLS.LowLevel.Binding/unitytls_client_config*)");
 	_il2cpp_icall_func(___0_config);
 }
-// Method Definition Index: 179400
+// Method Definition Index: 179489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* Binding_unitytls_client_create_mA830787311EBD55A7ACAA925541EE3A28F398026 (uint32_t ___0_role, unitytls_client_config_t573FD029CCF308C0D922A8643773696C20726F4F* ___1_config, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -514,7 +514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR unitytls_client_t24835A1F9F3B994DE3AE5B3B8479
 	unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* icallRetVal = _il2cpp_icall_func(___0_role, ___1_config);
 	return icallRetVal;
 }
-// Method Definition Index: 179401
+// Method Definition Index: 179490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Binding_unitytls_client_destroy_m3454EE8424B3F530183F2FB04DE935EFA0D4CE0B (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -531,7 +531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Binding_unitytls_client_destroy_m3454EE8
 	_il2cpp_icall_func = (Binding_unitytls_client_destroy_m3454EE8424B3F530183F2FB04DE935EFA0D4CE0B_ftn)il2cpp_codegen_resolve_icall ("Unity.TLS.LowLevel.Binding::unitytls_client_destroy(Unity.TLS.LowLevel.Binding/unitytls_client*)");
 	_il2cpp_icall_func(___0_clientInstance);
 }
-// Method Definition Index: 179402
+// Method Definition Index: 179491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Binding_unitytls_client_init_m4A2D0AEC37B2EEAFFF7793ECE1C27B52E718C9AA (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -549,7 +549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Binding_unitytls_client_init_m4A2D0AE
 	int32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance);
 	return icallRetVal;
 }
-// Method Definition Index: 179403
+// Method Definition Index: 179492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_handshake_mD90B620858219D8DF2E01747ED7DEFE6CF944F46 (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -567,7 +567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_handshake_mD
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance);
 	return icallRetVal;
 }
-// Method Definition Index: 179404
+// Method Definition Index: 179493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_set_cookie_info_mF05314AE268C13A32F3E0C8C39FD3AA5F6D1FD97 (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, uint8_t* ___1_peerIdDataPtr, int32_t ___2_peerIdDataLen, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -585,7 +585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_set_cookie_i
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance, ___1_peerIdDataPtr, ___2_peerIdDataLen);
 	return icallRetVal;
 }
-// Method Definition Index: 179405
+// Method Definition Index: 179494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_handshake_state_m5DCB8B5E8841F1BCF2CC2E52310B30CCE0EB2199 (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -603,7 +603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_handshak
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance);
 	return icallRetVal;
 }
-// Method Definition Index: 179406
+// Method Definition Index: 179495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_errorsState_m7452878361ADEBEC32111BC8087D2C61F370505F (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, uint64_t* ___1_reserved, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -621,7 +621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_errorsSt
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance, ___1_reserved);
 	return icallRetVal;
 }
-// Method Definition Index: 179407
+// Method Definition Index: 179496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_state_mFA36FD1C48800D3B88D142ED9E1FFFC65F196B0F (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -639,7 +639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_state_mF
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_clientInstance);
 	return icallRetVal;
 }
-// Method Definition Index: 179408
+// Method Definition Index: 179497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Binding_unitytls_client_get_role_m1F838334033B29D9251DDD0153303DEE21B6C8EB (unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_clientInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -709,7 +709,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_unitytls_client_on_data_callback_t7
 	il2cppPInvokeFunc(___0_arg0, ___1_arg1, ___2_arg2, ___3_arg3);
 
 }
-// Method Definition Index: 179409
+// Method Definition Index: 179498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_on_data_callback__ctor_mD1DC95893B9380D4AE1AFDCAF2FBD67A305F7D44 (unitytls_client_on_data_callback_t797AAD79037B5A09AD258DD825D093197124DD7C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -746,7 +746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_on_data_callback__ctor_m
 	}
 	__this->___extra_arg = (intptr_t)&unitytls_client_on_data_callback_Invoke_mA3893E35B92BA659B354B72EFA3D74318081F02A_Multicast;
 }
-// Method Definition Index: 179410
+// Method Definition Index: 179499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_on_data_callback_Invoke_mA3893E35B92BA659B354B72EFA3D74318081F02A (unitytls_client_on_data_callback_t797AAD79037B5A09AD258DD825D093197124DD7C* __this, intptr_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint32_t ___3_arg3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -760,7 +760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_on_data_callback_Invoke_
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t*, uintptr_t, uint32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg0, ___1_arg1, ___2_arg2, ___3_arg3, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 179411
+// Method Definition Index: 179500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_on_data_callback_BeginInvoke_m8F8A4773B643EDF70404204F78D0A20DD944016D (unitytls_client_on_data_callback_t797AAD79037B5A09AD258DD825D093197124DD7C* __this, intptr_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint32_t ___3_arg3, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -778,7 +778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_on_data_callba
 	__d_args[3] = Box(il2cpp_defaults.uint32_class, &___3_arg3);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 179412
+// Method Definition Index: 179501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_on_data_callback_EndInvoke_m25F46ADC919CC72F77913F6FD56C5EFD891038BE (unitytls_client_on_data_callback_t797AAD79037B5A09AD258DD825D093197124DD7C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -830,7 +830,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_unitytls_client_data_send_callba
 
 	return returnValue;
 }
-// Method Definition Index: 179413
+// Method Definition Index: 179502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_data_send_callback__ctor_mA3190917673633997FB351384D19AC2DCB09F3D4 (unitytls_client_data_send_callback_tB5FB8708A9D65A75EAE308331AF01EC223ADEC0D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -867,7 +867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_data_send_callback__ctor
 	}
 	__this->___extra_arg = (intptr_t)&unitytls_client_data_send_callback_Invoke_m9BAC5496CD637DEBFA55F4D2BA1960C45B8AF277_Multicast;
 }
-// Method Definition Index: 179414
+// Method Definition Index: 179503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_send_callback_Invoke_m9BAC5496CD637DEBFA55F4D2BA1960C45B8AF277 (unitytls_client_data_send_callback_tB5FB8708A9D65A75EAE308331AF01EC223ADEC0D* __this, intptr_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint32_t ___3_arg3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -881,7 +881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_send_callback_In
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t*, uintptr_t, uint32_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg0, ___1_arg1, ___2_arg2, ___3_arg3, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 179415
+// Method Definition Index: 179504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_data_send_callback_BeginInvoke_mF72FE067F367ACC8FD0A20602234371619705F06 (unitytls_client_data_send_callback_tB5FB8708A9D65A75EAE308331AF01EC223ADEC0D* __this, intptr_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint32_t ___3_arg3, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -899,7 +899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_data_send_call
 	__d_args[3] = Box(il2cpp_defaults.uint32_class, &___3_arg3);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 179416
+// Method Definition Index: 179505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_send_callback_EndInvoke_mD68D2304E499C86858AE409CF4818A282B1AA58A (unitytls_client_data_send_callback_tB5FB8708A9D65A75EAE308331AF01EC223ADEC0D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -952,7 +952,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_unitytls_client_data_receive_cal
 
 	return returnValue;
 }
-// Method Definition Index: 179417
+// Method Definition Index: 179506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_data_receive_callback__ctor_m856BA3CAF960B07B7C62FF0A91FA3108F55FF56E (unitytls_client_data_receive_callback_tECB295DCE81436DB820825B50A360D64B4195637* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -989,7 +989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_data_receive_callback__c
 	}
 	__this->___extra_arg = (intptr_t)&unitytls_client_data_receive_callback_Invoke_m569CE992486A426475D923974F91171087AAE6B8_Multicast;
 }
-// Method Definition Index: 179418
+// Method Definition Index: 179507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_receive_callback_Invoke_m569CE992486A426475D923974F91171087AAE6B8 (unitytls_client_data_receive_callback_tECB295DCE81436DB820825B50A360D64B4195637* __this, intptr_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint32_t ___3_arg3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1003,7 +1003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_receive_callback
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t*, uintptr_t, uint32_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg0, ___1_arg1, ___2_arg2, ___3_arg3, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 179419
+// Method Definition Index: 179508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_data_receive_callback_BeginInvoke_m2291A35F94D21AF0F4AA2A96B72277A83361261E (unitytls_client_data_receive_callback_tECB295DCE81436DB820825B50A360D64B4195637* __this, intptr_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint32_t ___3_arg3, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1021,7 +1021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_data_receive_c
 	__d_args[3] = Box(il2cpp_defaults.uint32_class, &___3_arg3);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 179420
+// Method Definition Index: 179509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_receive_callback_EndInvoke_mB7488D349B94A8E4BD7FFD9D9CF681B169B6E15C (unitytls_client_data_receive_callback_tECB295DCE81436DB820825B50A360D64B4195637* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1074,7 +1074,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_unitytls_client_data_receive_tim
 
 	return returnValue;
 }
-// Method Definition Index: 179421
+// Method Definition Index: 179510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_data_receive_timeout_callback__ctor_m1186BA925875A5D88925413936A79FD3FBF4F752 (unitytls_client_data_receive_timeout_callback_t48EF69D53E7B2BAB229C2D7066495E6F9258E45E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1111,7 +1111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_data_receive_timeout_cal
 	}
 	__this->___extra_arg = (intptr_t)&unitytls_client_data_receive_timeout_callback_Invoke_mA9B2C79399B3AF4805A72776AF709BD0535695BF_Multicast;
 }
-// Method Definition Index: 179422
+// Method Definition Index: 179511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_receive_timeout_callback_Invoke_mA9B2C79399B3AF4805A72776AF709BD0535695BF (unitytls_client_data_receive_timeout_callback_t48EF69D53E7B2BAB229C2D7066495E6F9258E45E* __this, intptr_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint32_t ___3_arg3, uint32_t ___4_arg4, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1125,7 +1125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_receive_timeout_
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint8_t*, uintptr_t, uint32_t, uint32_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg0, ___1_arg1, ___2_arg2, ___3_arg3, ___4_arg4, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 179423
+// Method Definition Index: 179512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_data_receive_timeout_callback_BeginInvoke_m429E46948CAD5B05204E630465556599D1191447 (unitytls_client_data_receive_timeout_callback_t48EF69D53E7B2BAB229C2D7066495E6F9258E45E* __this, intptr_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint32_t ___3_arg3, uint32_t ___4_arg4, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1144,7 +1144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_data_receive_t
 	__d_args[4] = Box(il2cpp_defaults.uint32_class, &___4_arg4);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
 }
-// Method Definition Index: 179424
+// Method Definition Index: 179513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_client_data_receive_timeout_callback_EndInvoke_mEE0E4E8986F982E8BEC2325236B6405FBECD34FC (unitytls_client_data_receive_timeout_callback_t48EF69D53E7B2BAB229C2D7066495E6F9258E45E* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1194,7 +1194,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_unitytls_client_log_callback_t316ED
 	il2cppPInvokeFunc(___0_arg0, ___1_arg1, ___2_arg2, ___3_arg3, ___4_arg4, ___5_arg5);
 
 }
-// Method Definition Index: 179425
+// Method Definition Index: 179514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_log_callback__ctor_mF4D1B69EBBC1450CE50921B0C4E648F333BA9396 (unitytls_client_log_callback_t316ED06A603AC66CC04F473FF704D80AD502BFA1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1231,7 +1231,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_log_callback__ctor_mF4D1
 	}
 	__this->___extra_arg = (intptr_t)&unitytls_client_log_callback_Invoke_m92876965C2CF1E3FEB2495C6E7FADC56AC5DBE3A_Multicast;
 }
-// Method Definition Index: 179426
+// Method Definition Index: 179515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_log_callback_Invoke_m92876965C2CF1E3FEB2495C6E7FADC56AC5DBE3A (unitytls_client_log_callback_t316ED06A603AC66CC04F473FF704D80AD502BFA1* __this, int32_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint8_t* ___3_arg3, uint8_t* ___4_arg4, uintptr_t ___5_arg5, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1245,7 +1245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_log_callback_Invoke_m928
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, uint8_t*, uintptr_t, uint8_t*, uint8_t*, uintptr_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg0, ___1_arg1, ___2_arg2, ___3_arg3, ___4_arg4, ___5_arg5, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 179427
+// Method Definition Index: 179516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_log_callback_BeginInvoke_mA714249D066C39CB8D214755DB4329FE96CC733F (unitytls_client_log_callback_t316ED06A603AC66CC04F473FF704D80AD502BFA1* __this, int32_t ___0_arg0, uint8_t* ___1_arg1, uintptr_t ___2_arg2, uint8_t* ___3_arg3, uint8_t* ___4_arg4, uintptr_t ___5_arg5, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___6_callback, RuntimeObject* ___7_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1265,7 +1265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_client_log_callback_B
 	__d_args[5] = Box(il2cpp_defaults.uint_class, &___5_arg5);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___6_callback, (RuntimeObject*)___7_object);
 }
-// Method Definition Index: 179428
+// Method Definition Index: 179517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_client_log_callback_EndInvoke_m5B4F9DD7F0ED39C5E5E2F3FFBB810DAD8A7CCEDB (unitytls_client_log_callback_t316ED06A603AC66CC04F473FF704D80AD502BFA1* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1334,7 +1334,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_unitytls_tlsctx_handshake_on_blo
 
 	return returnValue;
 }
-// Method Definition Index: 179429
+// Method Definition Index: 179518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_tlsctx_handshake_on_blocking_callback__ctor_m46F45A2BF9542571374D297D0E56DB0E85B1742E (unitytls_tlsctx_handshake_on_blocking_callback_t23CF6B495F6DB1FD7D1344C1E0F7F770408FF1BC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1379,7 +1379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void unitytls_tlsctx_handshake_on_blocking_ca
 	}
 	__this->___extra_arg = (intptr_t)&unitytls_tlsctx_handshake_on_blocking_callback_Invoke_mA1279AA4D6C03C336DE8888C33230C498FE915B5_Multicast;
 }
-// Method Definition Index: 179430
+// Method Definition Index: 179519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_tlsctx_handshake_on_blocking_callback_Invoke_mA1279AA4D6C03C336DE8888C33230C498FE915B5 (unitytls_tlsctx_handshake_on_blocking_callback_t23CF6B495F6DB1FD7D1344C1E0F7F770408FF1BC* __this, unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_arg0, intptr_t ___1_arg1, int32_t ___2_arg2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1393,7 +1393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_tlsctx_handshake_on_blocking
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80*, intptr_t, int32_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg0, ___1_arg1, ___2_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 179431
+// Method Definition Index: 179520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_tlsctx_handshake_on_blocking_callback_BeginInvoke_mE81D1E5D1B2AA692EF181602AB31994740AE0D21 (unitytls_tlsctx_handshake_on_blocking_callback_t23CF6B495F6DB1FD7D1344C1E0F7F770408FF1BC* __this, unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80* ___0_arg0, intptr_t ___1_arg1, int32_t ___2_arg2, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1410,7 +1410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* unitytls_tlsctx_handshake_on_b
 	__d_args[2] = Box(il2cpp_defaults.int32_class, &___2_arg2);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 179432
+// Method Definition Index: 179521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t unitytls_tlsctx_handshake_on_blocking_callback_EndInvoke_mCAFC04BC7CBC45852499D18B33CD85DAE1E54945 (unitytls_tlsctx_handshake_on_blocking_callback_t23CF6B495F6DB1FD7D1344C1E0F7F770408FF1BC* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

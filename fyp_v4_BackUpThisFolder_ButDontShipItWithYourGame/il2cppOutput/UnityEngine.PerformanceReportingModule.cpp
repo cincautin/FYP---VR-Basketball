@@ -97,7 +97,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180234
+// Method Definition Index: 180323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m88EB153C6F6B0EBBD0422F21590D27F889D8BD47 (EmbeddedAttribute_tBA04AB25133EC20237B8FC1F25092F20FD4336F2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -123,7 +123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m88EB153C6F6B0EB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180235
+// Method Definition Index: 180324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mBFE653C46C795DB3A9E34EF99F19E4FB062D6A5F (RefSafetyRulesAttribute_t3666E088F02F44390A7E9DE66614917A0883B7A0* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -151,7 +151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mBFE653C46
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180236
+// Method Definition Index: 180325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceReporting_get_enabled_m13A834E7124C3E52E95FD3DBDA5BE5C9906D436C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -169,7 +169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceReporting_get_enabled_m13A834
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 180237
+// Method Definition Index: 180326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceReporting_set_enabled_mAAC2FBB9CE52F6F37C8456B121DD17C8395F80F5 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -186,7 +186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceReporting_set_enabled_mAAC2FB
 	_il2cpp_icall_func = (PerformanceReporting_set_enabled_mAAC2FBB9CE52F6F37C8456B121DD17C8395F80F5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Analytics.PerformanceReporting::set_enabled(System.Boolean)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 180238
+// Method Definition Index: 180327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t PerformanceReporting_get_graphicsInitializationFinishTime_m14D93A90C929C57074781B64E6889878E593A9C6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

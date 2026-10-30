@@ -202,7 +202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180161
+// Method Definition Index: 180250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m60AA68B2B91FD25CF48D350D56192CC1E04E7820 (EmbeddedAttribute_t63227CA55AC9F189C1B931D341745A8F8A7518AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -228,7 +228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m60AA68B2B91FD25
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180162
+// Method Definition Index: 180251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m6CF1A04538618002E908F941305E356D8010CD59 (NullableAttribute_tC5BB0CBDD72EB810A86AF926EEC2FBC0357F044C* __this, uint8_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -254,7 +254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m6CF1A0453861800
 		return;
 	}
 }
-// Method Definition Index: 180163
+// Method Definition Index: 180252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m14F8D6201F8E0EA20B87125DB095136D85CB3FD1 (NullableAttribute_tC5BB0CBDD72EB810A86AF926EEC2FBC0357F044C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -283,7 +283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m14F8D6201F8E0EA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180164
+// Method Definition Index: 180253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableContextAttribute__ctor_m101C6DC53FEF3CBC2A64EE9555A5EEDD340EE401 (NullableContextAttribute_t433DBCA3D82BB41873A864BA651B5D14C6F3449B* __this, uint8_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -311,7 +311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableContextAttribute__ctor_m101C6DC5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180165
+// Method Definition Index: 180254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m7551CAADB2FFE51B571548E1915D8712F7E6AD07 (RefSafetyRulesAttribute_t7BE4642FBCBBFE1B91543C8A8740259ED3B2B8B9* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -339,7 +339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m7551CAADB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180166
+// Method Definition Index: 180255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedCallersOnlyAttribute__ctor_m9D9D9313510E3D7EEC4F8FA3D1B047C30CBC4AFC (UnmanagedCallersOnlyAttribute_tB71A9B4E4D21CCECD8E13B66F6A5418AB747BCD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -373,7 +373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnmanagedCallersOnlyAttribute__ctor_m9D9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180167
+// Method Definition Index: 180256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicDependencyAttribute__ctor_m19F6B1618E078FBA834250D858DC868AA9D97ECC (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, String_t* ___0_memberSignature, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -405,7 +405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicDependencyAttribute__ctor_m19F6B1
 		return;
 	}
 }
-// Method Definition Index: 180168
+// Method Definition Index: 180257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicDependencyAttribute__ctor_mAA9C77FEAAE669039328E5468128FF4DE89D8F77 (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, String_t* ___0_memberSignature, Type_t* ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -442,7 +442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicDependencyAttribute__ctor_mAA9C77
 		return;
 	}
 }
-// Method Definition Index: 180169
+// Method Definition Index: 180258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicDependencyAttribute__ctor_m7FAD88F10E3977FF6D73CB36F8C1B6F1F58E106F (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, String_t* ___0_memberSignature, String_t* ___1_typeName, String_t* ___2_assemblyName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -484,7 +484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicDependencyAttribute__ctor_m7FAD88
 		return;
 	}
 }
-// Method Definition Index: 180170
+// Method Definition Index: 180259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicDependencyAttribute_get_MemberSignature_mAF58023F7D74EDFEEACB27A1D5E46E2551EC744A (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -506,7 +506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicDependencyAttribute_get_Memb
 		return L_0;
 	}
 }
-// Method Definition Index: 180171
+// Method Definition Index: 180260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* DynamicDependencyAttribute_get_Type_m31290C0F55D72BAB49889F5FE2B4477A6C59029D (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -528,7 +528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* DynamicDependencyAttribute_get_Type_m
 		return L_0;
 	}
 }
-// Method Definition Index: 180172
+// Method Definition Index: 180261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicDependencyAttribute_get_TypeName_m77BDC7E958AF85785267804AC8134D1996DD3728 (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -550,7 +550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicDependencyAttribute_get_Type
 		return L_0;
 	}
 }
-// Method Definition Index: 180173
+// Method Definition Index: 180262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicDependencyAttribute_get_AssemblyName_mBD0AF0430D8306B09214FF1E40492DBB839EA69E (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -572,7 +572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicDependencyAttribute_get_Asse
 		return L_0;
 	}
 }
-// Method Definition Index: 180174
+// Method Definition Index: 180263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicDependencyAttribute_get_Condition_mAE8113FAEA5CF6B206016D2CEFD97A94C0DAA9BA (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -594,7 +594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicDependencyAttribute_get_Cond
 		return L_0;
 	}
 }
-// Method Definition Index: 180175
+// Method Definition Index: 180264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicDependencyAttribute_set_Condition_mDFF93D9BD512FF825735E41B5634A776320ED275 (DynamicDependencyAttribute_tC28A89DD9DA061B8B1DD4EE6D46CBE4E22F935B1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -627,7 +627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicDependencyAttribute_set_Condition
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180176
+// Method Definition Index: 180265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Il2CppEagerStaticClassConstructionAttribute__ctor_mA7E4EB4327642FEC15C5409B08BDCDFE269F359A (Il2CppEagerStaticClassConstructionAttribute_t3D7D82DC5526590106245EEAFBBCDEF108E58986* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

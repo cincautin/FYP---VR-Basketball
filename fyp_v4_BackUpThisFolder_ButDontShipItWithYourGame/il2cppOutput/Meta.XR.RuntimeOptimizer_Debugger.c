@@ -30,11 +30,11 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsMeta_XR_RuntimeOptimizer[];
 Il2CppSequencePoint g_sequencePointsMeta_XR_RuntimeOptimizer[5] = 
 {
-	{ 180584, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 180584, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 180584, 1, 38, 38, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 180584, 1, 39, 45, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
-	{ 180584, 1, 46, 46, 9, 10, 63, kSequencePointKind_Normal, 0, 4 },
+	{ 180673, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 180673, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 180673, 1, 38, 38, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 180673, 1, 39, 45, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
+	{ 180673, 1, 46, 46, 9, 10, 63, kSequencePointKind_Normal, 0, 4 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsMeta_XR_RuntimeOptimizer[];
@@ -56,7 +56,7 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = 
 {
-	{ 21553, 1 },
+	{ 21565, 1 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };

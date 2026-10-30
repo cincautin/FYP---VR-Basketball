@@ -32062,7 +32062,7 @@ IL_005d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 161081
+// Method Definition Index: 161170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemJobStruct_1_Initialize_mBC74D6D61B41133FE7317EA01179F5DA65B4D0CD_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32155,7 +32155,7 @@ IL_004e:
 		return;
 	}
 }
-// Method Definition Index: 161082
+// Method Definition Index: 161171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemJobStruct_1_Execute_m074460994B30F755EA5D958B04B9317AA99B46FE_gshared (Il2CppFullySharedGenericStruct* ___0_data, intptr_t ___1_listDataPtr, intptr_t ___2_unusedPtr, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32218,7 +32218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemJobStruct_1_Execute_m07446
 		return;
 	}
 }
-// Method Definition Index: 161083
+// Method Definition Index: 161172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemJobStruct_1__cctor_m249B420B8943644C73C1F7C6B23C02DFA764510E_gshared (const RuntimeMethod* method) 
 {
 	ProfilerMethodSentry _profilerMethodSentry(method);
@@ -32244,7 +32244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemJobStruct_1__cctor_m249B42
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 161095
+// Method Definition Index: 161184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemParallelForBatchJobStruct_1_Initialize_mF3A334F7D04FE02AE294A1BC76617D81C61DB33E_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32337,7 +32337,7 @@ IL_004e:
 		return;
 	}
 }
-// Method Definition Index: 161096
+// Method Definition Index: 161185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemParallelForBatchJobStruct_1_Execute_mD6C63E24F635638FA88C8C46528364F933C2B43A_gshared (Il2CppFullySharedGenericStruct* ___0_data, intptr_t ___1_listDataPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32430,7 +32430,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 161097
+// Method Definition Index: 161186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemParallelForBatchJobStruct_1__cctor_m9C1D83888C3C65A70832C45B7FBCF46D6F4FCE22_gshared (const RuntimeMethod* method) 
 {
 	ProfilerMethodSentry _profilerMethodSentry(method);
@@ -32456,7 +32456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemParallelForBatchJobStruct_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 161088
+// Method Definition Index: 161177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemParallelForJobStruct_1_Initialize_m1D21610DF972DA6BC809F73F0ADAF4DCEE344A25_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32549,7 +32549,7 @@ IL_004e:
 		return;
 	}
 }
-// Method Definition Index: 161089
+// Method Definition Index: 161178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemParallelForJobStruct_1_Execute_m03E26EEA5EDCB9A5692768AAD1A9C04B6E745A80_gshared (Il2CppFullySharedGenericStruct* ___0_data, intptr_t ___1_listDataPtr, intptr_t ___2_bufferRangePatchData, JobRanges_t5A1CDFF3E0DB1197050E1E28617B517C15AF6DC3* ___3_ranges, int32_t ___4_jobIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32669,7 +32669,7 @@ IL_004c:
 		return;
 	}
 }
-// Method Definition Index: 161090
+// Method Definition Index: 161179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemParallelForJobStruct_1__cctor_m436145C4AEC7A2E21A158D169D4B27F0A3A3147F_gshared (const RuntimeMethod* method) 
 {
 	ProfilerMethodSentry _profilerMethodSentry(method);

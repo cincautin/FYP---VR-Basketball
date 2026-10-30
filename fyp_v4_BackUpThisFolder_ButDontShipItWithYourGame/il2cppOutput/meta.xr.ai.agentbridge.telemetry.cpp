@@ -403,7 +403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnifiedEventData_Send_m6D91E52BE549A382A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180458
+// Method Definition Index: 180547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t882A1C5EA0F0F8E5E36DE2B4B000F0C99E66235E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m1B7541AC02ACC69FC02D78C2E33727B573D6583A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -461,7 +461,7 @@ IL_005d:
 		return L_7;
 	}
 }
-// Method Definition Index: 180459
+// Method Definition Index: 180548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m754EE43F8F2707EBD302BC9DF3A04B41876216BF (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t5C74B1EDF4C0F11E4D88274475D06805CCCB9597* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -557,7 +557,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t882A1C5EA0F0F8E5E36DE2B4B000F0C99E66235E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180460
+// Method Definition Index: 180549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnifiedEventData_tEDECDFB75E38F848CEBAD43511511688BF895A2B AgentBridgeTelemetry_AddAgentBridgeContext_m0715DE4E40A142EB19A60E20F4217B4B9A872B6F (UnifiedEventData_tEDECDFB75E38F848CEBAD43511511688BF895A2B ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -594,7 +594,7 @@ IL_000d:
 		return L_1;
 	}
 }
-// Method Definition Index: 180461
+// Method Definition Index: 180550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeTelemetry_SendEvent_m3ED21CCAAA16F9C74502C891516A9ABA06056F93 (String_t* ___0_eventName, Action_1_tB51B52ED6060F222173B11F3D7C92BC3413BDCC2* ___1_configureEvent, bool ___2_isEssential, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

@@ -24744,7 +24744,7 @@ IL2CPP_EXTERN_C  bool MeshRendererUpdateBatch_ValidateEmptyOrSameSectionCount_Ti
 	_returnValue = MeshRendererUpdateBatch_ValidateEmptyOrSameSectionCount_TisIl2CppFullySharedGenericStruct_m7A43C50CBEB7B45F27BD4C016061620C91EEEAFA(_thisAdjusted, ___0_component, ___1_components, ___2_instanceIDs, method);
 	return _returnValue;
 }
-// Method Definition Index: 162038
+// Method Definition Index: 162127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* MessageExtensions_Get_TisIl2CppSharedGenericObject_m443A91B4C4E10484B006BDA7007A079A891C79D2_gshared (Message_tBD40926CA51B245E5907EA3415980470455D8945* ___0_message, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -24810,7 +24810,7 @@ IL_0022:
 		return ((Il2CppSharedGenericObject*)Castclass((RuntimeObject*)L_9, il2cpp_rgctx_data(method->rgctx_data, 2)));
 	}
 }
-// Method Definition Index: 162039
+// Method Definition Index: 162128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MessageExtensions_SendMessage_TisIl2CppSharedGenericObject_mE2B265E70DF81AB7C6E881A3B74C7A9EC472BFA6_gshared (ControlContext_t67F00D3C59C26C77BED313684AB258AEC5C5A243 ___0_context, ProcessorInstance_tC8E3131DB14380822C20BA430BC6BFB4BE0F8B35 ___1_processorInstance, Il2CppSharedGenericObject* ___2_message, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);

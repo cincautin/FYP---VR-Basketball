@@ -127,7 +127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_mAE66BA1C43B4194F4F7991E2E303
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180239
+// Method Definition Index: 180328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m16674719DAC914199CA64C936787DA2746885A44 (EmbeddedAttribute_t03A1E72575B7E7B4A2B67CC430257501EFBB0F88* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -153,7 +153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m16674719DAC9141
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180240
+// Method Definition Index: 180329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m663F8F6C1862DB2DAC3091E10B2857F957F8914B (RefSafetyRulesAttribute_t7C01414EE59C61DDF8F3E358A09CAF2A80E7D0FE* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -181,7 +181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m663F8F6C1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180241
+// Method Definition Index: 180330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Profiler2D_GetGUIDString_m77A430442CBB076D61830F3D4BDFE53F2CA185E4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -235,7 +235,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 180243
+// Method Definition Index: 180332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Profiler2D__cctor_m07E6BA6B77815732BCCA912AD92C6A8AA78F078B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -265,7 +265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Profiler2D__cctor_m07E6BA6B77815732BCCA9
 		return;
 	}
 }
-// Method Definition Index: 180244
+// Method Definition Index: 180333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Profiler2D_GetGUIDString_Injected_mD54AF913E9B00F235F68F706725640AB415421D2 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

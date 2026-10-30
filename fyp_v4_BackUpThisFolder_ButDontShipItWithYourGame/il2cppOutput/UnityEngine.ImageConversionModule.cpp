@@ -506,7 +506,7 @@ inline ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* Array_Empty_TisByte
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179289
+// Method Definition Index: 179378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m65390AB9D1D035334DA196EF70810168F1A492C7 (EmbeddedAttribute_tE0A92A86E7FA909CE866164434FBA66A286CD35A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -532,7 +532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m65390AB9D1D0353
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179290
+// Method Definition Index: 179379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mE61C0B3A912DC2E376DC6CFDB085C93AC74B04BE (RefSafetyRulesAttribute_tD328749F27459D9A90BD47AD7E1942ED17A5F06E* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -560,7 +560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mE61C0B3A9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179291
+// Method Definition Index: 179380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_get_EnableLegacyPngGammaRuntimeLoadBehavior_mC16F9ADD6C7DF2E36AB900E7A6D86E6982F91FAE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -583,7 +583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_get_EnableLegacyPngGamma
 		return L_0;
 	}
 }
-// Method Definition Index: 179292
+// Method Definition Index: 179381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_set_EnableLegacyPngGammaRuntimeLoadBehavior_mF7D243865120C6DE88A267861500104438736122 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -609,7 +609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_set_EnableLegacyPngGamma
 		return;
 	}
 }
-// Method Definition Index: 179293
+// Method Definition Index: 179382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_GetEnableLegacyPngGammaRuntimeLoadBehavior_m63AE75A7AFC9C41D27A6B94178E7710D52FFA153 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -627,7 +627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_GetEnableLegacyPngGammaR
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 179294
+// Method Definition Index: 179383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_SetEnableLegacyPngGammaRuntimeLoadBehavior_m9E019E2C743429C4DF1AA9FB2DBF24E657A341F3 (bool ___0_enable, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -644,7 +644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_SetEnableLegacyPngGammaR
 	_il2cpp_icall_func = (ImageConversion_SetEnableLegacyPngGammaRuntimeLoadBehavior_m9E019E2C743429C4DF1AA9FB2DBF24E657A341F3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::SetEnableLegacyPngGammaRuntimeLoadBehavior(System.Boolean)");
 	_il2cpp_icall_func(___0_enable);
 }
-// Method Definition Index: 179295
+// Method Definition Index: 179384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToTGA_m02B0F7ED8D1BE1E9310C3E6799161ABB0C531143 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -701,7 +701,7 @@ IL_001b:
 		return L_3;
 	}
 }
-// Method Definition Index: 179296
+// Method Definition Index: 179385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C945 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -758,7 +758,7 @@ IL_001b:
 		return L_3;
 	}
 }
-// Method Definition Index: 179297
+// Method Definition Index: 179386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToJPG_mD0307B5DFF32A3FF39488E97B467F11AFE501F6F (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, int32_t ___1_quality, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -816,7 +816,7 @@ IL_001c:
 		return L_4;
 	}
 }
-// Method Definition Index: 179298
+// Method Definition Index: 179387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToJPG_mD3B358B8645CF85EBAD979554FFDE05A54A99804 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -841,7 +841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_1;
 	}
 }
-// Method Definition Index: 179299
+// Method Definition Index: 179388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToEXR_m56D716F2C64F0BFC69A81D1787EB9D3E42A2EABA (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, int32_t ___1_flags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -899,7 +899,7 @@ IL_001c:
 		return L_4;
 	}
 }
-// Method Definition Index: 179300
+// Method Definition Index: 179389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToEXR_m349B17956EB17D3652ADB469C36C47A6105C901A (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -924,7 +924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_1;
 	}
 }
-// Method Definition Index: 179301
+// Method Definition Index: 179390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToR2DInternal_m2926AA12FED28B2A13A7194D8609A80080BEE1F1 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -981,7 +981,7 @@ IL_001b:
 		return L_3;
 	}
 }
-// Method Definition Index: 179302
+// Method Definition Index: 179391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_m3626874693C36249953A6A347C736E24ADD687F2 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___1_data, bool ___2_markNonReadable, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1058,7 +1058,7 @@ IL_0023:
 		return L_12;
 	}
 }
-// Method Definition Index: 179303
+// Method Definition Index: 179392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_mF334693D8FBEF8078C811F97BCB491F287B4D2D6 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___1_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1084,7 +1084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_mF334693D8FBEF
 		return L_2;
 	}
 }
-// Method Definition Index: 179304
+// Method Definition Index: 179393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_m292ADCEED268A0A0AAD532BAB8D1710CF0FC8AEF (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_data, bool ___2_markNonReadable, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1117,7 +1117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_m292ADCEED268A
 		return L_4;
 	}
 }
-// Method Definition Index: 179305
+// Method Definition Index: 179394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_m1797365F78319B68638DE8BB02836F8D60760041 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1149,7 +1149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_m1797365F78319
 		return L_3;
 	}
 }
-// Method Definition Index: 179306
+// Method Definition Index: 179395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToTGA_Internal_m2445DA59F3E466F269135821125B1606119F6503 (Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1225,7 +1225,7 @@ IL_003c:
 		return L_11;
 	}
 }
-// Method Definition Index: 179307
+// Method Definition Index: 179396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToTGA_m46D1398E6273A512B845E0BBC97B3D068A07521F (RuntimeArray* ___0_array, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1290,7 +1290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_14;
 	}
 }
-// Method Definition Index: 179308
+// Method Definition Index: 179397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToPNG_Internal_m52FA8B58D7CDBD5285CEA129B4C7FBA16CDD2B1F (Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1366,7 +1366,7 @@ IL_003c:
 		return L_11;
 	}
 }
-// Method Definition Index: 179309
+// Method Definition Index: 179398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToPNG_mC4006BCEED5DAC8D1752B11564878E275F1D442F (RuntimeArray* ___0_array, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1431,7 +1431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_14;
 	}
 }
-// Method Definition Index: 179310
+// Method Definition Index: 179399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToJPG_Internal_m6BF20BEB283A0938E83DCEE6424BF9E4BEEA5C6C (Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, int32_t ___5_quality, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1508,7 +1508,7 @@ IL_003e:
 		return L_12;
 	}
 }
-// Method Definition Index: 179311
+// Method Definition Index: 179400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToJPG_mBC82D5B80D4BF38B76C2D3B906E84BAA71275897 (RuntimeArray* ___0_array, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, int32_t ___5_quality, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1574,7 +1574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_15;
 	}
 }
-// Method Definition Index: 179312
+// Method Definition Index: 179401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToEXR_Internal_m9E8DA25E808E1E641EFD74F4BD26D55938025121 (Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, int32_t ___5_flags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1651,7 +1651,7 @@ IL_003e:
 		return L_12;
 	}
 }
-// Method Definition Index: 179313
+// Method Definition Index: 179402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToEXR_mCB5468E0C554B91D3460EF0883C8D8D8E604D662 (RuntimeArray* ___0_array, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, int32_t ___5_flags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1717,7 +1717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_15;
 	}
 }
-// Method Definition Index: 179314
+// Method Definition Index: 179403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeArrayToR2DInternal_m8962D4071971AE78315DAD56A5986BDF4559A3C3 (Span_1_tDADAC65069DFE6B57C458109115ECD795ED39305 ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1793,7 +1793,7 @@ IL_003c:
 		return L_11;
 	}
 }
-// Method Definition Index: 179320
+// Method Definition Index: 179409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArrayToTGA_m7983DE9909D1166CA4C32102A0F006ED6BCEBF86 (void* ___0_array, int32_t* ___1_sizeInBytes, int32_t ___2_format, uint32_t ___3_width, uint32_t ___4_height, uint32_t ___5_rowBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1811,7 +1811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArray
 	void* icallRetVal = _il2cpp_icall_func(___0_array, ___1_sizeInBytes, ___2_format, ___3_width, ___4_height, ___5_rowBytes);
 	return icallRetVal;
 }
-// Method Definition Index: 179321
+// Method Definition Index: 179410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArrayToPNG_m5ADDC56B7A9E423C4D99EBC74803A352DF263537 (void* ___0_array, int32_t* ___1_sizeInBytes, int32_t ___2_format, uint32_t ___3_width, uint32_t ___4_height, uint32_t ___5_rowBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1829,7 +1829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArray
 	void* icallRetVal = _il2cpp_icall_func(___0_array, ___1_sizeInBytes, ___2_format, ___3_width, ___4_height, ___5_rowBytes);
 	return icallRetVal;
 }
-// Method Definition Index: 179322
+// Method Definition Index: 179411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArrayToJPG_m19AB03A1F3E5019BEDA20CC0D3A15A760932E53D (void* ___0_array, int32_t* ___1_sizeInBytes, int32_t ___2_format, uint32_t ___3_width, uint32_t ___4_height, uint32_t ___5_rowBytes, int32_t ___6_quality, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1847,7 +1847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArray
 	void* icallRetVal = _il2cpp_icall_func(___0_array, ___1_sizeInBytes, ___2_format, ___3_width, ___4_height, ___5_rowBytes, ___6_quality);
 	return icallRetVal;
 }
-// Method Definition Index: 179323
+// Method Definition Index: 179412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArrayToEXR_m6390A25535E43303DE56714C58EF682F6386D63D (void* ___0_array, int32_t* ___1_sizeInBytes, int32_t ___2_format, uint32_t ___3_width, uint32_t ___4_height, uint32_t ___5_rowBytes, int32_t ___6_flags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1865,7 +1865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArray
 	void* icallRetVal = _il2cpp_icall_func(___0_array, ___1_sizeInBytes, ___2_format, ___3_width, ___4_height, ___5_rowBytes, ___6_flags);
 	return icallRetVal;
 }
-// Method Definition Index: 179324
+// Method Definition Index: 179413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArrayToR2D_m3EE9A66F1B1101496124C1F3231A0CE0F2DFC308 (void* ___0_array, int32_t* ___1_sizeInBytes, int32_t ___2_format, uint32_t ___3_width, uint32_t ___4_height, uint32_t ___5_rowBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1883,7 +1883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ImageConversion_UnsafeEncodeNativeArray
 	void* icallRetVal = _il2cpp_icall_func(___0_array, ___1_sizeInBytes, ___2_format, ___3_width, ___4_height, ___5_rowBytes);
 	return icallRetVal;
 }
-// Method Definition Index: 179325
+// Method Definition Index: 179414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToTGA_Injected_mF644821E4A92C8F4632E3B5D6357B50936839B78 (intptr_t ___0_tex, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1900,7 +1900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToTGA_Injected_mF6
 	_il2cpp_icall_func = (ImageConversion_EncodeToTGA_Injected_mF644821E4A92C8F4632E3B5D6357B50936839B78_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeToTGA_Injected(System.IntPtr,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_tex, ___1_ret);
 }
-// Method Definition Index: 179326
+// Method Definition Index: 179415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToPNG_Injected_mEF85ABA8E61E6772168C7454A68E85507D9608C7 (intptr_t ___0_tex, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1917,7 +1917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToPNG_Injected_mEF
 	_il2cpp_icall_func = (ImageConversion_EncodeToPNG_Injected_mEF85ABA8E61E6772168C7454A68E85507D9608C7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeToPNG_Injected(System.IntPtr,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_tex, ___1_ret);
 }
-// Method Definition Index: 179327
+// Method Definition Index: 179416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToJPG_Injected_mD4608533B7BC6485738CB91C41D675279A3FBDB7 (intptr_t ___0_tex, int32_t ___1_quality, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___2_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1934,7 +1934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToJPG_Injected_mD4
 	_il2cpp_icall_func = (ImageConversion_EncodeToJPG_Injected_mD4608533B7BC6485738CB91C41D675279A3FBDB7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeToJPG_Injected(System.IntPtr,System.Int32,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_tex, ___1_quality, ___2_ret);
 }
-// Method Definition Index: 179328
+// Method Definition Index: 179417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToEXR_Injected_m18B6C6A6FD2A67589A8AFDA58BBCF24830D70D5C (intptr_t ___0_tex, int32_t ___1_flags, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___2_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1951,7 +1951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToEXR_Injected_m18
 	_il2cpp_icall_func = (ImageConversion_EncodeToEXR_Injected_m18B6C6A6FD2A67589A8AFDA58BBCF24830D70D5C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeToEXR_Injected(System.IntPtr,UnityEngine.Texture2D/EXRFlags,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_tex, ___1_flags, ___2_ret);
 }
-// Method Definition Index: 179329
+// Method Definition Index: 179418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToR2DInternal_Injected_m4436C6355139DDE9277B25FD5916EAFEA47E54CB (intptr_t ___0_tex, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1968,7 +1968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeToR2DInternal_Inje
 	_il2cpp_icall_func = (ImageConversion_EncodeToR2DInternal_Injected_m4436C6355139DDE9277B25FD5916EAFEA47E54CB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeToR2DInternal_Injected(System.IntPtr,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_tex, ___1_ret);
 }
-// Method Definition Index: 179330
+// Method Definition Index: 179419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_Injected_m3AC758B3FF6D90EFE912C43A2DC4ACFC31F43E6D (intptr_t ___0_tex, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_data, bool ___2_markNonReadable, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1986,7 +1986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageConversion_LoadImage_Injected_m3AC7
 	bool icallRetVal = _il2cpp_icall_func(___0_tex, ___1_data, ___2_markNonReadable);
 	return icallRetVal;
 }
-// Method Definition Index: 179331
+// Method Definition Index: 179420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToTGA_Internal_Injected_mE453FE1BF42FAB6E4DC3D04AD6D4A5B15E69A691 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___5_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2003,7 +2003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToTGA_Interna
 	_il2cpp_icall_func = (ImageConversion_EncodeArrayToTGA_Internal_Injected_mE453FE1BF42FAB6E4DC3D04AD6D4A5B15E69A691_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeArrayToTGA_Internal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_span, ___1_format, ___2_width, ___3_height, ___4_rowBytes, ___5_ret);
 }
-// Method Definition Index: 179332
+// Method Definition Index: 179421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToPNG_Internal_Injected_mC635C2DCF46D7D5ACFCA1EA8E204A70C634A7892 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___5_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2020,7 +2020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToPNG_Interna
 	_il2cpp_icall_func = (ImageConversion_EncodeArrayToPNG_Internal_Injected_mC635C2DCF46D7D5ACFCA1EA8E204A70C634A7892_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeArrayToPNG_Internal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_span, ___1_format, ___2_width, ___3_height, ___4_rowBytes, ___5_ret);
 }
-// Method Definition Index: 179333
+// Method Definition Index: 179422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToJPG_Internal_Injected_m155614A0C7913237B41473AB2BD95920EFF67FE0 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, int32_t ___5_quality, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___6_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2037,7 +2037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToJPG_Interna
 	_il2cpp_icall_func = (ImageConversion_EncodeArrayToJPG_Internal_Injected_m155614A0C7913237B41473AB2BD95920EFF67FE0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeArrayToJPG_Internal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,System.Int32,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_span, ___1_format, ___2_width, ___3_height, ___4_rowBytes, ___5_quality, ___6_ret);
 }
-// Method Definition Index: 179334
+// Method Definition Index: 179423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToEXR_Internal_Injected_m53427C94536AFB13D4EC426FF41FCCD30414C70A (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, int32_t ___5_flags, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___6_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2054,7 +2054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToEXR_Interna
 	_il2cpp_icall_func = (ImageConversion_EncodeArrayToEXR_Internal_Injected_m53427C94536AFB13D4EC426FF41FCCD30414C70A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ImageConversion::EncodeArrayToEXR_Internal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,UnityEngine.Texture2D/EXRFlags,UnityEngine.Bindings.BlittableArrayWrapper&)");
 	_il2cpp_icall_func(___0_span, ___1_format, ___2_width, ___3_height, ___4_rowBytes, ___5_flags, ___6_ret);
 }
-// Method Definition Index: 179335
+// Method Definition Index: 179424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageConversion_EncodeArrayToR2DInternal_Injected_m4894384780411D64E83764D9C028EABE031459D0 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_span, int32_t ___1_format, uint32_t ___2_width, uint32_t ___3_height, uint32_t ___4_rowBytes, BlittableArrayWrapper_t1512FE0506F4BD7778410D562DBA6FE2DDEE4F59* ___5_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

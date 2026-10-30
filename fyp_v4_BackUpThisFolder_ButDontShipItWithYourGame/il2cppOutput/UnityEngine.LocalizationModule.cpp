@@ -223,7 +223,7 @@ inline void ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_inlin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180089
+// Method Definition Index: 180178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m0DC021492416074D5EE0568A62705FEAA10CEC91 (EmbeddedAttribute_tB9BF3E90247D15B62B7B4E0E57018A631D2D0A47* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -249,7 +249,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m0DC021492416074
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180090
+// Method Definition Index: 180179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m1B0943FEBEFD5A93C32C95276F17CEE041932C8D (RefSafetyRulesAttribute_tB0A7416B132A10D7696A5566CB09E6EBE225DB1A* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -277,7 +277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m1B0943FEB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180091
+// Method Definition Index: 180180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset__ctor_m46CD29B0A6C783B9E1FC59DE2E0F0D1AEAD99024 (LocalizationAsset_tB52AEBFEF8CB32C3F82C34F00E18764154BF9B11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -310,7 +310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset__ctor_m46CD29B0A6C783B
 		return;
 	}
 }
-// Method Definition Index: 180092
+// Method Definition Index: 180181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_Internal_CreateInstance_mC84135ED0D09DB20376DD8FD4DDF022C8C29D25B (LocalizationAsset_tB52AEBFEF8CB32C3F82C34F00E18764154BF9B11* ___0_locAsset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -327,7 +327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_Internal_CreateInstanc
 	_il2cpp_icall_func = (LocalizationAsset_Internal_CreateInstance_mC84135ED0D09DB20376DD8FD4DDF022C8C29D25B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LocalizationAsset::Internal_CreateInstance(UnityEngine.LocalizationAsset)");
 	_il2cpp_icall_func(___0_locAsset);
 }
-// Method Definition Index: 180093
+// Method Definition Index: 180182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_SetLocalizedString_m84173DFA5EA21BA9BE6F7624809B1CA9E372B851 (LocalizationAsset_tB52AEBFEF8CB32C3F82C34F00E18764154BF9B11* __this, String_t* ___0_original, String_t* ___1_localized, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -480,7 +480,7 @@ IL_0079:
 		return;
 	}
 }
-// Method Definition Index: 180094
+// Method Definition Index: 180183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LocalizationAsset_GetLocalizedString_m2715A79A67104837D21825FDA24C144C0E6ADE75 (LocalizationAsset_tB52AEBFEF8CB32C3F82C34F00E18764154BF9B11* __this, String_t* ___0_original, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -597,7 +597,7 @@ IL_0051:
 		return L_13;
 	}
 }
-// Method Definition Index: 180095
+// Method Definition Index: 180184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LocalizationAsset_get_localeIsoCode_m9313AB325D233D2797370673C25D2FE14E46F25A (LocalizationAsset_tB52AEBFEF8CB32C3F82C34F00E18764154BF9B11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -673,7 +673,7 @@ IL_0021:
 		return L_4;
 	}
 }
-// Method Definition Index: 180096
+// Method Definition Index: 180185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_set_localeIsoCode_m32F7A49BB3A7CBA6AA27B1332A5559C99BA33A09 (LocalizationAsset_tB52AEBFEF8CB32C3F82C34F00E18764154BF9B11* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -782,7 +782,7 @@ IL_0047:
 		return;
 	}
 }
-// Method Definition Index: 180097
+// Method Definition Index: 180186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LocalizationAsset_get_isEditorAsset_m3988BFB87CC7B61F1DA24D48B4F5E78C23FB4149 (LocalizationAsset_tB52AEBFEF8CB32C3F82C34F00E18764154BF9B11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -823,7 +823,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 180098
+// Method Definition Index: 180187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_set_isEditorAsset_m5FCCD7D337594A82756ED5B59436EE14AF58824E (LocalizationAsset_tB52AEBFEF8CB32C3F82C34F00E18764154BF9B11* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -864,7 +864,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 180099
+// Method Definition Index: 180188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_SetLocalizedString_Injected_mE81810E992683B5BC30262CD3848C2E29593BD80 (intptr_t ___0__unity_self, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_original, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___2_localized, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -881,7 +881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_SetLocalizedString_Inj
 	_il2cpp_icall_func = (LocalizationAsset_SetLocalizedString_Injected_mE81810E992683B5BC30262CD3848C2E29593BD80_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LocalizationAsset::SetLocalizedString_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_original, ___2_localized);
 }
-// Method Definition Index: 180100
+// Method Definition Index: 180189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_GetLocalizedString_Injected_m342BBBAD384F237EE008E5552BB7838E8525A5BE (intptr_t ___0__unity_self, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_original, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___2_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -898,7 +898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_GetLocalizedString_Inj
 	_il2cpp_icall_func = (LocalizationAsset_GetLocalizedString_Injected_m342BBBAD384F237EE008E5552BB7838E8525A5BE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LocalizationAsset::GetLocalizedString_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_original, ___2_ret);
 }
-// Method Definition Index: 180101
+// Method Definition Index: 180190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_get_localeIsoCode_Injected_m59A35BD6A138A7901B7F55F293DFEB9DEF6CA97D (intptr_t ___0__unity_self, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -915,7 +915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_get_localeIsoCode_Inje
 	_il2cpp_icall_func = (LocalizationAsset_get_localeIsoCode_Injected_m59A35BD6A138A7901B7F55F293DFEB9DEF6CA97D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LocalizationAsset::get_localeIsoCode_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_ret);
 }
-// Method Definition Index: 180102
+// Method Definition Index: 180191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_set_localeIsoCode_Injected_mB277F459E30F969E54F28CF995E69AD60CF5DD05 (intptr_t ___0__unity_self, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -932,7 +932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_set_localeIsoCode_Inje
 	_il2cpp_icall_func = (LocalizationAsset_set_localeIsoCode_Injected_mB277F459E30F969E54F28CF995E69AD60CF5DD05_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.LocalizationAsset::set_localeIsoCode_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 180103
+// Method Definition Index: 180192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LocalizationAsset_get_isEditorAsset_Injected_mF0DC76DE3AD28ED086A6039C8FBEF4194D64C811 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -950,7 +950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LocalizationAsset_get_isEditorAsset_Inje
 	bool icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 180104
+// Method Definition Index: 180193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalizationAsset_set_isEditorAsset_Injected_mA140375413B2D05913529D0DE5FB5441B234C9AC (intptr_t ___0__unity_self, bool ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

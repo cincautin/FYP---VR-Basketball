@@ -54,7 +54,7 @@ namespace FYP.Session
             return false;
         }
 
-        private static bool TryScore(string s, out int value)
+        public static bool TryScore(string s, out int value)
         {
             return int.TryParse(s.Trim(), NumberStyles.Integer, CultureInfo.InvariantCulture, out value)
                    && value >= 4 && value <= 28;

@@ -348,7 +348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_m2728CBA081E79B97DDC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180147
+// Method Definition Index: 180236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m3CC7FEB78C868005AE22363D8099E557C2B92C68 (EmbeddedAttribute_t0774D46D7938B8CA0EBCB8EE93046ABE9FBC7BCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -374,7 +374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m3CC7FEB78C86800
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180148
+// Method Definition Index: 180237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m086215480C500C2C07DD6DE0E5D00E54F810786E (RefSafetyRulesAttribute_t1A3E2D619A63CF5BFF378826B169D547646CD3F5* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -402,7 +402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m086215480
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180149
+// Method Definition Index: 180238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m897B0264A202824D377CCD9A5221B164DE2CF9DE (String_t* ___0_filename, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -428,7 +428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m897B026
 		return;
 	}
 }
-// Method Definition Index: 180150
+// Method Definition Index: 180239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m37F1E4165A2EF8B8F30294E91DC0CCA9CE0DD18A (String_t* ___0_filename, int32_t ___1_superSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -455,7 +455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m37F1E41
 		return;
 	}
 }
-// Method Definition Index: 180151
+// Method Definition Index: 180240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m29F04C72591C1763A7E8E3212E9E5EBDEA172367 (String_t* ___0_filename, int32_t ___1_stereoCaptureMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -482,7 +482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m29F04C7
 		return;
 	}
 }
-// Method Definition Index: 180152
+// Method Definition Index: 180241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ScreenCapture_CaptureScreenshotAsTexture_m3041B552FEB1E7AA144F9E36BADB0A2CAFD49512 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -505,7 +505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		return L_0;
 	}
 }
-// Method Definition Index: 180153
+// Method Definition Index: 180242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ScreenCapture_CaptureScreenshotAsTexture_mC1DA3AAAA5C492004E828D53AE9E026E40386FCE (int32_t ___0_superSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -530,7 +530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		return L_1;
 	}
 }
-// Method Definition Index: 180154
+// Method Definition Index: 180243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ScreenCapture_CaptureScreenshotAsTexture_mB76346730496084B0B6B5BE87861FE76C10B7E5E (int32_t ___0_stereoCaptureMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -555,7 +555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		return L_1;
 	}
 }
-// Method Definition Index: 180155
+// Method Definition Index: 180244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshotIntoRenderTexture_mFE70248151B56BF17669F15445392422AF3709FE (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_renderTexture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -577,7 +577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshotIntoRende
 		return;
 	}
 }
-// Method Definition Index: 180156
+// Method Definition Index: 180245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_m35F14D593665968FE8F449104B66CE35EB22344D (String_t* ___0_filename, int32_t ___1_superSize, int32_t ___2_CaptureMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -659,7 +659,7 @@ IL_0039:
 		return;
 	}
 }
-// Method Definition Index: 180157
+// Method Definition Index: 180246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ScreenCapture_CaptureScreenshotAsTexture_mFC8952EC7C888CBDB55B90213731D203527F2F1D (int32_t ___0_superSize, int32_t ___1_stereoScreenCaptureMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -683,7 +683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		return L_3;
 	}
 }
-// Method Definition Index: 180158
+// Method Definition Index: 180247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshotIntoRenderTexture_Injected_mBE878ACA5DDDB2B3E248A0BBB945FB4108E7D377 (intptr_t ___0_renderTexture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -700,7 +700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshotIntoRende
 	_il2cpp_icall_func = (ScreenCapture_CaptureScreenshotIntoRenderTexture_Injected_mBE878ACA5DDDB2B3E248A0BBB945FB4108E7D377_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ScreenCapture::CaptureScreenshotIntoRenderTexture_Injected(System.IntPtr)");
 	_il2cpp_icall_func(___0_renderTexture);
 }
-// Method Definition Index: 180159
+// Method Definition Index: 180248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_Injected_m3E20317C5BEC5A7B4D7999B677345256C5B28A4F (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_filename, int32_t ___1_superSize, int32_t ___2_CaptureMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -717,7 +717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenCapture_CaptureScreenshot_Injected
 	_il2cpp_icall_func = (ScreenCapture_CaptureScreenshot_Injected_m3E20317C5BEC5A7B4D7999B677345256C5B28A4F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ScreenCapture::CaptureScreenshot_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,System.Int32,UnityEngine.ScreenCapture/StereoScreenCaptureMode)");
 	_il2cpp_icall_func(___0_filename, ___1_superSize, ___2_CaptureMode);
 }
-// Method Definition Index: 180160
+// Method Definition Index: 180249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ScreenCapture_CaptureScreenshotAsTexture_Injected_m0A1ECF6DF4B46AB7AC6E53D5BAF9C575866BDA3A (int32_t ___0_superSize, int32_t ___1_stereoScreenCaptureMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

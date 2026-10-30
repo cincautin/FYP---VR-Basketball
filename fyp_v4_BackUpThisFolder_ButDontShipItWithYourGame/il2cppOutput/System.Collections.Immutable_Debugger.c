@@ -2202,8 +2202,8 @@ Il2CppSequencePoint g_sequencePointsSystem_Collections_Immutable[1] = { { 0, 0, 
 #endif
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppCatchPoint g_catchPoints[] = {
-{ 143590, 44046, 25, 0, -1 },
-{ 145379, 33682, 410, 2, -1 },
+{ 143590, 44070, 25, 0, -1 },
+{ 145379, 33694, 410, 2, -1 },
 };
 #else
 static const Il2CppCatchPoint g_catchPoints[1] = { { 0, 0, 0, 0, } };

@@ -147,7 +147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EngineDiagnostics_IsInsightsEnabled_m22F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180568
+// Method Definition Index: 180657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m68AB2218BD6DE1807664213349DF0105CD5E728F (EmbeddedAttribute_tF130637893C45CBE641F8F09AFAC64393D05FED9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -173,7 +173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m68AB2218BD6DE18
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180569
+// Method Definition Index: 180658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m18057BF148A0EF13A45343A3731E01219CF63F64 (RefSafetyRulesAttribute_tA85D7AA9061063118138726F70C00215CB4B09FD* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -201,7 +201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m18057BF14
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180570
+// Method Definition Index: 180659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EngineDiagnostics_IsInsightsEnabled_m22F290F9F2A9E65BA397AA5B6C7CE64D67032F50 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -219,7 +219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EngineDiagnostics_IsInsightsEnabled_m22F
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 180571
+// Method Definition Index: 180660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EngineDiagnostics_get_IsInitialized_m42F4B01FB9DB216C753386A74DCC85040B194878 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -241,7 +241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EngineDiagnostics_get_IsInitialized_m42F
 		return L_0;
 	}
 }
-// Method Definition Index: 180572
+// Method Definition Index: 180661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EngineDiagnostics_set_IsInitialized_m8DB24A6D73AEF218664EF502248E4314772DAC66 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -265,7 +265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EngineDiagnostics_set_IsInitialized_m8DB
 		return;
 	}
 }
-// Method Definition Index: 180573
+// Method Definition Index: 180662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EngineDiagnostics_IsEventAllowed_mFC43589C5002F026056B9CB911ADCC70006D330F (int32_t ___0_eventType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -283,7 +283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EngineDiagnostics_IsEventAllowed_mFC4358
 	bool icallRetVal = _il2cpp_icall_func(___0_eventType);
 	return icallRetVal;
 }
-// Method Definition Index: 180574
+// Method Definition Index: 180663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EngineDiagnostics_LogEvent_m5D9043A816E4C83940AC77E41E243689EED41A3D (int32_t ___0_eventType, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_eventData, bool ___2_immediate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -324,7 +324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EngineDiagnostics_LogEvent_m5D9043A816E4
 		return;
 	}
 }
-// Method Definition Index: 180575
+// Method Definition Index: 180664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EngineDiagnostics__cctor_m859717F4B030053792D5284B47E3E5FA60BEBBC5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -349,7 +349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EngineDiagnostics__cctor_m859717F4B03005
 		return;
 	}
 }
-// Method Definition Index: 180576
+// Method Definition Index: 180665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EngineDiagnostics_LogEvent_Injected_m22A0C864D8AE50432E9B49F6E99265F602C18595 (int32_t ___0_eventType, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_eventData, bool ___2_immediate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

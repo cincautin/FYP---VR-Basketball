@@ -43,8 +43,8 @@ namespace FYP.Logging
         private string lvlTimer = "NA";
         private string choiceBallSkin = "NA", choiceEnvironment = "NA", choiceFbType = "NA", choiceFbFreq = "NA";
 
-        // Current in-flight throw state
-        private PendingThrow activePendingThrow = null;
+        // Throws in flight, one per ball (several rack balls can be in the air at once)
+        private readonly List<PendingThrow> pendingThrows = new List<PendingThrow>(4);
         private bool shotClockExpiredThisHold;
         private Basketball currentlyHeldBall = null;
         private float currentBallGrabStartTime = 0f;
@@ -83,7 +83,7 @@ namespace FYP.Logging
 
             blockStartTime = Time.time;
             EnsureHoopTarget();
-            EnsureCsvHeader();
+            // No EnsureCsvHeader() here: SetSession creates the file, so launches no longer leave an empty TEST_S000.csv.
         }
 
         private void OnEnable()
@@ -205,8 +205,11 @@ namespace FYP.Logging
             choiceFbFreq = feedbackFrequency;
         }
 
-        /// <summary>True while a released ball's outcome has not been logged yet.</summary>
-        public bool HasPendingThrow => activePendingThrow != null;
+        /// <summary>True while any released ball's outcome has not been logged yet.</summary>
+        public bool HasPendingThrow => pendingThrows.Count > 0;
+
+        /// <summary>The ball of the most recently logged throw (valid inside OnThrowLogged handlers).</summary>
+        public Basketball LastResolvedBall { get; private set; }
 
         /// <summary>Called by TimerElement when the shot clock runs out while a ball is held.</summary>
         public void SetShotClockExpiredForCurrentHold(bool expired)
@@ -220,11 +223,10 @@ namespace FYP.Logging
 
         private void HandleBallGrabbed(Basketball ball, string hand)
         {
-            // If a previous throw was still awaiting outcome when a new ball is grabbed, resolve as miss
-            if (activePendingThrow != null)
-            {
-                ResolveThrow(false);
-            }
+            // Re-grabbing a ball before its throw resolved ends that throw as a miss.
+            // Other balls still in the air keep their own pending throws (grabbing the next ball must not turn a make into a miss).
+            PendingThrow same = FindPending(ball);
+            if (same != null) ResolveThrow(same, false);
 
             currentlyHeldBall = ball;
             shotClockExpiredThisHold = false;
@@ -234,11 +236,9 @@ namespace FYP.Logging
 
         private void HandleBallReleased(Basketball ball)
         {
-            // If another throw was somehow still active, resolve it as a miss
-            if (activePendingThrow != null)
-            {
-                ResolveThrow(false);
-            }
+            // If this ball somehow still has an unresolved throw, resolve it as a miss
+            PendingThrow same = FindPending(ball);
+            if (same != null) ResolveThrow(same, false);
 
             float releaseTime = Time.time;
             float timeHeld = Mathf.Max(0.001f, releaseTime - currentBallGrabStartTime);
@@ -260,7 +260,7 @@ namespace FYP.Logging
                     return;
                 }
 
-                activePendingThrow = new PendingThrow
+                pendingThrows.Add(new PendingThrow
                 {
                     Ball = ball,
                     ReleaseTime = releaseTime,
@@ -269,7 +269,7 @@ namespace FYP.Logging
                     ReleaseVel = releaseVel,
                     Hand = hand,
                     ShotClockExpired = shotClockExpiredThisHold,
-                };
+                });
             }
             else
             {
@@ -296,7 +296,7 @@ namespace FYP.Logging
             }
 
             // Arm the pending throw
-            activePendingThrow = new PendingThrow
+            var pending = new PendingThrow
             {
                 Ball = ball,
                 ReleaseTime = releaseTime,
@@ -305,52 +305,55 @@ namespace FYP.Logging
                 ReleaseVel = releaseVel,
                 Hand = hand,
                 ShotClockExpired = shotClockExpiredThisHold,
-                TimeoutCoroutine = StartCoroutine(ThrowTimeoutCoroutine(releaseTime))
             };
+            pending.TimeoutCoroutine = StartCoroutine(ThrowTimeoutCoroutine(pending));
+            pendingThrows.Add(pending);
         }
 
-        private IEnumerator ThrowTimeoutCoroutine(float releaseTime)
+        private IEnumerator ThrowTimeoutCoroutine(PendingThrow pending)
         {
             yield return new WaitForSeconds(8.0f);
 
-            if (activePendingThrow != null && Mathf.Approximately(activePendingThrow.ReleaseTime, releaseTime))
+            if (pendingThrows.Contains(pending))
             {
-                ResolveThrow(false);
+                ResolveThrow(pending, false);
             }
+        }
+
+        private PendingThrow FindPending(Basketball ball)
+        {
+            for (int i = 0; i < pendingThrows.Count; i++)
+                if (pendingThrows[i].Ball == ball) return pendingThrows[i];
+            return null;
         }
 
         private void HandleBallMade(GameObject ballObject)
         {
-            if (activePendingThrow == null) return;
-
-            // Check if the made ball matches the current active throw
-            if (activePendingThrow.Ball == null || activePendingThrow.Ball.gameObject == ballObject)
+            // Match the made ball to its own pending throw
+            for (int i = 0; i < pendingThrows.Count; i++)
             {
-                ResolveThrow(true);
+                if (pendingThrows[i].Ball != null && pendingThrows[i].Ball.gameObject == ballObject)
+                {
+                    ResolveThrow(pendingThrows[i], true);
+                    return;
+                }
             }
         }
 
         private void HandleBallHitFloorOrOutOfBounds(Basketball ball)
         {
-            if (activePendingThrow == null) return;
-
-            // If the active ball hit the floor or went out of bounds without scoring, resolve as miss
-            if (activePendingThrow.Ball == null || activePendingThrow.Ball == ball)
-            {
-                ResolveThrow(false);
-            }
+            // If this ball hit the floor or went out of bounds without scoring, resolve its throw as a miss
+            PendingThrow pending = FindPending(ball);
+            if (pending != null) ResolveThrow(pending, false);
         }
 
         #endregion
 
         #region Resolution & CSV Writing
 
-        private void ResolveThrow(bool made)
+        private void ResolveThrow(PendingThrow pending, bool made)
         {
-            if (activePendingThrow == null) return;
-
-            PendingThrow pending = activePendingThrow;
-            activePendingThrow = null; // Clear immediately to guarantee exactly one outcome per throw
+            if (!pendingThrows.Remove(pending)) return; // Remove first to guarantee exactly one outcome per throw
 
             if (pending.TimeoutCoroutine != null)
             {
@@ -422,6 +425,7 @@ namespace FYP.Logging
             AppendRecordToCsv(record);
 
             // Broadcast event
+            LastResolvedBall = pending.Ball;
             OnThrowLogged?.Invoke(record);
 
             // Debug output: one concise line per throw

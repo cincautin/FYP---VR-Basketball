@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using Oculus.Interaction;
+using System.Collections;
 
 namespace VRBasketball
 {
@@ -23,6 +24,13 @@ namespace VRBasketball
         [SerializeField] private float strayReturnSeconds = 3f;
         [Tooltip("How far from its spot a ball must be to count as a stray (metres).")]
         [SerializeField] private float strayMinDistance = 0.4f;
+
+        [Header("Respawn")]
+        [SerializeField] private int maxRespawnAttempts = 4;
+        [Tooltip("How far from its spot (metres) the ball may be once the respawn has settled.")]
+        [SerializeField] private float respawnTolerance = 0.15f;
+        [SerializeField] private bool logRespawnProblems = true;
+        private Coroutine respawnRoutine;
 
         private Rigidbody rb;
         private Grabbable grabbable;
@@ -212,15 +220,62 @@ namespace VRBasketball
 
         public void Respawn()
         {
-            rb.linearVelocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-            transform.position = initialSpawnPosition;
-            transform.rotation = initialSpawnRotation;
+            // Reset the logic flags straight away
             hasBeenShot = false;
             hitFloorSinceShot = false;
             restTimer = 0f;
             strayTimer = 0f;
             grabEventRaised = false;
+
+            if (!isActiveAndEnabled)
+            {
+                transform.SetPositionAndRotation(initialSpawnPosition, initialSpawnRotation);
+                return;
+            }
+
+            if (respawnRoutine != null) StopCoroutine(respawnRoutine);
+            respawnRoutine = StartCoroutine(RespawnRoutine());
+        }
+
+        private IEnumerator RespawnRoutine()
+        {
+            RigidbodyInterpolation originalInterpolation = rb.interpolation;
+
+            for (int attempt = 1; attempt <= maxRespawnAttempts; attempt++)
+            {
+                // Freeze physics and interpolation, so nothing can pull the ball back while it is moved
+                rb.interpolation = RigidbodyInterpolation.None;
+                rb.isKinematic = true;
+                transform.SetPositionAndRotation(initialSpawnPosition, initialSpawnRotation);
+                rb.position = initialSpawnPosition;
+                rb.rotation = initialSpawnRotation;
+                Physics.SyncTransforms();
+
+                yield return new WaitForFixedUpdate();
+
+                rb.isKinematic = false;
+                rb.linearVelocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
+
+                yield return new WaitForFixedUpdate();
+                yield return null;
+
+                if (Vector3.Distance(transform.position, initialSpawnPosition) <= respawnTolerance) break;
+
+                if (logRespawnProblems)
+                {
+                    string scripts = "";
+                    foreach (MonoBehaviour m in GetComponents<MonoBehaviour>())
+                        if (m != null) scripts += m.GetType().Name + " ";
+
+                    Debug.LogWarning("[Basketball] Respawn attempt " + attempt + " on '" + name + "' did not stick. Now at " +
+                                    transform.position + ", wanted " + initialSpawnPosition + ". Parent: " +
+                                    (transform.parent != null ? transform.parent.name : "none") + ". Scripts: " + scripts);
+                }
+            }
+
+            rb.interpolation = originalInterpolation;
+            respawnRoutine = null;
         }
 
         public void NotifyHitFloorOrOutOfBounds()

@@ -20,10 +20,10 @@ static Il2CppMethodPointer s_methodPointers[4] =
 };
 static const int32_t s_InvokerIndices[4] = 
 {
-	36944,
-	23374,
-	35360,
-	29691,
+	36945,
+	23375,
+	35361,
+	29692,
 };
 extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationmeta_xr_ai_mcpbridge_telemetry;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_meta_xr_ai_mcpbridge_telemetry_CodeGenModule;

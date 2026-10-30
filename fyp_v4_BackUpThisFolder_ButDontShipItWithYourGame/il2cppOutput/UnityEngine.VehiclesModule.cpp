@@ -360,7 +360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider__ctor_m8975C6CCFC0E5740C523DB4A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179497
+// Method Definition Index: 179586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mDBE6287251893685DD223C2CB30EE3D9FEF81FC6 (EmbeddedAttribute_t8EC3D368E702A287AC770B103BF411C2D448E1E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -386,7 +386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mDBE628725189368
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179498
+// Method Definition Index: 179587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m8ACE9CA62B01738689D4A54B77C57053B803D7D3 (RefSafetyRulesAttribute_t0078CC4F3C688D857BF97634C6A71F95FBC6AFE2* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -468,7 +468,7 @@ IL2CPP_EXTERN_C void WheelHit_t15D44A463BF2792AD26161787B98CB5698519455_marshal_
 IL2CPP_EXTERN_C void WheelHit_t15D44A463BF2792AD26161787B98CB5698519455_marshal_com_cleanup(WheelHit_t15D44A463BF2792AD26161787B98CB5698519455_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 179499
+// Method Definition Index: 179588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* WheelHit_get_collider_m6E4EC72042B62AE08340187AD82D6B8FEF8DE09D (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -498,7 +498,7 @@ IL2CPP_EXTERN_C  Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* WheelHit_ge
 	_returnValue = WheelHit_get_collider_m6E4EC72042B62AE08340187AD82D6B8FEF8DE09D_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 179500
+// Method Definition Index: 179589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelHit_set_collider_m661F87C36616207CF90615A16C102A6124EB15B2 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -531,7 +531,7 @@ IL2CPP_EXTERN_C  void WheelHit_set_collider_m661F87C36616207CF90615A16C102A6124E
 	_thisAdjusted = il2cpp_codegen_get_raw_data<WheelHit_t15D44A463BF2792AD26161787B98CB5698519455>(__this);
 	WheelHit_set_collider_m661F87C36616207CF90615A16C102A6124EB15B2_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 179501
+// Method Definition Index: 179590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_point_m9F7E614D1E1C6BAAF3392D3E21FF98FB9C9E370C (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -561,7 +561,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_
 	_returnValue = WheelHit_get_point_m9F7E614D1E1C6BAAF3392D3E21FF98FB9C9E370C_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 179502
+// Method Definition Index: 179591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelHit_set_point_m6FE90840F9AC30F65E5E9DF4561BC4146D60E507 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -593,7 +593,7 @@ IL2CPP_EXTERN_C  void WheelHit_set_point_m6FE90840F9AC30F65E5E9DF4561BC4146D60E5
 	_thisAdjusted = il2cpp_codegen_get_raw_data<WheelHit_t15D44A463BF2792AD26161787B98CB5698519455>(__this);
 	WheelHit_set_point_m6FE90840F9AC30F65E5E9DF4561BC4146D60E507_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 179503
+// Method Definition Index: 179592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_normal_mD59C9DB64546E22ADE3CA24DEE638F6F8168F162 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -623,7 +623,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_
 	_returnValue = WheelHit_get_normal_mD59C9DB64546E22ADE3CA24DEE638F6F8168F162_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 179504
+// Method Definition Index: 179593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelHit_set_normal_m2A9BD0A7000CC5101129402A92AA2589C65F8454 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -655,7 +655,7 @@ IL2CPP_EXTERN_C  void WheelHit_set_normal_m2A9BD0A7000CC5101129402A92AA2589C65F8
 	_thisAdjusted = il2cpp_codegen_get_raw_data<WheelHit_t15D44A463BF2792AD26161787B98CB5698519455>(__this);
 	WheelHit_set_normal_m2A9BD0A7000CC5101129402A92AA2589C65F8454_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 179505
+// Method Definition Index: 179594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_forwardDir_mEC17414DD098E3BB4080E356221BB5655E3E3100 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -685,7 +685,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_
 	_returnValue = WheelHit_get_forwardDir_mEC17414DD098E3BB4080E356221BB5655E3E3100_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 179506
+// Method Definition Index: 179595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelHit_set_forwardDir_m0A02053AD079E33E59E488929C0E84CB07BF6D92 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -717,7 +717,7 @@ IL2CPP_EXTERN_C  void WheelHit_set_forwardDir_m0A02053AD079E33E59E488929C0E84CB0
 	_thisAdjusted = il2cpp_codegen_get_raw_data<WheelHit_t15D44A463BF2792AD26161787B98CB5698519455>(__this);
 	WheelHit_set_forwardDir_m0A02053AD079E33E59E488929C0E84CB07BF6D92_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 179507
+// Method Definition Index: 179596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_sidewaysDir_mF1D87D1AFD314249E2BCC4F7FCD78B03752BD475 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -747,7 +747,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_
 	_returnValue = WheelHit_get_sidewaysDir_mF1D87D1AFD314249E2BCC4F7FCD78B03752BD475_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 179508
+// Method Definition Index: 179597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelHit_set_sidewaysDir_mA8A9A18917737810ED96C9B7E7BD8E4AA4FD3D64 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -779,7 +779,7 @@ IL2CPP_EXTERN_C  void WheelHit_set_sidewaysDir_mA8A9A18917737810ED96C9B7E7BD8E4A
 	_thisAdjusted = il2cpp_codegen_get_raw_data<WheelHit_t15D44A463BF2792AD26161787B98CB5698519455>(__this);
 	WheelHit_set_sidewaysDir_mA8A9A18917737810ED96C9B7E7BD8E4AA4FD3D64_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 179509
+// Method Definition Index: 179598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelHit_get_force_m682670758B8A3054D2A12AE5179625DC1899EA1E (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -809,7 +809,7 @@ IL2CPP_EXTERN_C  float WheelHit_get_force_m682670758B8A3054D2A12AE5179625DC1899E
 	_returnValue = WheelHit_get_force_m682670758B8A3054D2A12AE5179625DC1899EA1E_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 179510
+// Method Definition Index: 179599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelHit_set_force_m78BDB39182947B9A52424CBA33D2874D61A7232F (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -841,7 +841,7 @@ IL2CPP_EXTERN_C  void WheelHit_set_force_m78BDB39182947B9A52424CBA33D2874D61A723
 	_thisAdjusted = il2cpp_codegen_get_raw_data<WheelHit_t15D44A463BF2792AD26161787B98CB5698519455>(__this);
 	WheelHit_set_force_m78BDB39182947B9A52424CBA33D2874D61A7232F_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 179511
+// Method Definition Index: 179600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelHit_get_forwardSlip_m1BA6AA2379368EFE2200B92AB4CA20F1AD537CCE (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -871,7 +871,7 @@ IL2CPP_EXTERN_C  float WheelHit_get_forwardSlip_m1BA6AA2379368EFE2200B92AB4CA20F
 	_returnValue = WheelHit_get_forwardSlip_m1BA6AA2379368EFE2200B92AB4CA20F1AD537CCE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 179512
+// Method Definition Index: 179601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelHit_set_forwardSlip_mB96F4BFFC19D83031568E1A1BCF20B1AA61B91A4 (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -903,7 +903,7 @@ IL2CPP_EXTERN_C  void WheelHit_set_forwardSlip_mB96F4BFFC19D83031568E1A1BCF20B1A
 	_thisAdjusted = il2cpp_codegen_get_raw_data<WheelHit_t15D44A463BF2792AD26161787B98CB5698519455>(__this);
 	WheelHit_set_forwardSlip_mB96F4BFFC19D83031568E1A1BCF20B1AA61B91A4_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 179513
+// Method Definition Index: 179602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelHit_get_sidewaysSlip_m7E27E0B36C1CC096C56B8815B7C1E7D380D6627B (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -933,7 +933,7 @@ IL2CPP_EXTERN_C  float WheelHit_get_sidewaysSlip_m7E27E0B36C1CC096C56B8815B7C1E7
 	_returnValue = WheelHit_get_sidewaysSlip_m7E27E0B36C1CC096C56B8815B7C1E7D380D6627B_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 179514
+// Method Definition Index: 179603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelHit_set_sidewaysSlip_m66A9374E3A9F8C12EDD482BC1C370809DCD79C1E (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -973,7 +973,7 @@ IL2CPP_EXTERN_C  void WheelHit_set_sidewaysSlip_m66A9374E3A9F8C12EDD482BC1C37080
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179515
+// Method Definition Index: 179604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelCollider_get_center_mE21895BF5F8C9C2523B9468B2C9DA88737A4E163 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1016,7 +1016,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179516
+// Method Definition Index: 179605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_center_m734D85FB64BF40A15DB24954792FCD177D4148BB (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1056,7 +1056,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179517
+// Method Definition Index: 179606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_radius_m68CC3DE301E0C6226E85F99D853365DA1244CD1F (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1097,7 +1097,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179518
+// Method Definition Index: 179607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_radius_m43AA4113465733E26DD8B01774C9AD6C32424184 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1138,7 +1138,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179519
+// Method Definition Index: 179608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_suspensionDistance_mD1EE97B03FB1E744BCF24DC988806F52AE98A55F (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1179,7 +1179,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179520
+// Method Definition Index: 179609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionDistance_mED5D19A954DD3C7030B4D336466BF0EA1BB20348 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1220,7 +1220,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179521
+// Method Definition Index: 179610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JointSpring_t5223C53C8742463D5615BE8E9772EC0EE2EBBBD5 WheelCollider_get_suspensionSpring_m046582E587BF5AC228C2022D25A822BC4B4B9543 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1263,7 +1263,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179522
+// Method Definition Index: 179611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionSpring_m2E4ACAB8BE03081A58E217DAE84819CFA51A82B7 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, JointSpring_t5223C53C8742463D5615BE8E9772EC0EE2EBBBD5 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1303,7 +1303,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179523
+// Method Definition Index: 179612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_suspensionExpansionLimited_m63789B6183F4BE5952F897F591A0725791737626 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1344,7 +1344,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179524
+// Method Definition Index: 179613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionExpansionLimited_m0CF4E265551DF168D9F6C450E7737CC63B94F76B (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1385,7 +1385,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179525
+// Method Definition Index: 179614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_forceAppPointDistance_m1747E5D2D20CA6BE0C1A22086F64DC5BAC6FFC76 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1426,7 +1426,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179526
+// Method Definition Index: 179615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_forceAppPointDistance_m115F21BA7FB72B5006506B77F12DE97E4E497CDB (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1467,7 +1467,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179527
+// Method Definition Index: 179616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_mass_mD45E3CDD818D42BE6FD1AFC9EB8B3993F36F2628 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1508,7 +1508,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179528
+// Method Definition Index: 179617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_mass_mD6C319FDA15773358ACC232179C404D16938468E (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1549,7 +1549,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179529
+// Method Definition Index: 179618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_wheelDampingRate_m0BAF4121AC0CBC647F171E7EC7CE599D698733D0 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1590,7 +1590,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179530
+// Method Definition Index: 179619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_wheelDampingRate_mAE9252CADFC480A8CCE089424C86B17261FC4505 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1631,7 +1631,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179531
+// Method Definition Index: 179620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WheelFrictionCurve_tB7103DCB44101BD02986974ED9D4EE6B880E8810 WheelCollider_get_forwardFriction_mB0B8AB7668623F8646FFB1E6CD81E540B6EE51B0 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1674,7 +1674,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179532
+// Method Definition Index: 179621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_forwardFriction_m1932872F22DD4D5584C0D14FBDCD56848F111510 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, WheelFrictionCurve_tB7103DCB44101BD02986974ED9D4EE6B880E8810 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1714,7 +1714,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179533
+// Method Definition Index: 179622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WheelFrictionCurve_tB7103DCB44101BD02986974ED9D4EE6B880E8810 WheelCollider_get_sidewaysFriction_m7924ABBBB268B7F1FD8630733B6375CAFC2621E8 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1757,7 +1757,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179534
+// Method Definition Index: 179623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_sidewaysFriction_mB2062696F29B4275C7F5B2874FD333ECD2325DA8 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, WheelFrictionCurve_tB7103DCB44101BD02986974ED9D4EE6B880E8810 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1797,7 +1797,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179535
+// Method Definition Index: 179624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_motorTorque_m2DDC12B29636466D0A818AE6C324E5FA586A253F (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1838,7 +1838,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179536
+// Method Definition Index: 179625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_motorTorque_m4958AAF7D867CF7570420F9BAFAF04DC904F02A8 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1879,7 +1879,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179537
+// Method Definition Index: 179626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_brakeTorque_mEE588755CF490EE5274CE0AD385D6F7CACB46FFF (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1920,7 +1920,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179538
+// Method Definition Index: 179627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_brakeTorque_mB9B216C57C275470907C7DB35185E2F192DC8DAB (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1961,7 +1961,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179539
+// Method Definition Index: 179628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_steerAngle_mF0A004554F1509F1DA233AC71A7A2C9C36CC9EE5 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2002,7 +2002,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179540
+// Method Definition Index: 179629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_steerAngle_m7BF83B27D8956355F873537939BE9F35CF3113C3 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2043,7 +2043,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179541
+// Method Definition Index: 179630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_isGrounded_mA24C86DA670A02E01ACE176B4AF30F801244F327 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2084,7 +2084,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179542
+// Method Definition Index: 179631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_rpm_m7AFAA813ED3965AE4B2A2E7CBC6FB2B26B68ED52 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2125,7 +2125,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179543
+// Method Definition Index: 179632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_sprungMass_m68CE93EA82BB593FEFE5E68AC4EBF4611B55336B (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2166,7 +2166,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179544
+// Method Definition Index: 179633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_sprungMass_mD08590C595A5225CBA750CDD7E34E38BC981AD93 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2207,7 +2207,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179545
+// Method Definition Index: 179634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_rotationSpeed_m4AF2BB0179449931F726EFB4494FF46C124351BF (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2248,7 +2248,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179546
+// Method Definition Index: 179635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_rotationSpeed_mF96EF49476E8C2BB92B7941DBD6FD11EB5697D5A (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2289,7 +2289,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179547
+// Method Definition Index: 179636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_ResetSprungMasses_m03C9446B194EC15CE5CC2EC7A3CF3950D8BDC327 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2329,7 +2329,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179548
+// Method Definition Index: 179637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_ConfigureVehicleSubsteps_mE2D86B3F981158E554EBD8F79F255F359EBD1488 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, float ___0_speedThreshold, int32_t ___1_stepsBelowThreshold, int32_t ___2_stepsAboveThreshold, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2372,7 +2372,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179549
+// Method Definition Index: 179638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_GetWorldPose_m8C41FA2AE9ED543AB94A6E3226523A2FE83FA890 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_quat, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2414,7 +2414,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 179550
+// Method Definition Index: 179639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_GetGroundHit_mCB73878577BC5AAEBEA8572FA62326C4C71B3EF2 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* ___0_hit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2456,7 +2456,7 @@ IL_000f:
 		return L_3;
 	}
 }
-// Method Definition Index: 179551
+// Method Definition Index: 179640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_isSupported_m1637582F56F09A179AB609965FAA5C008DB840C8 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2497,7 +2497,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 179552
+// Method Definition Index: 179641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider__ctor_mD44B2C97960274797DABD055BBEB18E664DAD906 (WheelCollider_t4E35407C7AFEFA3DB30E9FFE3C38C9A5C5933481* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2515,7 +2515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider__ctor_mD44B2C97960274797DA
 		return;
 	}
 }
-// Method Definition Index: 179553
+// Method Definition Index: 179642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_get_center_Injected_mE4B2D702B6E31DD30DD7E6ED7E152BC32423FC61 (intptr_t ___0__unity_self, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2532,7 +2532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_get_center_Injected_mE4B2D
 	_il2cpp_icall_func = (WheelCollider_get_center_Injected_mE4B2D702B6E31DD30DD7E6ED7E152BC32423FC61_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::get_center_Injected(System.IntPtr,UnityEngine.Vector3&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_ret);
 }
-// Method Definition Index: 179554
+// Method Definition Index: 179643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_center_Injected_m428847D6C154ECA957B6033DFC500E7C7905C11F (intptr_t ___0__unity_self, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2549,7 +2549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_center_Injected_m42884
 	_il2cpp_icall_func = (WheelCollider_set_center_Injected_m428847D6C154ECA957B6033DFC500E7C7905C11F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_center_Injected(System.IntPtr,UnityEngine.Vector3&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179555
+// Method Definition Index: 179644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_radius_Injected_m5CD5D0CB11C12B733B28C52AA4E40E88DA2A5FE0 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2567,7 +2567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_radius_Injected_m5CD5
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179556
+// Method Definition Index: 179645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_radius_Injected_mAE6D905B1F3F42CDC1806917730A14657EE28989 (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2584,7 +2584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_radius_Injected_mAE6D9
 	_il2cpp_icall_func = (WheelCollider_set_radius_Injected_mAE6D905B1F3F42CDC1806917730A14657EE28989_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_radius_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179557
+// Method Definition Index: 179646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_suspensionDistance_Injected_m850774CCC703B484661C119D1808EA0484D86E7F (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2602,7 +2602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_suspensionDistance_In
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179558
+// Method Definition Index: 179647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionDistance_Injected_m02A767E5525EDB8024DA6687D99B1115E746556C (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2619,7 +2619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionDistance_Inj
 	_il2cpp_icall_func = (WheelCollider_set_suspensionDistance_Injected_m02A767E5525EDB8024DA6687D99B1115E746556C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_suspensionDistance_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179559
+// Method Definition Index: 179648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_get_suspensionSpring_Injected_m15DDA907765221AF05134BBEEC29943CF0BD0F20 (intptr_t ___0__unity_self, JointSpring_t5223C53C8742463D5615BE8E9772EC0EE2EBBBD5* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2636,7 +2636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_get_suspensionSpring_Injec
 	_il2cpp_icall_func = (WheelCollider_get_suspensionSpring_Injected_m15DDA907765221AF05134BBEEC29943CF0BD0F20_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::get_suspensionSpring_Injected(System.IntPtr,UnityEngine.JointSpring&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_ret);
 }
-// Method Definition Index: 179560
+// Method Definition Index: 179649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionSpring_Injected_mE1BB7A53187F8D1F26E5152B6E1B88691C8BFBC6 (intptr_t ___0__unity_self, JointSpring_t5223C53C8742463D5615BE8E9772EC0EE2EBBBD5* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2653,7 +2653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionSpring_Injec
 	_il2cpp_icall_func = (WheelCollider_set_suspensionSpring_Injected_mE1BB7A53187F8D1F26E5152B6E1B88691C8BFBC6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_suspensionSpring_Injected(System.IntPtr,UnityEngine.JointSpring&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179561
+// Method Definition Index: 179650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_suspensionExpansionLimited_Injected_mD13F5841C6F6A128396FA17D4F99C0900A37D7C5 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2671,7 +2671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_suspensionExpansionLim
 	bool icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179562
+// Method Definition Index: 179651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionExpansionLimited_Injected_m4485AC614D3373DB1919D9E717062F1A132105AA (intptr_t ___0__unity_self, bool ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2688,7 +2688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_suspensionExpansionLim
 	_il2cpp_icall_func = (WheelCollider_set_suspensionExpansionLimited_Injected_m4485AC614D3373DB1919D9E717062F1A132105AA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_suspensionExpansionLimited_Injected(System.IntPtr,System.Boolean)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179563
+// Method Definition Index: 179652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_forceAppPointDistance_Injected_m1B68914344C43EE9F86D77EDFA72A83ABC99CBA1 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2706,7 +2706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_forceAppPointDistance
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179564
+// Method Definition Index: 179653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_forceAppPointDistance_Injected_m6A94C0250FEB50905ED5A244D795B127253EEAAC (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2723,7 +2723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_forceAppPointDistance_
 	_il2cpp_icall_func = (WheelCollider_set_forceAppPointDistance_Injected_m6A94C0250FEB50905ED5A244D795B127253EEAAC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_forceAppPointDistance_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179565
+// Method Definition Index: 179654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_mass_Injected_mCE1E4A840A764850C8A6AD5AB35866B72264DBA9 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2741,7 +2741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_mass_Injected_mCE1E4A
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179566
+// Method Definition Index: 179655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_mass_Injected_m5EBC3BFAF5EEEAECE9ECCD95F200DEC0E4E369AF (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2758,7 +2758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_mass_Injected_m5EBC3BF
 	_il2cpp_icall_func = (WheelCollider_set_mass_Injected_m5EBC3BFAF5EEEAECE9ECCD95F200DEC0E4E369AF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_mass_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179567
+// Method Definition Index: 179656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_wheelDampingRate_Injected_mEF0579D34E0B71319601E898C531A30BED4E0EDA (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2776,7 +2776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_wheelDampingRate_Inje
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179568
+// Method Definition Index: 179657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_wheelDampingRate_Injected_m2429D94ED7D3B1290B547B2B5EC6DB9E1450DCEC (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2793,7 +2793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_wheelDampingRate_Injec
 	_il2cpp_icall_func = (WheelCollider_set_wheelDampingRate_Injected_m2429D94ED7D3B1290B547B2B5EC6DB9E1450DCEC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_wheelDampingRate_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179569
+// Method Definition Index: 179658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_get_forwardFriction_Injected_mB00ACC3CAA3B6994E07E6FD32AF88786835E815A (intptr_t ___0__unity_self, WheelFrictionCurve_tB7103DCB44101BD02986974ED9D4EE6B880E8810* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2810,7 +2810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_get_forwardFriction_Inject
 	_il2cpp_icall_func = (WheelCollider_get_forwardFriction_Injected_mB00ACC3CAA3B6994E07E6FD32AF88786835E815A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::get_forwardFriction_Injected(System.IntPtr,UnityEngine.WheelFrictionCurve&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_ret);
 }
-// Method Definition Index: 179570
+// Method Definition Index: 179659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_forwardFriction_Injected_mFB7251606FB9AEBA6B2691407DA0E8CEC17D83B0 (intptr_t ___0__unity_self, WheelFrictionCurve_tB7103DCB44101BD02986974ED9D4EE6B880E8810* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2827,7 +2827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_forwardFriction_Inject
 	_il2cpp_icall_func = (WheelCollider_set_forwardFriction_Injected_mFB7251606FB9AEBA6B2691407DA0E8CEC17D83B0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_forwardFriction_Injected(System.IntPtr,UnityEngine.WheelFrictionCurve&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179571
+// Method Definition Index: 179660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_get_sidewaysFriction_Injected_m115463FA7EB8BB2ED03141EC55FDEE029BBB2C73 (intptr_t ___0__unity_self, WheelFrictionCurve_tB7103DCB44101BD02986974ED9D4EE6B880E8810* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2844,7 +2844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_get_sidewaysFriction_Injec
 	_il2cpp_icall_func = (WheelCollider_get_sidewaysFriction_Injected_m115463FA7EB8BB2ED03141EC55FDEE029BBB2C73_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::get_sidewaysFriction_Injected(System.IntPtr,UnityEngine.WheelFrictionCurve&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_ret);
 }
-// Method Definition Index: 179572
+// Method Definition Index: 179661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_sidewaysFriction_Injected_m42CC1E33775FF0A3EA7D33C44DC1F4F6E4C24DA1 (intptr_t ___0__unity_self, WheelFrictionCurve_tB7103DCB44101BD02986974ED9D4EE6B880E8810* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2861,7 +2861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_sidewaysFriction_Injec
 	_il2cpp_icall_func = (WheelCollider_set_sidewaysFriction_Injected_m42CC1E33775FF0A3EA7D33C44DC1F4F6E4C24DA1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_sidewaysFriction_Injected(System.IntPtr,UnityEngine.WheelFrictionCurve&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179573
+// Method Definition Index: 179662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_motorTorque_Injected_m36C99CBC1783A537160723D1530C150E2D3C075F (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2879,7 +2879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_motorTorque_Injected_
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179574
+// Method Definition Index: 179663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_motorTorque_Injected_mDC3AFD111B0711D6D7450F3FDCC18386352888C2 (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2896,7 +2896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_motorTorque_Injected_m
 	_il2cpp_icall_func = (WheelCollider_set_motorTorque_Injected_mDC3AFD111B0711D6D7450F3FDCC18386352888C2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_motorTorque_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179575
+// Method Definition Index: 179664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_brakeTorque_Injected_mB40FEA870D8466A725972FBDB3D2D099A9DC15F7 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2914,7 +2914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_brakeTorque_Injected_
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179576
+// Method Definition Index: 179665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_brakeTorque_Injected_mF745FF43BCCE204923ABCF9FD3F0725BFB6927E2 (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2931,7 +2931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_brakeTorque_Injected_m
 	_il2cpp_icall_func = (WheelCollider_set_brakeTorque_Injected_mF745FF43BCCE204923ABCF9FD3F0725BFB6927E2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_brakeTorque_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179577
+// Method Definition Index: 179666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_steerAngle_Injected_m7D5107032A83BC17496DC445774BA15076612714 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2949,7 +2949,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_steerAngle_Injected_m
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179578
+// Method Definition Index: 179667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_steerAngle_Injected_m1D19C28872BFFC9C692FA4F50454A3400D5ACC20 (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2966,7 +2966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_steerAngle_Injected_m1
 	_il2cpp_icall_func = (WheelCollider_set_steerAngle_Injected_m1D19C28872BFFC9C692FA4F50454A3400D5ACC20_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_steerAngle_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179579
+// Method Definition Index: 179668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_isGrounded_Injected_mB07EA10E1CCF2043B0A558ABB8544A222D82ADB4 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2984,7 +2984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_isGrounded_Injected_mB
 	bool icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179580
+// Method Definition Index: 179669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_rpm_Injected_m107B8A2A6939BDAF4DE942197039D58ADEAE9E7F (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3002,7 +3002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_rpm_Injected_m107B8A2
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179581
+// Method Definition Index: 179670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_sprungMass_Injected_mD7B3DDC24220294F2A6D712F070FB5B30AB8A347 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3020,7 +3020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_sprungMass_Injected_m
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179582
+// Method Definition Index: 179671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_sprungMass_Injected_mBFADB5D1B5BCE6BDDC212F6EC3B8E19DB4F6237B (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3037,7 +3037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_sprungMass_Injected_mB
 	_il2cpp_icall_func = (WheelCollider_set_sprungMass_Injected_mBFADB5D1B5BCE6BDDC212F6EC3B8E19DB4F6237B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_sprungMass_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179583
+// Method Definition Index: 179672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_rotationSpeed_Injected_mC7A6400F7F52474F2AA73014EC75056009B4EDD0 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3055,7 +3055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelCollider_get_rotationSpeed_Injecte
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 179584
+// Method Definition Index: 179673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_rotationSpeed_Injected_m7B24084634631C339EF47B5202A0CB717F0F2DC9 (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3072,7 +3072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_set_rotationSpeed_Injected
 	_il2cpp_icall_func = (WheelCollider_set_rotationSpeed_Injected_m7B24084634631C339EF47B5202A0CB717F0F2DC9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::set_rotationSpeed_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 179585
+// Method Definition Index: 179674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_ResetSprungMasses_Injected_m27D46AE47E34ECA1683D59424860F3F45D90D274 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3089,7 +3089,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_ResetSprungMasses_Injected
 	_il2cpp_icall_func = (WheelCollider_ResetSprungMasses_Injected_m27D46AE47E34ECA1683D59424860F3F45D90D274_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::ResetSprungMasses_Injected(System.IntPtr)");
 	_il2cpp_icall_func(___0__unity_self);
 }
-// Method Definition Index: 179586
+// Method Definition Index: 179675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_ConfigureVehicleSubsteps_Injected_m9BA33E0F444B7F0AF715FEEA3A7B231E1AB8AB17 (intptr_t ___0__unity_self, float ___1_speedThreshold, int32_t ___2_stepsBelowThreshold, int32_t ___3_stepsAboveThreshold, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3106,7 +3106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_ConfigureVehicleSubsteps_I
 	_il2cpp_icall_func = (WheelCollider_ConfigureVehicleSubsteps_Injected_m9BA33E0F444B7F0AF715FEEA3A7B231E1AB8AB17_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::ConfigureVehicleSubsteps_Injected(System.IntPtr,System.Single,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_speedThreshold, ___2_stepsBelowThreshold, ___3_stepsAboveThreshold);
 }
-// Method Definition Index: 179587
+// Method Definition Index: 179676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_GetWorldPose_Injected_m5CADCBBA43204BA3C8EF66B85A568D7A685B28AE (intptr_t ___0__unity_self, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___2_quat, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3123,7 +3123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelCollider_GetWorldPose_Injected_m5CA
 	_il2cpp_icall_func = (WheelCollider_GetWorldPose_Injected_m5CADCBBA43204BA3C8EF66B85A568D7A685B28AE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WheelCollider::GetWorldPose_Injected(System.IntPtr,UnityEngine.Vector3&,UnityEngine.Quaternion&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_pos, ___2_quat);
 }
-// Method Definition Index: 179588
+// Method Definition Index: 179677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_GetGroundHit_Injected_m8297D4243D94F040DA26F6B09714046754B73AAB (intptr_t ___0__unity_self, WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* ___1_hit, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3141,7 +3141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_GetGroundHit_Injected_m829
 	bool icallRetVal = _il2cpp_icall_func(___0__unity_self, ___1_hit);
 	return icallRetVal;
 }
-// Method Definition Index: 179589
+// Method Definition Index: 179678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_isSupported_Injected_mA043C72BE7DFFACC2D103D32E655D3D8CA0C460B (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3162,7 +3162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WheelCollider_get_isSupported_Injected_m
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 179499
+// Method Definition Index: 179588
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* WheelHit_get_collider_m6E4EC72042B62AE08340187AD82D6B8FEF8DE09D_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3183,7 +3183,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816
 		return L_0;
 	}
 }
-// Method Definition Index: 179500
+// Method Definition Index: 179589
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_collider_m661F87C36616207CF90615A16C102A6124EB15B2_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3209,7 +3209,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_collider_m661F8
 		return;
 	}
 }
-// Method Definition Index: 179501
+// Method Definition Index: 179590
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_point_m9F7E614D1E1C6BAAF3392D3E21FF98FB9C9E370C_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3230,7 +3230,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 179502
+// Method Definition Index: 179591
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_point_m6FE90840F9AC30F65E5E9DF4561BC4146D60E507_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3255,7 +3255,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_point_m6FE90840
 		return;
 	}
 }
-// Method Definition Index: 179503
+// Method Definition Index: 179592
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_normal_mD59C9DB64546E22ADE3CA24DEE638F6F8168F162_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3276,7 +3276,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 179504
+// Method Definition Index: 179593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_normal_m2A9BD0A7000CC5101129402A92AA2589C65F8454_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3301,7 +3301,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_normal_m2A9BD0A
 		return;
 	}
 }
-// Method Definition Index: 179505
+// Method Definition Index: 179594
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_forwardDir_mEC17414DD098E3BB4080E356221BB5655E3E3100_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3322,7 +3322,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 179506
+// Method Definition Index: 179595
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_forwardDir_m0A02053AD079E33E59E488929C0E84CB07BF6D92_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3347,7 +3347,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_forwardDir_m0A0
 		return;
 	}
 }
-// Method Definition Index: 179507
+// Method Definition Index: 179596
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 WheelHit_get_sidewaysDir_mF1D87D1AFD314249E2BCC4F7FCD78B03752BD475_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3368,7 +3368,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 179508
+// Method Definition Index: 179597
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_sidewaysDir_mA8A9A18917737810ED96C9B7E7BD8E4AA4FD3D64_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3393,7 +3393,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_sidewaysDir_mA8
 		return;
 	}
 }
-// Method Definition Index: 179509
+// Method Definition Index: 179598
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float WheelHit_get_force_m682670758B8A3054D2A12AE5179625DC1899EA1E_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3414,7 +3414,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float WheelHit_get_force_m6826707
 		return L_0;
 	}
 }
-// Method Definition Index: 179510
+// Method Definition Index: 179599
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_force_m78BDB39182947B9A52424CBA33D2874D61A7232F_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3439,7 +3439,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_force_m78BDB391
 		return;
 	}
 }
-// Method Definition Index: 179511
+// Method Definition Index: 179600
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float WheelHit_get_forwardSlip_m1BA6AA2379368EFE2200B92AB4CA20F1AD537CCE_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3460,7 +3460,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float WheelHit_get_forwardSlip_m1
 		return L_0;
 	}
 }
-// Method Definition Index: 179512
+// Method Definition Index: 179601
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_forwardSlip_mB96F4BFFC19D83031568E1A1BCF20B1AA61B91A4_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3485,7 +3485,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_forwardSlip_mB9
 		return;
 	}
 }
-// Method Definition Index: 179513
+// Method Definition Index: 179602
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float WheelHit_get_sidewaysSlip_m7E27E0B36C1CC096C56B8815B7C1E7D380D6627B_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3506,7 +3506,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float WheelHit_get_sidewaysSlip_m
 		return L_0;
 	}
 }
-// Method Definition Index: 179514
+// Method Definition Index: 179603
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WheelHit_set_sidewaysSlip_m66A9374E3A9F8C12EDD482BC1C370809DCD79C1E_inline (WheelHit_t15D44A463BF2792AD26161787B98CB5698519455* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

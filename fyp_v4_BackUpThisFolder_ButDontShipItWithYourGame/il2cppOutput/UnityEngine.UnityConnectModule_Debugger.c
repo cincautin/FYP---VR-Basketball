@@ -61,12 +61,12 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_UnityConnectModule[];
 Il2CppSequencePoint g_sequencePointsUnityEngine_UnityConnectModule[6] = 
 {
-	{ 179966, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 179966, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 179966, 1, 24, 24, 13, 25, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 179967, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 3 },
-	{ 179967, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 4 },
-	{ 179967, 1, 30, 30, 9, 10, 0, kSequencePointKind_Normal, 0, 5 },
+	{ 180055, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 180055, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 180055, 1, 24, 24, 13, 25, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 180056, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 3 },
+	{ 180056, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 4 },
+	{ 180056, 1, 30, 30, 9, 10, 0, kSequencePointKind_Normal, 0, 5 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnityEngine_UnityConnectModule[];
@@ -88,7 +88,7 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = 
 {
-	{ 21268, 1 },
+	{ 21280, 1 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };

@@ -44,13 +44,13 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_LocalizationModule[];
 Il2CppSequencePoint g_sequencePointsUnityEngine_LocalizationModule[7] = 
 {
-	{ 180091, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 180091, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 180091, 1, 15, 15, 9, 35, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 180091, 1, 15, 15, 9, 35, 1, kSequencePointKind_StepOut, 0, 3 },
-	{ 180091, 1, 17, 17, 13, 43, 6, kSequencePointKind_Normal, 0, 4 },
-	{ 180091, 1, 17, 17, 13, 43, 7, kSequencePointKind_StepOut, 0, 5 },
-	{ 180091, 1, 18, 18, 9, 10, 12, kSequencePointKind_Normal, 0, 6 },
+	{ 180180, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 180180, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 180180, 1, 15, 15, 9, 35, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 180180, 1, 15, 15, 9, 35, 1, kSequencePointKind_StepOut, 0, 3 },
+	{ 180180, 1, 17, 17, 13, 43, 6, kSequencePointKind_Normal, 0, 4 },
+	{ 180180, 1, 17, 17, 13, 43, 7, kSequencePointKind_StepOut, 0, 5 },
+	{ 180180, 1, 18, 18, 9, 10, 12, kSequencePointKind_Normal, 0, 6 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnityEngine_LocalizationModule[];
@@ -72,7 +72,7 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = 
 {
-	{ 21300, 1 },
+	{ 21312, 1 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };

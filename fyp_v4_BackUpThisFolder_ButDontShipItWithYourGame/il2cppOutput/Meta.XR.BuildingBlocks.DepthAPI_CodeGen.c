@@ -18,9 +18,9 @@ static Il2CppMethodPointer s_methodPointers[3] =
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	23374,
-	36898,
-	23374,
+	23375,
+	36899,
+	23375,
 };
 extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationMeta_XR_BuildingBlocks_DepthAPI;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Meta_XR_BuildingBlocks_DepthAPI_CodeGenModule;

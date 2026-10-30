@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace FYP.Intensity
 {
-    public enum HudSlot { Timer, PersonalBest, Progress, Badges, Popup }
+    public enum HudSlot { Timer, PersonalBest, Progress, Badges, Popup, Feedback }
 
     /// <summary>
     /// A code-built, non-interactive world-space canvas. Slots are created inactive; each element
@@ -59,6 +59,8 @@ namespace FYP.Intensity
             MakeSlot(HudSlot.Progress,     0,  170,  1200,  130);
             MakeSlot(HudSlot.Badges,       0,  320,  1200,  180);
             MakeSlot(HudSlot.Popup,        300,  60,   600,  120);
+            // Below the 500 px canvas; world-space canvases don't clip, so Height Px can stay 500.
+            MakeSlot(HudSlot.Feedback,     150, 515,   900,  120);
         }
 
         private void MakeSlot(HudSlot id, float x, float y, float w, float h)

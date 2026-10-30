@@ -10,7 +10,7 @@
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos[1] = 
 {
-	{ 34662, 0,  0 },
+	{ 34676, 0,  0 },
 };
 #else
 static const Il2CppMethodExecutionContextInfo g_methodExecutionContextInfos[1] = { { 0, 0, 0 } };
@@ -44,12 +44,12 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_TerrainPhysicsModule[];
 Il2CppSequencePoint g_sequencePointsUnityEngine_TerrainPhysicsModule[6] = 
 {
-	{ 180229, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 180229, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 180229, 1, 15, 15, 13, 33, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 180229, 1, 16, 16, 13, 71, 2, kSequencePointKind_Normal, 0, 3 },
-	{ 180229, 1, 16, 16, 13, 71, 10, kSequencePointKind_StepOut, 0, 4 },
-	{ 180229, 1, 17, 17, 13, 27, 20, kSequencePointKind_Normal, 0, 5 },
+	{ 180318, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 180318, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 180318, 1, 15, 15, 13, 33, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 180318, 1, 16, 16, 13, 71, 2, kSequencePointKind_Normal, 0, 3 },
+	{ 180318, 1, 16, 16, 13, 71, 10, kSequencePointKind_StepOut, 0, 4 },
+	{ 180318, 1, 17, 17, 13, 27, 20, kSequencePointKind_Normal, 0, 5 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnityEngine_TerrainPhysicsModule[];
@@ -71,7 +71,7 @@ static const Il2CppSequencePointSourceFile g_sequencePointSourceFiles[1] = { NUL
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = 
 {
-	{ 21347, 1 },
+	{ 21359, 1 },
 };
 #else
 static const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { { 0, 0 } };

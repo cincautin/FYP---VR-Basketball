@@ -392,7 +392,7 @@ inline intptr_t MarshalledUnityObject_MarshalNotNull_TisIl2CppSharedGenericObjec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180429
+// Method Definition Index: 180518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mAD428EF4F4CCB5C61C769847041B242AA5E178CC (EmbeddedAttribute_t1815395440A524EE4AEC2D1AF392FB75724A340A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -418,7 +418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mAD428EF4F4CCB5C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180430
+// Method Definition Index: 180519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m24C1B53C65A6914ED7DF48BCF6C90BDACE8624C4 (RefSafetyRulesAttribute_tD669286AA45E94BACAB455523FCE3362CB12B886* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -446,7 +446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m24C1B53C6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180431
+// Method Definition Index: 180520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CurrentPlayerApi_get_IsMainEditor_mFEA5B330F18B819D9F3AE17A186E61BB8AD384C1 (CurrentPlayerApi_tBA7E3D451058BF490343DD8582F0E1DA867DD63A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -467,7 +467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CurrentPlayerApi_get_IsMainEditor_mFEA5B
 		return (bool)0;
 	}
 }
-// Method Definition Index: 180432
+// Method Definition Index: 180521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayerApi_SetTags_mEFD414E209DE87C3A29D005D374D7C7C6887691D (CurrentPlayerApi_tBA7E3D451058BF490343DD8582F0E1DA867DD63A* __this, RuntimeObject* ___0_tags, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -519,7 +519,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 180433
+// Method Definition Index: 180522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CurrentPlayerApi_ReadOnlyTags_m9C5807618179DE9863F8852FF6D8F0BB3FD4DF68 (CurrentPlayerApi_tBA7E3D451058BF490343DD8582F0E1DA867DD63A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -547,7 +547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CurrentPlayerApi_ReadOnlyTags_
 		return L_1;
 	}
 }
-// Method Definition Index: 180434
+// Method Definition Index: 180523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayerApi_ReportResult_m70C4A3533E23585C2D90B9AE2955B8956D526161 (CurrentPlayerApi_tBA7E3D451058BF490343DD8582F0E1DA867DD63A* __this, bool ___0_condition, String_t* ___1_message, String_t* ___2_callingFilePath, int32_t ___3_lineNumber, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -569,7 +569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayerApi_ReportResult_m70C4A3533
 		return;
 	}
 }
-// Method Definition Index: 180435
+// Method Definition Index: 180524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayerApi__ctor_m475B8A0DA8932E65609EABFA04FCB7D5A0ABEC8A (CurrentPlayerApi_tBA7E3D451058BF490343DD8582F0E1DA867DD63A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -609,7 +609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayerApi__ctor_m475B8A0DA8932E65
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180436
+// Method Definition Index: 180525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayer_EnsureInitialized_m1C823033BB4F229FD5D6AB10A43AA80A1FC9B360 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -654,7 +654,7 @@ IL_0008:
 		return;
 	}
 }
-// Method Definition Index: 180437
+// Method Definition Index: 180526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CurrentPlayer_get_IsMainEditor_mAFBB53D60C3FC3D4C1AFC80F301A4736FFBFD4E6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -685,7 +685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CurrentPlayer_get_IsMainEditor_mAFBB53D6
 		return L_1;
 	}
 }
-// Method Definition Index: 180438
+// Method Definition Index: 180527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CurrentPlayer_get_Tags_m453D8267BF405DEA6939BA0A7AF2F86C84FD3E61 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -716,7 +716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CurrentPlayer_get_Tags_m453D82
 		return L_1;
 	}
 }
-// Method Definition Index: 180439
+// Method Definition Index: 180528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayer_ReportResult_m1E84994D6D7DC26EF0BC4431438D6B4406072D24 (bool ___0_condition, String_t* ___1_message, String_t* ___2_callingFilePath, int32_t ___3_lineNumber, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -753,7 +753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayer_ReportResult_m1E84994D6D7D
 		return;
 	}
 }
-// Method Definition Index: 180440
+// Method Definition Index: 180529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* CurrentPlayer_ReadOnlyTags_m304B0F406F6F73230986D44FF43DE6ACE5DCB9F3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -852,7 +852,7 @@ IL_0024:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180441
+// Method Definition Index: 180530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiplayerRolesData__ctor_mBFC1EB949CE794AC9DD50E5ACBF11670CCBEDBB7 (MultiplayerRolesData_t146815EE2F8DED4F36EE7536B834E53C875E9D4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -878,7 +878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiplayerRolesData__ctor_mBFC1EB949CE7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180442
+// Method Definition Index: 180531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_get_activeMultiplayerRoleMask_m7353CF3D74C5D098F918B293B1AA77BDCE565052 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -896,7 +896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_get_activeMultipla
 	int32_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 180443
+// Method Definition Index: 180532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_GetMultiplayerRoleMaskForGameObject_m9AD1E42CC453D1D4A6AC31B0D7365AFA1AAEAA12 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -919,7 +919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_GetMultiplayerRole
 		return L_2;
 	}
 }
-// Method Definition Index: 180444
+// Method Definition Index: 180533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_GetMultiplayerRoleMaskForComponent_m802FB7CC45D8433A6AEEB54E33653B1A47B4513F (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_component, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -942,7 +942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_GetMultiplayerRole
 		return L_2;
 	}
 }
-// Method Definition Index: 180445
+// Method Definition Index: 180534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_GetMultiplayerRoleMaskForGameObject_Injected_mF75AF83FC133DE3BB6A8DF575A942859028FEA56 (intptr_t ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -960,7 +960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_GetMultiplayerRole
 	int32_t icallRetVal = _il2cpp_icall_func(___0_gameObject);
 	return icallRetVal;
 }
-// Method Definition Index: 180446
+// Method Definition Index: 180535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MultiplayerManager_GetMultiplayerRoleMaskForComponent_Injected_m60FC5F9C1CC7D897B1914770DF0230AA7542C976 (intptr_t ___0_component, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

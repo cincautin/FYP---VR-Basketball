@@ -271,7 +271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_SyncFenceNoWor
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179433
+// Method Definition Index: 179522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mB5088B52119271C2ECD16F0646AEB27429BD5463 (EmbeddedAttribute_tDD790B23CBD5C515C7815F2051E117B9A49855E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -297,7 +297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mB5088B52119271C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179434
+// Method Definition Index: 179523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mA3201F49A3EE952C32886A2F1877059BC784AD22 (RefSafetyRulesAttribute_tC2FFBE69B0140CD1B46706B04CF49B59F5091EAD* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -325,7 +325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mA3201F49A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179435
+// Method Definition Index: 179524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* AudioMemoryManager_Internal_AllocateAudioMemory_m6477CDE12AEC407FA1F621DD7DF3FDE4AEF3B218 (int32_t ___0_size, int32_t ___1_alignment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -343,7 +343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* AudioMemoryManager_Internal_AllocateAud
 	void* icallRetVal = _il2cpp_icall_func(___0_size, ___1_alignment);
 	return icallRetVal;
 }
-// Method Definition Index: 179436
+// Method Definition Index: 179525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioMemoryManager_Internal_FreeAudioMemory_mDE924139CDF3495E1DA5701BCE721BE8B91995B5 (void* ___0_memory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -368,7 +368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioMemoryManager_Internal_FreeAudioMem
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179437
+// Method Definition Index: 179526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_outputHook, void* ___1_jobReflectionData, void* ___2_jobData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -385,7 +385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutputHookManager_Internal_CreateAu
 	_il2cpp_icall_func = (AudioOutputHookManager_Internal_CreateAudioOutputHook_mBF9AE0454E7510687B78C101CEBCC3395F47C0EB_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.AudioOutputHookManager::Internal_CreateAudioOutputHook(Unity.Audio.Handle&,System.Void*,System.Void*)");
 	_il2cpp_icall_func(___0_outputHook, ___1_jobReflectionData, ___2_jobData);
 }
-// Method Definition Index: 179438
+// Method Definition Index: 179527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutputHookManager_Internal_DisposeAudioOutputHook_mBCF3664FD122283AB71A5D982541578F3FE98563 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_outputHook, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -410,7 +410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutputHookManager_Internal_DisposeA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179439
+// Method Definition Index: 179528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_jobReflectionData, void* ___4_jobMemory, void* ___5_parameterDescriptionArray, int32_t ___6_parameterCount, void* ___7_sampleProviderDescriptionArray, int32_t ___8_sampleProviderCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -427,7 +427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_CreateD
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_CreateDSPNode_mD36DBF66FB4074037C1C649354D0D4503CC973A7_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_CreateDSPNode(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.Void*,System.Void*,System.Int32,System.Void*,System.Int32)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_jobReflectionData, ___4_jobMemory, ___5_parameterDescriptionArray, ___6_parameterCount, ___7_sampleProviderDescriptionArray, ___8_sampleProviderCount);
 }
-// Method Definition Index: 179440
+// Method Definition Index: 179529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_jobReflectionData, uint32_t ___4_pIndex, float ___5_value, uint32_t ___6_interpolationLength, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -444,7 +444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetFloa
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SetFloat_m51345EA0FA21BC03763ED1D9FA726B5617299855_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SetFloat(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.UInt32,System.Single,System.UInt32)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_jobReflectionData, ___4_pIndex, ___5_value, ___6_interpolationLength);
 }
-// Method Definition Index: 179441
+// Method Definition Index: 179530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_jobReflectionData, uint32_t ___4_pIndex, uint64_t ___5_dspClock, float ___6_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -461,7 +461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddFloa
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_AddFloatKey_mD512664240128998A20CCAFED3BB1D8C2C333F91_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_AddFloatKey(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.UInt32,System.UInt64,System.Single)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_jobReflectionData, ___4_pIndex, ___5_dspClock, ___6_value);
 }
-// Method Definition Index: 179442
+// Method Definition Index: 179531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_jobReflectionData, uint32_t ___4_pIndex, uint64_t ___5_dspClock, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -478,7 +478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Sustain
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SustainFloat_m5FEAABF9D9390BA8AC2C3E1DC1A7C3F379E17D8E_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SustainFloat(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.UInt32,System.UInt64)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_jobReflectionData, ___4_pIndex, ___5_dspClock);
 }
-// Method Definition Index: 179443
+// Method Definition Index: 179532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, void* ___3_updateJobMem, void* ___4_updateJobReflectionData, void* ___5_nodeReflectionData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -495,7 +495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_UpdateA
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_UpdateAudioJob_m14118310BF37A45182C56B81BAACFEE26A6B7ED9_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_UpdateAudioJob(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.Void*,System.Void*)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_updateJobMem, ___4_updateJobReflectionData, ___5_nodeReflectionData);
 }
-// Method Definition Index: 179444
+// Method Definition Index: 179533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___3_request, RuntimeObject* ___4_callback, void* ___5_updateJobMem, void* ___6_updateJobReflectionData, void* ___7_nodeReflectionData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -512,7 +512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_CreateU
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_CreateUpdateRequest_mE5958384F0F67A160901DD05F7C699D4AD7CED5F_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_CreateUpdateRequest(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Object,System.Void*,System.Void*,System.Void*)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_request, ___4_callback, ___5_updateJobMem, ___6_updateJobReflectionData, ___7_nodeReflectionData);
 }
-// Method Definition Index: 179445
+// Method Definition Index: 179534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -529,7 +529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Release
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_ReleaseDSPNode_m1934CB4B532A36A1733BC8E7764B628B97B7BFFD_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_ReleaseDSPNode(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node);
 }
-// Method Definition Index: 179446
+// Method Definition Index: 179535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_output, int32_t ___3_outputPort, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___4_input, int32_t ___5_inputPort, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___6_connection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -546,7 +546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Connect
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_Connect_m8DD99893EAF93240BA434442FF42E477A51D3FBF_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_Connect(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,Unity.Audio.Handle&,System.Int32,Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_output, ___3_outputPort, ___4_input, ___5_inputPort, ___6_connection);
 }
-// Method Definition Index: 179447
+// Method Definition Index: 179536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_output, int32_t ___3_outputPort, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___4_input, int32_t ___5_inputPort, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -563,7 +563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Disconn
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_Disconnect_m249DBC74B944AE3F5B0E9F620883C97F7263FC00_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_Disconnect(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,Unity.Audio.Handle&,System.Int32)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_output, ___3_outputPort, ___4_input, ___5_inputPort);
 }
-// Method Definition Index: 179448
+// Method Definition Index: 179537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_connection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -580,7 +580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Disconn
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_DisconnectByHandle_mD40F22A79F7E948F6CC4FBD701AE891C7454E997_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_DisconnectByHandle(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_connection);
 }
-// Method Definition Index: 179449
+// Method Definition Index: 179538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_connection, void* ___3_value, uint8_t ___4_dimension, uint32_t ___5_interpolationLength, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -597,7 +597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetAtte
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SetAttenuation_m078C0072662CE849A905FCD24817391999BDDCE1_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SetAttenuation(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Void*,System.Byte,System.UInt32)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_connection, ___3_value, ___4_dimension, ___5_interpolationLength);
 }
-// Method Definition Index: 179450
+// Method Definition Index: 179539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_connection, uint64_t ___3_dspClock, void* ___4_value, uint8_t ___5_dimension, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -614,7 +614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddAtte
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_AddAttenuationKey_m1CB36D41582C0C504CDF5FA3856F5D33E141FF22_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_AddAttenuationKey(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.UInt64,System.Void*,System.Byte)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_connection, ___3_dspClock, ___4_value, ___5_dimension);
 }
-// Method Definition Index: 179451
+// Method Definition Index: 179540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_connection, uint64_t ___3_dspClock, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -631,7 +631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Sustain
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SustainAttenuation_m735C1FA410DA03705024C209AF7F938AD9DD003F_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SustainAttenuation(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.UInt64)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_connection, ___3_dspClock);
 }
-// Method Definition Index: 179452
+// Method Definition Index: 179541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_channelCount, int32_t ___4_format, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -648,7 +648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddInle
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_AddInletPort_mD48D159D070FAD4615CAE773CD5C337FA37D8196_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_AddInletPort(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_channelCount, ___4_format);
 }
-// Method Definition Index: 179453
+// Method Definition Index: 179542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_channelCount, int32_t ___4_format, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -665,7 +665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_AddOutl
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_AddOutletPort_mD41628000171457F6563334C1EA9A3267BA554C3_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_AddOutletPort(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_channelCount, ___4_format);
 }
-// Method Definition Index: 179454
+// Method Definition Index: 179543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_item, int32_t ___4_index, uint32_t ___5_audioSampleProviderId, bool ___6_destroyOnRemove, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -682,7 +682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_SetSamp
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_SetSampleProvider_m3C4C628517B0967B6EE8B6B18AF36675F3C95C5E_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_SetSampleProvider(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32,System.UInt32,System.Boolean)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_item, ___4_index, ___5_audioSampleProviderId, ___6_destroyOnRemove);
 }
-// Method Definition Index: 179455
+// Method Definition Index: 179544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_item, int32_t ___4_index, uint32_t ___5_audioSampleProviderId, bool ___6_destroyOnRemove, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -699,7 +699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_InsertS
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_InsertSampleProvider_m3C0F018BE8FE7FEB21DBC0E34FE0587ED79F1142_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_InsertSampleProvider(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32,System.UInt32,System.Boolean)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_item, ___4_index, ___5_audioSampleProviderId, ___6_destroyOnRemove);
 }
-// Method Definition Index: 179456
+// Method Definition Index: 179545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, int32_t ___3_item, int32_t ___4_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -716,7 +716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_RemoveS
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_RemoveSampleProvider_m0B35FC60E0C0B15FD773E960B10640B681CC8242_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_RemoveSampleProvider(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___0_graph, ___1_block, ___2_node, ___3_item, ___4_index);
 }
-// Method Definition Index: 179457
+// Method Definition Index: 179546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -733,7 +733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Complet
 	_il2cpp_icall_func = (DSPCommandBlockInternal_Internal_Complete_m1358ADC2A480FA9B780FF461E2C8A04D45BB65BE_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPCommandBlockInternal::Internal_Complete(Unity.Audio.Handle&,Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph, ___1_block);
 }
-// Method Definition Index: 179458
+// Method Definition Index: 179547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Cancel_m672B7955A872BE6D20D8563CEE052CA569ABB7E6 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -766,7 +766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPCommandBlockInternal_Internal_Cancel_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179459
+// Method Definition Index: 179548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, int32_t ___1_outputFormat, uint32_t ___2_outputChannels, uint32_t ___3_dspBufferSize, uint32_t ___4_sampleRate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -783,7 +783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_CreateDSPGraph
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_CreateDSPGraph_m75A22ED484F5EF4390A09D380B355B7A8B279FC4_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_CreateDSPGraph(Unity.Audio.Handle&,System.Int32,System.UInt32,System.UInt32,System.UInt32)");
 	_il2cpp_icall_func(___0_graph, ___1_outputFormat, ___2_outputChannels, ___3_dspBufferSize, ___4_sampleRate);
 }
-// Method Definition Index: 179460
+// Method Definition Index: 179549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -800,7 +800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_DisposeDSPGrap
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_DisposeDSPGraph_m7E81DC70E6873311D3BB37102BB89127495BDFD0_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_DisposeDSPGraph(Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph);
 }
-// Method Definition Index: 179461
+// Method Definition Index: 179550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_block, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -817,7 +817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_CreateDSPComma
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_CreateDSPCommandBlock_m0C7319DE0577870F7BB2B03D833674A152C42275_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_CreateDSPCommandBlock(Unity.Audio.Handle&,Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph, ___1_block);
 }
-// Method Definition Index: 179462
+// Method Definition Index: 179551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPGraphInternal_Internal_AddNodeEventHandler_mEA5C25F791E69E088B47B4E5807902E31C254853 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, int64_t ___1_eventTypeHashCode, RuntimeObject* ___2_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -835,7 +835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPGraphInternal_Internal_AddNodeEve
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_graph, ___1_eventTypeHashCode, ___2_handler);
 	return icallRetVal;
 }
-// Method Definition Index: 179463
+// Method Definition Index: 179552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_RemoveNodeEventHandler_m65E3516D0C21EDA48D3D48081C7A9741280FA26D (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, uint32_t ___1_handlerId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -853,7 +853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_RemoveNodeEven
 	bool icallRetVal = _il2cpp_icall_func(___0_graph, ___1_handlerId);
 	return icallRetVal;
 }
-// Method Definition Index: 179464
+// Method Definition Index: 179553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_root, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -870,7 +870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_GetRootDSP_m7D
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_GetRootDSP_m7DBA493A9E80A2EC8595EC88B605083B880C7A06_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_GetRootDSP(Unity.Audio.Handle&,Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph, ___1_root);
 }
-// Method Definition Index: 179465
+// Method Definition Index: 179554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t DSPGraphInternal_Internal_GetDSPClock_m2CE4657E6137E7DBB7EDA11B2294DFE9A216FD61 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -888,7 +888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t DSPGraphInternal_Internal_GetDSPCloc
 	uint64_t icallRetVal = _il2cpp_icall_func(___0_graph);
 	return icallRetVal;
 }
-// Method Definition Index: 179466
+// Method Definition Index: 179555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, int32_t ___1_frameCount, int32_t ___2_executionMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -905,7 +905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_BeginMix_mAC4F
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_BeginMix_mAC4FD38761647829A2F35093DF491B2E7ED3B980_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_BeginMix(Unity.Audio.Handle&,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___0_graph, ___1_frameCount, ___2_executionMode);
 }
-// Method Definition Index: 179467
+// Method Definition Index: 179556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, void* ___1_buffer, int32_t ___2_frameCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -922,7 +922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ReadMix_m690C8
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_ReadMix_m690C87027D279463E9E87C01C2B65501F5E1E35D_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_ReadMix(Unity.Audio.Handle&,System.Void*,System.Int32)");
 	_il2cpp_icall_func(___0_graph, ___1_buffer, ___2_frameCount);
 }
-// Method Definition Index: 179468
+// Method Definition Index: 179557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -939,7 +939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_Update_m4DC1DE
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_Update_m4DC1DEC73E06EDB5595A89323B5BDAAFE1AC193D_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_Update(Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph);
 }
-// Method Definition Index: 179469
+// Method Definition Index: 179558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_AssertMixerThread_mD52A9F34ADFFD0C135757C9981DAE72612E3EE6B (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -957,7 +957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_AssertMixerThr
 	bool icallRetVal = _il2cpp_icall_func(___0_graph);
 	return icallRetVal;
 }
-// Method Definition Index: 179470
+// Method Definition Index: 179559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_AssertMainThread_m74BFADC790F3917BA15F33B95D42FAEAE36C1366 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -975,7 +975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPGraphInternal_Internal_AssertMainThre
 	bool icallRetVal = _il2cpp_icall_func(___0_graph);
 	return icallRetVal;
 }
-// Method Definition Index: 179471
+// Method Definition Index: 179560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153 DSPGraphInternal_Internal_AllocateHandle_m094585C5E4EE5DA3118E86077938CBCEEA9E9AF8 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -997,7 +997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5
 		return L_1;
 	}
 }
-// Method Definition Index: 179472
+// Method Definition Index: 179561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6 (void* ___0_jobStructData, void* ___1_jobReflectionData, void* ___2_resourceContext, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1014,7 +1014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_InitializeJob_
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_InitializeJob_m1B01207BAFBF94072EB90293CF19F0D89F3F1EB6_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_InitializeJob(System.Void*,System.Void*,System.Void*)");
 	_il2cpp_icall_func(___0_jobStructData, ___1_jobReflectionData, ___2_resourceContext);
 }
-// Method Definition Index: 179473
+// Method Definition Index: 179562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90 (void* ___0_jobStructData, void* ___1_jobReflectionData, void* ___2_jobData, void* ___3_resourceContext, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1031,7 +1031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ExecuteJob_mF6
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_ExecuteJob_mF6669FC184BC1FAE03CB67DA4EFF5A15E3904F90_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_ExecuteJob(System.Void*,System.Void*,System.Void*,System.Void*)");
 	_il2cpp_icall_func(___0_jobStructData, ___1_jobReflectionData, ___2_jobData, ___3_resourceContext);
 }
-// Method Definition Index: 179474
+// Method Definition Index: 179563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3 (void* ___0_updateStructMemory, void* ___1_updateReflectionData, void* ___2_jobStructMemory, void* ___3_jobReflectionData, void* ___4_resourceContext, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___5_requestHandle, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___6_fence, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1048,7 +1048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ExecuteUpdateJ
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_ExecuteUpdateJob_mEE99712A508EA12AC704AABBB5B750FCAFC3B9B3_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_ExecuteUpdateJob(System.Void*,System.Void*,System.Void*,System.Void*,System.Void*,Unity.Audio.Handle&,Unity.Jobs.JobHandle&)");
 	_il2cpp_icall_func(___0_updateStructMemory, ___1_updateReflectionData, ___2_jobStructMemory, ___3_jobReflectionData, ___4_resourceContext, ___5_requestHandle, ___6_fence);
 }
-// Method Definition Index: 179475
+// Method Definition Index: 179564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84 (void* ___0_jobStructData, void* ___1_jobReflectionData, void* ___2_resourceContext, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1065,7 +1065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_DisposeJob_mCC
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_DisposeJob_mCCC34DC360E1875DE1151A69688E4759FA135E84_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_DisposeJob(System.Void*,System.Void*,System.Void*)");
 	_il2cpp_icall_func(___0_jobStructData, ___1_jobReflectionData, ___2_resourceContext);
 }
-// Method Definition Index: 179476
+// Method Definition Index: 179565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ScheduleGraph_m2930B5BB4FA10E217AC3250854D12825DBC580C0 (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_inputDeps, void* ___1_nodes, int32_t ___2_nodeCount, int32_t* ___3_childTable, void* ___4_dependencies, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1087,7 +1087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ScheduleGraph_
 		return;
 	}
 }
-// Method Definition Index: 179477
+// Method Definition Index: 179566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_SyncFenceNoWorkSteal_m516B51B2F645FC5F2B685BFA1590F75CA740BE5E (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1105,7 +1105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_SyncFenceNoWor
 		return;
 	}
 }
-// Method Definition Index: 179478
+// Method Definition Index: 179567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1122,7 +1122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_AllocateHandle
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_AllocateHandle_Injected_m6A570A954200D33E0F070CDFA2964AB9B67F109E_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_AllocateHandle_Injected(Unity.Audio.Handle&,Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph, ___1_ret);
 }
-// Method Definition Index: 179479
+// Method Definition Index: 179568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625 (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___0_inputDeps, void* ___1_nodes, int32_t ___2_nodeCount, int32_t* ___3_childTable, void* ___4_dependencies, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1139,7 +1139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_ScheduleGraph_
 	_il2cpp_icall_func = (DSPGraphInternal_Internal_ScheduleGraph_Injected_m6506ABB603478F0FFB88B42FBA8769E48D381625_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPGraphInternal::Internal_ScheduleGraph_Injected(Unity.Jobs.JobHandle&,System.Void*,System.Int32,System.Int32*,System.Void*)");
 	_il2cpp_icall_func(___0_inputDeps, ___1_nodes, ___2_nodeCount, ___3_childTable, ___4_dependencies);
 }
-// Method Definition Index: 179480
+// Method Definition Index: 179569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_SyncFenceNoWorkSteal_Injected_mEB21161C8F3495DC93952ACDEEB8D6C1A670BAFB (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___0_handle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1164,7 +1164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPGraphInternal_Internal_SyncFenceNoWor
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179481
+// Method Definition Index: 179570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* DSPNodeUpdateRequestHandleInternal_Internal_GetUpdateJobData_mB392A3B3A66DD68DD21645463DFA0F2BA7FEA39D (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1182,7 +1182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* DSPNodeUpdateRequestHandleInternal_Inte
 	void* icallRetVal = _il2cpp_icall_func(___0_graph, ___1_requestHandle);
 	return icallRetVal;
 }
-// Method Definition Index: 179482
+// Method Definition Index: 179571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPNodeUpdateRequestHandleInternal_Internal_HasError_m72E30C80D1CE856B86559F732ECD736066F59C2B (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1200,7 +1200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DSPNodeUpdateRequestHandleInternal_Inter
 	bool icallRetVal = _il2cpp_icall_func(___0_graph, ___1_requestHandle);
 	return icallRetVal;
 }
-// Method Definition Index: 179483
+// Method Definition Index: 179572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___2_node, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1217,7 +1217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Inter
 	_il2cpp_icall_func = (DSPNodeUpdateRequestHandleInternal_Internal_GetDSPNode_mD917C2B48EEBE2A1ECD0657F0DE57DD684519C12_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPNodeUpdateRequestHandleInternal::Internal_GetDSPNode(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Audio.Handle&)");
 	_il2cpp_icall_func(___0_graph, ___1_requestHandle, ___2_node);
 }
-// Method Definition Index: 179484
+// Method Definition Index: 179573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___2_fence, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1234,7 +1234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Inter
 	_il2cpp_icall_func = (DSPNodeUpdateRequestHandleInternal_Internal_GetFence_m82EA06509595DC63F49D5539AEEBCFEBF92ED6D6_ftn)il2cpp_codegen_resolve_icall ("Unity.Audio.DSPNodeUpdateRequestHandleInternal::Internal_GetFence(Unity.Audio.Handle&,Unity.Audio.Handle&,Unity.Jobs.JobHandle&)");
 	_il2cpp_icall_func(___0_graph, ___1_requestHandle, ___2_fence);
 }
-// Method Definition Index: 179485
+// Method Definition Index: 179574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Internal_Dispose_mD231D704BBDFAC276392884A4FEC90009AFE7C90 (Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___0_graph, Handle_t5E550C52101EDD3CC66477987E73F87CCCFD5153* ___1_requestHandle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1259,7 +1259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSPNodeUpdateRequestHandleInternal_Inter
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179486
+// Method Definition Index: 179575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProvider_m452593870CB755E994B7AD42D8C2DE192480B835 (void* ___0_provider, int32_t ___1_format, void* ___2_buffer, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1277,7 +1277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_Re
 	int32_t icallRetVal = _il2cpp_icall_func(___0_provider, ___1_format, ___2_buffer, ___3_length);
 	return icallRetVal;
 }
-// Method Definition Index: 179487
+// Method Definition Index: 179576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProvider_mBABB781CA231ED433404E196767651697022D5A2 (void* ___0_provider, int32_t ___1_format, void* ___2_buffer, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1295,7 +1295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_Re
 	int32_t icallRetVal = _il2cpp_icall_func(___0_provider, ___1_format, ___2_buffer, ___3_length);
 	return icallRetVal;
 }
-// Method Definition Index: 179488
+// Method Definition Index: 179577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadFloatFromSampleProvider_m214E1C1E2D627E77536EFAC67C228912D3A6A0D0 (void* ___0_provider, void* ___1_buffer, int32_t ___2_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1313,7 +1313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_Re
 	int32_t icallRetVal = _il2cpp_icall_func(___0_provider, ___1_buffer, ___2_length);
 	return icallRetVal;
 }
-// Method Definition Index: 179489
+// Method Definition Index: 179578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t DSPSampleProviderInternal_Internal_GetChannelCount_m0F11CAAD6596B88F7E56BDABDA99E1F21D3EDC8A (void* ___0_provider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1331,7 +1331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t DSPSampleProviderInternal_Internal_G
 	uint16_t icallRetVal = _il2cpp_icall_func(___0_provider);
 	return icallRetVal;
 }
-// Method Definition Index: 179490
+// Method Definition Index: 179579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPSampleProviderInternal_Internal_GetSampleRate_m679B37C8351CADEA6FF53F99B5A71725416D2B38 (void* ___0_provider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1349,7 +1349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPSampleProviderInternal_Internal_G
 	uint32_t icallRetVal = _il2cpp_icall_func(___0_provider);
 	return icallRetVal;
 }
-// Method Definition Index: 179491
+// Method Definition Index: 179580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadUInt8FromSampleProviderById_m1B5A33CD09C3CBC636E5E1BC2C1381DB8346B605 (uint32_t ___0_providerId, int32_t ___1_format, void* ___2_buffer, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1367,7 +1367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_Re
 	int32_t icallRetVal = _il2cpp_icall_func(___0_providerId, ___1_format, ___2_buffer, ___3_length);
 	return icallRetVal;
 }
-// Method Definition Index: 179492
+// Method Definition Index: 179581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadSInt16FromSampleProviderById_m1C3099A8576A8D28FD89BAFF4397FF937F18FEEA (uint32_t ___0_providerId, int32_t ___1_format, void* ___2_buffer, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1385,7 +1385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_Re
 	int32_t icallRetVal = _il2cpp_icall_func(___0_providerId, ___1_format, ___2_buffer, ___3_length);
 	return icallRetVal;
 }
-// Method Definition Index: 179493
+// Method Definition Index: 179582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_ReadFloatFromSampleProviderById_m585D8447ECFDDE270DE19750436DEC7A88A515D8 (uint32_t ___0_providerId, void* ___1_buffer, int32_t ___2_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1403,7 +1403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DSPSampleProviderInternal_Internal_Re
 	int32_t icallRetVal = _il2cpp_icall_func(___0_providerId, ___1_buffer, ___2_length);
 	return icallRetVal;
 }
-// Method Definition Index: 179494
+// Method Definition Index: 179583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t DSPSampleProviderInternal_Internal_GetChannelCountById_mF9B7C00D8DFB78E5F40C8BA0D3E6BA75BE00DB63 (uint32_t ___0_providerId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1421,7 +1421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t DSPSampleProviderInternal_Internal_G
 	uint16_t icallRetVal = _il2cpp_icall_func(___0_providerId);
 	return icallRetVal;
 }
-// Method Definition Index: 179495
+// Method Definition Index: 179584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPSampleProviderInternal_Internal_GetSampleRateById_m52C797917E17C7E639BBC8CE8A65C251473C3924 (uint32_t ___0_providerId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1447,7 +1447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t DSPSampleProviderInternal_Internal_G
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 179496
+// Method Definition Index: 179585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteContextInternal_Internal_PostEvent_m85AEE83FF62AF2694A6153A056AB8C711BE7E685 (void* ___0_dspNodePtr, int64_t ___1_eventTypeHashCode, void* ___2_eventPtr, int32_t ___3_eventSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

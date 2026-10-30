@@ -174,7 +174,7 @@ inline intptr_t MarshalledUnityObject_MarshalNotNull_TisIl2CppSharedGenericObjec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180177
+// Method Definition Index: 180266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m9626DF8C0D98A473D978AC57B47AC0A2C9309BB0 (EmbeddedAttribute_t0EC6436F075840FF92930BAAB45C95E4CD584EE5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -200,7 +200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m9626DF8C0D98A47
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180178
+// Method Definition Index: 180267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mA43852A6FE5A86313C89F1E00614CACA7DE0B866 (RefSafetyRulesAttribute_t322E3FFC3A92C9CF629BCCDB8FF99F5F38AF01BD* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -228,7 +228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mA43852A6F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180179
+// Method Definition Index: 180268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StreamingController_get_streamingMipmapBias_mF99272AF97EBE7550CD3C433165C75B85AC154F2 (StreamingController_t76A8C62300A985A768378800C40A822D427F95DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -269,7 +269,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 180180
+// Method Definition Index: 180269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_set_streamingMipmapBias_m5A74189DAAB6A6109154575CB3BDA9A99598A8AA (StreamingController_t76A8C62300A985A768378800C40A822D427F95DF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -310,7 +310,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 180181
+// Method Definition Index: 180270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_SetPreloading_m6CC4C9E5742E497DF24D852A5B3A22ED7AE8E25D (StreamingController_t76A8C62300A985A768378800C40A822D427F95DF* __this, float ___0_timeoutSeconds, bool ___1_activateCameraOnTimeout, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___2_disableCameraCuttingFrom, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -356,7 +356,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 180182
+// Method Definition Index: 180271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_CancelPreloading_mD5ABD57F18813CE7BF549827CAB2D683B2941B06 (StreamingController_t76A8C62300A985A768378800C40A822D427F95DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -396,7 +396,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 180183
+// Method Definition Index: 180272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StreamingController_IsPreloading_m355E060BFA8E75375BD7290AD227370C00E7DDF5 (StreamingController_t76A8C62300A985A768378800C40A822D427F95DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -437,7 +437,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 180184
+// Method Definition Index: 180273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController__ctor_m552E70EAB8C02690F934B9CC1D9F1EAD2CCDE798 (StreamingController_t76A8C62300A985A768378800C40A822D427F95DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -455,7 +455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController__ctor_m552E70EAB8C02
 		return;
 	}
 }
-// Method Definition Index: 180185
+// Method Definition Index: 180274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StreamingController_get_streamingMipmapBias_Injected_m7A63321427D8846574ADF40E530701A9235BD445 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -473,7 +473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StreamingController_get_streamingMipmap
 	float icallRetVal = _il2cpp_icall_func(___0__unity_self);
 	return icallRetVal;
 }
-// Method Definition Index: 180186
+// Method Definition Index: 180275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_set_streamingMipmapBias_Injected_mBD590889DDC59253DC117D1702E5DAE0A9F2E7EA (intptr_t ___0__unity_self, float ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -490,7 +490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_set_streamingMipmapB
 	_il2cpp_icall_func = (StreamingController_set_streamingMipmapBias_Injected_mBD590889DDC59253DC117D1702E5DAE0A9F2E7EA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.StreamingController::set_streamingMipmapBias_Injected(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___0__unity_self, ___1_value);
 }
-// Method Definition Index: 180187
+// Method Definition Index: 180276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_SetPreloading_Injected_mAF904BB3FAB9DC1BE0E246AF328B90C3DC5ECFDE (intptr_t ___0__unity_self, float ___1_timeoutSeconds, bool ___2_activateCameraOnTimeout, intptr_t ___3_disableCameraCuttingFrom, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -507,7 +507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_SetPreloading_Inject
 	_il2cpp_icall_func = (StreamingController_SetPreloading_Injected_mAF904BB3FAB9DC1BE0E246AF328B90C3DC5ECFDE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.StreamingController::SetPreloading_Injected(System.IntPtr,System.Single,System.Boolean,System.IntPtr)");
 	_il2cpp_icall_func(___0__unity_self, ___1_timeoutSeconds, ___2_activateCameraOnTimeout, ___3_disableCameraCuttingFrom);
 }
-// Method Definition Index: 180188
+// Method Definition Index: 180277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_CancelPreloading_Injected_m2D50613F8951FCA141D5ABA4E03C3A9EE3A22352 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -524,7 +524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingController_CancelPreloading_Inj
 	_il2cpp_icall_func = (StreamingController_CancelPreloading_Injected_m2D50613F8951FCA141D5ABA4E03C3A9EE3A22352_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.StreamingController::CancelPreloading_Injected(System.IntPtr)");
 	_il2cpp_icall_func(___0__unity_self);
 }
-// Method Definition Index: 180189
+// Method Definition Index: 180278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StreamingController_IsPreloading_Injected_mC86569EB982E07EEAF65E9A81E026F57C2823748 (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

@@ -28187,7 +28187,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NamespaceDefinitionHandle
 		return (int32_t)L_0;
 	}
 }
-// Method Definition Index: 170944
+// Method Definition Index: 171033
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NavLocation_Equals_mCF5B27F26A12598612B22C9C8375EC4102F82EA9_inline (NavLocation_tB55264752D60479DF2C5EEAD78893070EFDF95D0* __this, NavLocation_tB55264752D60479DF2C5EEAD78893070EFDF95D0 ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28251,7 +28251,7 @@ IL_002d:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 170946
+// Method Definition Index: 171035
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NavLocation_GetHashCode_mC9178AE51978E32F22B3E81C364D2835DC90A162_inline (NavLocation_tB55264752D60479DF2C5EEAD78893070EFDF95D0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28301,7 +28301,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NavLocation_GetHashCode_m
 		return ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)17), ((int32_t)31))), L_1)), ((int32_t)31))), L_3));
 	}
 }
-// Method Definition Index: 170949
+// Method Definition Index: 171038
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NavNode_Equals_m71FF26E4693F67C8ACA75A2A902E4FA9A35D8BA6_inline (NavNode_t5BB37F8530DD1B679EACF4C83616D8AB28E4EBD3* __this, NavNode_t5BB37F8530DD1B679EACF4C83616D8AB28E4EBD3 ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28325,7 +28325,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NavNode_Equals_m71FF26E4693F
 		return (bool)((((int64_t)L_0) == ((int64_t)L_2))? 1 : 0);
 	}
 }
-// Method Definition Index: 170951
+// Method Definition Index: 171040
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NavNode_GetHashCode_m8A3545F0FF31586D997D6B72F84FFF7F3601CB77_inline (NavNode_t5BB37F8530DD1B679EACF4C83616D8AB28E4EBD3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28944,7 +28944,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector4_GetHashCode_m53F6
 		return ((int32_t)(((int32_t)(((int32_t)(L_1^((int32_t)(L_3<<2))))^((int32_t)(L_5>>2))))^((int32_t)(L_7>>1))));
 	}
 }
-// Method Definition Index: 170939
+// Method Definition Index: 171028
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NavNode_t5BB37F8530DD1B679EACF4C83616D8AB28E4EBD3 NavLocation_get_node_m357757B09A16DD58CB49FFD78E8B3D5892C40575_inline (NavLocation_tB55264752D60479DF2C5EEAD78893070EFDF95D0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28965,7 +28965,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NavNode_t5BB37F8530DD1B679EACF4C8
 		return L_0;
 	}
 }
-// Method Definition Index: 170940
+// Method Definition Index: 171029
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 NavLocation_get_position_mA360780CE6EDC568791AB013443DFEFB606CB474_inline (NavLocation_tB55264752D60479DF2C5EEAD78893070EFDF95D0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

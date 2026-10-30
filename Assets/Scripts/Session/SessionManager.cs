@@ -1,6 +1,7 @@
 using System;
 using System.Globalization;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR;
 using FYP.Logging;
 using VRBasketball;
@@ -18,10 +19,10 @@ namespace FYP.Session
         public static SessionManager Instance { get; private set; }
 
         [Header("Block settings")]
-        [SerializeField] private float blockSeconds = 180f;
-        [SerializeField] private int throwsTarget = 20;
+        [SerializeField] private float blockSeconds = 300f;
+        [SerializeField] private int throwsTarget = 30;
         [Tooltip("If true, a block also ends once throwsTarget throws are logged. If false, blocks always last blockSeconds.")]
-        [SerializeField] private bool endBlockAtTarget = true;
+        [SerializeField] private bool endBlockAtTarget = false;
         [SerializeField] private float tutorialLongSeconds = 180f;
         [SerializeField] private bool tutorialLongLogged = false;
         [SerializeField] private float adaptationTickSeconds = 30f;
@@ -30,6 +31,10 @@ namespace FYP.Session
         [Tooltip("A component implementing IInstructionPanel. Leave empty to run without UI (use N in the editor).")]
         [SerializeField] private MonoBehaviour panelBehaviour;
         [SerializeField] private BallSpawner ballSpawner;
+
+        [Header("Panels")]
+        [Tooltip("Show which mode the round used (Adaptive or Fixed) on the rest and end screens.")]
+        [SerializeField] private bool showConditionOnPanels = true;
 
         [Header("Testing")]
         [SerializeField] private bool allowTestProfile = true;
@@ -171,7 +176,7 @@ namespace FYP.Session
 
             switch (next)
             {
-                case SessionState.ParticipantEntry: ShowEntry(); break;
+                case SessionState.ParticipantEntry: ShowStart(); break;
                 case SessionState.Intro: ShowIntro(); break;
                 case SessionState.Tutorial: BeginTutorial(); break;
                 case SessionState.Block1: StartBlock(1); break;
@@ -179,6 +184,11 @@ namespace FYP.Session
                 case SessionState.Block2: StartBlock(2); break;
                 case SessionState.End: ShowEnd(); break;
             }
+        }
+
+        private void ShowStart()
+        {
+            Show("New session", "Press Start to begin a new session.", "Start", ShowEntry);
         }
 
         private void ShowEntry()
@@ -206,7 +216,71 @@ namespace FYP.Session
                 return;
             }
 
-            Show("ID not found", error + " Please check the ID and try again.", "Try again", ShowEntry);
+            BeginHexadEntry(id, error);
+        }
+
+        // ------------------------------------------------------------- Hexad keypad
+
+        private string typedId;
+        private readonly int[] typedScores = new int[6];   // HexadType order
+        private int typedStep;
+
+        /// <summary>For IDs that can't be loaded from participants.csv: the scores and round order are typed in instead.</summary>
+        private void BeginHexadEntry(string id, string reason)
+        {
+            typedId = id.Trim();
+            typedStep = 0;
+            Show("New participant",
+                reason + "\nEnter their Hexad scores next.\n\nWrong ID? Hold the left menu button for 3 s to start again.",
+                "Continue", () => AskHexadScore());
+        }
+
+        private void AskHexadScore(string note = "")
+        {
+            panel.ShowKeypad((HexadType)typedStep + " (" + (typedStep + 1) + " of 6)",
+                note + "Enter the score, 4 to 28.", SubmitHexadScore);
+        }
+
+        private void SubmitHexadScore(string text)
+        {
+            if (!ParticipantLoader.TryScore(text, out int score))
+            {
+                AskHexadScore(text + " is not valid. ");
+                return;
+            }
+
+            typedScores[typedStep++] = score;
+            if (typedStep < typedScores.Length) AskHexadScore();
+            else AskOrder();
+        }
+
+        private void AskOrder(string note = "")
+        {
+            panel.ShowKeypad("Round order", note + "1 = adaptive first, 2 = fixed first", SubmitOrder);
+        }
+
+        private void SubmitOrder(string text)
+        {
+            if (text != "1" && text != "2")
+            {
+                AskOrder(text + " is not valid. ");
+                return;
+            }
+
+            var p = new ParticipantProfile
+            {
+                participantId = typedId,
+                achiever = typedScores[0], player = typedScores[1], socialiser = typedScores[2],
+                freeSpirit = typedScores[3], disruptor = typedScores[4], philanthropist = typedScores[5],
+                conditionOrder = text == "1" ? "AF" : "FA"
+            };
+            Show("Check the scores",
+                "ID " + p.participantId +
+                "\nAchiever " + p.achiever + ", Player " + p.player + ", Socialiser " + p.socialiser +
+                "\nFreeSpirit " + p.freeSpirit + ", Disruptor " + p.disruptor + ", Philanthropist " + p.philanthropist +
+                "\nOrder: " + (text == "1" ? "adaptive first" : "fixed first") +
+                "\n\nAnything wrong? Hold the left menu button for 3 s to start again.",
+                "Confirm", () => StartSession(p));
         }
 
         private void StartSession(ParticipantProfile p)
@@ -216,7 +290,9 @@ namespace FYP.Session
             log.Open(p.participantId, SessionId);
             if (ThrowLogger.Instance != null) ThrowLogger.Instance.SetSession(p.participantId, SessionId);
             log.Write("session_start", CurrentState.ToString(), -1, "none",
-                "order=" + p.conditionOrder + ";test=" + p.isTest);
+                "order=" + p.conditionOrder + ";test=" + p.isTest +
+                ";hexad=" + p.achiever + "|" + p.player + "|" + p.socialiser + "|" +
+                p.freeSpirit + "|" + p.disruptor + "|" + p.philanthropist);
             EnterState(SessionState.Intro);
         }
 
@@ -256,7 +332,8 @@ namespace FYP.Session
         private void ShowBreak(int nextBlockIndex)
         {
             string summary = BlockSummary.Compose();
-            string body = (summary.Length > 0 ? "Round summary:\n" + summary + "\n\n" : "") +
+            string body = ConditionLine() +
+                        (summary.Length > 0 ? "Round summary:\n" + summary + "\n\n" : "") +
                         "Take a short rest. Round 2 is next. Press Start when you are ready.";
             Show("Rest", body, "Start", () => BeginBlock(SessionState.Block2, 2));
         }
@@ -267,13 +344,30 @@ namespace FYP.Session
             string id = CurrentProfile != null ? CurrentProfile.participantId : "?";
             string summary = BlockSummary.Compose();
             if (aborted)
-                Show("Session ended", "The session has ended. Please take off the headset. Participant ID: " + id, null, null);
+                Show("Session ended",
+                    "The session has ended. Please take off the headset. Participant ID: " + id +
+                    "\n\nResearcher: press New session for the next participant.",
+                    "New session", StartNewSession);
             else
                 Show("Session complete",
+                    ConditionLine() +
                     (summary.Length > 0 ? summary + "\n\n" : "") +
                     "Please take off the headset.\nParticipant ID: " + id +
-                    "\nPlease complete the questionnaires for Round 1 and Round 2.",
-                    null, null);
+                    "\nPlease complete the questionnaires for Round 1 and Round 2." +
+                    "\n\nResearcher: press New session for the next participant.",
+                    "New session", StartNewSession);
+        }
+
+        private string ConditionLine()
+        {
+            if (!showConditionOnPanels) return "";
+            return "Round " + CurrentBlockIndex + " mode: " + (CurrentCondition == "adaptive" ? "Adaptive" : "Fixed") + "\n\n";
+        }
+
+        /// <summary>Reloads the scene so no scores, levels or choices carry over. The next session gets its own log files.</summary>
+        private void StartNewSession()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
 
@@ -373,7 +467,7 @@ namespace FYP.Session
 
         private void HandleThrowLogged(ThrowRecord record)
         {
-            if (IsBlockRunning) ThrowsInBlock++;
+            if (IsBlockRunning && !blockPaused) ThrowsInBlock++;   // same rule as SessionStats: paused throws don't count
         }
 
         private void ResetBall()

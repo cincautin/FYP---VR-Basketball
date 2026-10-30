@@ -169,7 +169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TangoInputTracking_Internal_TryGetPoseAt
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180209
+// Method Definition Index: 180298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m321ECFCB18D183CF9871F412CB1F98D6FE772A58 (EmbeddedAttribute_t5E2715A4C89EC4E5E1C8FE1563BB9AE3B5C1856C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -195,7 +195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m321ECFCB18D183C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180210
+// Method Definition Index: 180299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m6698F28777F06ADBC4B736B9806D77B524EB3F61 (RefSafetyRulesAttribute_tF4CC07A75CE6F47BA1CF88B08079B9F6FF36B626* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -231,7 +231,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m6698F2877
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180211
+// Method Definition Index: 180300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 PoseData_get_rotation_m6A15A78CF66E4D2F9E2EE9FE88BC8D89A65EB904 (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -273,7 +273,7 @@ IL2CPP_EXTERN_C  Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 PoseData_g
 	_returnValue = PoseData_get_rotation_m6A15A78CF66E4D2F9E2EE9FE88BC8D89A65EB904(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 180212
+// Method Definition Index: 180301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PoseData_get_position_mEE4843D61931F8AB21EE810CD308D74D725F2008 (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -321,7 +321,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PoseData_get_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180213
+// Method Definition Index: 180302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TangoInputTracking_Internal_TryGetPoseAtTime_m0AD46B35FDD35A1F12D069BC6D5F2EC33D403A54 (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* ___0_pose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -339,7 +339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TangoInputTracking_Internal_TryGetPoseAt
 	bool icallRetVal = _il2cpp_icall_func(___0_pose);
 	return icallRetVal;
 }
-// Method Definition Index: 180214
+// Method Definition Index: 180303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TangoInputTracking_TryGetPoseAtTime_m5BCF0745A286DFC34FB215B24CDD0A2E76073CA6 (PoseData_t50F35DDE09AD0711D1477EA62E5ED2C232285C24* ___0_pose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

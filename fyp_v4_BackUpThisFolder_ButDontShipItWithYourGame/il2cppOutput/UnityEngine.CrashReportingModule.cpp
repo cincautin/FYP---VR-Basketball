@@ -194,7 +194,7 @@ inline void ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_inlin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180105
+// Method Definition Index: 180194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m5AF4FAC19EB15FB00A9F7A0841A9E6C5356C6F53 (EmbeddedAttribute_t133146BED117673F7F88317D5AB9458927E07A33* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -220,7 +220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m5AF4FAC19EB15FB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180106
+// Method Definition Index: 180195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mC2BD13325285AD5F24A0FA7FCEE9A21B45550B1F (RefSafetyRulesAttribute_t77F2E5C2BF456DD3EA042A02DE527F90EC1E5F8B* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -248,7 +248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_mC2BD13325
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 180107
+// Method Definition Index: 180196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler__ctor_m66D6B1BA3D0454273476C0B7320BB50EB5345BF0 (CrashReportHandler_tDC3582120286C333EE85347A7CE6C793B1B2B019* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -274,7 +274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler__ctor_m66D6B1BA3D0454
 		return;
 	}
 }
-// Method Definition Index: 180108
+// Method Definition Index: 180197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CrashReportHandler_get_enableCaptureExceptions_mCDE26F4C646D163DCB61E4A4EA2137F2C3BBF461 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -292,7 +292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CrashReportHandler_get_enableCaptureExce
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 180109
+// Method Definition Index: 180198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_set_enableCaptureExceptions_m43B6DDC35A11833111069353501CDA7EE2D75351 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -309,7 +309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_set_enableCaptureExce
 	_il2cpp_icall_func = (CrashReportHandler_set_enableCaptureExceptions_m43B6DDC35A11833111069353501CDA7EE2D75351_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CrashReportHandler.CrashReportHandler::set_enableCaptureExceptions(System.Boolean)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 180110
+// Method Definition Index: 180199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CrashReportHandler_get_logBufferSize_m6D3487D46A3B7745F128AA25D19EE829DDDB70F2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -327,7 +327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CrashReportHandler_get_logBufferSize
 	uint32_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
-// Method Definition Index: 180111
+// Method Definition Index: 180200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_set_logBufferSize_mD085CF929DFFDB39F8D9A8CC25E027462FB907B1 (uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -344,7 +344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_set_logBufferSize_mD0
 	_il2cpp_icall_func = (CrashReportHandler_set_logBufferSize_mD085CF929DFFDB39F8D9A8CC25E027462FB907B1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CrashReportHandler.CrashReportHandler::set_logBufferSize(System.UInt32)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 180112
+// Method Definition Index: 180201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CrashReportHandler_get_installationIdentifier_m83A71077FDCF0D83D7BDF61EC976378C6457BD43 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -396,7 +396,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 180113
+// Method Definition Index: 180202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_set_installationIdentifier_m226426172B933FAAAC3FA11183FCCCA1460D2C04 (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -476,7 +476,7 @@ IL_0037:
 		return;
 	}
 }
-// Method Definition Index: 180114
+// Method Definition Index: 180203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CrashReportHandler_GetUserMetadata_m9A07B42BE5F86009D5C7AF918CC600F3BF4BF8D0 (String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -564,7 +564,7 @@ IL_0041:
 		return L_11;
 	}
 }
-// Method Definition Index: 180115
+// Method Definition Index: 180204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_SetUserMetadata_mCBED74642C36CA95B6B0C52FAE02EBD0ACBC51FE (String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -681,7 +681,7 @@ IL_0069:
 		return;
 	}
 }
-// Method Definition Index: 180116
+// Method Definition Index: 180205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_get_installationIdentifier_Injected_mEAF8D0E11D8FD53B9037E1E979B821991F0AF676 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -698,7 +698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_get_installationIdent
 	_il2cpp_icall_func = (CrashReportHandler_get_installationIdentifier_Injected_mEAF8D0E11D8FD53B9037E1E979B821991F0AF676_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CrashReportHandler.CrashReportHandler::get_installationIdentifier_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_ret);
 }
-// Method Definition Index: 180117
+// Method Definition Index: 180206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_set_installationIdentifier_Injected_m5DAA20A5587E61CB3AA8C381447066ED5A20B4E0 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -715,7 +715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_set_installationIdent
 	_il2cpp_icall_func = (CrashReportHandler_set_installationIdentifier_Injected_m5DAA20A5587E61CB3AA8C381447066ED5A20B4E0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CrashReportHandler.CrashReportHandler::set_installationIdentifier_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_value);
 }
-// Method Definition Index: 180118
+// Method Definition Index: 180207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_GetUserMetadata_Injected_mA468CD6E3A9D586DB3B2AAC3E2DF2A4262052937 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_key, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_ret, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -732,7 +732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_GetUserMetadata_Injec
 	_il2cpp_icall_func = (CrashReportHandler_GetUserMetadata_Injected_mA468CD6E3A9D586DB3B2AAC3E2DF2A4262052937_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CrashReportHandler.CrashReportHandler::GetUserMetadata_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_key, ___1_ret);
 }
-// Method Definition Index: 180119
+// Method Definition Index: 180208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CrashReportHandler_SetUserMetadata_Injected_m2F7AACCF5617D178D1A92B3499A06810AA53262C (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_key, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
